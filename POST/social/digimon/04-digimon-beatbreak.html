@@ -1,0 +1,446 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TauroTV Post Generator</title>
+<style>
+  html,body{margin:0;padding:0;background:#111;}
+  #canvas{position:relative;overflow:hidden;background:#000;}
+  #canvas.hidden{visibility:hidden}
+
+  /* ---------- capas de imagen: panel_lateral usa .poster (cover+zoom); full_bleed usa .posterBlur+.posterFull (contain) ---------- */
+  .poster{position:absolute;inset:0;background-repeat:no-repeat;}
+  .posterBlur{position:absolute;inset:-4%;background-repeat:no-repeat;background-position:center;
+    background-size:cover;filter:blur(45px) brightness(0.55) saturate(1.15);transform:scale(1.1);}
+  .posterFull{position:absolute;inset:0;background-repeat:no-repeat;background-position:center;background-size:contain;}
+  .posterShade{position:absolute;inset:0;}
+  .posterShade.panel_lateral{background:linear-gradient(180deg, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0.02) 35%, rgba(0,0,0,0.55) 100%);}
+  .posterShade.full_bleed{background:linear-gradient(180deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 60%, rgba(0,0,0,0.90) 100%);}
+
+  /* ---------- panel de color (panel_lateral) — generado 100% por código, sin PNGs externos ---------- */
+  .panelShape{position:absolute;top:0;left:0;width:100%;height:100%;}
+  .dotPattern{position:absolute;top:0;left:0;width:72%;height:100%;pointer-events:none;
+    background-image:radial-gradient(rgba(255,255,255,0.16) 1.6px, transparent 1.6px);
+    background-size:26px 26px; background-position:-6px -6px;
+    -webkit-mask-image:linear-gradient(115deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 55%, transparent 78%);
+    mask-image:linear-gradient(115deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 55%, transparent 78%);}
+  .glow{position:absolute;pointer-events:none;border-radius:50%;
+    background:radial-gradient(circle, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0) 70%);filter:blur(2px);}
+  .sparkle{position:absolute;color:rgba(255,255,255,0.85);pointer-events:none;text-shadow:0 0 8px rgba(255,255,255,0.6);}
+
+  /* ---------- contenedor de texto (panel_lateral, columna fija a la izquierda) ---------- */
+  .contentPanel{position:absolute;top:0;left:0;height:100%;display:flex;flex-direction:column;justify-content:flex-start;box-sizing:border-box;padding:6.5% 5% 5% 5.5%;}
+
+  .title{color:#fff;letter-spacing:0.5px;font-weight:800;margin:0;box-sizing:border-box;
+    text-shadow:0 4px 22px rgba(0,0,0,0.75),0 2px 6px rgba(0,0,0,0.6);}
+  .title.pos-panel{position:absolute;}
+  .title.pos-fullbleed{position:absolute;left:6%;right:6%;}
+  .title.font-serif{font-family:Georgia,'Times New Roman',serif;font-weight:700;}
+  .title.font-sans{font-family:'Segoe UI',Arial,sans-serif;font-weight:800;}
+  .title.case-upper{text-transform:uppercase;}
+
+  .rows{display:flex;}
+  .rows.mode-panel{flex-direction:column;}
+  .rows.mode-fullbleed{position:absolute;left:6%;right:6%;flex-wrap:wrap;gap:3% 6%;}
+  .row{display:flex;align-items:center;gap:4%;}
+  .rows.mode-fullbleed .row{gap:2.5%;flex-shrink:0;}
+  .flag{border-radius:5px;display:flex;align-items:center;justify-content:center;font-weight:800;
+    box-shadow:0 2px 6px rgba(0,0,0,0.4);border:1px solid rgba(255,255,255,0.35);flex-shrink:0;
+    text-shadow:0 1px 3px rgba(0,0,0,0.65);}
+  .label{font-weight:700;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,0.5);font-family:'Segoe UI',Arial,sans-serif;}
+  .rows.mode-fullbleed .label{white-space:nowrap;}
+
+  .brandRow{display:flex;}
+  /* panel_lateral: logo arriba, taurotv.lat centrado debajo del logo (ancho ajustado al contenido) */
+  .brandRow.mode-panel{flex-direction:column;align-items:center;width:fit-content;margin-top:auto;}
+  .brandRow.mode-panel .siteText{text-align:center;}
+  /* full_bleed: logo y texto en fila, con el mismo margen izquierdo que título/idiomas */
+  .brandRow.mode-fullbleed{position:absolute;left:6%;right:6%;align-items:center;gap:3%;}
+  .logo{opacity:0.85;flex-shrink:0;display:block;}
+  .siteText{color:rgba(255,255,255,0.65);font-weight:600;font-family:'Segoe UI',Arial,sans-serif;letter-spacing:0.5px;}
+
+  .badges{position:absolute;display:flex;flex-direction:column;gap:2%;align-items:flex-end;}
+  .badge{border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.5);border:2px solid rgba(255,255,255,0.35);
+    background:linear-gradient(135deg,#f7d774,#c8871a 55%,#8a5a0c);}
+  .badge .b1{font-weight:800;color:#1a0f00;font-family:'Segoe UI',Arial,sans-serif;}
+  .badge .b2{font-weight:700;color:#1a0f00;letter-spacing:2px;font-family:'Segoe UI',Arial,sans-serif;}
+</style>
+</head>
+<body>
+<div id="canvas" class="hidden">
+  <div class="poster"></div>
+  <div class="posterBlur"></div>
+  <div class="posterFull"></div>
+  <div class="posterShade"></div>
+  <div class="panelShape"></div>
+  <div class="dotPattern"></div>
+  <div class="decoLayer"></div>
+  <div class="title"></div>
+  <div class="rows"></div>
+  <div class="contentPanel">
+    <div class="brandRowSlot"></div>
+  </div>
+  <div class="brandRowFullbleed"></div>
+  <div class="badges"></div>
+</div>
+
+<script>
+/* =========================================================================
+   TAUROTV — GENERADOR DE POST (plantilla única, reutilizable)
+   Editá únicamente el objeto CONFIG. Todo lo demás se calcula solo.
+
+   CÓMO USAR ESTE ARCHIVO PARA UN POST NUEVO:
+   1) Cambiá `posterImage` a la key art del show.
+   2) Elegí `layout`: 'panel_lateral' (con banderas visibles, estilo IPTV/anime)
+      o 'full_bleed' (imagen completa + franja inferior, estilo plataforma oficial).
+   3) Si es panel_lateral, dejá `panelColorMode:'auto'` — el color del panel
+      sale solo del color dominante del póster. Cambiá `posterFocal`/`posterScale`
+      mirando la imagen para que el panel no tape el logo/título original ni la
+      cara/acción principal (ver guía abajo).
+   4) Ajustá `rows` con los idiomas/subtítulos que correspondan (podés poner
+      cualquier cantidad, o dejar [] en full_bleed para el look minimal).
+   5) Cambiá `title` y `badges` según corresponda.
+
+   GUÍA posterFocal/posterScale: ubicá en la imagen fuente dónde está el logo/
+   título original y la cara/acción principal. En panel_lateral, posterFocal
+   debe dejar ese contenido fuera de la franja que tapa el panel (~`panelWidth`
+   desde la izquierda). En full_bleed no hace falta (se ve la imagen completa).
+   ========================================================================= */
+const CONFIG = {
+  // 'feed_square' (1080x1080) | 'feed_portrait' (1080x1350) | 'reel_story' (1080x1920)
+  format: 'feed_portrait',
+
+  // 'panel_lateral' | 'full_bleed'
+  layout: 'full_bleed',
+
+  // ---- solo aplica a panel_lateral ----
+  // 'auto' = toma el color dominante del póster. 'manual' = usar panelColorManual.
+  panelColorMode: 'auto',
+  panelColorManual: '#8B0000',
+  panelWidth: 0.42,     // 0-1, fracción del canvas que ocupa el panel arriba. Bajo = más imagen visible.
+  decorative: true,     // chispas/puntos/brillo en el panel
+
+  // ruta a la imagen del póster/key art (relativa a este html)
+  posterImage: './source-poster.jpg',
+
+  // solo panel_lateral: encuadre del póster (ver guía arriba) y zoom extra para tapar bordes propios de la imagen
+  posterFocal: '50% 20%',
+  posterScale: 1.0,
+
+  title: 'Digimon Beatbreak',
+  titleFont: 'font-sans',   // 'font-sans' | 'font-serif' (serif como variante de género: terror/época)
+  titleCase: 'case-upper',  // 'case-upper' | ''
+
+  // N filas — cualquier cantidad de audios/subtítulos. [] = sin franja de idiomas (solo tiene sentido en full_bleed)
+  rows: [
+    { code: 'JP', label: 'Audio Japonés' },
+    { code: 'MX', label: 'Audio Español' },
+    { code: 'ES', label: 'Subtítulo Español' }
+  ],
+
+  // N badges de calidad (top-right). Opciones: '480p' | '720p' | '1080p' | '4k' | 'bluray'
+  badges: ['1080p'],
+
+  logo: '../../assets/logo/TauroTV_Logo_trimmed.png',
+  site: 'taurotv.lat'
+};
+/* ========================================================================= */
+
+const FORMATS = {
+  feed_square:   { w: 1080, h: 1080 },
+  feed_portrait: { w: 1080, h: 1350 },
+  reel_story:    { w: 1080, h: 1920 }
+};
+
+const FLAG_COLORS = {
+  MX: 'linear-gradient(90deg,#006341 0 34%,#fff 34% 66%,#ce1126 66% 100%)',
+  US: '#1b2f6b',
+  ES: 'linear-gradient(180deg,#c60b1e 0 25%,#ffc400 25% 75%,#c60b1e 75% 100%)',
+  JP: 'radial-gradient(circle at 50% 50%, #bc002d 0 32%, #fff 33% 100%)',
+  BR: '#009c3b',
+  AR: 'linear-gradient(180deg,#74acdf 0 33%,#fff 33% 66%,#74acdf 66% 100%)',
+  NEUTRO: 'linear-gradient(135deg,#3a3a3a,#111)'
+};
+const FLAG_TEXT_COLOR = { MX:'#333', US:'#fff', ES:'#5c3d00', JP:'#fff', BR:'#fff', AR:'#333', NEUTRO:'#fff' };
+
+function sizePoster(fmt) {
+  return new Promise(resolve => {
+    const probe = new Image();
+    probe.onload = () => {
+      const imgAR = probe.naturalWidth / probe.naturalHeight;
+      const canvasAR = fmt.w / fmt.h;
+      let renderW, renderH;
+      if (imgAR > canvasAR) { renderH = fmt.h * CONFIG.posterScale; renderW = renderH * imgAR; }
+      else { renderW = fmt.w * CONFIG.posterScale; renderH = renderW / imgAR; }
+      resolve({ w: renderW, h: renderH, img: probe });
+    };
+    probe.onerror = () => resolve({ w: fmt.w * CONFIG.posterScale, h: fmt.h * CONFIG.posterScale, img: null });
+    probe.src = CONFIG.posterImage;
+  });
+}
+
+// extrae el color dominante de la imagen muestreando píxeles en un canvas chico (rápido, sin dependencias)
+function extractDominantColor(img) {
+  try {
+    const cv = document.createElement('canvas');
+    const W = 48, H = 48;
+    cv.width = W; cv.height = H;
+    const ctx = cv.getContext('2d');
+    ctx.drawImage(img, 0, 0, W, H);
+    const data = ctx.getImageData(0, 0, W, H).data;
+    let r = 0, g = 0, b = 0, n = 0;
+    for (let i = 0; i < data.length; i += 4) {
+      if (data[i + 3] < 100) continue;
+      r += data[i]; g += data[i + 1]; b += data[i + 2]; n++;
+    }
+    if (n === 0) return { h: 0, s: 0, l: 20 };
+    return rgbToHsl(r / n, g / n, b / n);
+  } catch (e) {
+    return { h: 0, s: 0, l: 20 };
+  }
+}
+
+function rgbToHsl(r, g, b) {
+  r /= 255; g /= 255; b /= 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  let h = 0, s = 0; const l = (max + min) / 2;
+  const d = max - min;
+  if (d !== 0) {
+    s = d / (1 - Math.abs(2 * l - 1));
+    switch (max) {
+      case r: h = 60 * (((g - b) / d) % 6); break;
+      case g: h = 60 * ((b - r) / d + 2); break;
+      case b: h = 60 * ((r - g) / d + 4); break;
+    }
+  }
+  if (h < 0) h += 360;
+  return { h, s: s * 100, l: l * 100 };
+}
+
+function buildRows(container, mode, scaleUnit) {
+  container.innerHTML = '';
+  container.className = 'rows mode-' + mode;
+  const flagSize = (mode === 'panel' ? 46 : 42) * scaleUnit;
+  const labelSize = (mode === 'panel' ? 22 : 20) * scaleUnit;
+  CONFIG.rows.forEach(r => {
+    const row = document.createElement('div');
+    row.className = 'row';
+    const flag = document.createElement('div');
+    flag.className = 'flag';
+    flag.style.width = flagSize + 'px';
+    flag.style.height = (flagSize * 0.7) + 'px';
+    flag.style.fontSize = (flagSize * 0.30) + 'px';
+    flag.style.background = FLAG_COLORS[r.code] || FLAG_COLORS.NEUTRO;
+    flag.style.color = FLAG_TEXT_COLOR[r.code] || '#fff';
+    flag.textContent = r.code;
+    const label = document.createElement('div');
+    label.className = 'label';
+    label.style.fontSize = labelSize + 'px';
+    label.textContent = r.label;
+    row.appendChild(flag); row.appendChild(label);
+    container.appendChild(row);
+  });
+}
+
+function buildBadges(container, scaleUnit) {
+  container.innerHTML = '';
+  container.style.top = (30 * scaleUnit) + 'px';
+  container.style.right = (30 * scaleUnit) + 'px';
+  const badgeText = {
+    '480p': ['480p', 'SD'], '720p': ['720p', 'HD'], '1080p': ['1080p', 'FULL HD'],
+    '4k': ['4K', 'ULTRA HD'], bluray: ['BLU-RAY', '']
+  };
+  CONFIG.badges.forEach(b => {
+    const badge = document.createElement('div');
+    badge.className = 'badge';
+    badge.style.width = 150 * scaleUnit + 'px';
+    badge.style.height = 78 * scaleUnit + 'px';
+    badge.style.transform = 'rotate(-6deg)';
+    const [line1, line2] = badgeText[b] || [b, ''];
+    const b1 = document.createElement('div'); b1.className = 'b1'; b1.textContent = line1;
+    b1.style.fontSize = 28 * scaleUnit + 'px';
+    badge.appendChild(b1);
+    if (line2) {
+      const b2 = document.createElement('div'); b2.className = 'b2'; b2.textContent = line2;
+      b2.style.fontSize = 15 * scaleUnit + 'px';
+      badge.appendChild(b2);
+    }
+    container.appendChild(badge);
+  });
+}
+
+async function build() {
+  const fmt = FORMATS[CONFIG.format];
+  const canvas = document.getElementById('canvas');
+  canvas.style.width = fmt.w + 'px';
+  canvas.style.height = fmt.h + 'px';
+  document.body.style.width = fmt.w + 'px';
+  document.body.style.height = fmt.h + 'px';
+  const scaleUnit = fmt.w / 1080;
+  const isPanel = CONFIG.layout === 'panel_lateral';
+
+  canvas.querySelector('.poster').style.display = isPanel ? 'block' : 'none';
+  canvas.querySelector('.posterBlur').style.display = isPanel ? 'none' : 'block';
+  canvas.querySelector('.posterFull').style.display = isPanel ? 'none' : 'block';
+  canvas.querySelector('.panelShape').style.display = isPanel ? 'block' : 'none';
+  canvas.querySelector('.dotPattern').style.display = (isPanel && CONFIG.decorative) ? 'block' : 'none';
+  canvas.querySelector('.posterShade').className = 'posterShade ' + (isPanel ? 'panel_lateral' : 'full_bleed');
+
+  const title = canvas.querySelector('.title');
+  const rowsEl = canvas.querySelector('.rows');
+  const badgesEl = canvas.querySelector('.badges');
+  const brandRowSlot = canvas.querySelector('.brandRowSlot');
+  let brandRowFullbleed = canvas.querySelector('.brandRowFullbleed');
+
+  if (isPanel) {
+    // ---------------- PANEL LATERAL ----------------
+    const poster = canvas.querySelector('.poster');
+    const posterSize = await sizePoster(fmt);
+    poster.style.backgroundImage = `url('${CONFIG.posterImage}')`;
+    poster.style.backgroundPosition = CONFIG.posterFocal;
+    poster.style.backgroundSize = `${posterSize.w}px ${posterSize.h}px`;
+
+    let hue, sat;
+    if (CONFIG.panelColorMode === 'manual') {
+      const hex = CONFIG.panelColorManual.replace('#', '');
+      const hsl = rgbToHsl(parseInt(hex.substr(0,2),16), parseInt(hex.substr(2,2),16), parseInt(hex.substr(4,2),16));
+      hue = hsl.h; sat = hsl.s;
+    } else {
+      const hsl = posterSize.img ? extractDominantColor(posterSize.img) : { h: 0, s: 0 };
+      hue = hsl.h;
+      sat = Math.max(45, Math.min(hsl.s, 80));
+    }
+
+    const topX = fmt.w * CONFIG.panelWidth;
+    const botX = fmt.w * CONFIG.panelWidth * 0.72;
+    const path = `path('M0,0 L${topX},0 C${topX * 0.86},${fmt.h * 0.32} ${botX * 1.28},${fmt.h * 0.62} ${botX},${fmt.h} L0,${fmt.h} Z')`;
+    const panelShape = canvas.querySelector('.panelShape');
+    panelShape.style.clipPath = path;
+    panelShape.style['-webkit-clip-path'] = path;
+    panelShape.style.background =
+      `radial-gradient(120% 90% at 20% 15%, hsl(${hue},${sat}%,32%) 0%, hsl(${hue},${sat}%,20%) 35%, hsl(${hue},${sat}%,10%) 70%, hsl(${hue},${sat}%,4%) 100%)`;
+
+    const dotPattern = canvas.querySelector('.dotPattern');
+    const decoLayer = canvas.querySelector('.decoLayer');
+    decoLayer.innerHTML = '';
+    if (CONFIG.decorative) {
+      dotPattern.style.width = (CONFIG.panelWidth * 115) + '%';
+      const glow = document.createElement('div');
+      glow.className = 'glow';
+      glow.style.width = glow.style.height = (fmt.w * 0.9) + 'px';
+      glow.style.left = (-fmt.w * 0.25) + 'px';
+      glow.style.top = (-fmt.w * 0.25) + 'px';
+      decoLayer.appendChild(glow);
+      [{ x:'10%',y:'6%',s:20 },{ x:'30%',y:'3%',s:13 },{ x:'7%',y:'44%',s:15 },{ x:'24%',y:'58%',s:11 },{ x:'12%',y:'78%',s:17 }]
+        .forEach(sp => {
+          const s = document.createElement('div');
+          s.className = 'sparkle'; s.textContent = '✦';
+          s.style.left = sp.x; s.style.top = sp.y;
+          s.style.fontSize = (sp.s * scaleUnit) + 'px';
+          decoLayer.appendChild(s);
+        });
+    }
+
+    const contentPanel = canvas.querySelector('.contentPanel');
+    contentPanel.style.display = 'flex';
+    contentPanel.style.width = (CONFIG.panelWidth * 88) + '%';
+
+    title.textContent = CONFIG.title;
+    title.className = 'title pos-panel ' + CONFIG.titleFont + ' ' + CONFIG.titleCase;
+    title.style.fontSize = 46 * scaleUnit + 'px';
+    title.style.lineHeight = '1.18';
+    title.style.left = (55 * scaleUnit) + 'px';
+    title.style.top = (65 * scaleUnit) + 'px';
+    title.style.maxWidth = (fmt.w * CONFIG.panelWidth * 0.86) + 'px';
+
+    rowsEl.style.position = 'static';
+    rowsEl.style.marginTop = (fmt.h * 0.24) + 'px';
+    rowsEl.style.gap = (fmt.h * 0.028) + 'px';
+    buildRows(rowsEl, 'panel', scaleUnit);
+    contentPanel.insertBefore(rowsEl, brandRowSlot);
+
+    brandRowFullbleed.style.display = 'none';
+    brandRowFullbleed.innerHTML = '';
+    brandRowSlot.replaceWith(makeBrandRow('panel', scaleUnit));
+
+    badgesEl.style.position = 'absolute';
+    buildBadges(badgesEl, scaleUnit);
+
+  } else {
+    // ---------------- FULL BLEED ----------------
+    canvas.querySelector('.posterBlur').style.backgroundImage = `url('${CONFIG.posterImage}')`;
+    canvas.querySelector('.posterFull').style.backgroundImage = `url('${CONFIG.posterImage}')`;
+
+    canvas.querySelector('.contentPanel').style.display = 'none';
+
+    const hasRows = CONFIG.rows && CONFIG.rows.length > 0;
+    // stack de abajo hacia arriba con un único gap fijo — las alturas se MIDEN en el
+    // DOM real (no se adivinan), así nunca se pisan sin importar el largo del texto,
+    // la cantidad de filas, o cómo renderice la fuente el navegador.
+    const GAP = fmt.h * 0.028;
+
+    // 1) marca: se arma con alto explícito (ancho + aspect ratio real del logo, sin
+    //    esperar a que la imagen cargue) y se mide su alto real ya en el DOM.
+    const brand = makeBrandRow('fullbleed', scaleUnit);
+    brand.style.bottom = '0px';
+    brandRowFullbleed.replaceWith(brand);
+    brandRowFullbleed = brand;
+    const brandH = brand.getBoundingClientRect().height;
+    const brandBottom = fmt.h * 0.04;
+    brand.style.bottom = brandBottom + 'px';
+
+    // 2) filas: se arman y se mide su alto real ya renderizado (contempla wrap de texto)
+    rowsEl.style.position = 'absolute';
+    rowsEl.style.left = '6%'; rowsEl.style.right = '6%';
+    rowsEl.style.bottom = '0px';
+    if (hasRows) buildRows(rowsEl, 'fullbleed', scaleUnit);
+    else { rowsEl.innerHTML = ''; rowsEl.className = 'rows mode-fullbleed'; }
+    const rowsH = hasRows ? rowsEl.getBoundingClientRect().height : 0;
+    const rowsBottom = brandBottom + brandH + GAP;
+    rowsEl.style.bottom = rowsBottom + 'px';
+
+    // 3) título: apoyado justo arriba de filas (o de la marca si no hay filas)
+    const titleBottom = hasRows ? (rowsBottom + rowsH + GAP) : (brandBottom + brandH + GAP);
+    title.textContent = CONFIG.title;
+    title.className = 'title pos-fullbleed ' + CONFIG.titleFont + ' ' + CONFIG.titleCase;
+    title.style.fontSize = 56 * scaleUnit + 'px';
+    title.style.lineHeight = '1.15';
+    title.style.left = '6%'; title.style.top = 'auto'; title.style.maxWidth = 'none';
+    title.style.bottom = titleBottom + 'px';
+
+    badgesEl.style.position = 'absolute';
+    buildBadges(badgesEl, scaleUnit);
+  }
+
+  canvas.classList.remove('hidden');
+}
+
+// alto/ancho reales del logo recortado (assets/logo/TauroTV_Logo_trimmed.png) — fijar el
+// height explícito evita esperar a que la imagen cargue para poder medir el alto del renglón
+const LOGO_ASPECT = 839 / 749;
+
+function makeBrandRow(mode, scaleUnit) {
+  const el = document.createElement('div');
+  el.className = 'brandRow mode-' + mode;
+  const logo = document.createElement('img');
+  logo.className = 'logo';
+  logo.src = CONFIG.logo;
+  const logoW = (mode === 'panel' ? 130 : 100) * scaleUnit;
+  logo.style.width = logoW + 'px';
+  logo.style.height = (logoW * LOGO_ASPECT) + 'px';
+  const siteText = document.createElement('div');
+  siteText.className = 'siteText';
+  siteText.textContent = CONFIG.site;
+  siteText.style.fontSize = (mode === 'panel' ? 21 : 22) * scaleUnit + 'px';
+  if (mode === 'panel') { el.style.paddingTop = '4%'; el.style.gap = '6%'; }
+  el.appendChild(logo);
+  el.appendChild(siteText);
+  return el;
+}
+
+if (document.readyState === 'complete') build();
+else window.addEventListener('load', build);
+</script>
+</body>
+</html>
