@@ -16,3 +16,11 @@ Además del texto, generá la imagen del post con el skill post-image. Antes de 
 - **Panel lateral** (con banderas de audio/subtítulo visibles, estilo IPTV/anime).
 
 La imagen de póster/key art para usar tiene que estar en `POST/assets/posters/` — si no está ahí todavía, pedímela antes de generar la imagen (no la busques en otro lado del proyecto).
+
+## Reel (opcional)
+Preguntame (con AskUserQuestion) si además querés un reel para este post. Si digo que sí:
+- Si ya hay un video para este show en `POST/assets/videos/`, usalo. Si no, pedime que lo suba ahí antes de continuar — no generes el reel sin un video real.
+- Usá el skill reel-highlights para armarlo (incluye su propia pregunta sobre qué audio usar — no la salteés).
+- Guardalo en `POST/social/[slug]/reels/` (mismo slug que el post).
+
+Si digo que no, o no respondo, seguí solo con texto + imagen — no generes el reel por default.
