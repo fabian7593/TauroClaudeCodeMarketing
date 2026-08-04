@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "post-studio-marketplace",
+  "description": "Marketplace local de este repo — sirve el plugin post-studio desde plugin/post-studio.",
+  "owner": {
+    "name": "Fabian"
+  },
+  "plugins": [
+    {
+      "name": "post-studio",
+      "source": "./plugin/post-studio",
+      "description": "Creación y publicación de contenido para redes sociales (posts, carruseles, reels, prompts de animación) para cualquier marca.",
+      "category": "content-creation",
+      "keywords": ["social-media", "content-creation", "marketing"]
+    }
+  ]
+}

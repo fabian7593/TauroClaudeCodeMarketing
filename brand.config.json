@@ -1,0 +1,19 @@
+{
+  "brandName": "TauroTV",
+  "website": "taurotv.lat",
+  "whatsapp": "+506 6171-9869",
+  "cta": "📲 Para más información de dónde verla, escríbenos al DM 👆",
+  "tone": "Español costarricense casual, conjugación 'vos' — cercano, humano, peer-like, nunca suena a IA ni a corporativo",
+  "contentRoot": "POST",
+  "logoFolder": "POST/assets/logo/",
+  "logoFile": "TauroTV_Logo_trimmed.png",
+  "logoAspect": 1.1202,
+  "colorMode": "auto",
+  "colorPrimary": null,
+  "colorSecondary": null,
+  "forbiddenMentions": ["Netflix", "HBO Max", "Disney+", "Prime Video"],
+  "unsupportedClaims": ["cast/mirroring desde el celular", "Roku", "Samsung/LG nativo", "iOS"],
+  "platforms": ["instagram", "facebook", "x", "tiktok"],
+  "timezone": "America/Costa_Rica",
+  "_comment": "Generado por content-setup a partir de CLAUDE.md. Es una cache mecánica derivada — si cambian las reglas de marca, actualizá CLAUDE.md primero y después pedile a content-setup que regenere este archivo."
+}
