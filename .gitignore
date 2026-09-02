@@ -1,2 +1,14 @@
 POST/social/*
 POST/assets/videos/*
+
+# Dentro de social/ se ignoran los binarios pesados (PNG/MP4), pero SI se versiona
+# la ficha de cada pieza: es el estado de produccion y pesa nada.
+!POST/social/*/
+POST/social/*/**
+!POST/social/*/pieza.json
+!POST/social/*/post.txt
+
+# Catalogo maestro y su espejo local: datos regenerables y pesados. Se rehacen
+# con /cmd-catalogo a partir del Excel, asi que no van al repo.
+*.xlsx
+POST/catalogo.json

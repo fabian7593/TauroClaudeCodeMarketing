@@ -25,12 +25,14 @@ Esto valida y prepara todo lo demás — ver sección 6. Si algo falta (una carp
 
 | Comando | Cuándo usarlo | Qué dispara | Resultado esperado |
 |---|---|---|---|
-| `/cmd-post <tema>` | Post de una sola imagen (el caso más común) | `post-copy` + `post-image` (+ `reel-highlights` si pedís reel también) | `post.txt` (texto listo para pegar) + `images/01-....png` en `<contentRoot>/social/<slug>/` |
-| `/cmd-carousel <coleccion>` | Un post con varias imágenes deslizables | `post-carousel` (que a su vez usa `post-image` N veces + `post-copy`) | `post.txt` + `images/01..NN-....png` |
-| `/cmd-reel <video(s)>` | Convertir video(s) en un reel vertical con marca de agua | `reel-highlights` | `reels/<slug>-reel.mp4` |
-| `/cmd-motion <imagen>` | Necesitás animar una imagen en Kling AI | `motion-prompt` | Un prompt (texto) mostrado en el chat — no se guarda archivo |
-| `/cmd-publish <contenido>` | Ya tenés el post armado y lo querés publicar/programar | `publish-content` | Publicación real (o programada) en Instagram/Facebook/X |
-| `/cmd-setup` | Primera vez en una PC, o cambiaste de marca/logo | `content-setup` | Carpetas creadas, `brand.config.json` al día, software y conectores verificados |
+| `/cmd-post <tema>` | Post de una sola imagen (el caso más común) | `crear-texto` + `crear-imagen` (+ `crear-reel` si pedís reel también) | `post.txt` (texto listo para pegar) + `images/01-....png` en `<contentRoot>/social/<slug>/` |
+| `/cmd-carousel <coleccion>` | Un post con varias imágenes deslizables | `crear-carrusel` (que a su vez usa `crear-imagen` N veces + `crear-texto`) | `post.txt` + `images/01..NN-....png` |
+| `/cmd-reel <video(s)>` | Convertir video(s) en un reel vertical con marca de agua | `crear-reel` | `reels/<slug>-reel.mp4` |
+| `/cmd-motion <imagen>` | Necesitás animar una imagen en Kling AI | `generar-prompt-movimiento` | Un prompt (texto) mostrado en el chat — no se guarda archivo |
+| `/cmd-publish <contenido>` | Ya tenés el post armado y lo querés publicar/programar | `publicar-contenido` | Publicación real (o programada) en Instagram/Facebook/X |
+| `/cmd-setup` | Primera vez en una PC, o cambiaste de marca/logo | `preparar-entorno` | Carpetas creadas, `brand.config.json` al día, software y conectores verificados |
+| `/cmd-catalogo` | Actualizaste el catálogo, o querés saber qué falta producir | `sincronizar-catalogo` | `catalogo.json` al día, o el listado de lo que buscaste / lo pendiente |
+| `/cmd-contenido <título>` | El pedido nace del catálogo (lo más común hoy) | `planear-contenido` + todos los de creación | La pieza completa: ficha `00` + artes `01..NN` + `post.txt` + `pieza.json` |
 
 `<contentRoot>` es la carpeta de contenido del proyecto (`brand.config.json` → `contentRoot`; en este proyecto es `POST/`).
 
@@ -38,13 +40,16 @@ Esto valida y prepara todo lo demás — ver sección 6. Si algo falta (una carp
 
 | Skill | Se activa cuando... | Qué hace |
 |---|---|---|
-| `content-setup` | corrés `/cmd-setup`, o otro skill detecta que falta algo | Preflight completo: carpetas, `brand.config.json`, logo, software, conectores |
-| `post-copy` | pedís crear/redactar el texto de un post | Escribe caption + hashtags siguiendo el tono y reglas de marca del proyecto |
-| `post-image` | hay que generar el arte (PNG) de un post | Renderiza la imagen final a partir del template + logo + colores de marca |
-| `post-carousel` | pedís un post con varias imágenes / mencionás una carpeta de colección | Orquesta `post-image` N veces + `post-copy` en modo carrusel |
-| `motion-prompt` | pedís animar una imagen puntual en Kling AI | Genera el prompt de movimiento (positivo + negativo) para esa imagen |
-| `reel-highlights` | pedís un reel/clip/highlight a partir de video(s) | Recorta lo mejor (o mantiene el video completo) y le pone formato vertical + marca de agua |
-| `publish-content` | pedís publicar/programar/subir algo a redes | Publica vía Zernio o upload-post.com, con verificación de marca obligatoria antes de publicar |
+| `preparar-entorno` | corrés `/cmd-setup`, o otro skill detecta que falta algo | Preflight completo: carpetas, `brand.config.json`, logo, software, conectores |
+| `crear-texto` | pedís crear/redactar el texto de un post | Escribe caption + hashtags siguiendo el tono y reglas de marca del proyecto |
+| `crear-imagen` | hay que generar el arte (PNG) de un post | Renderiza la imagen final a partir del template + logo + colores de marca |
+| `crear-carrusel` | pedís un post con varias imágenes / mencionás una carpeta de colección | Orquesta `crear-imagen` N veces + `crear-texto` en modo carrusel |
+| `generar-prompt-movimiento` | pedís animar una imagen puntual en Kling AI | Genera el prompt de movimiento (positivo + negativo) para esa imagen |
+| `crear-reel` | pedís un reel/clip/highlight a partir de video(s) | Recorta lo mejor (o mantiene el video completo) y le pone formato vertical + marca de agua |
+| `publicar-contenido` | pedís publicar/programar/subir algo a redes | Publica vía Zernio o upload-post.com, con verificación de marca obligatoria antes de publicar |
+| `sincronizar-catalogo` | hay que actualizar o consultar el catálogo maestro | Lo baja a `catalogo.json` y lo consulta por script, sin quemar contexto |
+| `planear-contenido` | el pedido nace de un título/colección del catálogo | Decide qué piezas armar (imagen sola / carrusel de películas / de temporadas / dos piezas) y lleva el estado de producción |
+| `crear-sinopsis` | se produce cualquier pieza de contenido | La ficha explicativa con texto largo + tira de pósters + % de aprobación (imagen `00`, siempre) |
 
 Todos leen `CLAUDE.md` y `brand.config.json` del proyecto donde estén instalados — nunca asumen una marca fija.
 
@@ -52,9 +57,9 @@ Todos leen `CLAUDE.md` y `brand.config.json` del proyecto donde estén instalado
 
 Pedido: *"Hacéme un post de la serie Nombre de Ejemplo, es de terror."*
 
-1. **Claude activa `post-copy`** (sin que tipees nada) y pregunta lo que falte: audios/subtítulos disponibles, tipo de post (entretenimiento/producto/prueba social), plataforma.
+1. **Claude activa `crear-texto`** (sin que tipees nada) y pregunta lo que falte: audios/subtítulos disponibles, tipo de post (entretenimiento/producto/prueba social), plataforma.
 2. Contestás. Claude escribe el caption completo (hook + CTA + descripción + pregunta + hashtags) y te lo muestra.
-3. **Se activa `post-image`**: pregunta el layout (`full_bleed` por default, o `panel_lateral`) y qué imagen fuente usar de `POST/assets/posters/`.
+3. **Se activa `crear-imagen`**: pregunta el layout (`full_bleed` por default, o `panel_lateral`) y qué imagen fuente usar de `POST/assets/posters/`.
 4. Claude renderiza el PNG y te lo muestra antes de guardarlo.
 5. **Resultado final en disco**:
    ```
@@ -80,15 +85,15 @@ Corré `/cmd-setup` — es la herramienta de diagnóstico. Te va a decir puntual
 Ningún skill de este plugin debería fallar "en silencio" — si algo no anda, tiene que decírtelo con la causa concreta, no inventar un resultado.
 
 ## 8. Limitación conocida: publicar todavía necesita una persona presente
-`publish-content` no puede adjuntar el archivo de imagen/video por vos — es una restricción de la herramienta de navegador (no puede leer archivos del proyecto), no del plugin. Por eso, cuando llega ese paso, Claude te va a pedir que arrastres el archivo a la ventana del navegador. Por la misma razón, todavía no hay scheduling nativo/desatendido (tipo "publicá esto todos los martes") — si en el futuro se agrega una forma de publicar por API/curl sin ese paso manual, ahí tiene sentido revisar esto de nuevo.
+`publicar-contenido` no puede adjuntar el archivo de imagen/video por vos — es una restricción de la herramienta de navegador (no puede leer archivos del proyecto), no del plugin. Por eso, cuando llega ese paso, Claude te va a pedir que arrastres el archivo a la ventana del navegador. Por la misma razón, todavía no hay scheduling nativo/desatendido (tipo "publicá esto todos los martes") — si en el futuro se agrega una forma de publicar por API/curl sin ese paso manual, ahí tiene sentido revisar esto de nuevo.
 
 ## 9. Agregar un skill nuevo más adelante
 El plugin está pensado para crecer sin romper lo que ya funciona:
 1. Usá el skill `skill-creator` (viene con Claude Code) para armar el `SKILL.md` nuevo con el formato correcto.
-2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar lo que genere dentro de `<contentRoot>/social/<slug>/...`, y si depende de algo externo (software, conector, carpeta), avisar igual que `content-setup` — remitir a ese skill en vez de duplicar los chequeos.
+2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar lo que genere dentro de `<contentRoot>/social/<slug>/...`, y si depende de algo externo (software, conector, carpeta), avisar igual que `preparar-entorno` — remitir a ese skill en vez de duplicar los chequeos.
 3. Colocalo en `plugin/post-studio/skills/<nombre-nuevo>/SKILL.md`. Si querés que además tenga un atajo de comando, agregá `plugin/post-studio/commands/cmd-<nombre>.md` (mismo prefijo `cmd-`, corto, sin ambigüedad).
 4. No hace falta declarar nada en `plugin.json` — los skills y commands se autodescubren por carpeta.
-5. Un skill nuevo puede sumarse a un flujo ya existente (ej. un nuevo formato de imagen dentro de `post-image`) o abrir uno propio (ej. soporte para una red nueva) — las dos formas son válidas, seguí el criterio de qué tan relacionado está con lo que ya existe.
+5. Un skill nuevo puede sumarse a un flujo ya existente (ej. un nuevo formato de imagen dentro de `crear-imagen`) o abrir uno propio (ej. soporte para una red nueva) — las dos formas son válidas, seguí el criterio de qué tan relacionado está con lo que ya existe.
 
 ## 10. Lo que queda afuera a propósito (roadmap)
 - **Scheduling nativo** (cron de Claude): bloqueado hasta que publicar no dependa de arrastrar el archivo a mano — ver sección 8.

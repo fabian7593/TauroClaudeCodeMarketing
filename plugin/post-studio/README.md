@@ -53,7 +53,7 @@ La otra idea central es que **nada falla en silencio**. Antes de crear o publica
 - 🎨 **Prompts de animación para Kling AI** — a partir de una imagen real, listo para pegar.
 - 📤 **Publicación real** — Zernio como herramienta principal, upload-post.com como respaldo automático cuando se acaba el cupo, con una verificación de reglas de marca obligatoria antes de publicar.
 - 🧩 **Agnóstico de marca** — el logo puede ser PNG, JPG o SVG de cualquier proporción; los colores se adaptan solos; nada asume un nombre de marca fijo.
-- 🛡️ **Preflight con red de seguridad** — un skill dedicado (`content-setup`) valida carpetas, software, logo y conectores antes de que el resto falle a mitad de camino.
+- 🛡️ **Preflight con red de seguridad** — un skill dedicado (`preparar-entorno`) valida carpetas, software, logo y conectores antes de que el resto falle a mitad de camino.
 - 🌐 **Portable entre sistemas operativos** — sin rutas de Windows hardcodeadas; detecta fuentes, navegador y comandos de instalación según el SO real.
 - 🧱 **Extensible** — agregar un skill nuevo sigue un contrato simple y no rompe lo que ya existe (ver [Extender el plugin](#extender-el-plugin)).
 
@@ -68,16 +68,21 @@ flowchart TD
         C4["/cmd-motion"]
         C5["/cmd-publish"]
         C6["/cmd-setup"]
+        C7["/cmd-catalogo"]
+        C8["/cmd-contenido"]
     end
 
     subgraph SKILLS["Skills - hacen el trabajo, se activan solos o via comando"]
-        S1["post-copy<br/>texto del post"]
-        S2["post-image<br/>arte / PNG"]
-        S3["post-carousel<br/>orquesta post-image + post-copy"]
-        S4["motion-prompt<br/>prompt Kling AI"]
-        S5["reel-highlights<br/>video a reel"]
-        S6["publish-content<br/>Zernio / upload-post.com"]
-        S7["content-setup<br/>preflight y bootstrap"]
+        S1["crear-texto<br/>texto del post"]
+        S2["crear-imagen<br/>arte / PNG"]
+        S3["crear-carrusel<br/>orquesta crear-imagen + crear-texto"]
+        S4["generar-prompt-movimiento<br/>prompt Kling AI"]
+        S5["crear-reel<br/>video a reel"]
+        S6["publicar-contenido<br/>Zernio / upload-post.com"]
+        S7["preparar-entorno<br/>preflight y bootstrap"]
+        S8["sincronizar-catalogo<br/>espejo local del catalogo"]
+        S9["planear-contenido<br/>que piezas armar"]
+        S10["crear-sinopsis<br/>ficha explicativa"]
     end
 
     C1 --> S1
@@ -90,6 +95,14 @@ flowchart TD
     C4 --> S4
     C5 --> S6
     C6 --> S7
+    C7 --> S8
+    C8 --> S9
+    S9 --> S8
+    S9 --> S3
+    S9 --> S2
+    S9 --> S10
+    S9 --> S1
+    S10 --> OUT
 
     S1 --> OUT["carpeta social del slug"]
     S2 --> OUT
@@ -121,7 +134,7 @@ Después, corré el chequeo de entorno:
 /cmd-setup
 ```
 
-`content-setup` valida (y crea si falta) las carpetas de contenido, confirma tu logo, arma `brand.config.json` a partir de `CLAUDE.md` si ya existe, revisa que tengas `ffmpeg`/Python/Chrome instalados, y confirma que el conector de Chrome real esté conectado en Claude. Si algo falta, te da el paso exacto para resolverlo.
+`preparar-entorno` valida (y crea si falta) las carpetas de contenido, confirma tu logo, arma `brand.config.json` a partir de `CLAUDE.md` si ya existe, revisa que tengas `ffmpeg`/Python/Chrome instalados, y confirma que el conector de Chrome real esté conectado en Claude. Si algo falta, te da el paso exacto para resolverlo.
 
 ## Inicio rápido
 
@@ -146,17 +159,46 @@ Todos empiezan con `cmd-` a propósito: así se distinguen a simple vista de los
 
 | Comando | Argumento | Qué hace | Dispara |
 |---|---|---|---|
-| `/cmd-post` | tema / nombre | Post de una sola imagen: texto + arte, con reel opcional | `post-copy`, `post-image`, `reel-highlights` (opcional) |
-| `/cmd-carousel` | nombre de colección | Post de carrusel (N imágenes, un solo texto) | `post-carousel` |
-| `/cmd-reel` | video(s) | Reel vertical con marca de agua — highlights, video completo, o fusión | `reel-highlights` |
-| `/cmd-motion` | imagen | Prompt de movimiento (image-to-video) para Kling AI | `motion-prompt` |
-| `/cmd-publish` | contenido a publicar | Publica o programa en redes sociales | `publish-content` |
-| `/cmd-setup` | — | Verifica y prepara el entorno completo | `content-setup` |
+| `/cmd-post` | tema / nombre | Post de una sola imagen: texto + arte, con reel opcional | `crear-texto`, `crear-imagen`, `crear-reel` (opcional) |
+| `/cmd-carousel` | nombre de colección | Post de carrusel (N imágenes, un solo texto) | `crear-carrusel` |
+| `/cmd-reel` | video(s) | Reel vertical con marca de agua — highlights, video completo, o fusión | `crear-reel` |
+| `/cmd-motion` | imagen | Prompt de movimiento (image-to-video) para Kling AI | `generar-prompt-movimiento` |
+| `/cmd-publish` | contenido a publicar | Publica o programa en redes sociales | `publicar-contenido` |
+| `/cmd-setup` | — | Verifica y prepara el entorno completo | `preparar-entorno` |
+| `/cmd-catalogo` | — / título / "pendientes" | Sincroniza el catálogo maestro al espejo local y consulta qué hay y qué falta | `sincronizar-catalogo` |
+| `/cmd-contenido` | título o colección del catálogo | Pieza completa a partir del catálogo: plan + pósters + artes + ficha de sinopsis + texto | `planear-contenido` y todos los de creación |
 
 ## Skills
 
 <details>
-<summary><strong>📝 post-copy</strong> — texto del post</summary>
+<summary><strong>🗂️ sincronizar-catalogo</strong> — espejo local del catálogo</summary>
+
+Baja el catálogo maestro del proyecto (una hoja de cálculo con los títulos/productos y sus datos) a un JSON local, y lo consulta con un script para no cargar miles de filas en el contexto. Lee el Excel local con `openpyxl` (vía barata y robusta, mapea por nombre de columna) o el volcado del conector de Drive como respaldo.
+
+**Se activa cuando** hay que actualizar el catálogo, buscar un título/colección, o cuando otro skill necesita datos del catálogo.
+**Config del proyecto**: `catalogo.config.json` (ruta del archivo, hoja, mapa de columnas) — el plugin no sabe nada del catálogo concreto.
+</details>
+
+<details>
+<summary><strong>🧭 planear-contenido</strong> — qué piezas armar</summary>
+
+Decide, ANTES de generar nada, si el título va como imagen individual, carrusel de películas, carrusel de temporadas, o dos piezas separadas (serie por un lado, películas por otro). Nunca produce una pieza sin mirar antes la colección completa: una película de una saga se publica con toda su saga.
+
+**Se activa cuando** el pedido nace de un título/colección del catálogo.
+**Además**: lleva el estado de producción (`pieza.json` por pieza + índice regenerable) y avisa si un título está incompleto en el catálogo.
+</details>
+
+<details>
+<summary><strong>🎞️ crear-sinopsis</strong> — ficha explicativa</summary>
+
+Genera la imagen de ficha que acompaña SIEMPRE a un post (sea imagen sola o carrusel): columna con título, frase gancho, texto largo justificado, chips de contexto y % de aprobación, más una tira de película con un póster distinto por cuadro.
+
+**Se activa cuando** se produce cualquier pieza de contenido — va como imagen `00`, primera del carrusel.
+**Regla**: el texto de la ficha es más profundo que el caption y nunca lo repite.
+</details>
+
+<details>
+<summary><strong>📝 crear-texto</strong> — texto del post</summary>
 
 Escribe caption + hashtags (juntos, en un solo bloque) para Instagram/Facebook/TikTok/X/YouTube Shorts, siguiendo el tono y las reglas de marca del proyecto. Para TikTok/Shorts genera además un guion corto con marcas de tiempo; para X, una versión recortada del caption.
 
@@ -165,7 +207,7 @@ Escribe caption + hashtags (juntos, en un solo bloque) para Instagram/Facebook/T
 </details>
 
 <details>
-<summary><strong>🖼️ post-image</strong> — arte de imagen</summary>
+<summary><strong>🖼️ crear-imagen</strong> — arte de imagen</summary>
 
 Renderiza el PNG final a partir de un template HTML reutilizable (motor propio del plugin, sin dependencias externas de diseño): layout `panel_lateral` (con filas de info tipo audio/subtítulo) o `full_bleed` (imagen completa + franja inferior). El color del panel sale del color dominante de la imagen fuente por default; el logo y su proporción se resuelven dinámicamente, cualquiera sea la marca.
 
@@ -174,15 +216,15 @@ Renderiza el PNG final a partir de un template HTML reutilizable (motor propio d
 </details>
 
 <details>
-<summary><strong>🎠 post-carousel</strong> — post de varias imágenes</summary>
+<summary><strong>🎠 crear-carrusel</strong> — post de varias imágenes</summary>
 
-Orquesta `post-image` (una vez por imagen) y `post-copy` (una vez, en modo carrusel) para producir un solo post con N imágenes y un texto unificado que invita a deslizar.
+Orquesta `crear-imagen` (una vez por imagen) y `crear-texto` (una vez, en modo carrusel) para producir un solo post con N imágenes y un texto unificado que invita a deslizar.
 
 **Se activa cuando** pedís un post con varias imágenes/productos en un carrusel, o mencionás una carpeta de colección.
 </details>
 
 <details>
-<summary><strong>🎨 motion-prompt</strong> — prompt de animación para Kling AI</summary>
+<summary><strong>🎨 generar-prompt-movimiento</strong> — prompt de animación para Kling AI</summary>
 
 Analiza una imagen real (composición, capas, sujetos, mood) y escribe un prompt de movimiento imagen-a-video: solo describe qué se mueve y cómo, nunca la apariencia (evita redundancia y reproducir descripciones con derechos de autor). Incluye siempre un negative prompt para evitar logos/caras distorsionadas.
 
@@ -191,7 +233,7 @@ Analiza una imagen real (composición, capas, sujetos, mood) y escribe un prompt
 </details>
 
 <details>
-<summary><strong>🎞️ reel-highlights</strong> — video a reel</summary>
+<summary><strong>🎞️ crear-reel</strong> — video a reel</summary>
 
 Tres modos:
 - **Highlights**: analiza un video, arma un arco (gancho → desarrollo → cierre) de 15-30s con transiciones.
@@ -204,7 +246,7 @@ Usa `ffmpeg`. Incluye scripts propios para formato vertical, unión con transici
 </details>
 
 <details>
-<summary><strong>📤 publish-content</strong> — publicar en redes</summary>
+<summary><strong>📤 publicar-contenido</strong> — publicar en redes</summary>
 
 Publica o programa contenido ya generado, vía navegador Chrome real (nunca el sandbox). Zernio primero, upload-post.com como respaldo automático según una tabla de cupo. Antes de publicar, corre una verificación de marca obligatoria (menciones prohibidas, CTA, tono, coherencia) contra `brand.config.json`/`CLAUDE.md` — si algo no pasa, se detiene y explica por qué, nunca publica a medias.
 
@@ -212,7 +254,7 @@ Publica o programa contenido ya generado, vía navegador Chrome real (nunca el s
 </details>
 
 <details>
-<summary><strong>🛡️ content-setup</strong> — preflight y bootstrap</summary>
+<summary><strong>🛡️ preparar-entorno</strong> — preflight y bootstrap</summary>
 
 La red de seguridad del plugin. Verifica, en orden: carpetas del proyecto (ofrece crearlas), `brand.config.json` (lo arma con una entrevista corta, proponiendo valores de `CLAUDE.md` si existe), logo (detecta PNG/JPG/SVG, ofrece recortar si tiene margen), software necesario según lo que se vaya a usar (`ffmpeg`/`ffprobe`/Python/Chrome, con el comando de instalación correcto para el SO detectado), y el conector de Chrome real en Claude.
 
@@ -230,7 +272,7 @@ La red de seguridad del plugin. Verifica, en orden: carpetas del proyecto (ofrec
 
 ## Configuración de marca
 
-`brand.config.json` vive en la raíz del proyecto que instala el plugin (no dentro del plugin). Es una cache mecánica derivada de `CLAUDE.md` — `content-setup` la arma/actualiza, los demás skills la leen.
+`brand.config.json` vive en la raíz del proyecto que instala el plugin (no dentro del plugin). Es una cache mecánica derivada de `CLAUDE.md` — `preparar-entorno` la arma/actualiza, los demás skills la leen.
 
 | Campo | Tipo | Para qué se usa |
 |---|---|---|
@@ -292,25 +334,25 @@ Ningún componente del plugin asume Windows, una marca específica, ni una estru
 - **Ancho del texto de marca de agua**: se mide renderizándolo una vez y detectando su tamaño real, en vez de un número calibrado a mano que solo serviría para un texto de un largo específico.
 - **Proporción del logo**: se mide cargando el archivo real (cualquier PNG/JPG/SVG, cualquier proporción) en vez de un valor fijo.
 - **Render de imagen**: ocurre en una carpeta de trabajo plana y temporal, no dentro del proyecto — elimina de raíz los bugs de rutas relativas por profundidad de carpeta.
-- **Instalación de software faltante**: `content-setup` da el comando correcto según el SO (`winget`/`choco` en Windows, `brew` en macOS, `apt`/`dnf` en Linux).
+- **Instalación de software faltante**: `preparar-entorno` da el comando correcto según el SO (`winget`/`choco` en Windows, `brew` en macOS, `apt`/`dnf` en Linux).
 
 ## Requisitos
 
 | Herramienta | Para qué skill | Cómo se verifica |
 |---|---|---|
-| Python 3 | `post-image`, `post-carousel` (preview server) | `content-setup` |
-| Chrome/Chromium | `post-image`, `post-carousel` (render headless) | `content-setup` |
-| `ffmpeg` + `ffprobe` | `reel-highlights` | `content-setup` |
-| Conector de Chrome real (Claude → Settings → Connectors) | `publish-content` | `content-setup`, vía `ToolSearch` |
-| Sesión logueada en Zernio y/o upload-post.com | `publish-content` | manual, el skill avisa si detecta que no hay sesión |
+| Python 3 | `crear-imagen`, `crear-carrusel` (preview server) | `preparar-entorno` |
+| Chrome/Chromium | `crear-imagen`, `crear-carrusel` (render headless) | `preparar-entorno` |
+| `ffmpeg` + `ffprobe` | `crear-reel` | `preparar-entorno` |
+| Conector de Chrome real (Claude → Settings → Connectors) | `publicar-contenido` | `preparar-entorno`, vía `ToolSearch` |
+| Sesión logueada en Zernio y/o upload-post.com | `publicar-contenido` | manual, el skill avisa si detecta que no hay sesión |
 
 ## Extender el plugin
 
 1. Usá el skill `skill-creator` (incluido en Claude Code) para armar el `SKILL.md` nuevo con el formato correcto.
-2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar dentro de `<contentRoot>/social/<slug>/...`, y remitir a `content-setup` para cualquier chequeo de entorno en vez de duplicarlo.
+2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar dentro de `<contentRoot>/social/<slug>/...`, y remitir a `preparar-entorno` para cualquier chequeo de entorno en vez de duplicarlo.
 3. Colocalo en `skills/<nombre-nuevo>/SKILL.md`. Si querés un atajo de comando, agregá `commands/cmd-<nombre>.md`.
 4. No hace falta declarar nada en `plugin.json` — los skills y commands se autodescubren por carpeta.
-5. Un skill nuevo puede sumarse a un flujo existente (ej. un formato nuevo dentro de `post-image`) o abrir uno propio (ej. soporte para una red nueva) — las dos formas son válidas.
+5. Un skill nuevo puede sumarse a un flujo existente (ej. un formato nuevo dentro de `crear-imagen`) o abrir uno propio (ej. soporte para una red nueva) — las dos formas son válidas.
 
 Guía completa con ejemplos paso a paso: [`docs/GUIA-DE-USO.md`](docs/GUIA-DE-USO.md).
 

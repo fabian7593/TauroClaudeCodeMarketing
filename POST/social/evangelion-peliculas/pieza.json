@@ -1,0 +1,61 @@
+{
+  "slug": "evangelion-peliculas",
+  "tipo": "carrusel",
+  "titulo": "Evangelion: las películas",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Evangelion"
+  },
+  "vtxIds": [
+    "VTX-1264",
+    "VTX-1265",
+    "VTX-1267",
+    "VTX-1266"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/evangelion-peliculas/images/01-evangelion-1-11.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1264"
+    },
+    {
+      "archivo": "POST/social/evangelion-peliculas/images/02-evangelion-2-22.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1265"
+    },
+    {
+      "archivo": "POST/social/evangelion-peliculas/images/03-evangelion-3-33.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1267"
+    },
+    {
+      "archivo": "POST/social/evangelion-peliculas/images/04-evangelion-3-0-1-0.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1266"
+    },
+    {
+      "archivo": "POST/social/evangelion-peliculas/images/05-sinopsis-evangelion-peliculas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "idioma": "es",
+    "carpeta": "POST/assets/posters/evangelion-peliculas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/evangelion-peliculas/images/05-sinopsis-evangelion-peliculas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/evangelion-peliculas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "La coleccion Evangelion viene de catalogo.overrides.json, no del Excel."
+}

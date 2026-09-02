@@ -1,0 +1,43 @@
+{
+  "slug": "1899",
+  "tipo": "imagen",
+  "titulo": "1899",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0004"
+  },
+  "vtxIds": [
+    "VTX-0004"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/1899/images/01-1899.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0004"
+    },
+    {
+      "archivo": "POST/social/1899/images/02-sinopsis-1899.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "idioma": "default-catalogo",
+    "carpeta": "POST/assets/posters/1899",
+    "aviso": "TMDB no tiene posters en espanol para este titulo: el arte usa el poster default del catalogo (ingles) y la tira de la ficha usa variantes sin texto."
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/1899/images/02-sinopsis-1899.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/1899/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

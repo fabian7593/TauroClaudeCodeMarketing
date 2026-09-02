@@ -1,0 +1,60 @@
+{
+  "_comment": "Mapa del catálogo maestro de este proyecto para el skill sincronizar-catalogo. El plugin no sabe nada de estas columnas — todo lo específico del Excel vive acá. Si el Excel cambia de columnas, se ajusta este archivo, no el plugin.",
+  "fuente": {
+    "archivo": "VORTEX_Catalogo_Master.xlsx",
+    "archivoLocal": "VORTEX_Catalogo_Master.xlsx",
+    "driveFileId": "13GN6GcEV8rUEQlMVdLgzKl6AV5PzdQS0",
+    "url": "https://docs.google.com/spreadsheets/d/13GN6GcEV8rUEQlMVdLgzKl6AV5PzdQS0/edit?gid=1424662806",
+    "hoja": "Catalogo ordenado",
+    "anclaHoja": "ordenado ID,Categoria,Tipo",
+    "prefijoId": "VTX-",
+    "digitosId": 4
+  },
+  "salida": "POST/catalogo.json",
+
+  "_comentarioMapa": "Vía recomendada (Excel local): se mapea por NOMBRE de encabezado, ignorando mayúsculas y tildes. Una columna nueva en el Excel que no esté acá se ignora y queda anotada en 'avisos'.",
+  "mapaColumnas": {
+    "ID": "vtxId",
+    "Categoria": "categoria",
+    "Tipo": "tipo",
+    "Titulo Español (LATAM)": "tituloEs",
+    "Titulo Inglés": "tituloEn",
+    "Año": "anio",
+    "Temporadas": "temporadas",
+    "Episodios": "episodios",
+    "Duración (min)": "duracionMin",
+    "Géneros": "generos",
+    "Calificación": "calificacion",
+    "Clasificación": "clasificacion",
+    "Casa": "_casa",
+    "Disco Duro": "_discoDuro",
+    "Estado": "estado",
+    "Audio Dual": "audioDual",
+    "Tercer Audio": "tercerAudio",
+    "TMDB ID": "tmdbId",
+    "TMDB URL": "tmdbUrl",
+    "Póster": "posterUrl",
+    "Notas": "notas",
+    "Agregado a la App": "agregadoAlaApp",
+    "Añadido a Redes Sociales": "anadidoARedes",
+    "Colección": "coleccion",
+    "Época": "epoca"
+  },
+
+  "_comentarioColumnas": "Vía de respaldo (volcado de texto de Drive): acá el orden SÍ importa, porque el volcado no trae encabezados utilizables.",
+  "columnas": [
+    "vtxId", "categoria", "tipo", "tituloEs", "tituloEn", "anio", "temporadas",
+    "episodios", "duracionMin", "generos", "calificacion", "clasificacion",
+    "_casa", "_discoDuro", "estado", "audioDual", "tercerAudio", "tmdbId",
+    "tmdbUrl", "posterUrl", "notas", "agregadoAlaApp", "anadidoARedes",
+    "coleccion", "epoca"
+  ],
+
+  "columnasOmitidas": ["_casa", "_discoDuro"],
+  "_comentarioOmitidas": "Casa/Disco Duro no se copian al espejo local: son logística interna y 'Casa' trae nombres de plataformas competidoras, que por regla de marca no pueden filtrarse a un post.",
+
+  "booleanos": ["audioDual", "agregadoAlaApp", "anadidoARedes"],
+  "numericos": { "anio": "int", "episodios": "int", "duracionMin": "int", "calificacion": "float" },
+  "listas": { "generos": "," },
+  "categoriasAnime": ["Anime", "Anime Peliculas"]
+}

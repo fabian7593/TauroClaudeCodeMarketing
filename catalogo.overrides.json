@@ -1,0 +1,12 @@
+{
+  "_comment": "Correcciones locales al catálogo maestro. Se aplican después de leer el Excel, así que sobreviven a cada sincronización. Cuando una de estas colecciones se carga en el Excel de verdad, se puede borrar de acá (el sincronizador avisa si el Excel ya trae otra colección para el mismo título).",
+  "colecciones": {
+    "Evangelion": [
+      "VTX-0286",
+      "VTX-1264",
+      "VTX-1265",
+      "VTX-1266",
+      "VTX-1267"
+    ]
+  }
+}

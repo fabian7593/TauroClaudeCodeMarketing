@@ -1,0 +1,42 @@
+{
+  "slug": "le-temes-a-la-oscuridad",
+  "tipo": "imagen",
+  "titulo": "¿Le Temes a la Oscuridad?",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0001"
+  },
+  "vtxIds": [
+    "VTX-0001"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/le-temes-a-la-oscuridad/images/01-le-temes-a-la-oscuridad.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0001"
+    },
+    {
+      "archivo": "POST/social/le-temes-a-la-oscuridad/images/02-sinopsis-le-temes-a-la-oscuridad.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "idioma": "es",
+    "carpeta": "POST/assets/posters/le-temes-a-la-oscuridad"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/le-temes-a-la-oscuridad/images/02-sinopsis-le-temes-a-la-oscuridad.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/le-temes-a-la-oscuridad/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

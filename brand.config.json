@@ -1,6 +1,6 @@
 {
-  "brandName": "TauroTV",
-  "website": "taurotv.lat",
+  "brandName": "Bankai+",
+  "website": "bankaiplus.com",
   "whatsapp": "+506 6171-9869",
   "cta": "📲 Para más información de dónde verla, escríbenos al DM 👆",
   "tone": "Español costarricense casual, conjugación 'vos' — cercano, humano, peer-like, nunca suena a IA ni a corporativo",
@@ -15,5 +15,5 @@
   "unsupportedClaims": ["cast/mirroring desde el celular", "Roku", "Samsung/LG nativo", "iOS"],
   "platforms": ["instagram", "facebook", "x", "tiktok"],
   "timezone": "America/Costa_Rica",
-  "_comment": "Generado por content-setup a partir de CLAUDE.md. Es una cache mecánica derivada — si cambian las reglas de marca, actualizá CLAUDE.md primero y después pedile a content-setup que regenere este archivo."
+  "_comment": "Generado por preparar-entorno a partir de CLAUDE.md. Es una cache mecánica derivada — si cambian las reglas de marca, actualizá CLAUDE.md primero y después pedile a preparar-entorno que regenere este archivo."
 }

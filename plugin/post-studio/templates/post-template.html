@@ -90,11 +90,11 @@
    GENERADOR DE POST — post-studio (plantilla única, reutilizable, sin marca fija)
    Editá únicamente el objeto CONFIG. Todo lo demás se calcula solo.
 
-   Esta es la copia CANÓNICA del plugin — el skill post-image no la edita
+   Esta es la copia CANÓNICA del plugin — el skill crear-imagen no la edita
    directo: la copia a <contentRoot>/_template/post-template.html la primera
    vez que corre en un proyecto, y esa copia (editable) es la que se
    personaliza y usa de ahí en adelante. `logo`/`site`/`posterImage` de acá
-   abajo son valores de ejemplo — en cada render real, post-image los pisa
+   abajo son valores de ejemplo — en cada render real, crear-imagen los pisa
    con la ruta al logo resuelto (brand.config.json), el sitio/handle real de
    la marca, y la imagen fuente elegida.
 
@@ -131,7 +131,7 @@ const CONFIG = {
   panelWidth: 0.42,     // 0-1, fracción del canvas que ocupa el panel arriba. Bajo = más imagen visible.
   decorative: true,     // chispas/puntos/brillo en el panel
 
-  // ruta a la imagen fuente (relativa a este html — post-image la copia como hermana
+  // ruta a la imagen fuente (relativa a este html — crear-imagen la copia como hermana
   // de este archivo en un directorio de trabajo plano, así la ruta siempre es simple)
   posterImage: './poster.jpg',
 
@@ -154,7 +154,7 @@ const CONFIG = {
   // N badges de calidad/destacado (top-right). Opciones: '480p' | '720p' | '1080p' | '4k' | 'bluray'
   badges: ['1080p'],
 
-  // post-image sobreescribe estos dos con la ruta del logo resuelto y el sitio/handle
+  // crear-imagen sobreescribe estos dos con la ruta del logo resuelto y el sitio/handle
   // real de brand.config.json antes de renderizar — no hace falta tocarlos a mano.
   logo: './logo.png',
   site: 'example.com'
@@ -169,7 +169,8 @@ const FORMATS = {
 
 const FLAG_COLORS = {
   MX: 'linear-gradient(90deg,#006341 0 34%,#fff 34% 66%,#ce1126 66% 100%)',
-  US: '#1b2f6b',
+  // bandera real (cantón + barras). Se dibuja con gradientes, sin PNG externo.
+  US: 'linear-gradient(#3c3b6e,#3c3b6e) 0 0/40% 53.85% no-repeat, repeating-linear-gradient(180deg,#b22234 0 7.6923%,#fff 7.6923% 15.3846%)',
   ES: 'linear-gradient(180deg,#c60b1e 0 25%,#ffc400 25% 75%,#c60b1e 75% 100%)',
   JP: 'radial-gradient(circle at 50% 50%, #bc002d 0 32%, #fff 33% 100%)',
   BR: '#009c3b',
@@ -177,6 +178,9 @@ const FLAG_COLORS = {
   NEUTRO: 'linear-gradient(135deg,#3a3a3a,#111)'
 };
 const FLAG_TEXT_COLOR = { MX:'#333', US:'#fff', ES:'#5c3d00', JP:'#fff', BR:'#fff', AR:'#333', NEUTRO:'#fff' };
+// Banderas con diseño detallado (barras finas, etc.): el código de dos letras encima
+// las ensucia y no aporta nada — el label de al lado ya dice el idioma.
+const FLAG_HIDE_CODE = ['US'];
 
 function sizePoster(fmt) {
   return new Promise(resolve => {
@@ -259,7 +263,7 @@ function buildRows(container, mode, scaleUnit) {
     flag.style.fontSize = (flagSize * 0.30) + 'px';
     flag.style.background = FLAG_COLORS[r.code] || FLAG_COLORS.NEUTRO;
     flag.style.color = FLAG_TEXT_COLOR[r.code] || '#fff';
-    flag.textContent = r.code;
+    flag.textContent = FLAG_HIDE_CODE.includes(r.code) ? '' : r.code;
     const label = document.createElement('div');
     label.className = 'label';
     label.style.fontSize = labelSize + 'px';

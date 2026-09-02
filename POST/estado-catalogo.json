@@ -1,0 +1,439 @@
+{
+  "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
+  "generado": "2026-09-02",
+  "totalPiezas": 7,
+  "titulosConContenido": 14,
+  "titulosEnCatalogo": 1401,
+  "problemas": [],
+  "piezas": [
+    {
+      "slug": "1899",
+      "tipo": "imagen",
+      "titulo": "1899",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0004"
+      },
+      "vtxIds": [
+        "VTX-0004"
+      ],
+      "carpeta": "POST/social/1899",
+      "imagenes": [
+        {
+          "archivo": "POST/social/1899/images/01-1899.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0004"
+        },
+        {
+          "archivo": "POST/social/1899/images/02-sinopsis-1899.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/1899/images/02-sinopsis-1899.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/1899/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "adolescencia",
+      "tipo": "imagen",
+      "titulo": "Adolescencia",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0005"
+      },
+      "vtxIds": [
+        "VTX-0005"
+      ],
+      "carpeta": "POST/social/adolescencia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/adolescencia/images/01-adolescencia.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0005"
+        },
+        {
+          "archivo": "POST/social/adolescencia/images/02-sinopsis-adolescencia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/adolescencia/images/02-sinopsis-adolescencia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/adolescencia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "evangelion-peliculas",
+      "tipo": "carrusel",
+      "titulo": "Evangelion: las películas",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Evangelion"
+      },
+      "vtxIds": [
+        "VTX-1264",
+        "VTX-1265",
+        "VTX-1267",
+        "VTX-1266"
+      ],
+      "carpeta": "POST/social/evangelion-peliculas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/evangelion-peliculas/images/01-evangelion-1-11.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1264"
+        },
+        {
+          "archivo": "POST/social/evangelion-peliculas/images/02-evangelion-2-22.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1265"
+        },
+        {
+          "archivo": "POST/social/evangelion-peliculas/images/03-evangelion-3-33.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1267"
+        },
+        {
+          "archivo": "POST/social/evangelion-peliculas/images/04-evangelion-3-0-1-0.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1266"
+        },
+        {
+          "archivo": "POST/social/evangelion-peliculas/images/05-sinopsis-evangelion-peliculas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/evangelion-peliculas/images/05-sinopsis-evangelion-peliculas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/evangelion-peliculas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "La coleccion Evangelion viene de catalogo.overrides.json, no del Excel."
+    },
+    {
+      "slug": "evangelion",
+      "tipo": "imagen",
+      "titulo": "Neon Genesis Evangelion",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Evangelion"
+      },
+      "vtxIds": [
+        "VTX-0286"
+      ],
+      "carpeta": "POST/social/evangelion",
+      "imagenes": [
+        {
+          "archivo": "POST/social/evangelion/images/01-neon-genesis-evangelion.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0286"
+        },
+        {
+          "archivo": "POST/social/evangelion/images/02-sinopsis-evangelion.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/evangelion/images/02-sinopsis-evangelion.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/evangelion/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "Anime con audio dual: la fila de audio original es japones, no ingles. Las peliculas de la franquicia van en la pieza evangelion-peliculas."
+    },
+    {
+      "slug": "la-purga",
+      "tipo": "carrusel",
+      "titulo": "La Purga",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "La Purga"
+      },
+      "vtxIds": [
+        "VTX-1019",
+        "VTX-0740",
+        "VTX-0003",
+        "VTX-0741",
+        "VTX-1027"
+      ],
+      "carpeta": "POST/social/la-purga",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-purga/images/01-la-noche-de-la-expiacion.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1019"
+        },
+        {
+          "archivo": "POST/social/la-purga/images/02-12-horas-para-sobrevivir.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0740"
+        },
+        {
+          "archivo": "POST/social/la-purga/images/03-el-ano-de-la-eleccion.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0003"
+        },
+        {
+          "archivo": "POST/social/la-purga/images/04-el-inicio.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0741"
+        },
+        {
+          "archivo": "POST/social/la-purga/images/05-la-purga-por-siempre.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1027"
+        },
+        {
+          "archivo": "POST/social/la-purga/images/06-sinopsis-la-purga.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-purga/images/06-sinopsis-la-purga.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-purga/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
+    },
+    {
+      "slug": "le-temes-a-la-oscuridad",
+      "tipo": "imagen",
+      "titulo": "¿Le Temes a la Oscuridad?",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0001"
+      },
+      "vtxIds": [
+        "VTX-0001"
+      ],
+      "carpeta": "POST/social/le-temes-a-la-oscuridad",
+      "imagenes": [
+        {
+          "archivo": "POST/social/le-temes-a-la-oscuridad/images/01-le-temes-a-la-oscuridad.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0001"
+        },
+        {
+          "archivo": "POST/social/le-temes-a-la-oscuridad/images/02-sinopsis-le-temes-a-la-oscuridad.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/le-temes-a-la-oscuridad/images/02-sinopsis-le-temes-a-la-oscuridad.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/le-temes-a-la-oscuridad/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "quien-es-erin-carter",
+      "tipo": "imagen",
+      "titulo": "¿Quién Es Erin Carter?",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0002"
+      },
+      "vtxIds": [
+        "VTX-0002"
+      ],
+      "carpeta": "POST/social/quien-es-erin-carter",
+      "imagenes": [
+        {
+          "archivo": "POST/social/quien-es-erin-carter/images/01-quien-es-erin-carter.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0002"
+        },
+        {
+          "archivo": "POST/social/quien-es-erin-carter/images/02-sinopsis-quien-es-erin-carter.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/quien-es-erin-carter/images/02-sinopsis-quien-es-erin-carter.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/quien-es-erin-carter/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    }
+  ],
+  "titulos": [
+    {
+      "vtxId": "VTX-0001",
+      "titulo": "¿Le Temes a la Oscuridad?",
+      "coleccion": null,
+      "piezas": [
+        "le-temes-a-la-oscuridad"
+      ]
+    },
+    {
+      "vtxId": "VTX-0002",
+      "titulo": "¿Quién Es Erin Carter?",
+      "coleccion": null,
+      "piezas": [
+        "quien-es-erin-carter"
+      ]
+    },
+    {
+      "vtxId": "VTX-0003",
+      "titulo": "12 Horas para Sobrevivir: El Año de la Elección",
+      "coleccion": "La Purga",
+      "piezas": [
+        "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-0004",
+      "titulo": "1899",
+      "coleccion": null,
+      "piezas": [
+        "1899"
+      ]
+    },
+    {
+      "vtxId": "VTX-0005",
+      "titulo": "Adolescencia",
+      "coleccion": null,
+      "piezas": [
+        "adolescencia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0286",
+      "titulo": "Neon Genesis Evangelion",
+      "coleccion": "Evangelion",
+      "piezas": [
+        "evangelion"
+      ]
+    },
+    {
+      "vtxId": "VTX-0740",
+      "titulo": "12 Horas para Sobrevivir",
+      "coleccion": "La Purga",
+      "piezas": [
+        "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-0741",
+      "titulo": "12 Horas para Sobrevivir: El Inicio",
+      "coleccion": "La Purga",
+      "piezas": [
+        "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-1019",
+      "titulo": "La Noche de la Expiación",
+      "coleccion": "La Purga",
+      "piezas": [
+        "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-1027",
+      "titulo": "La Purga por Siempre",
+      "coleccion": "La Purga",
+      "piezas": [
+        "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-1264",
+      "titulo": "Evangelion: 1.11 Tú (No) Estás Solo",
+      "coleccion": "Evangelion",
+      "piezas": [
+        "evangelion-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1265",
+      "titulo": "Evangelion: 2.22 Tú (No) Puedes Avanzar",
+      "coleccion": "Evangelion",
+      "piezas": [
+        "evangelion-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1266",
+      "titulo": "Evangelion: 3.0+1.0 Tres Veces una Vez",
+      "coleccion": "Evangelion",
+      "piezas": [
+        "evangelion-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1267",
+      "titulo": "Evangelion: 3.33 Tú (No) Puedes Rehacer",
+      "coleccion": "Evangelion",
+      "piezas": [
+        "evangelion-peliculas"
+      ]
+    }
+  ]
+}

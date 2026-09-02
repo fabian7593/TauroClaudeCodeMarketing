@@ -1,0 +1,42 @@
+{
+  "slug": "adolescencia",
+  "tipo": "imagen",
+  "titulo": "Adolescencia",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0005"
+  },
+  "vtxIds": [
+    "VTX-0005"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/adolescencia/images/01-adolescencia.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0005"
+    },
+    {
+      "archivo": "POST/social/adolescencia/images/02-sinopsis-adolescencia.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "idioma": "es",
+    "carpeta": "POST/assets/posters/adolescencia"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/adolescencia/images/02-sinopsis-adolescencia.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/adolescencia/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

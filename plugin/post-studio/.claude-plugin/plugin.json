@@ -1,6 +1,6 @@
 {
   "name": "post-studio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Creación y publicación de contenido para redes sociales (posts, carruseles, reels, prompts de animación) para cualquier marca o negocio — no está atado a ningún cliente en particular.",
   "author": {
     "name": "Fabian"
@@ -16,6 +16,8 @@
     "tiktok",
     "reels",
     "video",
-    "ffmpeg"
+    "ffmpeg",
+    "catalogo",
+    "streaming"
   ]
 }
