@@ -1,0 +1,41 @@
+{
+  "slug": "friends",
+  "tipo": "imagen",
+  "titulo": "Friends",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0060"
+  },
+  "vtxIds": [
+    "VTX-0060"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/friends/images/01-friends.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0060"
+    },
+    {
+      "archivo": "POST/social/friends/images/02-sinopsis-friends.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/friends"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/friends/images/02-sinopsis-friends.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/friends/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

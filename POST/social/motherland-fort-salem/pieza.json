@@ -1,0 +1,42 @@
+{
+  "slug": "motherland-fort-salem",
+  "tipo": "imagen",
+  "titulo": "Motherland: Fort Salem",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0100"
+  },
+  "vtxIds": [
+    "VTX-0100"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/motherland-fort-salem/images/01-motherland-fort-salem.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0100"
+    },
+    {
+      "archivo": "POST/social/motherland-fort-salem/images/02-sinopsis-motherland-fort-salem.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/motherland-fort-salem"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/motherland-fort-salem/images/02-sinopsis-motherland-fort-salem.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/motherland-fort-salem/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo marca estado Incompleto: falta la temporada 3. El caption no promete la serie completa."
+}

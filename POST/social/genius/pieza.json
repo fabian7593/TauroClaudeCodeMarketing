@@ -1,0 +1,52 @@
+{
+  "slug": "genius",
+  "tipo": "carrusel",
+  "titulo": "Genius",
+  "grupo": {
+    "clase": "titulo-antologico",
+    "valor": "VTX-0065"
+  },
+  "vtxIds": [
+    "VTX-0065"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/genius/images/01-genius-einstein.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0065"
+    },
+    {
+      "archivo": "POST/social/genius/images/02-genius-picasso.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0065"
+    },
+    {
+      "archivo": "POST/social/genius/images/03-genius-aretha.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0065"
+    },
+    {
+      "archivo": "POST/social/genius/images/04-sinopsis-genius.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/genius"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/genius/images/04-sinopsis-genius.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/genius/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Serie antológica de National Geographic con 3 temporadas (Einstein, Picasso, Aretha Franklin), TODAS incluidas. El catálogo la tenía cargada como 'Genius: Einstein' pero temporadas='1 a 3' confirma que cubre las 3. Ninguna variante de póster en español ni sin texto estaba disponible en TMDB para este título: se usó la mejor variante en inglés sin logo de plataforma para cada temporada (Aretha en particular tenía Disney+ quemado en casi todas las variantes)."
+}

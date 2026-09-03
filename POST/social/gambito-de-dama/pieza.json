@@ -1,0 +1,41 @@
+{
+  "slug": "gambito-de-dama",
+  "tipo": "imagen",
+  "titulo": "Gambito de Dama",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0064"
+  },
+  "vtxIds": [
+    "VTX-0064"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/gambito-de-dama/images/01-gambito-de-dama.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0064"
+    },
+    {
+      "archivo": "POST/social/gambito-de-dama/images/02-sinopsis-gambito-de-dama.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/gambito-de-dama"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/gambito-de-dama/images/02-sinopsis-gambito-de-dama.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/gambito-de-dama/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

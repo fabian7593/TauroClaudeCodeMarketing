@@ -30,7 +30,7 @@ El script busca en **español**. Si TMDB no tiene ninguno, sale con código 2 y 
 **Mirá el póster antes de usarlo** (`Read`) — no es opcional, y no alcanza con mirar el nombre del archivo:
 - Que el título se entienda y no sea una imagen recortada rara.
 - Que el idioma del texto sea el que decís que es.
-- **Que no traiga el logo ni el nombre de una plataforma competidora** (la "N" roja, "A NETFLIX SERIES", "ONLY ON…", logos de HBO/Prime/Disney). TMDB está lleno de pósters promocionales con esa marca quemada, y publicarlos rompe la regla de menciones prohibidas de la marca aunque el texto del post esté impecable. Si el candidato la trae, descartalo y pasá al siguiente (`--indice N`), o usá una versión sin texto (`--idioma xx`).
+- **Que no traiga el logo ni el nombre de NINGUNA plataforma de streaming**, no solo las de `forbiddenMentions` — esa lista es el mínimo explícito, pero la regla de marca es "ninguna plataforma de streaming", punto. Ya aparecieron en la práctica: la "N" roja de Netflix, "A NETFLIX SERIES", "ONLY ON…", "HBO Original"/"HBO Max", "MAX Original", el logo de Disney+, y también otras menos obvias como **Showtime** o **Apple TV+** — cualquier sello de una plataforma competidora cuenta, la esté buscando o no. TMDB está lleno de pósters promocionales con esa marca quemada. Si el candidato la trae, descartalo y pasá al siguiente (`--indice N`), o usá una versión sin texto (`--idioma xx`). El chequeo de texto automático (`forbiddenMentions`) no ve esto — es SIEMPRE un chequeo visual, mirando el póster.
 
 ## 1. Recopilar parámetros
 Preguntá lo que falte (no asumas):

@@ -1,0 +1,41 @@
+{
+  "slug": "helstrom",
+  "tipo": "imagen",
+  "titulo": "Helstrom",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0068"
+  },
+  "vtxIds": [
+    "VTX-0068"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/helstrom/images/01-helstrom.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0068"
+    },
+    {
+      "archivo": "POST/social/helstrom/images/02-sinopsis-helstrom.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/helstrom"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/helstrom/images/02-sinopsis-helstrom.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/helstrom/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

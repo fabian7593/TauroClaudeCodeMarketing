@@ -1,0 +1,41 @@
+{
+  "slug": "invasion-secreta",
+  "tipo": "imagen",
+  "titulo": "Invasión Secreta",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0072"
+  },
+  "vtxIds": [
+    "VTX-0072"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/invasion-secreta/images/01-invasion-secreta.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0072"
+    },
+    {
+      "archivo": "POST/social/invasion-secreta/images/02-sinopsis-invasion-secreta.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/invasion-secreta"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/invasion-secreta/images/02-sinopsis-invasion-secreta.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/invasion-secreta/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

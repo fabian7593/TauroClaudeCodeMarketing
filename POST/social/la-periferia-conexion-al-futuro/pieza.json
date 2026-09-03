@@ -1,0 +1,41 @@
+{
+  "slug": "la-periferia-conexion-al-futuro",
+  "tipo": "imagen",
+  "titulo": "La Periferia: Conexión al Futuro",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0085"
+  },
+  "vtxIds": [
+    "VTX-0085"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/la-periferia-conexion-al-futuro/images/01-la-periferia-conexion-al-futuro.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0085"
+    },
+    {
+      "archivo": "POST/social/la-periferia-conexion-al-futuro/images/02-sinopsis-la-periferia-conexion-al-futuro.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-periferia-conexion-al-futuro"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/la-periferia-conexion-al-futuro/images/02-sinopsis-la-periferia-conexion-al-futuro.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/la-periferia-conexion-al-futuro/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "pablo-escobar-el-patron-del-mal",
+  "tipo": "imagen",
+  "titulo": "Pablo Escobar, el Patrón del Mal",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0111"
+  },
+  "vtxIds": [
+    "VTX-0111"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/pablo-escobar-el-patron-del-mal/images/01-pablo-escobar-el-patron-del-mal.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0111"
+    },
+    {
+      "archivo": "POST/social/pablo-escobar-el-patron-del-mal/images/02-sinopsis-pablo-escobar-el-patron-del-mal.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/pablo-escobar-el-patron-del-mal"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/pablo-escobar-el-patron-del-mal/images/02-sinopsis-pablo-escobar-el-patron-del-mal.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/pablo-escobar-el-patron-del-mal/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

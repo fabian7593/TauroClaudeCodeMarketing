@@ -1,0 +1,41 @@
+{
+  "slug": "euphoria",
+  "tipo": "imagen",
+  "titulo": "Euphoria",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0056"
+  },
+  "vtxIds": [
+    "VTX-0056"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/euphoria/images/01-euphoria.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0056"
+    },
+    {
+      "archivo": "POST/social/euphoria/images/02-sinopsis-euphoria.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/euphoria"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/euphoria/images/02-sinopsis-euphoria.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/euphoria/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

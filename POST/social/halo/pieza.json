@@ -1,0 +1,42 @@
+{
+  "slug": "halo",
+  "tipo": "imagen",
+  "titulo": "Halo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0067"
+  },
+  "vtxIds": [
+    "VTX-0067"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/halo/images/01-halo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0067"
+    },
+    {
+      "archivo": "POST/social/halo/images/02-sinopsis-halo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/halo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/halo/images/02-sinopsis-halo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/halo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo marca 'Por Mejorar': faltan subtítulos en los primeros 3 capítulos de la temporada 2. Es un detalle técnico, no de contenido — se avisa acá por si el equipo de soporte lo necesita, no hace falta que aparezca en el caption."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "este-mundo-no-me-hara-mala-persona",
+  "tipo": "imagen",
+  "titulo": "Este Mundo No Me Hará Mala Persona",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0055"
+  },
+  "vtxIds": [
+    "VTX-0055"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/images/01-este-mundo-no-me-hara-mala-persona.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0055"
+    },
+    {
+      "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/images/02-sinopsis-este-mundo-no-me-hara-mala-persona.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/este-mundo-no-me-hara-mala-persona"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/images/02-sinopsis-este-mundo-no-me-hara-mala-persona.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

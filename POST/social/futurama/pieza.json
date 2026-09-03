@@ -1,0 +1,42 @@
+{
+  "slug": "futurama",
+  "tipo": "imagen",
+  "titulo": "Futurama",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0063"
+  },
+  "vtxIds": [
+    "VTX-0063"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/futurama/images/01-futurama.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0063"
+    },
+    {
+      "archivo": "POST/social/futurama/images/02-sinopsis-futurama.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/futurama"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/futurama/images/02-sinopsis-futurama.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/futurama/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo marca estado Incompleto: faltan las temporadas 12, 13 y 14. El caption no promete la serie completa."
+}

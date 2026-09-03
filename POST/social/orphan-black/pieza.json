@@ -1,0 +1,41 @@
+{
+  "slug": "orphan-black",
+  "tipo": "imagen",
+  "titulo": "Orphan Black",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0109"
+  },
+  "vtxIds": [
+    "VTX-0109"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/orphan-black/images/01-orphan-black.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0109"
+    },
+    {
+      "archivo": "POST/social/orphan-black/images/02-sinopsis-orphan-black.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/orphan-black"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/orphan-black/images/02-sinopsis-orphan-black.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/orphan-black/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

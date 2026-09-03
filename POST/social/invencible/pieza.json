@@ -1,0 +1,41 @@
+{
+  "slug": "invencible",
+  "tipo": "imagen",
+  "titulo": "Invencible",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0073"
+  },
+  "vtxIds": [
+    "VTX-0073"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/invencible/images/01-invencible.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0073"
+    },
+    {
+      "archivo": "POST/social/invencible/images/02-sinopsis-invencible.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/invencible"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/invencible/images/02-sinopsis-invencible.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/invencible/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

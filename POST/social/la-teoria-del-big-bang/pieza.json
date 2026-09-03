@@ -1,0 +1,41 @@
+{
+  "slug": "la-teoria-del-big-bang",
+  "tipo": "imagen",
+  "titulo": "La Teoría del Big Bang",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0086"
+  },
+  "vtxIds": [
+    "VTX-0086"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/la-teoria-del-big-bang/images/01-la-teoria-del-big-bang.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0086"
+    },
+    {
+      "archivo": "POST/social/la-teoria-del-big-bang/images/02-sinopsis-la-teoria-del-big-bang.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-teoria-del-big-bang"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/la-teoria-del-big-bang/images/02-sinopsis-la-teoria-del-big-bang.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/la-teoria-del-big-bang/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

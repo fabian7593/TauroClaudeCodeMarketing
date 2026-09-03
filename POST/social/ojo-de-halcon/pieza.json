@@ -1,0 +1,41 @@
+{
+  "slug": "ojo-de-halcon",
+  "tipo": "imagen",
+  "titulo": "Ojo de Halcón",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0105"
+  },
+  "vtxIds": [
+    "VTX-0105"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/ojo-de-halcon/images/01-ojo-de-halcon.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0105"
+    },
+    {
+      "archivo": "POST/social/ojo-de-halcon/images/02-sinopsis-ojo-de-halcon.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ojo-de-halcon"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/ojo-de-halcon/images/02-sinopsis-ojo-de-halcon.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/ojo-de-halcon/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

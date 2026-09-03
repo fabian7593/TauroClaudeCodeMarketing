@@ -1,8 +1,8 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
   "generado": "2026-09-02",
-  "totalPiezas": 55,
-  "titulosConContenido": 62,
+  "totalPiezas": 115,
+  "titulosConContenido": 122,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
@@ -2012,6 +2012,123 @@
       "nota": null
     },
     {
+      "slug": "estamos-muertos",
+      "tipo": "imagen",
+      "titulo": "Estamos Muertos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0054"
+      },
+      "vtxIds": [
+        "VTX-0054"
+      ],
+      "carpeta": "POST/social/estamos-muertos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/estamos-muertos/images/01-estamos-muertos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0054"
+        },
+        {
+          "archivo": "POST/social/estamos-muertos/images/02-sinopsis-estamos-muertos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/estamos-muertos/images/02-sinopsis-estamos-muertos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/estamos-muertos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "este-mundo-no-me-hara-mala-persona",
+      "tipo": "imagen",
+      "titulo": "Este Mundo No Me Hará Mala Persona",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0055"
+      },
+      "vtxIds": [
+        "VTX-0055"
+      ],
+      "carpeta": "POST/social/este-mundo-no-me-hara-mala-persona",
+      "imagenes": [
+        {
+          "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/images/01-este-mundo-no-me-hara-mala-persona.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0055"
+        },
+        {
+          "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/images/02-sinopsis-este-mundo-no-me-hara-mala-persona.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/images/02-sinopsis-este-mundo-no-me-hara-mala-persona.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/este-mundo-no-me-hara-mala-persona/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "euphoria",
+      "tipo": "imagen",
+      "titulo": "Euphoria",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0056"
+      },
+      "vtxIds": [
+        "VTX-0056"
+      ],
+      "carpeta": "POST/social/euphoria",
+      "imagenes": [
+        {
+          "archivo": "POST/social/euphoria/images/01-euphoria.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0056"
+        },
+        {
+          "archivo": "POST/social/euphoria/images/02-sinopsis-euphoria.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/euphoria/images/02-sinopsis-euphoria.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/euphoria/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
       "slug": "evangelion-peliculas",
       "tipo": "carrusel",
       "titulo": "Evangelion: las películas",
@@ -2108,6 +2225,1147 @@
       "nota": "Anime con audio dual: la fila de audio original es japones, no ingles. Las peliculas de la franquicia van en la pieza evangelion-peliculas."
     },
     {
+      "slug": "falcon-y-el-soldado-del-invierno",
+      "tipo": "imagen",
+      "titulo": "Falcon y el Soldado del Invierno",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0057"
+      },
+      "vtxIds": [
+        "VTX-0057"
+      ],
+      "carpeta": "POST/social/falcon-y-el-soldado-del-invierno",
+      "imagenes": [
+        {
+          "archivo": "POST/social/falcon-y-el-soldado-del-invierno/images/01-falcon-y-el-soldado-del-invierno.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0057"
+        },
+        {
+          "archivo": "POST/social/falcon-y-el-soldado-del-invierno/images/02-sinopsis-falcon-y-el-soldado-del-invierno.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/falcon-y-el-soldado-del-invierno/images/02-sinopsis-falcon-y-el-soldado-del-invierno.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/falcon-y-el-soldado-del-invierno/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "fear-the-walking-dead",
+      "tipo": "imagen",
+      "titulo": "Fear the Walking Dead",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0058"
+      },
+      "vtxIds": [
+        "VTX-0058"
+      ],
+      "carpeta": "POST/social/fear-the-walking-dead",
+      "imagenes": [
+        {
+          "archivo": "POST/social/fear-the-walking-dead/images/01-fear-the-walking-dead.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0058"
+        },
+        {
+          "archivo": "POST/social/fear-the-walking-dead/images/02-sinopsis-fear-the-walking-dead.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/fear-the-walking-dead/images/02-sinopsis-fear-the-walking-dead.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/fear-the-walking-dead/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "flash",
+      "tipo": "imagen",
+      "titulo": "Flash",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0059"
+      },
+      "vtxIds": [
+        "VTX-0059"
+      ],
+      "carpeta": "POST/social/flash",
+      "imagenes": [
+        {
+          "archivo": "POST/social/flash/images/01-flash.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0059"
+        },
+        {
+          "archivo": "POST/social/flash/images/02-sinopsis-flash.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/flash/images/02-sinopsis-flash.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/flash/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "friends",
+      "tipo": "imagen",
+      "titulo": "Friends",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0060"
+      },
+      "vtxIds": [
+        "VTX-0060"
+      ],
+      "carpeta": "POST/social/friends",
+      "imagenes": [
+        {
+          "archivo": "POST/social/friends/images/01-friends.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0060"
+        },
+        {
+          "archivo": "POST/social/friends/images/02-sinopsis-friends.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/friends/images/02-sinopsis-friends.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/friends/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "from",
+      "tipo": "imagen",
+      "titulo": "From",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0061"
+      },
+      "vtxIds": [
+        "VTX-0061"
+      ],
+      "carpeta": "POST/social/from",
+      "imagenes": [
+        {
+          "archivo": "POST/social/from/images/01-from.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0061"
+        },
+        {
+          "archivo": "POST/social/from/images/02-sinopsis-from.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/from/images/02-sinopsis-from.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/from/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "fuga-en-dannemora",
+      "tipo": "imagen",
+      "titulo": "Fuga en Dannemora",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0062"
+      },
+      "vtxIds": [
+        "VTX-0062"
+      ],
+      "carpeta": "POST/social/fuga-en-dannemora",
+      "imagenes": [
+        {
+          "archivo": "POST/social/fuga-en-dannemora/images/01-fuga-en-dannemora.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0062"
+        },
+        {
+          "archivo": "POST/social/fuga-en-dannemora/images/02-sinopsis-fuga-en-dannemora.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/fuga-en-dannemora/images/02-sinopsis-fuga-en-dannemora.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/fuga-en-dannemora/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "futurama",
+      "tipo": "imagen",
+      "titulo": "Futurama",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0063"
+      },
+      "vtxIds": [
+        "VTX-0063"
+      ],
+      "carpeta": "POST/social/futurama",
+      "imagenes": [
+        {
+          "archivo": "POST/social/futurama/images/01-futurama.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0063"
+        },
+        {
+          "archivo": "POST/social/futurama/images/02-sinopsis-futurama.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/futurama/images/02-sinopsis-futurama.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/futurama/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "Catálogo marca estado Incompleto: faltan las temporadas 12, 13 y 14. El caption no promete la serie completa."
+    },
+    {
+      "slug": "gambito-de-dama",
+      "tipo": "imagen",
+      "titulo": "Gambito de Dama",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0064"
+      },
+      "vtxIds": [
+        "VTX-0064"
+      ],
+      "carpeta": "POST/social/gambito-de-dama",
+      "imagenes": [
+        {
+          "archivo": "POST/social/gambito-de-dama/images/01-gambito-de-dama.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0064"
+        },
+        {
+          "archivo": "POST/social/gambito-de-dama/images/02-sinopsis-gambito-de-dama.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/gambito-de-dama/images/02-sinopsis-gambito-de-dama.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/gambito-de-dama/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "genius",
+      "tipo": "carrusel",
+      "titulo": "Genius",
+      "grupo": {
+        "clase": "titulo-antologico",
+        "valor": "VTX-0065"
+      },
+      "vtxIds": [
+        "VTX-0065"
+      ],
+      "carpeta": "POST/social/genius",
+      "imagenes": [
+        {
+          "archivo": "POST/social/genius/images/01-genius-einstein.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0065"
+        },
+        {
+          "archivo": "POST/social/genius/images/02-genius-picasso.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0065"
+        },
+        {
+          "archivo": "POST/social/genius/images/03-genius-aretha.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0065"
+        },
+        {
+          "archivo": "POST/social/genius/images/04-sinopsis-genius.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/genius/images/04-sinopsis-genius.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/genius/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "Serie antológica de National Geographic con 3 temporadas (Einstein, Picasso, Aretha Franklin), TODAS incluidas. El catálogo la tenía cargada como 'Genius: Einstein' pero temporadas='1 a 3' confirma que cubre las 3. Ninguna variante de póster en español ni sin texto estaba disponible en TMDB para este título: se usó la mejor variante en inglés sin logo de plataforma para cada temporada (Aretha en particular tenía Disney+ quemado en casi todas las variantes)."
+    },
+    {
+      "slug": "gul",
+      "tipo": "imagen",
+      "titulo": "Gul",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0066"
+      },
+      "vtxIds": [
+        "VTX-0066"
+      ],
+      "carpeta": "POST/social/gul",
+      "imagenes": [
+        {
+          "archivo": "POST/social/gul/images/01-gul.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0066"
+        },
+        {
+          "archivo": "POST/social/gul/images/02-sinopsis-gul.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/gul/images/02-sinopsis-gul.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/gul/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "halo",
+      "tipo": "imagen",
+      "titulo": "Halo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0067"
+      },
+      "vtxIds": [
+        "VTX-0067"
+      ],
+      "carpeta": "POST/social/halo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/halo/images/01-halo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0067"
+        },
+        {
+          "archivo": "POST/social/halo/images/02-sinopsis-halo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/halo/images/02-sinopsis-halo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/halo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "Catálogo marca 'Por Mejorar': faltan subtítulos en los primeros 3 capítulos de la temporada 2. Es un detalle técnico, no de contenido — se avisa acá por si el equipo de soporte lo necesita, no hace falta que aparezca en el caption."
+    },
+    {
+      "slug": "helstrom",
+      "tipo": "imagen",
+      "titulo": "Helstrom",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0068"
+      },
+      "vtxIds": [
+        "VTX-0068"
+      ],
+      "carpeta": "POST/social/helstrom",
+      "imagenes": [
+        {
+          "archivo": "POST/social/helstrom/images/01-helstrom.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0068"
+        },
+        {
+          "archivo": "POST/social/helstrom/images/02-sinopsis-helstrom.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/helstrom/images/02-sinopsis-helstrom.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/helstrom/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "hermanos-de-sangre",
+      "tipo": "imagen",
+      "titulo": "Hermanos de Sangre",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0069"
+      },
+      "vtxIds": [
+        "VTX-0069"
+      ],
+      "carpeta": "POST/social/hermanos-de-sangre",
+      "imagenes": [
+        {
+          "archivo": "POST/social/hermanos-de-sangre/images/01-hermanos-de-sangre.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0069"
+        },
+        {
+          "archivo": "POST/social/hermanos-de-sangre/images/02-sinopsis-hermanos-de-sangre.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/hermanos-de-sangre/images/02-sinopsis-hermanos-de-sangre.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/hermanos-de-sangre/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "insania",
+      "tipo": "imagen",
+      "titulo": "Insania",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0070"
+      },
+      "vtxIds": [
+        "VTX-0070"
+      ],
+      "carpeta": "POST/social/insania",
+      "imagenes": [
+        {
+          "archivo": "POST/social/insania/images/01-insania.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0070"
+        },
+        {
+          "archivo": "POST/social/insania/images/02-sinopsis-insania.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/insania/images/02-sinopsis-insania.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/insania/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "El catálogo no trae clasificación por edad ni sinopsis detallada para este título; la descripción se mantuvo deliberadamente general por no tener certeza suficiente del argumento exacto."
+    },
+    {
+      "slug": "invasion-secreta",
+      "tipo": "imagen",
+      "titulo": "Invasión Secreta",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0072"
+      },
+      "vtxIds": [
+        "VTX-0072"
+      ],
+      "carpeta": "POST/social/invasion-secreta",
+      "imagenes": [
+        {
+          "archivo": "POST/social/invasion-secreta/images/01-invasion-secreta.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0072"
+        },
+        {
+          "archivo": "POST/social/invasion-secreta/images/02-sinopsis-invasion-secreta.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/invasion-secreta/images/02-sinopsis-invasion-secreta.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/invasion-secreta/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "invasion",
+      "tipo": "imagen",
+      "titulo": "Invasión",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0071"
+      },
+      "vtxIds": [
+        "VTX-0071"
+      ],
+      "carpeta": "POST/social/invasion",
+      "imagenes": [
+        {
+          "archivo": "POST/social/invasion/images/01-invasion.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0071"
+        },
+        {
+          "archivo": "POST/social/invasion/images/02-sinopsis-invasion.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/invasion/images/02-sinopsis-invasion.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/invasion/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "invencible",
+      "tipo": "imagen",
+      "titulo": "Invencible",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0073"
+      },
+      "vtxIds": [
+        "VTX-0073"
+      ],
+      "carpeta": "POST/social/invencible",
+      "imagenes": [
+        {
+          "archivo": "POST/social/invencible/images/01-invencible.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0073"
+        },
+        {
+          "archivo": "POST/social/invencible/images/02-sinopsis-invencible.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/invencible/images/02-sinopsis-invencible.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/invencible/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "it-bienvenidos-a-derry",
+      "tipo": "imagen",
+      "titulo": "IT: Bienvenidos a Derry",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0074"
+      },
+      "vtxIds": [
+        "VTX-0074"
+      ],
+      "carpeta": "POST/social/it-bienvenidos-a-derry",
+      "imagenes": [
+        {
+          "archivo": "POST/social/it-bienvenidos-a-derry/images/01-it-bienvenidos-a-derry.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0074"
+        },
+        {
+          "archivo": "POST/social/it-bienvenidos-a-derry/images/02-sinopsis-it-bienvenidos-a-derry.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/it-bienvenidos-a-derry/images/02-sinopsis-it-bienvenidos-a-derry.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/it-bienvenidos-a-derry/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "ju-on-origenes",
+      "tipo": "imagen",
+      "titulo": "Ju-On: Orígenes",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0075"
+      },
+      "vtxIds": [
+        "VTX-0075"
+      ],
+      "carpeta": "POST/social/ju-on-origenes",
+      "imagenes": [
+        {
+          "archivo": "POST/social/ju-on-origenes/images/01-ju-on-origenes.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0075"
+        },
+        {
+          "archivo": "POST/social/ju-on-origenes/images/02-sinopsis-ju-on-origenes.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/ju-on-origenes/images/02-sinopsis-ju-on-origenes.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/ju-on-origenes/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "juego-de-tronos",
+      "tipo": "imagen",
+      "titulo": "Juego de Tronos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0076"
+      },
+      "vtxIds": [
+        "VTX-0076"
+      ],
+      "carpeta": "POST/social/juego-de-tronos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/juego-de-tronos/images/01-juego-de-tronos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0076"
+        },
+        {
+          "archivo": "POST/social/juego-de-tronos/images/02-sinopsis-juego-de-tronos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/juego-de-tronos/images/02-sinopsis-juego-de-tronos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/juego-de-tronos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-caida-de-la-casa-usher",
+      "tipo": "imagen",
+      "titulo": "La Caída de la Casa Usher",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0077"
+      },
+      "vtxIds": [
+        "VTX-0077"
+      ],
+      "carpeta": "POST/social/la-caida-de-la-casa-usher",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-caida-de-la-casa-usher/images/01-la-caida-de-la-casa-usher.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0077"
+        },
+        {
+          "archivo": "POST/social/la-caida-de-la-casa-usher/images/02-sinopsis-la-caida-de-la-casa-usher.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-caida-de-la-casa-usher/images/02-sinopsis-la-caida-de-la-casa-usher.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-caida-de-la-casa-usher/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-casa-de-papel-corea",
+      "tipo": "imagen",
+      "titulo": "La Casa de Papel: Corea",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0079"
+      },
+      "vtxIds": [
+        "VTX-0079"
+      ],
+      "carpeta": "POST/social/la-casa-de-papel-corea",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-casa-de-papel-corea/images/01-la-casa-de-papel-corea.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0079"
+        },
+        {
+          "archivo": "POST/social/la-casa-de-papel-corea/images/02-sinopsis-la-casa-de-papel-corea.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-casa-de-papel-corea/images/02-sinopsis-la-casa-de-papel-corea.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-casa-de-papel-corea/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-casa-de-papel",
+      "tipo": "imagen",
+      "titulo": "La Casa de Papel",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0078"
+      },
+      "vtxIds": [
+        "VTX-0078"
+      ],
+      "carpeta": "POST/social/la-casa-de-papel",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-casa-de-papel/images/01-la-casa-de-papel.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0078"
+        },
+        {
+          "archivo": "POST/social/la-casa-de-papel/images/02-sinopsis-la-casa-de-papel.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-casa-de-papel/images/02-sinopsis-la-casa-de-papel.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-casa-de-papel/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-casa-del-dragon",
+      "tipo": "imagen",
+      "titulo": "La Casa del Dragón",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0080"
+      },
+      "vtxIds": [
+        "VTX-0080"
+      ],
+      "carpeta": "POST/social/la-casa-del-dragon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-casa-del-dragon/images/01-la-casa-del-dragon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0080"
+        },
+        {
+          "archivo": "POST/social/la-casa-del-dragon/images/02-sinopsis-la-casa-del-dragon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-casa-del-dragon/images/02-sinopsis-la-casa-del-dragon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-casa-del-dragon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-chica-enmascarada",
+      "tipo": "imagen",
+      "titulo": "La Chica Enmascarada",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0081"
+      },
+      "vtxIds": [
+        "VTX-0081"
+      ],
+      "carpeta": "POST/social/la-chica-enmascarada",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-chica-enmascarada/images/01-la-chica-enmascarada.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0081"
+        },
+        {
+          "archivo": "POST/social/la-chica-enmascarada/images/02-sinopsis-la-chica-enmascarada.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-chica-enmascarada/images/02-sinopsis-la-chica-enmascarada.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-chica-enmascarada/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-cosa-del-pantano",
+      "tipo": "imagen",
+      "titulo": "La Cosa del Pantano",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0082"
+      },
+      "vtxIds": [
+        "VTX-0082"
+      ],
+      "carpeta": "POST/social/la-cosa-del-pantano",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-cosa-del-pantano/images/01-la-cosa-del-pantano.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0082"
+        },
+        {
+          "archivo": "POST/social/la-cosa-del-pantano/images/02-sinopsis-la-cosa-del-pantano.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-cosa-del-pantano/images/02-sinopsis-la-cosa-del-pantano.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-cosa-del-pantano/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-maldicion-de-widow-s-bay",
+      "tipo": "imagen",
+      "titulo": "La Maldición de Widow's Bay",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0083"
+      },
+      "vtxIds": [
+        "VTX-0083"
+      ],
+      "carpeta": "POST/social/la-maldicion-de-widow-s-bay",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-maldicion-de-widow-s-bay/images/01-la-maldicion-de-widow-s-bay.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0083"
+        },
+        {
+          "archivo": "POST/social/la-maldicion-de-widow-s-bay/images/02-sinopsis-la-maldicion-de-widow-s-bay.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-maldicion-de-widow-s-bay/images/02-sinopsis-la-maldicion-de-widow-s-bay.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-maldicion-de-widow-s-bay/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "Título 2026 muy reciente. La sinopsis se mantuvo deliberadamente general (sin afirmar detalles de trama específicos) por no tener certeza suficiente sobre el argumento exacto — evita inventar trama."
+    },
+    {
+      "slug": "la-materia-oscura",
+      "tipo": "imagen",
+      "titulo": "La Materia Oscura",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0084"
+      },
+      "vtxIds": [
+        "VTX-0084"
+      ],
+      "carpeta": "POST/social/la-materia-oscura",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-materia-oscura/images/01-la-materia-oscura.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0084"
+        },
+        {
+          "archivo": "POST/social/la-materia-oscura/images/02-sinopsis-la-materia-oscura.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-materia-oscura/images/02-sinopsis-la-materia-oscura.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-materia-oscura/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "la-periferia-conexion-al-futuro",
+      "tipo": "imagen",
+      "titulo": "La Periferia: Conexión al Futuro",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0085"
+      },
+      "vtxIds": [
+        "VTX-0085"
+      ],
+      "carpeta": "POST/social/la-periferia-conexion-al-futuro",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-periferia-conexion-al-futuro/images/01-la-periferia-conexion-al-futuro.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0085"
+        },
+        {
+          "archivo": "POST/social/la-periferia-conexion-al-futuro/images/02-sinopsis-la-periferia-conexion-al-futuro.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-periferia-conexion-al-futuro/images/02-sinopsis-la-periferia-conexion-al-futuro.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-periferia-conexion-al-futuro/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
       "slug": "la-purga",
       "tipo": "carrusel",
       "titulo": "La Purga",
@@ -2171,6 +3429,84 @@
       "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
     },
     {
+      "slug": "la-teoria-del-big-bang",
+      "tipo": "imagen",
+      "titulo": "La Teoría del Big Bang",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0086"
+      },
+      "vtxIds": [
+        "VTX-0086"
+      ],
+      "carpeta": "POST/social/la-teoria-del-big-bang",
+      "imagenes": [
+        {
+          "archivo": "POST/social/la-teoria-del-big-bang/images/01-la-teoria-del-big-bang.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0086"
+        },
+        {
+          "archivo": "POST/social/la-teoria-del-big-bang/images/02-sinopsis-la-teoria-del-big-bang.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/la-teoria-del-big-bang/images/02-sinopsis-la-teoria-del-big-bang.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/la-teoria-del-big-bang/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "las-aventuras-del-suspenso",
+      "tipo": "imagen",
+      "titulo": "Las Aventuras del Suspenso",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0087"
+      },
+      "vtxIds": [
+        "VTX-0087"
+      ],
+      "carpeta": "POST/social/las-aventuras-del-suspenso",
+      "imagenes": [
+        {
+          "archivo": "POST/social/las-aventuras-del-suspenso/images/01-las-aventuras-del-suspenso.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0087"
+        },
+        {
+          "archivo": "POST/social/las-aventuras-del-suspenso/images/02-sinopsis-las-aventuras-del-suspenso.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/las-aventuras-del-suspenso/images/02-sinopsis-las-aventuras-del-suspenso.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/las-aventuras-del-suspenso/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
       "slug": "le-temes-a-la-oscuridad",
       "tipo": "imagen",
       "titulo": "¿Le Temes a la Oscuridad?",
@@ -2200,6 +3536,1020 @@
       "texto": {
         "creado": true,
         "archivo": "POST/social/le-temes-a-la-oscuridad/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "loki",
+      "tipo": "imagen",
+      "titulo": "Loki",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0088"
+      },
+      "vtxIds": [
+        "VTX-0088"
+      ],
+      "carpeta": "POST/social/loki",
+      "imagenes": [
+        {
+          "archivo": "POST/social/loki/images/01-loki.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0088"
+        },
+        {
+          "archivo": "POST/social/loki/images/02-sinopsis-loki.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/loki/images/02-sinopsis-loki.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/loki/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "los-100",
+      "tipo": "imagen",
+      "titulo": "Los 100",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0089"
+      },
+      "vtxIds": [
+        "VTX-0089"
+      ],
+      "carpeta": "POST/social/los-100",
+      "imagenes": [
+        {
+          "archivo": "POST/social/los-100/images/01-los-100.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0089"
+        },
+        {
+          "archivo": "POST/social/los-100/images/02-sinopsis-los-100.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/los-100/images/02-sinopsis-los-100.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/los-100/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "los-informaticos",
+      "tipo": "imagen",
+      "titulo": "Los Informáticos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0090"
+      },
+      "vtxIds": [
+        "VTX-0090"
+      ],
+      "carpeta": "POST/social/los-informaticos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/los-informaticos/images/01-los-informaticos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0090"
+        },
+        {
+          "archivo": "POST/social/los-informaticos/images/02-sinopsis-los-informaticos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/los-informaticos/images/02-sinopsis-los-informaticos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/los-informaticos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "los-simpson",
+      "tipo": "imagen",
+      "titulo": "Los Simpson",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0091"
+      },
+      "vtxIds": [
+        "VTX-0091"
+      ],
+      "carpeta": "POST/social/los-simpson",
+      "imagenes": [
+        {
+          "archivo": "POST/social/los-simpson/images/01-los-simpson.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0091"
+        },
+        {
+          "archivo": "POST/social/los-simpson/images/02-sinopsis-los-simpson.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/los-simpson/images/02-sinopsis-los-simpson.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/los-simpson/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "Catálogo marca estado Incompleto: falta el capítulo 13 de la temporada 28, y faltan las temporadas 34 a 38. El caption no promete la serie completa."
+    },
+    {
+      "slug": "los-soprano",
+      "tipo": "imagen",
+      "titulo": "Los Soprano",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0092"
+      },
+      "vtxIds": [
+        "VTX-0092"
+      ],
+      "carpeta": "POST/social/los-soprano",
+      "imagenes": [
+        {
+          "archivo": "POST/social/los-soprano/images/01-los-soprano.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0092"
+        },
+        {
+          "archivo": "POST/social/los-soprano/images/02-sinopsis-los-soprano.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/los-soprano/images/02-sinopsis-los-soprano.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/los-soprano/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "lost",
+      "tipo": "imagen",
+      "titulo": "Lost",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0093"
+      },
+      "vtxIds": [
+        "VTX-0093"
+      ],
+      "carpeta": "POST/social/lost",
+      "imagenes": [
+        {
+          "archivo": "POST/social/lost/images/01-lost.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0093"
+        },
+        {
+          "archivo": "POST/social/lost/images/02-sinopsis-lost.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/lost/images/02-sinopsis-lost.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/lost/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "love-death-robots",
+      "tipo": "imagen",
+      "titulo": "Love, Death & Robots",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0094"
+      },
+      "vtxIds": [
+        "VTX-0094"
+      ],
+      "carpeta": "POST/social/love-death-robots",
+      "imagenes": [
+        {
+          "archivo": "POST/social/love-death-robots/images/01-love-death-robots.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0094"
+        },
+        {
+          "archivo": "POST/social/love-death-robots/images/02-sinopsis-love-death-robots.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/love-death-robots/images/02-sinopsis-love-death-robots.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/love-death-robots/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "magicians",
+      "tipo": "imagen",
+      "titulo": "Magicians",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0095"
+      },
+      "vtxIds": [
+        "VTX-0095"
+      ],
+      "carpeta": "POST/social/magicians",
+      "imagenes": [
+        {
+          "archivo": "POST/social/magicians/images/01-magicians.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0095"
+        },
+        {
+          "archivo": "POST/social/magicians/images/02-sinopsis-magicians.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/magicians/images/02-sinopsis-magicians.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/magicians/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "mcgregor-forever",
+      "tipo": "imagen",
+      "titulo": "McGregor Forever",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0096"
+      },
+      "vtxIds": [
+        "VTX-0096"
+      ],
+      "carpeta": "POST/social/mcgregor-forever",
+      "imagenes": [
+        {
+          "archivo": "POST/social/mcgregor-forever/images/01-mcgregor-forever.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0096"
+        },
+        {
+          "archivo": "POST/social/mcgregor-forever/images/02-sinopsis-mcgregor-forever.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/mcgregor-forever/images/02-sinopsis-mcgregor-forever.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/mcgregor-forever/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "merli-sapere-aude",
+      "tipo": "imagen",
+      "titulo": "Merlí. Sapere Aude",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0097"
+      },
+      "vtxIds": [
+        "VTX-0097"
+      ],
+      "carpeta": "POST/social/merli-sapere-aude",
+      "imagenes": [
+        {
+          "archivo": "POST/social/merli-sapere-aude/images/01-merli-sapere-aude.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0097"
+        },
+        {
+          "archivo": "POST/social/merli-sapere-aude/images/02-sinopsis-merli-sapere-aude.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/merli-sapere-aude/images/02-sinopsis-merli-sapere-aude.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/merli-sapere-aude/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "merlina",
+      "tipo": "imagen",
+      "titulo": "Merlina",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0098"
+      },
+      "vtxIds": [
+        "VTX-0098"
+      ],
+      "carpeta": "POST/social/merlina",
+      "imagenes": [
+        {
+          "archivo": "POST/social/merlina/images/01-merlina.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0098"
+        },
+        {
+          "archivo": "POST/social/merlina/images/02-sinopsis-merlina.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/merlina/images/02-sinopsis-merlina.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/merlina/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "monstruo-la-historia-de-ed-gein",
+      "tipo": "imagen",
+      "titulo": "Monstruo: La Historia de Ed Gein",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0099"
+      },
+      "vtxIds": [
+        "VTX-0099"
+      ],
+      "carpeta": "POST/social/monstruo-la-historia-de-ed-gein",
+      "imagenes": [
+        {
+          "archivo": "POST/social/monstruo-la-historia-de-ed-gein/images/01-monstruo-la-historia-de-ed-gein.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0099"
+        },
+        {
+          "archivo": "POST/social/monstruo-la-historia-de-ed-gein/images/02-sinopsis-monstruo-la-historia-de-ed-gein.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/monstruo-la-historia-de-ed-gein/images/02-sinopsis-monstruo-la-historia-de-ed-gein.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/monstruo-la-historia-de-ed-gein/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "motherland-fort-salem",
+      "tipo": "imagen",
+      "titulo": "Motherland: Fort Salem",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0100"
+      },
+      "vtxIds": [
+        "VTX-0100"
+      ],
+      "carpeta": "POST/social/motherland-fort-salem",
+      "imagenes": [
+        {
+          "archivo": "POST/social/motherland-fort-salem/images/01-motherland-fort-salem.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0100"
+        },
+        {
+          "archivo": "POST/social/motherland-fort-salem/images/02-sinopsis-motherland-fort-salem.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/motherland-fort-salem/images/02-sinopsis-motherland-fort-salem.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/motherland-fort-salem/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": "Catálogo marca estado Incompleto: falta la temporada 3. El caption no promete la serie completa."
+    },
+    {
+      "slug": "mr-bean",
+      "tipo": "imagen",
+      "titulo": "Mr. Bean",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0101"
+      },
+      "vtxIds": [
+        "VTX-0101"
+      ],
+      "carpeta": "POST/social/mr-bean",
+      "imagenes": [
+        {
+          "archivo": "POST/social/mr-bean/images/01-mr-bean.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0101"
+        },
+        {
+          "archivo": "POST/social/mr-bean/images/02-sinopsis-mr-bean.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/mr-bean/images/02-sinopsis-mr-bean.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/mr-bean/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "mr-robot",
+      "tipo": "imagen",
+      "titulo": "Mr. Robot",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0102"
+      },
+      "vtxIds": [
+        "VTX-0102"
+      ],
+      "carpeta": "POST/social/mr-robot",
+      "imagenes": [
+        {
+          "archivo": "POST/social/mr-robot/images/01-mr-robot.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0102"
+        },
+        {
+          "archivo": "POST/social/mr-robot/images/02-sinopsis-mr-robot.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/mr-robot/images/02-sinopsis-mr-robot.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/mr-robot/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "new-amsterdam",
+      "tipo": "imagen",
+      "titulo": "New Amsterdam",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0103"
+      },
+      "vtxIds": [
+        "VTX-0103"
+      ],
+      "carpeta": "POST/social/new-amsterdam",
+      "imagenes": [
+        {
+          "archivo": "POST/social/new-amsterdam/images/01-new-amsterdam.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0103"
+        },
+        {
+          "archivo": "POST/social/new-amsterdam/images/02-sinopsis-new-amsterdam.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/new-amsterdam/images/02-sinopsis-new-amsterdam.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/new-amsterdam/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "obi-wan-kenobi",
+      "tipo": "imagen",
+      "titulo": "Obi-Wan Kenobi",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0104"
+      },
+      "vtxIds": [
+        "VTX-0104"
+      ],
+      "carpeta": "POST/social/obi-wan-kenobi",
+      "imagenes": [
+        {
+          "archivo": "POST/social/obi-wan-kenobi/images/01-obi-wan-kenobi.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0104"
+        },
+        {
+          "archivo": "POST/social/obi-wan-kenobi/images/02-sinopsis-obi-wan-kenobi.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/obi-wan-kenobi/images/02-sinopsis-obi-wan-kenobi.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/obi-wan-kenobi/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "ojo-de-halcon",
+      "tipo": "imagen",
+      "titulo": "Ojo de Halcón",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0105"
+      },
+      "vtxIds": [
+        "VTX-0105"
+      ],
+      "carpeta": "POST/social/ojo-de-halcon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/ojo-de-halcon/images/01-ojo-de-halcon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0105"
+        },
+        {
+          "archivo": "POST/social/ojo-de-halcon/images/02-sinopsis-ojo-de-halcon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/ojo-de-halcon/images/02-sinopsis-ojo-de-halcon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/ojo-de-halcon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "olive-kitteridge",
+      "tipo": "imagen",
+      "titulo": "Olive Kitteridge",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0106"
+      },
+      "vtxIds": [
+        "VTX-0106"
+      ],
+      "carpeta": "POST/social/olive-kitteridge",
+      "imagenes": [
+        {
+          "archivo": "POST/social/olive-kitteridge/images/01-olive-kitteridge.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0106"
+        },
+        {
+          "archivo": "POST/social/olive-kitteridge/images/02-sinopsis-olive-kitteridge.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/olive-kitteridge/images/02-sinopsis-olive-kitteridge.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/olive-kitteridge/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "one-piece",
+      "tipo": "imagen",
+      "titulo": "One Piece",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0107"
+      },
+      "vtxIds": [
+        "VTX-0107"
+      ],
+      "carpeta": "POST/social/one-piece",
+      "imagenes": [
+        {
+          "archivo": "POST/social/one-piece/images/01-one-piece.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0107"
+        },
+        {
+          "archivo": "POST/social/one-piece/images/02-sinopsis-one-piece.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/one-piece/images/02-sinopsis-one-piece.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/one-piece/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "orange-is-the-new-black",
+      "tipo": "imagen",
+      "titulo": "Orange Is the New Black",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0108"
+      },
+      "vtxIds": [
+        "VTX-0108"
+      ],
+      "carpeta": "POST/social/orange-is-the-new-black",
+      "imagenes": [
+        {
+          "archivo": "POST/social/orange-is-the-new-black/images/01-orange-is-the-new-black.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0108"
+        },
+        {
+          "archivo": "POST/social/orange-is-the-new-black/images/02-sinopsis-orange-is-the-new-black.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/orange-is-the-new-black/images/02-sinopsis-orange-is-the-new-black.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/orange-is-the-new-black/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "orphan-black",
+      "tipo": "imagen",
+      "titulo": "Orphan Black",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0109"
+      },
+      "vtxIds": [
+        "VTX-0109"
+      ],
+      "carpeta": "POST/social/orphan-black",
+      "imagenes": [
+        {
+          "archivo": "POST/social/orphan-black/images/01-orphan-black.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0109"
+        },
+        {
+          "archivo": "POST/social/orphan-black/images/02-sinopsis-orphan-black.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/orphan-black/images/02-sinopsis-orphan-black.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/orphan-black/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "ozark",
+      "tipo": "imagen",
+      "titulo": "Ozark",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0110"
+      },
+      "vtxIds": [
+        "VTX-0110"
+      ],
+      "carpeta": "POST/social/ozark",
+      "imagenes": [
+        {
+          "archivo": "POST/social/ozark/images/01-ozark.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0110"
+        },
+        {
+          "archivo": "POST/social/ozark/images/02-sinopsis-ozark.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/ozark/images/02-sinopsis-ozark.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/ozark/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "pablo-escobar-el-patron-del-mal",
+      "tipo": "imagen",
+      "titulo": "Pablo Escobar, el Patrón del Mal",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0111"
+      },
+      "vtxIds": [
+        "VTX-0111"
+      ],
+      "carpeta": "POST/social/pablo-escobar-el-patron-del-mal",
+      "imagenes": [
+        {
+          "archivo": "POST/social/pablo-escobar-el-patron-del-mal/images/01-pablo-escobar-el-patron-del-mal.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0111"
+        },
+        {
+          "archivo": "POST/social/pablo-escobar-el-patron-del-mal/images/02-sinopsis-pablo-escobar-el-patron-del-mal.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/pablo-escobar-el-patron-del-mal/images/02-sinopsis-pablo-escobar-el-patron-del-mal.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/pablo-escobar-el-patron-del-mal/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "peaky-blinders",
+      "tipo": "imagen",
+      "titulo": "Peaky Blinders",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0112"
+      },
+      "vtxIds": [
+        "VTX-0112"
+      ],
+      "carpeta": "POST/social/peaky-blinders",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peaky-blinders/images/01-peaky-blinders.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0112"
+        },
+        {
+          "archivo": "POST/social/peaky-blinders/images/02-sinopsis-peaky-blinders.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peaky-blinders/images/02-sinopsis-peaky-blinders.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peaky-blinders/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "por-que-matan-las-mujeres",
+      "tipo": "imagen",
+      "titulo": "Por Qué Matan las Mujeres",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0113"
+      },
+      "vtxIds": [
+        "VTX-0113"
+      ],
+      "carpeta": "POST/social/por-que-matan-las-mujeres",
+      "imagenes": [
+        {
+          "archivo": "POST/social/por-que-matan-las-mujeres/images/01-por-que-matan-las-mujeres.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0113"
+        },
+        {
+          "archivo": "POST/social/por-que-matan-las-mujeres/images/02-sinopsis-por-que-matan-las-mujeres.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/por-que-matan-las-mujeres/images/02-sinopsis-por-que-matan-las-mujeres.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/por-que-matan-las-mujeres/post.txt"
       },
       "publicado": {
         "hecho": false,
@@ -2672,6 +5022,486 @@
       "coleccion": null,
       "piezas": [
         "eso"
+      ]
+    },
+    {
+      "vtxId": "VTX-0054",
+      "titulo": "Estamos Muertos",
+      "coleccion": null,
+      "piezas": [
+        "estamos-muertos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0055",
+      "titulo": "Este Mundo No Me Hará Mala Persona",
+      "coleccion": null,
+      "piezas": [
+        "este-mundo-no-me-hara-mala-persona"
+      ]
+    },
+    {
+      "vtxId": "VTX-0056",
+      "titulo": "Euphoria",
+      "coleccion": null,
+      "piezas": [
+        "euphoria"
+      ]
+    },
+    {
+      "vtxId": "VTX-0057",
+      "titulo": "Falcon y el Soldado del Invierno",
+      "coleccion": null,
+      "piezas": [
+        "falcon-y-el-soldado-del-invierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-0058",
+      "titulo": "Fear the Walking Dead",
+      "coleccion": "The Walking Dead",
+      "piezas": [
+        "fear-the-walking-dead"
+      ]
+    },
+    {
+      "vtxId": "VTX-0059",
+      "titulo": "Flash",
+      "coleccion": null,
+      "piezas": [
+        "flash"
+      ]
+    },
+    {
+      "vtxId": "VTX-0060",
+      "titulo": "Friends",
+      "coleccion": null,
+      "piezas": [
+        "friends"
+      ]
+    },
+    {
+      "vtxId": "VTX-0061",
+      "titulo": "From",
+      "coleccion": null,
+      "piezas": [
+        "from"
+      ]
+    },
+    {
+      "vtxId": "VTX-0062",
+      "titulo": "Fuga en Dannemora",
+      "coleccion": null,
+      "piezas": [
+        "fuga-en-dannemora"
+      ]
+    },
+    {
+      "vtxId": "VTX-0063",
+      "titulo": "Futurama",
+      "coleccion": null,
+      "piezas": [
+        "futurama"
+      ]
+    },
+    {
+      "vtxId": "VTX-0064",
+      "titulo": "Gambito de Dama",
+      "coleccion": null,
+      "piezas": [
+        "gambito-de-dama"
+      ]
+    },
+    {
+      "vtxId": "VTX-0065",
+      "titulo": "Genius: Einstein",
+      "coleccion": null,
+      "piezas": [
+        "genius"
+      ]
+    },
+    {
+      "vtxId": "VTX-0066",
+      "titulo": "Gul",
+      "coleccion": null,
+      "piezas": [
+        "gul"
+      ]
+    },
+    {
+      "vtxId": "VTX-0067",
+      "titulo": "Halo",
+      "coleccion": null,
+      "piezas": [
+        "halo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0068",
+      "titulo": "Helstrom",
+      "coleccion": null,
+      "piezas": [
+        "helstrom"
+      ]
+    },
+    {
+      "vtxId": "VTX-0069",
+      "titulo": "Hermanos de Sangre",
+      "coleccion": null,
+      "piezas": [
+        "hermanos-de-sangre"
+      ]
+    },
+    {
+      "vtxId": "VTX-0070",
+      "titulo": "Insania",
+      "coleccion": null,
+      "piezas": [
+        "insania"
+      ]
+    },
+    {
+      "vtxId": "VTX-0071",
+      "titulo": "Invasión",
+      "coleccion": null,
+      "piezas": [
+        "invasion"
+      ]
+    },
+    {
+      "vtxId": "VTX-0072",
+      "titulo": "Invasión Secreta",
+      "coleccion": null,
+      "piezas": [
+        "invasion-secreta"
+      ]
+    },
+    {
+      "vtxId": "VTX-0073",
+      "titulo": "Invencible",
+      "coleccion": null,
+      "piezas": [
+        "invencible"
+      ]
+    },
+    {
+      "vtxId": "VTX-0074",
+      "titulo": "IT: Bienvenidos a Derry",
+      "coleccion": null,
+      "piezas": [
+        "it-bienvenidos-a-derry"
+      ]
+    },
+    {
+      "vtxId": "VTX-0075",
+      "titulo": "Ju-On: Origenes",
+      "coleccion": null,
+      "piezas": [
+        "ju-on-origenes"
+      ]
+    },
+    {
+      "vtxId": "VTX-0076",
+      "titulo": "Juego de Tronos",
+      "coleccion": null,
+      "piezas": [
+        "juego-de-tronos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0077",
+      "titulo": "La Caída de la Casa Usher",
+      "coleccion": null,
+      "piezas": [
+        "la-caida-de-la-casa-usher"
+      ]
+    },
+    {
+      "vtxId": "VTX-0078",
+      "titulo": "La Casa de Papel",
+      "coleccion": null,
+      "piezas": [
+        "la-casa-de-papel"
+      ]
+    },
+    {
+      "vtxId": "VTX-0079",
+      "titulo": "La Casa de Papel: Corea",
+      "coleccion": null,
+      "piezas": [
+        "la-casa-de-papel-corea"
+      ]
+    },
+    {
+      "vtxId": "VTX-0080",
+      "titulo": "La Casa del Dragón",
+      "coleccion": null,
+      "piezas": [
+        "la-casa-del-dragon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0081",
+      "titulo": "La Chica Enmascarada",
+      "coleccion": null,
+      "piezas": [
+        "la-chica-enmascarada"
+      ]
+    },
+    {
+      "vtxId": "VTX-0082",
+      "titulo": "La Cosa del Pantano",
+      "coleccion": null,
+      "piezas": [
+        "la-cosa-del-pantano"
+      ]
+    },
+    {
+      "vtxId": "VTX-0083",
+      "titulo": "La Maldición de Widow's Bay",
+      "coleccion": null,
+      "piezas": [
+        "la-maldicion-de-widow-s-bay"
+      ]
+    },
+    {
+      "vtxId": "VTX-0084",
+      "titulo": "La Materia Oscura",
+      "coleccion": null,
+      "piezas": [
+        "la-materia-oscura"
+      ]
+    },
+    {
+      "vtxId": "VTX-0085",
+      "titulo": "La Periferia: Conexión al Futuro",
+      "coleccion": null,
+      "piezas": [
+        "la-periferia-conexion-al-futuro"
+      ]
+    },
+    {
+      "vtxId": "VTX-0086",
+      "titulo": "La Teoría del Big Bang",
+      "coleccion": null,
+      "piezas": [
+        "la-teoria-del-big-bang"
+      ]
+    },
+    {
+      "vtxId": "VTX-0087",
+      "titulo": "Las Aventuras del Suspenso",
+      "coleccion": null,
+      "piezas": [
+        "las-aventuras-del-suspenso"
+      ]
+    },
+    {
+      "vtxId": "VTX-0088",
+      "titulo": "Loki",
+      "coleccion": null,
+      "piezas": [
+        "loki"
+      ]
+    },
+    {
+      "vtxId": "VTX-0089",
+      "titulo": "Los 100",
+      "coleccion": null,
+      "piezas": [
+        "los-100"
+      ]
+    },
+    {
+      "vtxId": "VTX-0090",
+      "titulo": "Los Informáticos",
+      "coleccion": null,
+      "piezas": [
+        "los-informaticos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0091",
+      "titulo": "Los Simpson",
+      "coleccion": null,
+      "piezas": [
+        "los-simpson"
+      ]
+    },
+    {
+      "vtxId": "VTX-0092",
+      "titulo": "Los Soprano",
+      "coleccion": null,
+      "piezas": [
+        "los-soprano"
+      ]
+    },
+    {
+      "vtxId": "VTX-0093",
+      "titulo": "Lost",
+      "coleccion": null,
+      "piezas": [
+        "lost"
+      ]
+    },
+    {
+      "vtxId": "VTX-0094",
+      "titulo": "Love, Death & Robots",
+      "coleccion": null,
+      "piezas": [
+        "love-death-robots"
+      ]
+    },
+    {
+      "vtxId": "VTX-0095",
+      "titulo": "Magicians",
+      "coleccion": null,
+      "piezas": [
+        "magicians"
+      ]
+    },
+    {
+      "vtxId": "VTX-0096",
+      "titulo": "Mcgregor Forever",
+      "coleccion": null,
+      "piezas": [
+        "mcgregor-forever"
+      ]
+    },
+    {
+      "vtxId": "VTX-0097",
+      "titulo": "Merlí. Sapere Aude",
+      "coleccion": null,
+      "piezas": [
+        "merli-sapere-aude"
+      ]
+    },
+    {
+      "vtxId": "VTX-0098",
+      "titulo": "Merlina",
+      "coleccion": null,
+      "piezas": [
+        "merlina"
+      ]
+    },
+    {
+      "vtxId": "VTX-0099",
+      "titulo": "Monstruo: La Historia de Ed Gein",
+      "coleccion": null,
+      "piezas": [
+        "monstruo-la-historia-de-ed-gein"
+      ]
+    },
+    {
+      "vtxId": "VTX-0100",
+      "titulo": "Motherland: Fort Salem",
+      "coleccion": null,
+      "piezas": [
+        "motherland-fort-salem"
+      ]
+    },
+    {
+      "vtxId": "VTX-0101",
+      "titulo": "Mr. Bean",
+      "coleccion": null,
+      "piezas": [
+        "mr-bean"
+      ]
+    },
+    {
+      "vtxId": "VTX-0102",
+      "titulo": "Mr. Robot",
+      "coleccion": null,
+      "piezas": [
+        "mr-robot"
+      ]
+    },
+    {
+      "vtxId": "VTX-0103",
+      "titulo": "New Amsterdam",
+      "coleccion": null,
+      "piezas": [
+        "new-amsterdam"
+      ]
+    },
+    {
+      "vtxId": "VTX-0104",
+      "titulo": "Obi-Wan Kenobi",
+      "coleccion": null,
+      "piezas": [
+        "obi-wan-kenobi"
+      ]
+    },
+    {
+      "vtxId": "VTX-0105",
+      "titulo": "Ojo de Halcón",
+      "coleccion": null,
+      "piezas": [
+        "ojo-de-halcon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0106",
+      "titulo": "Olive Kitteridge",
+      "coleccion": null,
+      "piezas": [
+        "olive-kitteridge"
+      ]
+    },
+    {
+      "vtxId": "VTX-0107",
+      "titulo": "One Piece",
+      "coleccion": null,
+      "piezas": [
+        "one-piece"
+      ]
+    },
+    {
+      "vtxId": "VTX-0108",
+      "titulo": "Orange Is the New Black",
+      "coleccion": null,
+      "piezas": [
+        "orange-is-the-new-black"
+      ]
+    },
+    {
+      "vtxId": "VTX-0109",
+      "titulo": "Orphan Black",
+      "coleccion": null,
+      "piezas": [
+        "orphan-black"
+      ]
+    },
+    {
+      "vtxId": "VTX-0110",
+      "titulo": "Ozark",
+      "coleccion": null,
+      "piezas": [
+        "ozark"
+      ]
+    },
+    {
+      "vtxId": "VTX-0111",
+      "titulo": "Pablo Escobar, el Patrón del Mal",
+      "coleccion": null,
+      "piezas": [
+        "pablo-escobar-el-patron-del-mal"
+      ]
+    },
+    {
+      "vtxId": "VTX-0112",
+      "titulo": "Peaky Blinders",
+      "coleccion": "Peaky Blinders",
+      "piezas": [
+        "peaky-blinders"
+      ]
+    },
+    {
+      "vtxId": "VTX-0113",
+      "titulo": "Por Qué Matan las Mujeres",
+      "coleccion": null,
+      "piezas": [
+        "por-que-matan-las-mujeres"
       ]
     },
     {

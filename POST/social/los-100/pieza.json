@@ -1,0 +1,41 @@
+{
+  "slug": "los-100",
+  "tipo": "imagen",
+  "titulo": "Los 100",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0089"
+  },
+  "vtxIds": [
+    "VTX-0089"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/los-100/images/01-los-100.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0089"
+    },
+    {
+      "archivo": "POST/social/los-100/images/02-sinopsis-los-100.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/los-100"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/los-100/images/02-sinopsis-los-100.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/los-100/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

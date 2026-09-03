@@ -1,0 +1,41 @@
+{
+  "slug": "la-casa-de-papel",
+  "tipo": "imagen",
+  "titulo": "La Casa de Papel",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0078"
+  },
+  "vtxIds": [
+    "VTX-0078"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/la-casa-de-papel/images/01-la-casa-de-papel.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0078"
+    },
+    {
+      "archivo": "POST/social/la-casa-de-papel/images/02-sinopsis-la-casa-de-papel.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-casa-de-papel"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/la-casa-de-papel/images/02-sinopsis-la-casa-de-papel.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/la-casa-de-papel/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
