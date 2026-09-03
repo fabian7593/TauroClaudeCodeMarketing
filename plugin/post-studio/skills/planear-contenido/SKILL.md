@@ -40,7 +40,7 @@ Si ya hay pieza para esos `vtxIds`, avisale al usuario antes de duplicar trabajo
 |---|---|
 | **Película suelta** (sin colección) | 1 pieza: imagen individual |
 | **Serie de historia continua** (Breaking Bad, The Big Bang Theory) | 1 pieza: imagen individual. **No** dividir por temporada: es la misma historia, una imagen por temporada no aporta nada |
-| **Serie antológica** (cada temporada es una historia distinta: American Horror Story) | 1 pieza: **carrusel de temporadas**, una imagen por temporada, cada una con su propio póster |
+| **Serie antológica** (cada temporada es una historia distinta: American Horror Story) | 1 pieza: **carrusel de temporadas con TODAS las temporadas**, una imagen por temporada, cada una con su propio póster — **no se curan a 3-4** como las colecciones de películas grandes; eso solo aplica a la tira de la ficha de sinopsis (ver abajo), nunca al carrusel de arte |
 | **Varias series de la misma franquicia** (las 7 de Digimon, las de The Walking Dead) | **Una pieza por serie, cada una con su propio póster.** Las series NO se agrupan en un carrusel de franquicia: cada serie tiene su público, su época y su arte, y merece su propio post |
 | **Varias películas de la misma colección** (las 5 de La Purga, las de El Juego del Miedo) | 1 pieza: **carrusel de películas**, en orden cronológico |
 | **Serie + películas de la misma franquicia** (Evangelion, La Purga) | **Piezas separadas**: cada serie por su lado, y las películas juntas en un carrusel aparte. Nunca mezclar serie y películas en el mismo carrusel |

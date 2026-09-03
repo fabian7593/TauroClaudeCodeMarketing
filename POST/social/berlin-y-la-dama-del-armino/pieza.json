@@ -1,0 +1,42 @@
+{
+  "slug": "berlin-y-la-dama-del-armino",
+  "tipo": "imagen",
+  "titulo": "Berlín y la Dama del Armiño",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0017"
+  },
+  "vtxIds": [
+    "VTX-0017"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/berlin-y-la-dama-del-armino/images/01-berlin-y-la-dama-del-armino.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0017"
+    },
+    {
+      "archivo": "POST/social/berlin-y-la-dama-del-armino/images/02-sinopsis-berlin-y-la-dama-del-armino.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/berlin-y-la-dama-del-armino"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/berlin-y-la-dama-del-armino/images/02-sinopsis-berlin-y-la-dama-del-armino.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/berlin-y-la-dama-del-armino/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Título 2026 muy reciente/anunciado. La sinopsis se mantuvo deliberadamente general (sin afirmar detalles de trama específicos, como el objetivo puntual del robo) por no tener certeza suficiente sobre el argumento exacto — evita inventar trama."
+}

@@ -4,9 +4,10 @@
 Bankai+ es el servicio B2C de streaming de VORTEX TV, dirigido a Costa Rica y el mercado LATAM de habla hispana. Servicio de streaming legal, tecnología neutral, catálogo de 1,000+ títulos (series, películas, anime, infantil).
 
 ## Planes
-- Basic: ₡3,000/mes
+- Basic: $6/mes (USD)
 - Standard: ₡4,500/mes
 - Family: ₡6,000/mes
+- El precio "desde" que se usa en los posts (el más barato, Basic) va en USD con signo $. Standard y Family quedan en colones hasta que se confirme su conversión — no inventar ese tipo de cambio.
 
 ## Tono de comunicación
 - Español costarricense casual, conjugación "vos"
@@ -15,7 +16,7 @@ Bankai+ es el servicio B2C de streaming de VORTEX TV, dirigido a Costa Rica y el
 
 ## Reglas estrictas (NO NEGOCIABLES)
 1. NUNCA mencionar Netflix, HBO Max, Disney+, Prime Video u otras plataformas de streaming en posts orgánicos de Instagram/Facebook/TikTok/YouTube. (Comparación directa SÍ permitida en flyers, FAQs y WhatsApp — pero no en estos posts).
-2. CTA fijo de cierre en todo post: "📲 Para más información de dónde verla, escríbenos al DM 👆"
+2. CTA fijo en todo post: "👉 ¿Querés verla hoy mismo? Escribinos al DM o entrá a bankaiplus.com" (va cerca del principio del post, no al final — ver estructura abajo). No se agrega ningún otro CTA además de este.
 3. Nunca prometer dispositivos no soportados. No existe función de "cast"/mirroring desde el celular — la app se instala directo (por APK o Play Store) en cada dispositivo. Dispositivos compatibles hoy: Smart TV/Box con Android TV, Chromecast con Google TV (instalando la app directo en el dispositivo), Amazon Fire TV Stick, celular/tablet Android, pantallas automotrices. NO compatible todavía: Roku, Samsung/LG nativo, iOS (próximamente).
 
 ## Filas de audio/subtítulos en las imágenes
@@ -32,7 +33,7 @@ Las imágenes de post llevan filas de info técnica. Se llenan con datos del cat
 ## Estructura fija de post (Instagram/Facebook)
 1. Título del show/película/saga (primera línea, para saber de qué se habla sin leer todo)
 2. Hook emocional (1-2 líneas que paren el scroll)
-3. CTA agresivo inmediato: "👉 ¿Querés verla hoy mismo? Escribinos al DM o entrá a bankaiplus.com y en minutos estás viendo. 📲"
+3. CTA fijo: "👉 ¿Querés verla hoy mismo? Escribinos al DM o entrá a bankaiplus.com" (tal cual, sin agregar nada al final)
 4. Info técnica: 🎧 Audios disponibles | 📺 Subtítulos disponibles
 5. Descripción del show (2-3 líneas humanas, cercanas, sin sonar a IA) — informada por los datos reales del catálogo: año/antigüedad, puntaje, clasificación por edad, temporadas
 6. Clasificación por edad en una línea corta y amena: "Apta para toda la familia", "Apta de 7 años en adelante", "Apta para mayores de 13", "Apta para mayores de 18" — nunca advertencias ni sermones

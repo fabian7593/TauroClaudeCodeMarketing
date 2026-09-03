@@ -1,12 +1,13 @@
-POST/social/*
+# Fuentes descargadas (posters de TMDB, videos fuente): regenerables, pesan
+# mucho y no son lo que se publica. POST/social/ SI se versiona completo —
+# ahi vive lo que realmente se publica (imagenes, post.txt, pieza.json).
+POST/assets/posters/*
 POST/assets/videos/*
 
-# Dentro de social/ se ignoran los binarios pesados (PNG/MP4), pero SI se versiona
-# la ficha de cada pieza: es el estado de produccion y pesa nada.
-!POST/social/*/
-POST/social/*/**
-!POST/social/*/pieza.json
-!POST/social/*/post.txt
+# Ningun video va al repo, ni siquiera los reels ya terminados (pesan demasiado
+# para git). Todo lo demas de social/ (imagenes PNG, post.txt, pieza.json) SI.
+*.mp4
+POST/social/*/reels/*
 
 # Catalogo maestro y su espejo local: datos regenerables y pesados. Se rehacen
 # con /cmd-catalogo a partir del Excel, asi que no van al repo.

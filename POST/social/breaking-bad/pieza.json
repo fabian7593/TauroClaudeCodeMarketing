@@ -1,0 +1,41 @@
+{
+  "slug": "breaking-bad",
+  "tipo": "imagen",
+  "titulo": "Breaking Bad",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0021"
+  },
+  "vtxIds": [
+    "VTX-0021"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/breaking-bad/images/01-breaking-bad.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0021"
+    },
+    {
+      "archivo": "POST/social/breaking-bad/images/02-sinopsis-breaking-bad.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/breaking-bad"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/breaking-bad/images/02-sinopsis-breaking-bad.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/breaking-bad/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

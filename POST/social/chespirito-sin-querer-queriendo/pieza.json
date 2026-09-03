@@ -1,0 +1,41 @@
+{
+  "slug": "chespirito-sin-querer-queriendo",
+  "tipo": "imagen",
+  "titulo": "Chespirito: Sin Querer Queriendo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0025"
+  },
+  "vtxIds": [
+    "VTX-0025"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/chespirito-sin-querer-queriendo/images/01-chespirito-sin-querer-queriendo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0025"
+    },
+    {
+      "archivo": "POST/social/chespirito-sin-querer-queriendo/images/02-sinopsis-chespirito-sin-querer-queriendo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/chespirito-sin-querer-queriendo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/chespirito-sin-querer-queriendo/images/02-sinopsis-chespirito-sin-querer-queriendo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/chespirito-sin-querer-queriendo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

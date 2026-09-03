@@ -1,0 +1,41 @@
+{
+  "slug": "amor-y-muerte",
+  "tipo": "imagen",
+  "titulo": "Amor y Muerte",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0009"
+  },
+  "vtxIds": [
+    "VTX-0009"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/amor-y-muerte/images/01-amor-y-muerte.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0009"
+    },
+    {
+      "archivo": "POST/social/amor-y-muerte/images/02-sinopsis-amor-y-muerte.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amor-y-muerte"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/amor-y-muerte/images/02-sinopsis-amor-y-muerte.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/amor-y-muerte/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

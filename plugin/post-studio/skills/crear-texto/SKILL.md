@@ -84,7 +84,7 @@ Verificaciones obligatorias antes de entregar (mecánicas, no "a ojo" — cheque
 **Control final de la pieza**: antes de dar la pieza por terminada, leé el `post.txt` **y** el texto ya renderizado en la imagen de sinopsis, juntos. Recién ahí se puede decir que está lista: si los dos textos se contradicen, se repiten o alguno no cumple, se corrige antes de entregar.
 
 ## 3. Hashtags — van DENTRO del mismo texto, no aparte
-Generá 5-8 hashtags relevantes (categoría/nicho del contenido, geografía si la marca tiene mercado específico, y marca) y ponelos al final del mismo bloque de texto — **no los guardes en un archivo separado**, van pegados abajo del caption porque así es como se pegan en la plataforma real.
+Generá 5-8 hashtags relevantes (categoría/nicho del contenido, geografía si la marca tiene mercado específico, y marca) y ponelos al final del mismo bloque de texto. **Nunca un hashtag con el nombre de una plataforma competidora** (`#Netflix`, `#HBOMax`, `#DisneyPlus`, `#PrimeVideo`) — pasa fácil cuando el título es un spinoff/adaptación conocido de esa plataforma (ej. universo La Casa de Papel, Marvel, un anime de temporada). Es la misma regla de `forbiddenMentions` que ya se chequea en el cuerpo del texto; revisala también en los hashtags, no solo en las primeras líneas. — **no los guardes en un archivo separado**, van pegados abajo del caption porque así es como se pegan en la plataforma real.
 
 ## 4. Adaptaciones por plataforma
 - **TikTok/Shorts**: además del caption, generá un guion de 15-30 segundos con marcas de tiempo simples (0-3s hook visual, 3-15s desarrollo, 15-30s CTA).

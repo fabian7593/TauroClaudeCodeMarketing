@@ -71,7 +71,8 @@ chrome.exe --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
 ```
 
 Notas ya resueltas (no las reinvestigues):
-- La ruta de `--screenshot` tiene que ser **absoluta y en formato Windows** (ej. `C:\ct2\salida.png`). Con ruta relativa, Chrome termina con código 0, no imprime error **y no escribe el archivo** — parece que funcionó y no hay PNG.
+- La ruta de `--screenshot` tiene que ser **absoluta**. Con ruta relativa, Chrome termina con código 0, no imprime error **y no escribe el archivo** — parece que funcionó y no hay PNG.
+- **Usá `/` (forward slash), no `\`, incluso en Windows** — Chrome los acepta igual. Si armás la ruta con una variable de shell justo después de `\` (ej. `--screenshot="C:\ct2\${out}.png"`), en este entorno de Bash el `${out}` puede no expandirse y Chrome termina intentando escribir el nombre literal `${out}.png` (falla con "Access is denied", sale con código 0 y no genera archivo — el mismo síntoma que una ruta relativa, así que es fácil confundir los dos). Con `/` el problema no aparece: `--screenshot="C:/ct2/${out}.png"`.
 - `--user-data-dir` en una ruta **corta** (ej. `C:\ct2\profile` en Windows) — rutas largas de `AppData\Local\Temp\...` fallan con "Access is denied" por longitud/permisos.
 - `--no-sandbox` necesario en entornos sin sandbox de usuario configurado.
 - `--virtual-time-budget=3000` obligatorio — sin eso la captura sale en blanco/incompleta porque el color dominante y el tamaño del póster se calculan de forma asíncrona.

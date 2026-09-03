@@ -1,0 +1,41 @@
+{
+  "slug": "berlin",
+  "tipo": "imagen",
+  "titulo": "Berlín",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0016"
+  },
+  "vtxIds": [
+    "VTX-0016"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/berlin/images/01-berlin.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0016"
+    },
+    {
+      "archivo": "POST/social/berlin/images/02-sinopsis-berlin.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/berlin"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/berlin/images/02-sinopsis-berlin.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/berlin/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

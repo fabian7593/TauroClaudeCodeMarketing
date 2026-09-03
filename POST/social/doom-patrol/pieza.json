@@ -1,0 +1,41 @@
+{
+  "slug": "doom-patrol",
+  "tipo": "imagen",
+  "titulo": "Doom Patrol",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0033"
+  },
+  "vtxIds": [
+    "VTX-0033"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/doom-patrol/images/01-doom-patrol.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0033"
+    },
+    {
+      "archivo": "POST/social/doom-patrol/images/02-sinopsis-doom-patrol.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/doom-patrol"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/doom-patrol/images/02-sinopsis-doom-patrol.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/doom-patrol/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

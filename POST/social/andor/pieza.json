@@ -1,0 +1,41 @@
+{
+  "slug": "andor",
+  "tipo": "imagen",
+  "titulo": "Andor",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0010"
+  },
+  "vtxIds": [
+    "VTX-0010"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/andor/images/01-andor.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0010"
+    },
+    {
+      "archivo": "POST/social/andor/images/02-sinopsis-andor.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/andor"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/andor/images/02-sinopsis-andor.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/andor/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

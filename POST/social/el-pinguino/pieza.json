@@ -1,0 +1,41 @@
+{
+  "slug": "el-pinguino",
+  "tipo": "imagen",
+  "titulo": "El Pingüino",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0047"
+  },
+  "vtxIds": [
+    "VTX-0047"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/el-pinguino/images/01-el-pinguino.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0047"
+    },
+    {
+      "archivo": "POST/social/el-pinguino/images/02-sinopsis-el-pinguino.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-pinguino"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/el-pinguino/images/02-sinopsis-el-pinguino.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/el-pinguino/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

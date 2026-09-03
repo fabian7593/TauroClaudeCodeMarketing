@@ -1,0 +1,41 @@
+{
+  "slug": "barry",
+  "tipo": "imagen",
+  "titulo": "Barry",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0015"
+  },
+  "vtxIds": [
+    "VTX-0015"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/barry/images/01-barry.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0015"
+    },
+    {
+      "archivo": "POST/social/barry/images/02-sinopsis-barry.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/barry"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/barry/images/02-sinopsis-barry.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/barry/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

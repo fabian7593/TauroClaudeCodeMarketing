@@ -1,0 +1,41 @@
+{
+  "slug": "dahmer-monstruo-la-historia-de-jeffrey-dahmer",
+  "tipo": "imagen",
+  "titulo": "Dahmer - Monstruo: La Historia de Jeffrey Dahmer",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0028"
+  },
+  "vtxIds": [
+    "VTX-0028"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/dahmer-monstruo-la-historia-de-jeffrey-dahmer/images/01-dahmer-monstruo-la-historia-de-jeffrey-dahmer.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0028"
+    },
+    {
+      "archivo": "POST/social/dahmer-monstruo-la-historia-de-jeffrey-dahmer/images/02-sinopsis-dahmer-monstruo-la-historia-de-jeffrey-dahmer.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dahmer-monstruo-la-historia-de-jeffrey-dahmer"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/dahmer-monstruo-la-historia-de-jeffrey-dahmer/images/02-sinopsis-dahmer-monstruo-la-historia-de-jeffrey-dahmer.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/dahmer-monstruo-la-historia-de-jeffrey-dahmer/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "eliminar",
+  "tipo": "imagen",
+  "titulo": "Eliminar",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0050"
+  },
+  "vtxIds": [
+    "VTX-0050"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/eliminar/images/01-eliminar.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0050"
+    },
+    {
+      "archivo": "POST/social/eliminar/images/02-sinopsis-eliminar.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/eliminar"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/eliminar/images/02-sinopsis-eliminar.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/eliminar/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catálogo no trae clasificación por edad para este título; el post se dejó sin esa línea en vez de inventarla."
+}

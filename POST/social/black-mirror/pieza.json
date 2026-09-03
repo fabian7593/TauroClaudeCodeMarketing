@@ -1,0 +1,41 @@
+{
+  "slug": "black-mirror",
+  "tipo": "imagen",
+  "titulo": "Black Mirror",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0020"
+  },
+  "vtxIds": [
+    "VTX-0020"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/black-mirror/images/01-black-mirror.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0020"
+    },
+    {
+      "archivo": "POST/social/black-mirror/images/02-sinopsis-black-mirror.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/black-mirror"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/black-mirror/images/02-sinopsis-black-mirror.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/black-mirror/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

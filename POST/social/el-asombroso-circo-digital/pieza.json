@@ -1,0 +1,41 @@
+{
+  "slug": "el-asombroso-circo-digital",
+  "tipo": "imagen",
+  "titulo": "El Asombroso Circo Digital",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0039"
+  },
+  "vtxIds": [
+    "VTX-0039"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/el-asombroso-circo-digital/images/01-el-asombroso-circo-digital.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0039"
+    },
+    {
+      "archivo": "POST/social/el-asombroso-circo-digital/images/02-sinopsis-el-asombroso-circo-digital.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-asombroso-circo-digital"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/el-asombroso-circo-digital/images/02-sinopsis-el-asombroso-circo-digital.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/el-asombroso-circo-digital/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

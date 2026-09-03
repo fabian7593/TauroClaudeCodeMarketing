@@ -1,0 +1,41 @@
+{
+  "slug": "cobra-kai",
+  "tipo": "imagen",
+  "titulo": "Cobra Kai",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0026"
+  },
+  "vtxIds": [
+    "VTX-0026"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/cobra-kai/images/01-cobra-kai.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0026"
+    },
+    {
+      "archivo": "POST/social/cobra-kai/images/02-sinopsis-cobra-kai.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/cobra-kai"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/cobra-kai/images/02-sinopsis-cobra-kai.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/cobra-kai/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "avatar-la-leyenda-de-aang",
+  "tipo": "imagen",
+  "titulo": "Avatar: La Leyenda de Aang",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0013"
+  },
+  "vtxIds": [
+    "VTX-0013"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/avatar-la-leyenda-de-aang/images/01-avatar-la-leyenda-de-aang.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0013"
+    },
+    {
+      "archivo": "POST/social/avatar-la-leyenda-de-aang/images/02-sinopsis-avatar-la-leyenda-de-aang.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/avatar-la-leyenda-de-aang"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/avatar-la-leyenda-de-aang/images/02-sinopsis-avatar-la-leyenda-de-aang.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/avatar-la-leyenda-de-aang/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

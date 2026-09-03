@@ -1,0 +1,41 @@
+{
+  "slug": "el-principe-del-rap-en-bel-air",
+  "tipo": "imagen",
+  "titulo": "El Príncipe del Rap en Bel-Air",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0048"
+  },
+  "vtxIds": [
+    "VTX-0048"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/el-principe-del-rap-en-bel-air/images/01-el-principe-del-rap-en-bel-air.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0048"
+    },
+    {
+      "archivo": "POST/social/el-principe-del-rap-en-bel-air/images/02-sinopsis-el-principe-del-rap-en-bel-air.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-principe-del-rap-en-bel-air"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/el-principe-del-rap-en-bel-air/images/02-sinopsis-el-principe-del-rap-en-bel-air.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/el-principe-del-rap-en-bel-air/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

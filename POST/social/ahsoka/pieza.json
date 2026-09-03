@@ -1,0 +1,41 @@
+{
+  "slug": "ahsoka",
+  "tipo": "imagen",
+  "titulo": "Ahsoka",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0006"
+  },
+  "vtxIds": [
+    "VTX-0006"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/ahsoka/images/01-ahsoka.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0006"
+    },
+    {
+      "archivo": "POST/social/ahsoka/images/02-sinopsis-ahsoka.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ahsoka"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/ahsoka/images/02-sinopsis-ahsoka.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/ahsoka/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

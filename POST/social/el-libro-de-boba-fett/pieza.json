@@ -1,0 +1,41 @@
+{
+  "slug": "el-libro-de-boba-fett",
+  "tipo": "imagen",
+  "titulo": "El Libro de Boba Fett",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0044"
+  },
+  "vtxIds": [
+    "VTX-0044"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/el-libro-de-boba-fett/images/01-el-libro-de-boba-fett.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0044"
+    },
+    {
+      "archivo": "POST/social/el-libro-de-boba-fett/images/02-sinopsis-el-libro-de-boba-fett.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-libro-de-boba-fett"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/el-libro-de-boba-fett/images/02-sinopsis-el-libro-de-boba-fett.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/el-libro-de-boba-fett/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
