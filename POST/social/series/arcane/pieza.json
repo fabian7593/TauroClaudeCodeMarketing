@@ -1,0 +1,50 @@
+{
+  "slug": "arcane",
+  "tipo": "imagen",
+  "titulo": "Arcane",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0012"
+  },
+  "vtxIds": [
+    "VTX-0012"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/arcane/images/01-arcane.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0012"
+    },
+    {
+      "archivo": "POST/social/series/arcane/images/02-sinopsis-arcane.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/arcane"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/arcane/images/02-sinopsis-arcane.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/arcane/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-25",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

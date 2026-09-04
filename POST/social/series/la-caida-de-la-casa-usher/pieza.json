@@ -1,0 +1,41 @@
+{
+  "slug": "la-caida-de-la-casa-usher",
+  "tipo": "imagen",
+  "titulo": "La Caída de la Casa Usher",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0077"
+  },
+  "vtxIds": [
+    "VTX-0077"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-caida-de-la-casa-usher/images/01-la-caida-de-la-casa-usher.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0077"
+    },
+    {
+      "archivo": "POST/social/series/la-caida-de-la-casa-usher/images/02-sinopsis-la-caida-de-la-casa-usher.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-caida-de-la-casa-usher"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-caida-de-la-casa-usher/images/02-sinopsis-la-caida-de-la-casa-usher.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-caida-de-la-casa-usher/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

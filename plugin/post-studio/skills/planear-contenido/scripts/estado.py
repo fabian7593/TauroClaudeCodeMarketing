@@ -3,7 +3,8 @@
 Estado de producción: qué títulos del catálogo ya tienen contenido hecho.
 
 Modelo (a prueba de desincronización):
-  - cada pieza guarda su propia ficha en  <contentRoot>/social/<slug>/pieza.json
+  - cada pieza guarda su propia ficha en  <contentRoot>/social/<categoria>/<slug>/pieza.json
+    (categoria = "series" | "peliculas", ver planear-contenido/SKILL.md)
   - el índice global  <contentRoot>/estado-catalogo.json  NO se escribe a mano:
     se REGENERA leyendo esas fichas del disco y cruzándolas con el catálogo.
 Si un pieza.json dice algo que no está en el disco, el regenerado lo marca como
@@ -49,12 +50,13 @@ def guardar_json(ruta, datos):
 
 def leer_piezas(content_root):
     piezas = []
-    patron = os.path.join(content_root, "social", "*", "pieza.json")
+    patron = os.path.join(content_root, "social", "*", "*", "pieza.json")
     for ruta in sorted(glob.glob(patron)):
         ficha = cargar_json(ruta, {})
         carpeta = os.path.dirname(ruta)
         ficha["carpeta"] = carpeta.replace("\\", "/")
         ficha.setdefault("slug", os.path.basename(carpeta))
+        ficha.setdefault("categoria", os.path.basename(os.path.dirname(carpeta)))
 
         # verificación contra el disco: los archivos declarados existen?
         faltantes = []
@@ -126,6 +128,7 @@ def cmd_regenerar(args):
         "problemas": problemas,
         "piezas": [{
             "slug": p.get("slug"),
+            "categoria": p.get("categoria"),
             "tipo": p.get("tipo"),
             "titulo": p.get("titulo"),
             "grupo": p.get("grupo"),
@@ -171,7 +174,7 @@ def cmd_estado(args):
             for t in coincidencias[:20]
         ],
         "piezasExistentes": [
-            {"slug": p.get("slug"), "tipo": p.get("tipo"), "vtxIds": p.get("vtxIds", []),
+            {"slug": p.get("slug"), "categoria": p.get("categoria"), "tipo": p.get("tipo"), "vtxIds": p.get("vtxIds", []),
              "imagenes": len(p.get("imagenes", [])),
              "sinopsis": bool((p.get("sinopsis") or {}).get("creada")),
              "texto": bool((p.get("texto") or {}).get("creado")),

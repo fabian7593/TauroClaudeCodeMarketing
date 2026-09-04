@@ -1,0 +1,41 @@
+{
+  "slug": "sr-avila",
+  "tipo": "imagen",
+  "titulo": "Sr. Ávila",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0124"
+  },
+  "vtxIds": [
+    "VTX-0124"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/sr-avila/images/01-sr-avila.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0124"
+    },
+    {
+      "archivo": "POST/social/series/sr-avila/images/02-sinopsis-sr-avila.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/sr-avila"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/sr-avila/images/02-sinopsis-sr-avila.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/sr-avila/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

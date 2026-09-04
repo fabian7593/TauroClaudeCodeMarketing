@@ -1,0 +1,50 @@
+{
+  "slug": "alien-planeta-tierra",
+  "tipo": "imagen",
+  "titulo": "Alien: Planeta Tierra",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0007"
+  },
+  "vtxIds": [
+    "VTX-0007"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/alien-planeta-tierra/images/01-alien-planeta-tierra.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0007"
+    },
+    {
+      "archivo": "POST/social/series/alien-planeta-tierra/images/02-sinopsis-alien-planeta-tierra.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alien-planeta-tierra"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/alien-planeta-tierra/images/02-sinopsis-alien-planeta-tierra.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/alien-planeta-tierra/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-18",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

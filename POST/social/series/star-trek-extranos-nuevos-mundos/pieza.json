@@ -1,0 +1,41 @@
+{
+  "slug": "star-trek-extranos-nuevos-mundos",
+  "tipo": "imagen",
+  "titulo": "Star Trek: Extraños Nuevos Mundos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0125"
+  },
+  "vtxIds": [
+    "VTX-0125"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/star-trek-extranos-nuevos-mundos/images/01-star-trek-extranos-nuevos-mundos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0125"
+    },
+    {
+      "archivo": "POST/social/series/star-trek-extranos-nuevos-mundos/images/02-sinopsis-star-trek-extranos-nuevos-mundos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/star-trek-extranos-nuevos-mundos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/star-trek-extranos-nuevos-mundos/images/02-sinopsis-star-trek-extranos-nuevos-mundos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/star-trek-extranos-nuevos-mundos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

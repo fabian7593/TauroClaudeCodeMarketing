@@ -1,0 +1,41 @@
+{
+  "slug": "flash",
+  "tipo": "imagen",
+  "titulo": "Flash",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0059"
+  },
+  "vtxIds": [
+    "VTX-0059"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/flash/images/01-flash.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0059"
+    },
+    {
+      "archivo": "POST/social/series/flash/images/02-sinopsis-flash.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/flash"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/flash/images/02-sinopsis-flash.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/flash/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

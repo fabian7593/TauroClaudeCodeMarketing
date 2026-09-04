@@ -1,0 +1,41 @@
+{
+  "slug": "escalofrios-la-serie",
+  "tipo": "imagen",
+  "titulo": "Escalofríos: La Serie",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0052"
+  },
+  "vtxIds": [
+    "VTX-0052"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/escalofrios-la-serie/images/01-escalofrios-la-serie.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0052"
+    },
+    {
+      "archivo": "POST/social/series/escalofrios-la-serie/images/02-sinopsis-escalofrios-la-serie.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/escalofrios-la-serie"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/escalofrios-la-serie/images/02-sinopsis-escalofrios-la-serie.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/escalofrios-la-serie/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

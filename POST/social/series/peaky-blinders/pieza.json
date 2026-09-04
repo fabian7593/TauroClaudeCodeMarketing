@@ -1,0 +1,41 @@
+{
+  "slug": "peaky-blinders",
+  "tipo": "imagen",
+  "titulo": "Peaky Blinders",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0112"
+  },
+  "vtxIds": [
+    "VTX-0112"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/peaky-blinders/images/01-peaky-blinders.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0112"
+    },
+    {
+      "archivo": "POST/social/series/peaky-blinders/images/02-sinopsis-peaky-blinders.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/peaky-blinders"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/peaky-blinders/images/02-sinopsis-peaky-blinders.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/peaky-blinders/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

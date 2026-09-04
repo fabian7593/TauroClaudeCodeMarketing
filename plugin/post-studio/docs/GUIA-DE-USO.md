@@ -25,7 +25,7 @@ Esto valida y prepara todo lo demás — ver sección 6. Si algo falta (una carp
 
 | Comando | Cuándo usarlo | Qué dispara | Resultado esperado |
 |---|---|---|---|
-| `/cmd-post <tema>` | Post de una sola imagen (el caso más común) | `crear-texto` + `crear-imagen` (+ `crear-reel` si pedís reel también) | `post.txt` (texto listo para pegar) + `images/01-....png` en `<contentRoot>/social/<slug>/` |
+| `/cmd-post <tema>` | Post de una sola imagen (el caso más común) | `crear-texto` + `crear-imagen` (+ `crear-reel` si pedís reel también) | `post.txt` (texto listo para pegar) + `images/01-....png` en `<contentRoot>/social/<categoria>/<slug>/` |
 | `/cmd-carousel <coleccion>` | Un post con varias imágenes deslizables | `crear-carrusel` (que a su vez usa `crear-imagen` N veces + `crear-texto`) | `post.txt` + `images/01..NN-....png` |
 | `/cmd-reel <video(s)>` | Convertir video(s) en un reel vertical con marca de agua | `crear-reel` | `reels/<slug>-reel.mp4` |
 | `/cmd-motion <imagen>` | Necesitás animar una imagen en Kling AI | `generar-prompt-movimiento` | Un prompt (texto) mostrado en el chat — no se guarda archivo |
@@ -63,7 +63,7 @@ Pedido: *"Hacéme un post de la serie Nombre de Ejemplo, es de terror."*
 4. Claude renderiza el PNG y te lo muestra antes de guardarlo.
 5. **Resultado final en disco**:
    ```
-   POST/social/nombre-de-ejemplo/
+   POST/social/<series|peliculas>/nombre-de-ejemplo/
    ├── post.txt
    └── images/
        └── 01-nombre-de-ejemplo.png
@@ -90,7 +90,7 @@ Ningún skill de este plugin debería fallar "en silencio" — si algo no anda, 
 ## 9. Agregar un skill nuevo más adelante
 El plugin está pensado para crecer sin romper lo que ya funciona:
 1. Usá el skill `skill-creator` (viene con Claude Code) para armar el `SKILL.md` nuevo con el formato correcto.
-2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar lo que genere dentro de `<contentRoot>/social/<slug>/...`, y si depende de algo externo (software, conector, carpeta), avisar igual que `preparar-entorno` — remitir a ese skill en vez de duplicar los chequeos.
+2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar lo que genere dentro de `<contentRoot>/social/<categoria>/<slug>/...` (`categoria` = `series` o `peliculas`), y si depende de algo externo (software, conector, carpeta), avisar igual que `preparar-entorno` — remitir a ese skill en vez de duplicar los chequeos.
 3. Colocalo en `plugin/post-studio/skills/<nombre-nuevo>/SKILL.md`. Si querés que además tenga un atajo de comando, agregá `plugin/post-studio/commands/cmd-<nombre>.md` (mismo prefijo `cmd-`, corto, sin ambigüedad).
 4. No hace falta declarar nada en `plugin.json` — los skills y commands se autodescubren por carpeta.
 5. Un skill nuevo puede sumarse a un flujo ya existente (ej. un nuevo formato de imagen dentro de `crear-imagen`) o abrir uno propio (ej. soporte para una red nueva) — las dos formas son válidas, seguí el criterio de qué tan relacionado está con lo que ya existe.

@@ -1,0 +1,42 @@
+{
+  "slug": "insania",
+  "tipo": "imagen",
+  "titulo": "Insania",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0070"
+  },
+  "vtxIds": [
+    "VTX-0070"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/insania/images/01-insania.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0070"
+    },
+    {
+      "archivo": "POST/social/series/insania/images/02-sinopsis-insania.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/insania"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/insania/images/02-sinopsis-insania.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/insania/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catálogo no trae clasificación por edad ni sinopsis detallada para este título; la descripción se mantuvo deliberadamente general por no tener certeza suficiente del argumento exacto."
+}

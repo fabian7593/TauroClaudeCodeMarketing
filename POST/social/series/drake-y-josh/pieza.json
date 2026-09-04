@@ -1,0 +1,41 @@
+{
+  "slug": "drake-y-josh",
+  "tipo": "imagen",
+  "titulo": "Drake y Josh",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0035"
+  },
+  "vtxIds": [
+    "VTX-0035"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/drake-y-josh/images/01-drake-y-josh.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0035"
+    },
+    {
+      "archivo": "POST/social/series/drake-y-josh/images/02-sinopsis-drake-y-josh.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/drake-y-josh"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/drake-y-josh/images/02-sinopsis-drake-y-josh.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/drake-y-josh/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

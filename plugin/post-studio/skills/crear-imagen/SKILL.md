@@ -16,20 +16,28 @@ Requiere que `preparar-entorno` ya se haya corrido al menos una vez en este proy
 - **Logo**: el que resolvió `preparar-entorno` en `brand.config.json` → `logoFolder` + `logoFile`. Si `logoFile` está vacío, corré el paso de logo de `preparar-entorno` antes de seguir — no asumas un nombre de archivo.
 
 ## 0.1 Elegir el póster (cuando el proyecto tiene catálogo con TMDB)
-El póster que trae el catálogo suele ser el default de TMDB, casi siempre con el texto en inglés. **Regla: si el póster tiene texto, ese texto tiene que estar en español (LATAM/MX).**
+El póster que trae el catálogo suele ser el default de TMDB, casi siempre con el texto en inglés.
+
+**Orden de preferencia del idioma (estricto, en este orden):**
+1. **Español LATAM/MX** — con una trampa importante: TMDB **no separa** España de Latinoamérica, `--idioma es` trae los dos mezclados en la misma lista. Un candidato en "es" **solo cuenta como válido si el texto que muestra es como LATAM le dice al título** — comparalo contra `tituloEs` del catálogo (que ya está en español LATAM), no contra tu propia idea de "está en español así que sirve". Ejemplo real: "Lost" se conoce como "Lost" en LATAM, pero TMDB tiene pósters en "es" con el título "Perdidos" (la traducción de España) — ese póster **no sirve**, aunque sea español y aunque sea el único candidato en "es". Se descarta igual que si no existiera ningún póster en español.
+2. **Nunca español de España/castellano** — no es una opción válida en ningún escalón de esta lista, ni siquiera como último recurso antes del inglés. Si todos los candidatos en "es" resultan ser de España, es lo mismo que si TMDB no tuviera ninguno en español: pasá al escalón 2.
+3. Si no hay ningún candidato en español LATAM válido: **inglés** (`--idioma en`).
+4. Si tampoco hay en inglés: **sin texto** (`--idioma xx`, textless).
+5. Si no hay nada de lo anterior: el póster default del catálogo (columna `posterUrl`, casi siempre en inglés) — **avisáselo al usuario** al entregar la imagen.
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/crear-imagen/scripts/tmdb_posters.py" \
-  --id <tmdbId> --tipo movie|tv --descargar "<contentRoot>/assets/posters/<slug>/<NN>-<slug-item>.jpg"
+  --id <tmdbId> --tipo movie|tv --idioma es --descargar "<contentRoot>/assets/posters/<slug>/<NN>-<slug-item>.jpg"
 ```
 
-El script busca en **español**. Si TMDB no tiene ninguno, sale con código 2 y no baja nada: en ese caso **usá el póster default del catálogo** (columna `posterUrl`, casi siempre en inglés) y **avisáselo al usuario** al entregar la imagen. No busques reemplazo en otro idioma ni cambies de título: mejor el default conocido que un póster raro. Con `--indice N` elegís otro candidato de la lista (útil cuando el primero es feo o no se entiende a tamaño chico), y con `--temporada N` traés los pósters de una temporada puntual.
+El script no valida el idioma por vos — solo hace la búsqueda técnica en TMDB por el código de idioma que le pidas (`es`, `en`, `xx`) y baja el candidato que elijas con `--indice N`. La validación de "es esto realmente LATAM y no España" es un chequeo visual tuyo, sección de abajo. Si `--idioma es` sale con código 2 (sin resultados) o todos los candidatos que trae son de España, repetí la búsqueda con `--idioma en`; si tampoco hay, con `--idioma xx`. No inventes ni cambies de título en ningún escalón: mejor el default conocido que un póster raro. Con `--temporada N` traés los pósters de una temporada puntual.
 
 **Pósters por temporada**: cuando la pieza es un carrusel de temporadas (serie antológica, o una entrada de TMDB que junta varias series — ver `planear-contenido`), **cada temporada necesita su propio póster**: `--tipo tv --temporada <n>`. No repitas el póster principal de la serie en todas las imágenes: si cada temporada cuenta una historia distinta, tiene que verse distinta. Si TMDB no tiene póster propio para una temporada, decílo y usá el de la serie para esa sola.
 
 **Mirá el póster antes de usarlo** (`Read`) — no es opcional, y no alcanza con mirar el nombre del archivo:
 - Que el título se entienda y no sea una imagen recortada rara.
 - Que el idioma del texto sea el que decís que es.
+- **Si el candidato es de `--idioma es`: que el texto sea la forma LATAM del título, no la de España.** Comparalo contra `tituloEs` del catálogo. Si dice algo distinto (la traducción de España), no lo uses — tratalo como si no hubiera candidato en español y seguí al escalón de inglés.
 - **Que no traiga el logo ni el nombre de NINGUNA plataforma de streaming**, no solo las de `forbiddenMentions` — esa lista es el mínimo explícito, pero la regla de marca es "ninguna plataforma de streaming", punto. Ya aparecieron en la práctica: la "N" roja de Netflix, "A NETFLIX SERIES", "ONLY ON…", "HBO Original"/"HBO Max", "MAX Original", el logo de Disney+, y también otras menos obvias como **Showtime** o **Apple TV+** — cualquier sello de una plataforma competidora cuenta, la esté buscando o no. TMDB está lleno de pósters promocionales con esa marca quemada. Si el candidato la trae, descartalo y pasá al siguiente (`--indice N`), o usá una versión sin texto (`--idioma xx`). El chequeo de texto automático (`forbiddenMentions`) no ve esto — es SIEMPRE un chequeo visual, mirando el póster.
 
 ## 1. Recopilar parámetros
@@ -58,7 +66,7 @@ Para evitar arrastrar archivos intermedios al repo y evitar cuentas de rutas rel
    - `site: brand.config.json.website`
    - si `colorMode` es `'manual'`: `panelColorMode:'manual'`, `panelColorManual: brand.config.json.colorPrimary`
    
-   Como todo queda al mismo nivel, las rutas relativas son siempre `./archivo`, sin importar cuántos niveles tenga `<contentRoot>/social/<slug>/` — no hay matemática de `../..` que se pueda romper al mover el post a otra carpeta.
+   Como todo queda al mismo nivel, las rutas relativas son siempre `./archivo`, sin importar cuántos niveles tenga `<contentRoot>/social/<categoria>/<slug>/` — no hay matemática de `../..` que se pueda romper al mover el post a otra carpeta.
 3. Serví ese directorio con un servidor local simple (`python -m http.server <puerto> --directory <scratch-dir>` — si el proyecto ya tiene un `.claude/launch.json` con una entrada de preview server para contenido, reusala; si no existe, creala apuntando al `contentRoot`, no al scratch, para que sirva también como preview interactivo a futuro).
 4. Renderizá con **Chrome headless** (más confiable que capturas del Browser pane para tamaños exactos):
 
@@ -80,6 +88,12 @@ Notas ya resueltas (no las reinvestigues):
 
 5. Verificá el PNG con la tool `Read` antes de darlo por bueno: el logo/título original no debe quedar tapado, las filas de info no se cortan ni se pegan, el color del panel combina con la imagen, y el logo se ve completo y bien proporcionado (el template mide el aspect ratio real del logo al cargarlo, así que un logo distinto siempre se ve correcto sin ajustar nada a mano).
 
+**Verificación en lote (varias piezas de una corrida) — economía de tokens, pedido explícito del usuario (2026-09-03):**
+- **No leas cada PNG final por separado.** Armá un contact sheet con todos los arte + fichas de sinopsis del lote (mismo patrón ya usado para el QC de pósters en la sección 0.1) y revisá esa grilla en una sola lectura.
+- Abrí a resolución completa (`Read` individual) solo lo que se vea raro en la grilla, o una **muestra** (~1 de cada 2-3 piezas) cuando todo el lote usa el mismo diseño de template ya probado en producción — no hace falta abrir el 100% una por una.
+- **Esto NO aplica al chequeo de logos de plataformas competidoras en los pósters fuente** (sección 0.1) — ese sigue siendo 100%, a resolución completa, por póster: es un chequeo de cumplimiento de marca, no de calidad visual del template, y ya se colaron dos violaciones reales que un contact sheet en miniatura no mostraba (ver memoria `feedback-poster-logo-qc-fullres`). El muestreo es solo para verificar que el RENDER final (texto, layout, datos) salió bien, no para el chequeo de logos.
+- Si algo sale mal en un render ya publicado o programado, volvé a 100% verificación individual hasta encontrar la causa — el muestreo asume que el patrón ya viene probado, no que nunca hay que mirar.
+
 ### Guía para `posterFocal`/`posterScale` (solo panel_lateral)
 Mirá la imagen fuente antes de fijar estos valores:
 - Ubicá dónde está cualquier texto/logo propio de la imagen y el sujeto/acción principal.
@@ -88,9 +102,9 @@ Mirá la imagen fuente antes de fijar estos valores:
 - En `full_bleed` no hace falta tocar estos valores — se ve la imagen completa siempre.
 
 ## 3. Guardar el resultado final y limpiar
-- Copiá **solo el PNG final** a `<contentRoot>/social/<slug>/images/<NN>-<slug-item>.png` (`<NN>` con cero a la izquierda: `01`, `02`... — mismo patrón para post simple o carrusel, ver skill `crear-carrusel`).
+- Copiá **solo el PNG final** a `<contentRoot>/social/<categoria>/<slug>/images/<NN>-<slug-item>.png` (`<NN>` con cero a la izquierda: `01`, `02`... — mismo patrón para post simple o carrusel, ver skill `crear-carrusel`). `categoria` es `series` o `peliculas` — sale del campo `categoria` que ya trae resuelto `planear-contenido`, o del campo `tipo` del catálogo si armás la pieza a mano (Serie → `series`, Película → `peliculas`).
 - **Terminá el proceso del servidor** (`python -m http.server`) antes de borrar la carpeta scratch, no solo los archivos — un `http.server` sigue vivo en background aunque termine el comando que lo lanzó, y mientras esté vivo mantiene la carpeta bloqueada en Windows (el borrado falla con "Device or resource busy" aunque los archivos ya no se estén usando). Si lo lanzaste con `&`, matalo por PID (ej. buscar el puerto con `netstat -ano | grep ":<puerto>"` y terminar ese PID) antes de intentar borrar la carpeta.
-- Borrá todo lo demás del directorio scratch de esta corrida (`work.html`, `logo.<ext>`, `source.<ext>`, el `--user-data-dir` temporal) — en `<contentRoot>/social/<slug>/` no debe quedar nada más que el PNG final. No se guardan copias de trabajo ni copias de la imagen fuente dentro del proyecto.
+- Borrá todo lo demás del directorio scratch de esta corrida (`work.html`, `logo.<ext>`, `source.<ext>`, el `--user-data-dir` temporal) — en `<contentRoot>/social/<categoria>/<slug>/` no debe quedar nada más que el PNG final. No se guardan copias de trabajo ni copias de la imagen fuente dentro del proyecto.
 
 ## 4. Troubleshooting conocido
 - **Texto con tildes/emoji rotos (`InglÃ©s`)**: problema de encoding al generar el HTML por script — escribí el archivo en UTF-8 sin BOM (el `Write`/`Edit` normal de Claude Code ya lo hace bien; si usás PowerShell directo, especificá `-Encoding utf8` explícito, nunca `Get-Content`/`Set-Content` sin eso).

@@ -1,0 +1,41 @@
+{
+  "slug": "roswell-nuevo-mexico",
+  "tipo": "imagen",
+  "titulo": "Roswell, Nuevo México",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0120"
+  },
+  "vtxIds": [
+    "VTX-0120"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/roswell-nuevo-mexico/images/01-roswell-nuevo-mexico.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0120"
+    },
+    {
+      "archivo": "POST/social/series/roswell-nuevo-mexico/images/02-sinopsis-roswell-nuevo-mexico.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/roswell-nuevo-mexico"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/roswell-nuevo-mexico/images/02-sinopsis-roswell-nuevo-mexico.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/roswell-nuevo-mexico/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

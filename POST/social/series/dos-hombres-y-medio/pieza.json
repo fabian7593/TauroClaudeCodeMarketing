@@ -1,0 +1,41 @@
+{
+  "slug": "dos-hombres-y-medio",
+  "tipo": "imagen",
+  "titulo": "Dos Hombres y Medio",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0034"
+  },
+  "vtxIds": [
+    "VTX-0034"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dos-hombres-y-medio/images/01-dos-hombres-y-medio.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0034"
+    },
+    {
+      "archivo": "POST/social/series/dos-hombres-y-medio/images/02-sinopsis-dos-hombres-y-medio.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dos-hombres-y-medio"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dos-hombres-y-medio/images/02-sinopsis-dos-hombres-y-medio.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dos-hombres-y-medio/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

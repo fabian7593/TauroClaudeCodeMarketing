@@ -1,0 +1,41 @@
+{
+  "slug": "from",
+  "tipo": "imagen",
+  "titulo": "From",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0061"
+  },
+  "vtxIds": [
+    "VTX-0061"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/from/images/01-from.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0061"
+    },
+    {
+      "archivo": "POST/social/series/from/images/02-sinopsis-from.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/from"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/from/images/02-sinopsis-from.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/from/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

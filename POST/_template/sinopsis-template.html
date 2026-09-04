@@ -46,8 +46,11 @@
     font-family:'Segoe UI',Arial,sans-serif;font-weight:700;display:flex;align-items:center;
     background:rgba(255,255,255,0.07);white-space:nowrap;}
 
-  /* ---------- anillo de aprobación ---------- */
-  .scoreRow{display:flex;align-items:center;}
+  /* ---------- anillo de aprobación ----------
+     El anillo vive fuera del flujo de la columna y se ancla abajo-izquierda
+     con el MISMO "bottom" que usa la marca (abajo-derecha), para que ambos
+     queden en la misma fila visual aunque sigan siendo dos bloques separados. */
+  .scoreRow{position:absolute;display:flex;align-items:center;z-index:4;}
   .ring{position:relative;border-radius:50%;display:flex;align-items:center;justify-content:center;
     background:#111214;box-shadow:0 6px 18px rgba(0,0,0,0.6);}
   .ringInner{position:absolute;border-radius:50%;background:#111214;display:flex;align-items:center;justify-content:center;}
@@ -81,10 +84,10 @@
     <div class="tagline"></div>
     <div class="meta"></div>
     <div class="body"></div>
-    <div class="scoreRow">
-      <div class="ring"><div class="ringInner"><div class="ringText"></div></div></div>
-      <div class="scoreLabel"></div>
-    </div>
+  </div>
+  <div class="scoreRow">
+    <div class="ring"><div class="ringInner"><div class="ringText"></div></div></div>
+    <div class="scoreLabel"></div>
   </div>
   <div class="brand"></div>
 </div>
@@ -286,7 +289,7 @@ async function build() {
   const colLeft = fmt.w * 0.055;
   const colTop = fmt.h * 0.075;
   const colW = fmt.w * 0.375;
-  const colBottom = fmt.h * 0.135;
+  const colBottom = fmt.h * 0.10;   // deja aire libre encima del anillo, que ahora vive fuera del .col
   col.style.left = colLeft + 'px';
   col.style.top = colTop + 'px';
   col.style.width = colW + 'px';
@@ -318,13 +321,15 @@ async function build() {
   });
   meta.style.display = (CONFIG.meta || []).length ? 'flex' : 'none';
 
-  // el cuerpo ocupa lo que sobra entre lo de arriba y el anillo de abajo
+  // el cuerpo ocupa lo que sobra entre lo de arriba y el título — el anillo ya
+  // NO vive dentro de la columna, así que no resta alto acá (ver más abajo).
   const scoreRow = canvas.querySelector('.scoreRow');
   const ring = canvas.querySelector('.ring');
   const ringInner = canvas.querySelector('.ringInner');
   const ringText = canvas.querySelector('.ringText');
   const scoreLabel = canvas.querySelector('.scoreLabel');
   const hayScore = CONFIG.score !== null && CONFIG.score !== undefined;
+  const brandBottom = fmt.h * 0.035;              // mismo "bottom" que la marca: quedan alineados
   if (hayScore) {
     const d = 74 * u;
     const grosor = 7 * u;
@@ -341,17 +346,18 @@ async function build() {
   } else {
     scoreRow.style.display = 'none';
   }
-  scoreRow.style.marginTop = 'auto';
+  scoreRow.style.left = colLeft + 'px';
+  scoreRow.style.bottom = brandBottom + 'px';
 
   const body = canvas.querySelector('.body');
   body.textContent = CONFIG.body || '';
   body.style.marginTop = (22 * u) + 'px';
   body.style.marginBottom = (22 * u) + 'px';
   // alto disponible real = alto de la columna - lo que ya ocupan los otros bloques
+  // (el anillo ya no está en el flujo del .col, así que no entra en esta cuenta)
   const usado = title.getBoundingClientRect().height
               + (CONFIG.tagline ? tagline.getBoundingClientRect().height + 10 * u : 0)
-              + ((CONFIG.meta || []).length ? meta.getBoundingClientRect().height + 16 * u : 0)
-              + (hayScore ? scoreRow.getBoundingClientRect().height : 0);
+              + ((CONFIG.meta || []).length ? meta.getBoundingClientRect().height + 16 * u : 0);
   const altoCuerpo = Math.floor((fmt.h - colTop - colBottom) - usado - 44 * u);
   body.style.height = altoCuerpo + 'px';
   // Interlineado como multiplicador (sin unidad): asi acompana al font-size cuando
@@ -359,11 +365,11 @@ async function build() {
   body.style.lineHeight = '1.45';
   ajustarAlto(body, altoCuerpo, 25 * u, 13 * u);
 
-  // ---------- marca ----------
+  // ---------- marca (queda EXACTAMENTE igual que el diseño original) ----------
   const brand = canvas.querySelector('.brand');
   brand.innerHTML = '';
   brand.style.right = (fmt.w * 0.045) + 'px';
-  brand.style.bottom = (fmt.h * 0.035) + 'px';
+  brand.style.bottom = brandBottom + 'px';
   brand.style.gap = (12 * u) + 'px';
   brand.style.padding = (10 * u) + 'px ' + (22 * u) + 'px ' + (10 * u) + 'px ' + (14 * u) + 'px';
   brand.style.zIndex = '4';

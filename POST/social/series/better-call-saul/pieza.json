@@ -1,0 +1,50 @@
+{
+  "slug": "better-call-saul",
+  "tipo": "imagen",
+  "titulo": "Better Call Saul",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0018"
+  },
+  "vtxIds": [
+    "VTX-0018"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/better-call-saul/images/01-better-call-saul.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0018"
+    },
+    {
+      "archivo": "POST/social/series/better-call-saul/images/02-sinopsis-better-call-saul.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/better-call-saul"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/better-call-saul/images/02-sinopsis-better-call-saul.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/better-call-saul/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-06",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

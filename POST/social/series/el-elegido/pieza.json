@@ -1,0 +1,42 @@
+{
+  "slug": "el-elegido",
+  "tipo": "imagen",
+  "titulo": "El Elegido",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0041"
+  },
+  "vtxIds": [
+    "VTX-0041"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-elegido/images/01-el-elegido.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0041"
+    },
+    {
+      "archivo": "POST/social/series/el-elegido/images/02-sinopsis-el-elegido.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-elegido"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-elegido/images/02-sinopsis-el-elegido.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-elegido/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo marca estado Incompleto: falta temporada 4 a 5. El caption no promete la serie completa."
+}

@@ -12,7 +12,7 @@ No confundir con `crear-imagen`: esa hace el arte de cada título (póster + tí
 ## 0. Ubicaciones
 - **Template canónico**: `${CLAUDE_PLUGIN_ROOT}/templates/sinopsis-template.html`
 - **Copia editable del proyecto**: `<contentRoot>/_template/sinopsis-template.html` — si no existe, copiala del canónico. Una vez que existe, esa es la que se usa y se personaliza; no la pises automáticamente.
-- **Salida**: `<contentRoot>/social/<slug>/images/<NN>-sinopsis-<slug>.png`, donde `<NN>` es **el número siguiente al último arte**.
+- **Salida**: `<contentRoot>/social/<categoria>/<slug>/images/<NN>-sinopsis-<slug>.png`, donde `<NN>` es **el número siguiente al último arte** y `categoria` es `series` o `peliculas` (la que ya tenga la pieza — esta imagen se genera siempre después del arte, así que la carpeta ya existe).
 
 La ficha va **última**: primero se ve el arte (que es lo que frena el scroll) y al final el texto que explica. Un carrusel de 5 películas queda `01..05` de arte y `06-sinopsis`; un post de una sola imagen queda `01-arte` + `02-sinopsis` (o sea, dos slides).
 
@@ -29,7 +29,7 @@ De dónde salen, en este orden:
    Si el título es una serie con temporadas, también sirven los pósters de temporada (`--temporada N`).
 3. **Si aun así no hay 2 imágenes distintas**: usá 2 cuadros en vez de 3. Mejor dos pósters reales que el mismo repetido.
 
-Todos los pósters siguen la **regla de idioma**: si tienen texto, en español (ver `crear-imagen`). Si TMDB no tiene ninguno en español para ese título, se usa el póster default del catálogo (probablemente en inglés) y se avisa.
+Todos los pósters siguen la **regla de idioma** de `crear-imagen` (sección 0.1) — español LATAM/MX verificado contra `tituloEs` → inglés → textless → default del catálogo, **nunca español de España**, ni siquiera como último recurso. No la rederives acá, seguí esa.
 
 Guardalos en `<contentRoot>/assets/posters/<slug>/` como el resto de los pósters de la pieza — no los dupliques en otra carpeta.
 
@@ -41,7 +41,7 @@ Es **el texto más largo de toda la pieza** (≈450-750 caracteres) y tiene que 
 | `title` | Nombre de la colección o del título, en español LATAM (el del catálogo) |
 | `tagline` | Una línea corta que fije el tono. Puede ser el lema real de la saga o una frase propia — nunca spoiler |
 | `body` | El texto largo (ver abajo) |
-| `meta` | 2-3 chips de contexto: rango de años, cantidad de títulos/temporadas, clasificación por edad |
+| `meta` | 2-3 chips de contexto: rango de años, cantidad de títulos/temporadas, clasificación por edad — el chip de edad va como badge corto (`+7`, `+13`, `+18`), **nunca el código crudo del catálogo** (`TV-Y7`, `TV-PG`, `TV-14`, `TV-MA` no son para mostrar, son solo la clave para mapear a la línea "Apta para..." del caption) |
 | `score` | Calificación del catálogo pasada a porcentaje (7.8 → 78). Si la pieza cubre varios títulos, el promedio. `null` si no hay dato |
 
 **Cómo escribir el `body`:**
@@ -76,6 +76,8 @@ Igual que `crear-imagen` (misma mecánica, mismo Chrome headless):
 ## 4. Verificar antes de darla por buena
 **Abrí el PNG con `Read` y leé el texto renderizado, no el que escribiste.** Es el paso que atrapa lo que se rompe entre el borrador y la imagen final. Recién después de esto se puede dar un veredicto sobre la pieza.
 
+**En un lote de varias piezas, seguí la misma economía de tokens que `crear-imagen` sección 2 (verificación en lote)**: un contact sheet con todas las fichas del lote en vez de leer cada una suelta, y muestreo (~1 de cada 2-3) una vez que el diseño ya está probado — no la rederives acá.
+
 Revisión visual:
 - [ ] El texto entra completo y no quedó cortado abajo (el template baja el tamaño solo; si igual no entra, **acortá el texto**, no toques el layout)
 - [ ] Cada cuadro de la tira tiene un póster **distinto**
@@ -92,4 +94,4 @@ Revisión del contenido (releé el texto de la ficha **y** el `post.txt` de la p
 - [ ] Los datos duros (año, temporadas, edad, puntaje) coinciden entre ficha, caption y catálogo
 
 ## 5. Entrega
-Copiá solo el PNG final a `<contentRoot>/social/<slug>/images/<NN>-sinopsis-<slug>.png` (numerado después del último arte), limpiá el scratch, y registrá la pieza (`sinopsis.creada: true` en `pieza.json`, ver `planear-contenido`).
+Copiá solo el PNG final a `<contentRoot>/social/<categoria>/<slug>/images/<NN>-sinopsis-<slug>.png` (numerado después del último arte), limpiá el scratch, y registrá la pieza (`sinopsis.creada: true` en `pieza.json`, ver `planear-contenido`).

@@ -1,0 +1,50 @@
+{
+  "slug": "amor-y-muerte",
+  "tipo": "imagen",
+  "titulo": "Amor y Muerte",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0009"
+  },
+  "vtxIds": [
+    "VTX-0009"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/amor-y-muerte/images/01-amor-y-muerte.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0009"
+    },
+    {
+      "archivo": "POST/social/series/amor-y-muerte/images/02-sinopsis-amor-y-muerte.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amor-y-muerte"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/amor-y-muerte/images/02-sinopsis-amor-y-muerte.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/amor-y-muerte/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-19",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "obi-wan-kenobi",
+  "tipo": "imagen",
+  "titulo": "Obi-Wan Kenobi",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0104"
+  },
+  "vtxIds": [
+    "VTX-0104"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/obi-wan-kenobi/images/01-obi-wan-kenobi.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0104"
+    },
+    {
+      "archivo": "POST/social/series/obi-wan-kenobi/images/02-sinopsis-obi-wan-kenobi.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/obi-wan-kenobi"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/obi-wan-kenobi/images/02-sinopsis-obi-wan-kenobi.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/obi-wan-kenobi/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

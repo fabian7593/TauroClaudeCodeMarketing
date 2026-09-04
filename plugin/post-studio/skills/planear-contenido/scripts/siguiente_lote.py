@@ -62,7 +62,7 @@ def calcular_grupos(catalogo):
     for t in series:
         grupos.append({
             "tipoPieza": "imagen", "claveGrupo": "serie:" + t["vtxId"],
-            "tituloGrupo": t.get("tituloEs"), "items": [t],
+            "tituloGrupo": t.get("tituloEs"), "items": [t], "categoria": "series",
         })
 
     colecciones = {}
@@ -78,13 +78,13 @@ def calcular_grupos(catalogo):
         items = sorted(items, key=lambda t: (t.get("anio") or 9999, t["vtxId"]))
         grupos.append({
             "tipoPieza": "carrusel", "claveGrupo": "coleccion:" + nombre,
-            "tituloGrupo": nombre, "items": items,
+            "tituloGrupo": nombre, "items": items, "categoria": "peliculas",
         })
 
     for t in sueltas:
         grupos.append({
             "tipoPieza": "imagen", "claveGrupo": "pelicula:" + t["vtxId"],
-            "tituloGrupo": t.get("tituloEs"), "items": [t],
+            "tituloGrupo": t.get("tituloEs"), "items": [t], "categoria": "peliculas",
         })
 
     for g in grupos:
@@ -95,7 +95,7 @@ def calcular_grupos(catalogo):
 
 def vtxIds_hechos(content_root):
     hechos = set()
-    for ruta in glob.glob(os.path.join(content_root, "social", "*", "pieza.json")):
+    for ruta in glob.glob(os.path.join(content_root, "social", "*", "*", "pieza.json")):
         d = cargar(ruta)
         hechos.update(d.get("vtxIds", []))
     return hechos
@@ -141,9 +141,10 @@ def main():
     hechos = vtxIds_hechos(args.content_root)
 
     # carpetas de piezas ya usadas, para no colisionar slugs nuevos con las existentes
+    # (un slug es unico cruzando series/ y peliculas/, aunque vivan en categorias distintas)
     usados = set(
         os.path.basename(os.path.dirname(p))
-        for p in glob.glob(os.path.join(args.content_root, "social", "*", "pieza.json"))
+        for p in glob.glob(os.path.join(args.content_root, "social", "*", "*", "pieza.json"))
     )
 
     pendientes = []
@@ -179,6 +180,7 @@ def main():
         items = [item_resumen(t) for t in g["items"]]
         salida.append({
             "slug": slug,
+            "categoria": g["categoria"],
             "tipoPieza": g["tipoPieza"],
             "tituloGrupo": g["tituloGrupo"],
             "claveGrupo": g["claveGrupo"],

@@ -3,23 +3,31 @@
 Busca pósters alternativos en TMDB por idioma, sin API key.
 
 Para qué: la regla de marca pide que, si el póster tiene texto, ese texto esté en
-español (LATAM). El póster que trae el catálogo suele ser el default de TMDB, casi
-siempre en inglés. Este script lista los pósters que TMDB tiene en un idioma dado
-y, si se le pide, baja el mejor (el primero de la grilla, que es el más votado).
+español LATAM — nunca español de España. El póster que trae el catálogo suele ser
+el default de TMDB, casi siempre en inglés. Este script lista los pósters que TMDB
+tiene en un idioma dado y, si se le pide, baja el mejor (el primero de la grilla,
+que es el más votado).
+
+IMPORTANTE — TMDB no separa España de Latinoamérica: `--idioma es` trae los dos
+mezclados en la misma lista, sin forma de filtrar por región vía este endpoint.
+Este script NO valida si un candidato en "es" es LATAM o España — eso es un
+chequeo visual manual (ver crear-imagen/SKILL.md sección 0.1): comparar el texto
+del póster contra `tituloEs` del catálogo. Si el candidato resulta ser de España,
+tratalo como si no existiera y probá con `--idioma en`.
 
 Uso:
     python tmdb_posters.py --id 158015 --tipo movie
     python tmdb_posters.py --id 158015 --tipo movie --descargar POST/assets/posters/la-purga.jpg
     python tmdb_posters.py --id 1413 --tipo tv --temporada 2 --indice 1
 
-Idioma: por default 'es' (español), que es lo que pide la regla de marca.
+Idioma: por default 'es' (español), que es lo que pide la regla de marca — pero
+ver la nota de arriba, hay que verificar a mano que sea LATAM y no España.
 
-Si TMDB no tiene ningún póster en ese idioma, el script sale con **código 2** y no
-baja nada. En ese caso se usa el **póster default del catálogo** (columna Póster,
-casi siempre en inglés) y se le avisa al usuario. No se busca reemplazo en otro
-idioma ni se inventa: mejor el default conocido que un póster raro.
-
-Otros idiomas útiles si hiciera falta a mano: 'en' (inglés), 'xx' (sin texto).
+Orden de fallback (ver crear-imagen/SKILL.md 0.1 para el detalle completo):
+'es' (LATAM verificado) -> 'en' -> 'xx' (sin texto) -> póster default del catálogo.
+Si TMDB no tiene ningún póster en el idioma pedido, el script sale con **código 2**
+y no baja nada — ahí es cuando corresponde probar el siguiente escalón del
+fallback, no inventar ni cambiar de título.
 """
 import argparse
 import json

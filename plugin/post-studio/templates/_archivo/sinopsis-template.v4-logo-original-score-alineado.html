@@ -1,0 +1,397 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sinopsis Generator</title>
+<style>
+  html,body{margin:0;padding:0;background:#0b0b0d;}
+  #canvas{position:relative;overflow:hidden;background:#0b0b0d;}
+  #canvas.hidden{visibility:hidden}
+
+  /* ---------- fondo: arte de la primera imagen, desenfocado y oscurecido ---------- */
+  .bgArt{position:absolute;inset:-8%;background-repeat:no-repeat;background-position:center;
+    background-size:cover;filter:blur(60px) brightness(0.42) saturate(1.1);}
+  .bgShade{position:absolute;inset:0;
+    background:radial-gradient(120% 90% at 12% 20%, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.86) 55%, rgba(0,0,0,0.96) 100%);}
+  .grain{position:absolute;inset:0;opacity:0.35;pointer-events:none;
+    background-image:radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);background-size:3px 3px;}
+
+  /* ---------- tira de película ---------- */
+  .stripWrap{position:absolute;overflow:visible;}
+  .strip{position:absolute;inset:0;background:#e9e9ea;
+    box-shadow:0 30px 80px rgba(0,0,0,0.75), 0 0 0 1px rgba(255,255,255,0.08);}
+  .holes{position:absolute;top:0;bottom:0;display:flex;flex-direction:column;justify-content:space-around;align-items:center;}
+  .hole{background:#121214;border-radius:22%;}
+  .frames{position:absolute;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;}
+  .frame{position:relative;overflow:hidden;background:#000;box-shadow:0 0 0 1px rgba(0,0,0,0.35) inset;}
+  .frame .shot{position:absolute;inset:0;background-repeat:no-repeat;background-position:center;background-size:cover;}
+  .stripFade{position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(90deg, rgba(11,11,13,0.92) 0%, rgba(11,11,13,0.30) 18%, rgba(11,11,13,0) 42%);}
+
+  /* ---------- columna de texto ----------
+     Tipografía deliberadamente igual a la del template de post (post-template.html):
+     misma familia, mismos pesos, misma sombra. Las dos piezas del mismo carrusel
+     tienen que leerse como parte del mismo sistema visual. */
+  .col{position:absolute;display:flex;flex-direction:column;}
+  .title{color:#fff;font-family:'Segoe UI',Arial,sans-serif;font-weight:800;
+    text-transform:uppercase;line-height:1.06;letter-spacing:0.5px;margin:0;
+    text-shadow:0 4px 22px rgba(0,0,0,0.75),0 2px 6px rgba(0,0,0,0.6);}
+  .tagline{color:#fff;font-family:'Segoe UI',Arial,sans-serif;font-weight:800;text-transform:uppercase;
+    line-height:1.15;letter-spacing:0.2px;text-shadow:0 2px 12px rgba(0,0,0,0.85);}
+  .body{color:rgba(255,255,255,0.93);font-family:'Segoe UI',Arial,sans-serif;font-weight:400;
+    text-align:justify;text-justify:inter-word;hyphens:auto;text-shadow:0 2px 10px rgba(0,0,0,0.8);
+    overflow:hidden;}
+  .meta{display:flex;flex-wrap:wrap;}
+  .chip{border-radius:999px;border:1px solid rgba(255,255,255,0.28);color:rgba(255,255,255,0.88);
+    font-family:'Segoe UI',Arial,sans-serif;font-weight:700;display:flex;align-items:center;
+    background:rgba(255,255,255,0.07);white-space:nowrap;}
+
+  /* ---------- anillo de aprobación ----------
+     VARIANTE D: el logo NO se mueve de su lugar original (abajo-derecha,
+     sobre la tira). Lo único que cambia es que el anillo sale del flujo de
+     la columna (ya no queda a mitad de altura) y se ancla abajo-izquierda
+     con el MISMO "bottom" que usa la marca, para que ambos queden en la
+     misma fila visual aunque sigan siendo dos bloques separados. */
+  .scoreRow{position:absolute;display:flex;align-items:center;z-index:4;}
+  .ring{position:relative;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    background:#111214;box-shadow:0 6px 18px rgba(0,0,0,0.6);}
+  .ringInner{position:absolute;border-radius:50%;background:#111214;display:flex;align-items:center;justify-content:center;}
+  .ringText{color:#fff;font-family:'Segoe UI',Arial,sans-serif;font-weight:800;}
+  .scoreLabel{color:#fff;font-family:'Segoe UI',Arial,sans-serif;font-weight:800;text-transform:uppercase;
+    letter-spacing:0.6px;text-shadow:0 2px 10px rgba(0,0,0,0.8);}
+
+  /* ---------- marca (abajo) — mismo bloque logo + sitio que post-template.html ----------
+     Va sobre la tira (que puede ser una imagen clara), así que lleva una placa
+     oscura atrás: sin eso el logo y el sitio desaparecen contra el póster. */
+  .brand{position:absolute;display:flex;align-items:center;border-radius:999px;
+    background:rgba(8,8,10,0.62);backdrop-filter:blur(6px);
+    box-shadow:0 8px 24px rgba(0,0,0,0.45);}
+  .brand img{display:block;opacity:0.85;}
+  .brandSite{color:rgba(255,255,255,0.65);font-family:'Segoe UI',Arial,sans-serif;font-weight:600;letter-spacing:0.5px;}
+</style>
+</head>
+<body>
+<div id="canvas" class="hidden">
+  <div class="bgArt"></div>
+  <div class="bgShade"></div>
+  <div class="stripWrap"><div class="strip">
+    <div class="holes left"></div>
+    <div class="holes right"></div>
+    <div class="frames"></div>
+  </div></div>
+  <div class="stripFade"></div>
+  <div class="grain"></div>
+  <div class="col">
+    <div class="title"></div>
+    <div class="tagline"></div>
+    <div class="meta"></div>
+    <div class="body"></div>
+  </div>
+  <div class="scoreRow">
+    <div class="ring"><div class="ringInner"><div class="ringText"></div></div></div>
+    <div class="scoreLabel"></div>
+  </div>
+  <div class="brand"></div>
+</div>
+
+<script>
+/* =========================================================================
+   GENERADOR DE FICHA / SINOPSIS — post-studio
+
+   Pieza "explicativa" que acompaña SIEMPRE a un post, sea imagen individual o
+   carrusel: título + frase gancho + texto largo (más profundo que el caption)
+   + % de aprobación + tira de película con 2-4 imágenes.
+
+   Editá únicamente el objeto CONFIG. Todo lo demás (tamaños, ajuste del texto
+   al alto disponible, agujeros de la tira, anillo) se calcula solo.
+
+   El texto del cuerpo se auto-ajusta: si es largo, baja el tamaño de letra
+   hasta entrar; si aun así no entra, recortá el texto (no subas el alto).
+   ========================================================================= */
+const CONFIG = {
+  // 'feed_square' (1080x1080) | 'feed_portrait' (1080x1350) | 'reel_story' (1080x1920)
+  format: 'feed_portrait',
+
+  title: 'Título de ejemplo',
+  tagline: 'Una frase corta que resume el tono.',
+
+  // texto largo: de qué va, cómo evoluciona, por qué engancha.
+  body: 'Acá va la descripción profunda de la serie/película/colección.',
+
+  // chips opcionales de contexto (año, temporadas, género...). [] = sin chips.
+  meta: ['2013-2021', '5 películas'],
+
+  // 0-100. null = no se dibuja el anillo.
+  score: 65,
+  scoreLabel: 'de aprobación',
+
+  // 2 a 4 imágenes para la tira. UNA DISTINTA POR CUADRO — nunca la misma dos
+  // veces: si la pieza cubre varios títulos va un póster de cada uno; si cubre
+  // uno solo, van variantes distintas del mismo título (ver skill crear-sinopsis).
+  images: ['./img1.jpg', './img2.jpg', './img3.jpg'],
+
+  // color de acento del título: 'auto' = color dominante de la primera imagen,
+  // o un hex fijo ('#e50914').
+  accent: 'auto',
+
+  // crear-sinopsis pisa estos con el logo resuelto y el sitio real de la marca.
+  logo: './logo.png',
+  site: 'example.com'
+};
+/* ========================================================================= */
+
+const FORMATS = {
+  feed_square:   { w: 1080, h: 1080 },
+  feed_portrait: { w: 1080, h: 1350 },
+  reel_story:    { w: 1080, h: 1920 }
+};
+
+function cargarImagen(src) {
+  return new Promise(resolve => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => resolve(null);
+    img.src = src;
+  });
+}
+
+function colorDominante(img) {
+  try {
+    const cv = document.createElement('canvas');
+    const W = 48, H = 48;
+    cv.width = W; cv.height = H;
+    const ctx = cv.getContext('2d');
+    ctx.drawImage(img, 0, 0, W, H);
+    const data = ctx.getImageData(0, 0, W, H).data;
+    let r = 0, g = 0, b = 0, n = 0;
+    for (let i = 0; i < data.length; i += 4) {
+      if (data[i + 3] < 100) continue;
+      r += data[i]; g += data[i + 1]; b += data[i + 2]; n++;
+    }
+    if (!n) return null;
+    return rgbToHsl(r / n, g / n, b / n);
+  } catch (e) { return null; }
+}
+
+function rgbToHsl(r, g, b) {
+  r /= 255; g /= 255; b /= 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  let h = 0, s = 0; const l = (max + min) / 2;
+  const d = max - min;
+  if (d !== 0) {
+    s = d / (1 - Math.abs(2 * l - 1));
+    switch (max) {
+      case r: h = 60 * (((g - b) / d) % 6); break;
+      case g: h = 60 * ((b - r) / d + 2); break;
+      case b: h = 60 * ((r - g) / d + 4); break;
+    }
+  }
+  if (h < 0) h += 360;
+  return { h, s: s * 100, l: l * 100 };
+}
+
+// baja el font-size hasta que el contenido entra en el alto disponible.
+// El +1 de tolerancia evita un caso borde: scrollHeight es entero y altoMax suele
+// ser fraccionario, asi que un texto que entra justo podria leerse como que no entra
+// y perder un punto de tamano sin necesidad.
+function ajustarAlto(el, altoMax, maxPx, minPx) {
+  const limite = Math.floor(altoMax) + 1;
+  let px = maxPx;
+  el.style.fontSize = px + 'px';
+  while (px > minPx && el.scrollHeight > limite) {
+    px -= 1;
+    el.style.fontSize = px + 'px';
+  }
+  return px;
+}
+
+function colorAnillo(score) {
+  if (score >= 70) return '#21d07a';
+  if (score >= 40) return '#d2d531';
+  return '#db2360';
+}
+
+async function build() {
+  const fmt = FORMATS[CONFIG.format];
+  const canvas = document.getElementById('canvas');
+  canvas.style.width = fmt.w + 'px';
+  canvas.style.height = fmt.h + 'px';
+  document.body.style.width = fmt.w + 'px';
+  document.body.style.height = fmt.h + 'px';
+  const u = fmt.w / 1080;                       // unidad de escala
+  const imagenes = (CONFIG.images || []).slice(0, 4);
+
+  // ---------- fondo ----------
+  if (imagenes[0]) canvas.querySelector('.bgArt').style.backgroundImage = `url('${imagenes[0]}')`;
+
+  // ---------- acento ----------
+  let acento = CONFIG.accent;
+  if (acento === 'auto') {
+    const img = imagenes[0] ? await cargarImagen(imagenes[0]) : null;
+    const hsl = img ? colorDominante(img) : null;
+    acento = hsl ? `hsl(${hsl.h},${Math.max(65, Math.min(hsl.s + 25, 90))}%,58%)` : '#e50914';
+  }
+
+  // ---------- tira de película ----------
+  // Los cuadros se dimensionan con proporción de PÓSTER (2:3): así cada póster
+  // entra casi entero y no se le come el título. El alto de la tira sale de eso
+  // (no al revés) y la tira se centra vertical: el cuadro del medio queda
+  // completo y los de arriba/abajo cortados, como una tira real.
+  const stripWrap = canvas.querySelector('.stripWrap');
+  const stripW = fmt.w * 0.58;
+  const holeCol0 = stripW * 0.085;
+  const frameW0 = stripW - holeCol0 * 2 - 10 * u;
+  const gap = 14 * u;
+  const nFrames = Math.max(imagenes.length, 1);
+  const frameH0 = frameW0 * 1.4;
+  const stripH = frameH0 * nFrames + gap * (nFrames + 1);
+  stripWrap.style.width = stripW + 'px';
+  stripWrap.style.height = stripH + 'px';
+  stripWrap.style.left = (fmt.w * 0.475) + 'px';
+  stripWrap.style.top = ((fmt.h - stripH) / 2) + 'px';
+  stripWrap.style.transform = 'rotate(4deg)';
+
+  const holeCol = holeCol0;                     // ancho de la banda de agujeros
+  const holeSize = holeCol * 0.62;
+  const nHoles = Math.round(stripH / (holeSize * 2.1));
+  ['left', 'right'].forEach(lado => {
+    const col = canvas.querySelector('.holes.' + lado);
+    col.style.width = holeCol + 'px';
+    col.style[lado] = '0px';
+    col.innerHTML = '';
+    for (let i = 0; i < nHoles; i++) {
+      const h = document.createElement('div');
+      h.className = 'hole';
+      h.style.width = holeSize + 'px';
+      h.style.height = holeSize * 0.78 + 'px';
+      col.appendChild(h);
+    }
+  });
+
+  const frames = canvas.querySelector('.frames');
+  const frameW = frameW0;
+  frames.style.left = (holeCol + 5 * u) + 'px';
+  frames.style.width = frameW + 'px';
+  frames.style.gap = gap + 'px';
+  frames.innerHTML = '';
+  const frameH = frameH0;
+  imagenes.forEach(src => {
+    const f = document.createElement('div');
+    f.className = 'frame';
+    f.style.height = frameH + 'px';
+    const shot = document.createElement('div');
+    shot.className = 'shot';
+    shot.style.backgroundImage = `url('${src}')`;
+    f.appendChild(shot);
+    frames.appendChild(f);
+  });
+
+  // ---------- columna de texto ----------
+  const col = canvas.querySelector('.col');
+  const colLeft = fmt.w * 0.055;
+  const colTop = fmt.h * 0.075;
+  const colW = fmt.w * 0.375;
+  const colBottom = fmt.h * 0.10;   // deja aire libre encima del anillo, que ahora vive fuera del .col
+  col.style.left = colLeft + 'px';
+  col.style.top = colTop + 'px';
+  col.style.width = colW + 'px';
+  col.style.zIndex = '3';
+  col.style.height = (fmt.h - colTop - colBottom) + 'px';
+
+  const title = canvas.querySelector('.title');
+  title.textContent = CONFIG.title;
+  title.style.color = acento;
+  ajustarAlto(title, fmt.h * 0.16, 54 * u, 26 * u);
+
+  const tagline = canvas.querySelector('.tagline');
+  tagline.textContent = CONFIG.tagline || '';
+  tagline.style.marginTop = (10 * u) + 'px';
+  tagline.style.display = CONFIG.tagline ? 'block' : 'none';
+  ajustarAlto(tagline, fmt.h * 0.09, 26 * u, 15 * u);
+
+  const meta = canvas.querySelector('.meta');
+  meta.innerHTML = '';
+  meta.style.gap = (8 * u) + 'px';
+  meta.style.marginTop = (16 * u) + 'px';
+  (CONFIG.meta || []).forEach(txt => {
+    const chip = document.createElement('div');
+    chip.className = 'chip';
+    chip.textContent = txt;
+    chip.style.fontSize = (16 * u) + 'px';
+    chip.style.padding = (6 * u) + 'px ' + (13 * u) + 'px';
+    meta.appendChild(chip);
+  });
+  meta.style.display = (CONFIG.meta || []).length ? 'flex' : 'none';
+
+  // el cuerpo ocupa lo que sobra entre lo de arriba y el título — el anillo ya
+  // NO vive dentro de la columna, así que no resta alto acá (ver más abajo).
+  const scoreRow = canvas.querySelector('.scoreRow');
+  const ring = canvas.querySelector('.ring');
+  const ringInner = canvas.querySelector('.ringInner');
+  const ringText = canvas.querySelector('.ringText');
+  const scoreLabel = canvas.querySelector('.scoreLabel');
+  const hayScore = CONFIG.score !== null && CONFIG.score !== undefined;
+  const brandBottom = fmt.h * 0.035;              // mismo "bottom" que la marca: quedan alineados
+  if (hayScore) {
+    const d = 74 * u;
+    const grosor = 7 * u;
+    const pct = Math.max(0, Math.min(100, Math.round(CONFIG.score)));
+    ring.style.width = ring.style.height = d + 'px';
+    ring.style.background = `conic-gradient(${colorAnillo(pct)} 0% ${pct}%, rgba(255,255,255,0.16) ${pct}% 100%)`;
+    ringInner.style.width = ringInner.style.height = (d - grosor * 2) + 'px';
+    ringText.style.fontSize = (21 * u) + 'px';
+    ringText.textContent = pct + '%';
+    scoreLabel.textContent = CONFIG.scoreLabel || '';
+    scoreLabel.style.fontSize = (19 * u) + 'px';
+    scoreLabel.style.marginLeft = (16 * u) + 'px';
+    scoreRow.style.display = 'flex';
+  } else {
+    scoreRow.style.display = 'none';
+  }
+  scoreRow.style.left = colLeft + 'px';
+  scoreRow.style.bottom = brandBottom + 'px';
+
+  const body = canvas.querySelector('.body');
+  body.textContent = CONFIG.body || '';
+  body.style.marginTop = (22 * u) + 'px';
+  body.style.marginBottom = (22 * u) + 'px';
+  // alto disponible real = alto de la columna - lo que ya ocupan los otros bloques
+  // (el anillo ya no está en el flujo del .col, así que no entra en esta cuenta)
+  const usado = title.getBoundingClientRect().height
+              + (CONFIG.tagline ? tagline.getBoundingClientRect().height + 10 * u : 0)
+              + ((CONFIG.meta || []).length ? meta.getBoundingClientRect().height + 16 * u : 0);
+  const altoCuerpo = Math.floor((fmt.h - colTop - colBottom) - usado - 44 * u);
+  body.style.height = altoCuerpo + 'px';
+  // Interlineado como multiplicador (sin unidad): asi acompana al font-size cuando
+  // ajustarAlto lo baja, en vez de quedar clavado en los px del primer intento.
+  body.style.lineHeight = '1.45';
+  ajustarAlto(body, altoCuerpo, 25 * u, 13 * u);
+
+  // ---------- marca (queda EXACTAMENTE igual que el diseño original) ----------
+  const brand = canvas.querySelector('.brand');
+  brand.innerHTML = '';
+  brand.style.right = (fmt.w * 0.045) + 'px';
+  brand.style.bottom = brandBottom + 'px';
+  brand.style.gap = (12 * u) + 'px';
+  brand.style.padding = (10 * u) + 'px ' + (22 * u) + 'px ' + (10 * u) + 'px ' + (14 * u) + 'px';
+  brand.style.zIndex = '4';
+  const logo = await cargarImagen(CONFIG.logo);
+  const aspecto = logo && logo.naturalWidth ? (logo.naturalHeight / logo.naturalWidth) : 1;
+  const img = document.createElement('img');
+  img.src = CONFIG.logo;
+  img.style.width = (85 * u) + 'px';
+  img.style.height = (85 * u * aspecto) + 'px';
+  const sitio = document.createElement('div');
+  sitio.className = 'brandSite';
+  sitio.style.fontSize = (22 * u) + 'px';
+  sitio.textContent = CONFIG.site;
+  brand.appendChild(img);
+  brand.appendChild(sitio);
+
+  canvas.classList.remove('hidden');
+}
+
+build();
+</script>
+</body>
+</html>

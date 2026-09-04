@@ -1,0 +1,41 @@
+{
+  "slug": "escalofrios",
+  "tipo": "imagen",
+  "titulo": "Escalofríos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0051"
+  },
+  "vtxIds": [
+    "VTX-0051"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/escalofrios/images/01-escalofrios.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0051"
+    },
+    {
+      "archivo": "POST/social/series/escalofrios/images/02-sinopsis-escalofrios.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/escalofrios"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/escalofrios/images/02-sinopsis-escalofrios.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/escalofrios/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

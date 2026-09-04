@@ -1,0 +1,41 @@
+{
+  "slug": "merlina",
+  "tipo": "imagen",
+  "titulo": "Merlina",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0098"
+  },
+  "vtxIds": [
+    "VTX-0098"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/merlina/images/01-merlina.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0098"
+    },
+    {
+      "archivo": "POST/social/series/merlina/images/02-sinopsis-merlina.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/merlina"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/merlina/images/02-sinopsis-merlina.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/merlina/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

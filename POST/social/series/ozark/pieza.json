@@ -1,0 +1,41 @@
+{
+  "slug": "ozark",
+  "tipo": "imagen",
+  "titulo": "Ozark",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0110"
+  },
+  "vtxIds": [
+    "VTX-0110"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/ozark/images/01-ozark.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0110"
+    },
+    {
+      "archivo": "POST/social/series/ozark/images/02-sinopsis-ozark.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ozark"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/ozark/images/02-sinopsis-ozark.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/ozark/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

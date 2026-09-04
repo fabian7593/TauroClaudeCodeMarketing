@@ -1,0 +1,41 @@
+{
+  "slug": "las-aventuras-del-suspenso",
+  "tipo": "imagen",
+  "titulo": "Las Aventuras del Suspenso",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0087"
+  },
+  "vtxIds": [
+    "VTX-0087"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/las-aventuras-del-suspenso/images/01-las-aventuras-del-suspenso.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0087"
+    },
+    {
+      "archivo": "POST/social/series/las-aventuras-del-suspenso/images/02-sinopsis-las-aventuras-del-suspenso.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/las-aventuras-del-suspenso"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/las-aventuras-del-suspenso/images/02-sinopsis-las-aventuras-del-suspenso.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/las-aventuras-del-suspenso/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

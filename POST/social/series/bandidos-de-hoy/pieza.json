@@ -1,0 +1,51 @@
+{
+  "slug": "bandidos-de-hoy",
+  "tipo": "imagen",
+  "titulo": "Bandidos de Hoy",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0014"
+  },
+  "vtxIds": [
+    "VTX-0014"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/bandidos-de-hoy/images/01-bandidos-de-hoy.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0014"
+    },
+    {
+      "archivo": "POST/social/series/bandidos-de-hoy/images/02-sinopsis-bandidos-de-hoy.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bandidos-de-hoy"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/bandidos-de-hoy/images/02-sinopsis-bandidos-de-hoy.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/bandidos-de-hoy/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-29",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  },
+  "nota": "Catálogo marca estado Incompleto: falta la temporada 2. El caption no promete la serie completa."
+}

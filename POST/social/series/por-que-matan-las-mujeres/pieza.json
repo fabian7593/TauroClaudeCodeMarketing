@@ -1,0 +1,41 @@
+{
+  "slug": "por-que-matan-las-mujeres",
+  "tipo": "imagen",
+  "titulo": "Por Qué Matan las Mujeres",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0113"
+  },
+  "vtxIds": [
+    "VTX-0113"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/por-que-matan-las-mujeres/images/01-por-que-matan-las-mujeres.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0113"
+    },
+    {
+      "archivo": "POST/social/series/por-que-matan-las-mujeres/images/02-sinopsis-por-que-matan-las-mujeres.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/por-que-matan-las-mujeres"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/por-que-matan-las-mujeres/images/02-sinopsis-por-que-matan-las-mujeres.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/por-que-matan-las-mujeres/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

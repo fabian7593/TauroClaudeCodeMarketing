@@ -1,0 +1,41 @@
+{
+  "slug": "spider-noir",
+  "tipo": "imagen",
+  "titulo": "Spider-Noir",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0123"
+  },
+  "vtxIds": [
+    "VTX-0123"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/spider-noir/images/01-spider-noir.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0123"
+    },
+    {
+      "archivo": "POST/social/series/spider-noir/images/02-sinopsis-spider-noir.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/spider-noir"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/spider-noir/images/02-sinopsis-spider-noir.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/spider-noir/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

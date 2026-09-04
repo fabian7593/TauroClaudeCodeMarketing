@@ -1,0 +1,41 @@
+{
+  "slug": "succession",
+  "tipo": "imagen",
+  "titulo": "Succession",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0128"
+  },
+  "vtxIds": [
+    "VTX-0128"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/succession/images/01-succession.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0128"
+    },
+    {
+      "archivo": "POST/social/series/succession/images/02-sinopsis-succession.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/succession"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/succession/images/02-sinopsis-succession.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/succession/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

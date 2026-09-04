@@ -1,0 +1,76 @@
+{
+  "slug": "la-purga",
+  "tipo": "carrusel",
+  "titulo": "La Purga",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "La Purga"
+  },
+  "vtxIds": [
+    "VTX-1019",
+    "VTX-0740",
+    "VTX-0003",
+    "VTX-0741",
+    "VTX-1027"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/la-purga/images/01-la-noche-de-la-expiacion.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1019"
+    },
+    {
+      "archivo": "POST/social/peliculas/la-purga/images/02-12-horas-para-sobrevivir.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0740"
+    },
+    {
+      "archivo": "POST/social/peliculas/la-purga/images/03-el-ano-de-la-eleccion.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0003"
+    },
+    {
+      "archivo": "POST/social/peliculas/la-purga/images/04-el-inicio.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0741"
+    },
+    {
+      "archivo": "POST/social/peliculas/la-purga/images/05-la-purga-por-siempre.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1027"
+    },
+    {
+      "archivo": "POST/social/peliculas/la-purga/images/06-sinopsis-la-purga.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "idioma": "es",
+    "carpeta": "POST/assets/posters/la-purga"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/la-purga/images/06-sinopsis-la-purga.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/la-purga/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-11",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  },
+  "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
+}

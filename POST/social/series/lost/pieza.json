@@ -1,0 +1,41 @@
+{
+  "slug": "lost",
+  "tipo": "imagen",
+  "titulo": "Lost",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0093"
+  },
+  "vtxIds": [
+    "VTX-0093"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/lost/images/01-lost.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0093"
+    },
+    {
+      "archivo": "POST/social/series/lost/images/02-sinopsis-lost.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/lost"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/lost/images/02-sinopsis-lost.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/lost/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

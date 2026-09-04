@@ -1,0 +1,41 @@
+{
+  "slug": "el-mundo-oculto-de-sabrina",
+  "tipo": "imagen",
+  "titulo": "El Mundo Oculto de Sabrina",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0045"
+  },
+  "vtxIds": [
+    "VTX-0045"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-mundo-oculto-de-sabrina/images/01-el-mundo-oculto-de-sabrina.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0045"
+    },
+    {
+      "archivo": "POST/social/series/el-mundo-oculto-de-sabrina/images/02-sinopsis-el-mundo-oculto-de-sabrina.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-mundo-oculto-de-sabrina"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-mundo-oculto-de-sabrina/images/02-sinopsis-el-mundo-oculto-de-sabrina.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-mundo-oculto-de-sabrina/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "invasion",
+  "tipo": "imagen",
+  "titulo": "Invasión",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0071"
+  },
+  "vtxIds": [
+    "VTX-0071"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/invasion/images/01-invasion.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0071"
+    },
+    {
+      "archivo": "POST/social/series/invasion/images/02-sinopsis-invasion.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/invasion"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/invasion/images/02-sinopsis-invasion.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/invasion/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

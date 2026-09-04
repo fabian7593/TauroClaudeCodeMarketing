@@ -79,7 +79,7 @@ Plan para "La Purga" (colección de 6 títulos):
 Pedí confirmación (o al menos dejá el plan visible antes de arrancar) y recién ahí pasá a `crear-imagen` / `crear-carrusel` / `crear-sinopsis` / `crear-texto`.
 
 ## 6. Registrar la pieza al terminar
-Cuando la pieza queda producida, escribí su ficha en `<contentRoot>/social/<slug>/pieza.json`:
+Cuando la pieza queda producida, escribí su ficha en `<contentRoot>/social/<categoria>/<slug>/pieza.json`. `categoria` es `series` o `peliculas` — separa ambos tipos de contenido para que no se mezclen en el mismo listado; sale del campo `categoria` que ya calcula `siguiente_lote.py` por grupo (derivado del `tipo` del catálogo: Serie → `series`, Película → `peliculas`). Un carrusel de colección de películas siempre es `peliculas`; un carrusel de temporadas de una serie antológica siempre es `series` — la categoría la define el tipo del contenido, no si es post simple o carrusel.
 
 ```json
 {
@@ -90,13 +90,13 @@ Cuando la pieza queda producida, escribí su ficha en `<contentRoot>/social/<slu
   "vtxIds": ["VTX-1019", "VTX-0740", "VTX-0003", "VTX-0741", "VTX-1027"],
   "creada": "2026-09-02",
   "imagenes": [
-    { "archivo": "POST/social/la-purga/images/01-la-noche-de-la-expiacion.png", "tipo": "arte", "vtxId": "VTX-1019" },
-    { "archivo": "POST/social/la-purga/images/06-sinopsis-la-purga.png", "tipo": "sinopsis" }
+    { "archivo": "POST/social/peliculas/la-purga/images/01-la-noche-de-la-expiacion.png", "tipo": "arte", "vtxId": "VTX-1019" },
+    { "archivo": "POST/social/peliculas/la-purga/images/06-sinopsis-la-purga.png", "tipo": "sinopsis" }
   ],
-  "sinopsis": { "creada": true, "archivo": "POST/social/la-purga/images/06-sinopsis-la-purga.png" },
-  "texto": { "creado": true, "archivo": "POST/social/la-purga/post.txt" },
+  "sinopsis": { "creada": true, "archivo": "POST/social/peliculas/la-purga/images/06-sinopsis-la-purga.png" },
+  "texto": { "creado": true, "archivo": "POST/social/peliculas/la-purga/post.txt" },
   "publicado": { "hecho": false, "fecha": null, "plataformas": [] },
-  "nota": "La serie The Purge (VTX-0137) va en su propia pieza: las series no se agrupan con las películas."
+  "nota": "La serie The Purge (VTX-0137) va en su propia pieza (en social/series/), no se agrupa con las películas: las series no se agrupan con las películas."
 }
 ```
 

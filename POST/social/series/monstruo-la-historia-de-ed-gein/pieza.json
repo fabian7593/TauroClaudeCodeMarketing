@@ -1,0 +1,41 @@
+{
+  "slug": "monstruo-la-historia-de-ed-gein",
+  "tipo": "imagen",
+  "titulo": "Monstruo: La Historia de Ed Gein",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0099"
+  },
+  "vtxIds": [
+    "VTX-0099"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/monstruo-la-historia-de-ed-gein/images/01-monstruo-la-historia-de-ed-gein.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0099"
+    },
+    {
+      "archivo": "POST/social/series/monstruo-la-historia-de-ed-gein/images/02-sinopsis-monstruo-la-historia-de-ed-gein.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/monstruo-la-historia-de-ed-gein"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/monstruo-la-historia-de-ed-gein/images/02-sinopsis-monstruo-la-historia-de-ed-gein.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/monstruo-la-historia-de-ed-gein/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "sonic-prime",
+  "tipo": "imagen",
+  "titulo": "Sonic Prime",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0121"
+  },
+  "vtxIds": [
+    "VTX-0121"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/sonic-prime/images/01-sonic-prime.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0121"
+    },
+    {
+      "archivo": "POST/social/series/sonic-prime/images/02-sinopsis-sonic-prime.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/sonic-prime"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/sonic-prime/images/02-sinopsis-sonic-prime.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/sonic-prime/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -145,7 +145,7 @@ Después, corré el chequeo de entorno:
 Claude pregunta lo que le falte (audios/subtítulos si aplica, tipo de post, layout de imagen) y entrega:
 
 ```
-<contentRoot>/social/nombre-de-tu-producto/
+<contentRoot>/social/<series|peliculas>/nombre-de-tu-producto/
 ├── post.txt              # caption + hashtags, listo para pegar
 └── images/
     └── 01-nombre-de-tu-producto.png
@@ -317,13 +317,17 @@ mi-proyecto/
     │   └── audio/            música opcional para reels
     ├── _template/            copia editable del template (autogenerada)
     └── social/
-        └── <slug>/
-            ├── post.txt
-            ├── images/
-            ├── reels/
-            ├── tiktok/          (si aplica)
-            └── youtube-shorts/    (si aplica)
+        ├── series/
+        │   └── <slug>/
+        │       ├── post.txt
+        │       ├── images/
+        │       ├── reels/
+        │       ├── tiktok/          (si aplica)
+        │       └── youtube-shorts/    (si aplica)
+        └── peliculas/
+            └── <slug>/           (misma estructura que series/<slug>/)
 ```
+`series/` vs `peliculas/` separa ambos tipos de contenido para que no se mezclen en el mismo listado — la categoría de cada pieza sale del campo `tipo` del catálogo (Serie/Película) y `planear-contenido` ya la resuelve automáticamente por vos.
 
 ## Portabilidad multiplataforma
 
@@ -349,7 +353,7 @@ Ningún componente del plugin asume Windows, una marca específica, ni una estru
 ## Extender el plugin
 
 1. Usá el skill `skill-creator` (incluido en Claude Code) para armar el `SKILL.md` nuevo con el formato correcto.
-2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar dentro de `<contentRoot>/social/<slug>/...`, y remitir a `preparar-entorno` para cualquier chequeo de entorno en vez de duplicarlo.
+2. Seguí el mismo contrato que ya usan los demás: leer `CLAUDE.md`/`brand.config.json` del proyecto (nunca asumir una marca fija), guardar dentro de `<contentRoot>/social/<categoria>/<slug>/...` (`categoria` = `series` o `peliculas`, según el `tipo` del catálogo), y remitir a `preparar-entorno` para cualquier chequeo de entorno en vez de duplicarlo.
 3. Colocalo en `skills/<nombre-nuevo>/SKILL.md`. Si querés un atajo de comando, agregá `commands/cmd-<nombre>.md`.
 4. No hace falta declarar nada en `plugin.json` — los skills y commands se autodescubren por carpeta.
 5. Un skill nuevo puede sumarse a un flujo existente (ej. un formato nuevo dentro de `crear-imagen`) o abrir uno propio (ej. soporte para una red nueva) — las dos formas son válidas.

@@ -1,0 +1,50 @@
+{
+  "slug": "andor",
+  "tipo": "imagen",
+  "titulo": "Andor",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0010"
+  },
+  "vtxIds": [
+    "VTX-0010"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/andor/images/01-andor.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0010"
+    },
+    {
+      "archivo": "POST/social/series/andor/images/02-sinopsis-andor.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/andor"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/andor/images/02-sinopsis-andor.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/andor/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-22",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

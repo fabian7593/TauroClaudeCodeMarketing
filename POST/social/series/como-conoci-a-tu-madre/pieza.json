@@ -1,0 +1,50 @@
+{
+  "slug": "como-conoci-a-tu-madre",
+  "tipo": "imagen",
+  "titulo": "Cómo Conocí a Tu Madre",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0027"
+  },
+  "vtxIds": [
+    "VTX-0027"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/como-conoci-a-tu-madre/images/01-como-conoci-a-tu-madre.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0027"
+    },
+    {
+      "archivo": "POST/social/series/como-conoci-a-tu-madre/images/02-sinopsis-como-conoci-a-tu-madre.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/como-conoci-a-tu-madre"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/como-conoci-a-tu-madre/images/02-sinopsis-como-conoci-a-tu-madre.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/como-conoci-a-tu-madre/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-03",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "stranger-things",
+  "tipo": "imagen",
+  "titulo": "Stranger Things",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0127"
+  },
+  "vtxIds": [
+    "VTX-0127"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/stranger-things/images/01-stranger-things.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0127"
+    },
+    {
+      "archivo": "POST/social/series/stranger-things/images/02-sinopsis-stranger-things.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/stranger-things"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/stranger-things/images/02-sinopsis-stranger-things.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/stranger-things/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "epoca=Halloween en el catalogo — producida ahora, pero conviene reservarla para programar en Zernio recien cerca de octubre/Halloween."
+}

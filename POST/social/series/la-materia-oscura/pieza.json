@@ -1,0 +1,41 @@
+{
+  "slug": "la-materia-oscura",
+  "tipo": "imagen",
+  "titulo": "La Materia Oscura",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0084"
+  },
+  "vtxIds": [
+    "VTX-0084"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-materia-oscura/images/01-la-materia-oscura.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0084"
+    },
+    {
+      "archivo": "POST/social/series/la-materia-oscura/images/02-sinopsis-la-materia-oscura.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-materia-oscura"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-materia-oscura/images/02-sinopsis-la-materia-oscura.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-materia-oscura/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

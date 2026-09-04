@@ -18,10 +18,11 @@ Verificá que existan (usando `Bash`/`PowerShell`, no asumas):
 <contentRoot>/assets/videos/
 <contentRoot>/assets/audio/
 <contentRoot>/assets/logo/
-<contentRoot>/social/
+<contentRoot>/social/series/
+<contentRoot>/social/peliculas/
 <contentRoot>/_template/
 ```
-Si falta alguna, preguntá (una sola vez, todas juntas) si las creás ahora. Si el usuario dice que sí, crealas vacías (con un `.gitkeep` si el proyecto usa git, para que no se pierdan al no tener contenido). Si dice que no, avisá qué comandos van a fallar hasta que existan y por qué.
+`social/` tiene un nivel de categoría (`series/`, `peliculas/`) antes de cada slug de pieza, para no mezclar ambos tipos de contenido en el mismo listado — verificá las dos subcarpetas, no solo `social/` a secas. Si falta alguna, preguntá (una sola vez, todas juntas) si las creás ahora. Si el usuario dice que sí, crealas vacías (con un `.gitkeep` si el proyecto usa git, para que no se pierdan al no tener contenido). Si dice que no, avisá qué comandos van a fallar hasta que existan y por qué.
 
 ## 2. brand.config.json
 Vive en la raíz del proyecto (al lado de `CLAUDE.md`, si existe). Es una **cache mecánica derivada** — la fuente humana de las reglas de marca sigue siendo `CLAUDE.md` (o el que el proyecto use); este archivo es lo que los demás skills leen para chequeos exactos sin tener que interpretar prosa cada vez.

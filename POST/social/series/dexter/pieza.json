@@ -1,0 +1,41 @@
+{
+  "slug": "dexter",
+  "tipo": "imagen",
+  "titulo": "Dexter",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0031"
+  },
+  "vtxIds": [
+    "VTX-0031"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dexter/images/01-dexter.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0031"
+    },
+    {
+      "archivo": "POST/social/series/dexter/images/02-sinopsis-dexter.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dexter"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dexter/images/02-sinopsis-dexter.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dexter/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

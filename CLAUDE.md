@@ -46,7 +46,12 @@ Las imágenes de post llevan filas de info técnica. Se llenan con datos del cat
 - **Las películas de una colección se publican juntas** como carrusel: si una película es parte de una saga, va con toda su saga, no sola.
 - **Las series NO se agrupan**: cada serie de una franquicia (las de Digimon, las de The Walking Dead) es su propia pieza, con su propio póster. Serie y películas de la misma franquicia son siempre piezas distintas.
 - **Series antológicas** (cada temporada es otra historia, ej. American Horror Story) van como carrusel de temporadas, con el póster propio de cada temporada. Las series de historia continua (Breaking Bad, The Big Bang Theory) van con una sola imagen.
-- **Pósters**: si tienen texto, tiene que estar en español (LATAM/MX). Si TMDB no tiene ninguno en español, se usa el póster default del catálogo (probablemente en inglés) y se avisa.
+- **Pósters — idioma del texto, en este orden de preferencia**:
+  1. **Español LATAM/MX** — pero ojo: TMDB junta España y Latinoamérica en el mismo idioma "es", no los separa. Un póster en "es" **solo sirve si el texto que muestra es como LATAM le dice al título** (comparar contra el `tituloEs` del catálogo, que ya está en español LATAM). Si el póster trae la traducción/título de España (ej. "Perdidos" para lo que acá se conoce como "Lost"), **no sirve aunque sea el único candidato en español** — se descarta igual que si no existiera.
+  2. **Nunca español de España/castellano** — ni como texto principal ni como último recurso. No es un idioma aceptable en ningún punto de esta lista, se prefiere inglés antes que castellano.
+  3. Si no hay ningún candidato en español LATAM válido: **inglés**.
+  4. Si tampoco hay en inglés: sin texto (**textless**).
+  5. Solo si no hay nada de lo anterior: el póster default del catálogo (columna Póster), avisando qué idioma trae.
 - **Ningún póster puede traer el logo de una plataforma competidora** (la N de Netflix, "A NETFLIX SERIES", HBO, Prime, Disney+). Muchos pósters promocionales de TMDB lo tienen quemado: hay que mirarlos antes de usarlos y descartar los que lo traigan. Es la misma regla de menciones prohibidas, pero dentro de la imagen.
 - El detalle operativo de todo esto está en los skills `planear-contenido`, `crear-sinopsis` y `crear-imagen` del plugin post-studio.
 

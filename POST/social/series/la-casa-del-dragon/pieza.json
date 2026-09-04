@@ -1,0 +1,41 @@
+{
+  "slug": "la-casa-del-dragon",
+  "tipo": "imagen",
+  "titulo": "La Casa del Dragón",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0080"
+  },
+  "vtxIds": [
+    "VTX-0080"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-casa-del-dragon/images/01-la-casa-del-dragon.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0080"
+    },
+    {
+      "archivo": "POST/social/series/la-casa-del-dragon/images/02-sinopsis-la-casa-del-dragon.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-casa-del-dragon"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-casa-del-dragon/images/02-sinopsis-la-casa-del-dragon.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-casa-del-dragon/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

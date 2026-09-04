@@ -1,0 +1,41 @@
+{
+  "slug": "ju-on-origenes",
+  "tipo": "imagen",
+  "titulo": "Ju-On: Orígenes",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0075"
+  },
+  "vtxIds": [
+    "VTX-0075"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/ju-on-origenes/images/01-ju-on-origenes.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0075"
+    },
+    {
+      "archivo": "POST/social/series/ju-on-origenes/images/02-sinopsis-ju-on-origenes.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ju-on-origenes"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/ju-on-origenes/images/02-sinopsis-ju-on-origenes.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/ju-on-origenes/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

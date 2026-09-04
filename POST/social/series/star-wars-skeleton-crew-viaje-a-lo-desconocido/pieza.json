@@ -1,0 +1,41 @@
+{
+  "slug": "star-wars-skeleton-crew-viaje-a-lo-desconocido",
+  "tipo": "imagen",
+  "titulo": "Star Wars Skeleton Crew: Viaje a lo Desconocido",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0126"
+  },
+  "vtxIds": [
+    "VTX-0126"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/star-wars-skeleton-crew-viaje-a-lo-desconocido/images/01-star-wars-skeleton-crew-viaje-a-lo-desconocido.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0126"
+    },
+    {
+      "archivo": "POST/social/series/star-wars-skeleton-crew-viaje-a-lo-desconocido/images/02-sinopsis-star-wars-skeleton-crew-viaje-a-lo-desconocido.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/star-wars-skeleton-crew-viaje-a-lo-desconocido"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/star-wars-skeleton-crew-viaje-a-lo-desconocido/images/02-sinopsis-star-wars-skeleton-crew-viaje-a-lo-desconocido.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/star-wars-skeleton-crew-viaje-a-lo-desconocido/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -6,8 +6,10 @@ POST/assets/videos/*
 
 # Ningun video va al repo, ni siquiera los reels ya terminados (pesan demasiado
 # para git). Todo lo demas de social/ (imagenes PNG, post.txt, pieza.json) SI.
+# social/ tiene un nivel de categoria (series/, peliculas/) antes del slug,
+# de ahi el doble comodin.
 *.mp4
-POST/social/*/reels/*
+POST/social/*/*/reels/*
 
 # Catalogo maestro y su espejo local: datos regenerables y pesados. Se rehacen
 # con /cmd-catalogo a partir del Excel, asi que no van al repo.

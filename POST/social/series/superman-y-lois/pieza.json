@@ -1,0 +1,41 @@
+{
+  "slug": "superman-y-lois",
+  "tipo": "imagen",
+  "titulo": "Superman y Lois",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0129"
+  },
+  "vtxIds": [
+    "VTX-0129"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/superman-y-lois/images/01-superman-y-lois.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0129"
+    },
+    {
+      "archivo": "POST/social/series/superman-y-lois/images/02-sinopsis-superman-y-lois.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/superman-y-lois"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/superman-y-lois/images/02-sinopsis-superman-y-lois.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/superman-y-lois/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

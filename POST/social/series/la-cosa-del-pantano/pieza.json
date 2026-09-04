@@ -1,0 +1,41 @@
+{
+  "slug": "la-cosa-del-pantano",
+  "tipo": "imagen",
+  "titulo": "La Cosa del Pantano",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0082"
+  },
+  "vtxIds": [
+    "VTX-0082"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-cosa-del-pantano/images/01-la-cosa-del-pantano.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0082"
+    },
+    {
+      "archivo": "POST/social/series/la-cosa-del-pantano/images/02-sinopsis-la-cosa-del-pantano.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-cosa-del-pantano"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-cosa-del-pantano/images/02-sinopsis-la-cosa-del-pantano.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-cosa-del-pantano/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

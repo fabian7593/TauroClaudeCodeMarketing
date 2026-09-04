@@ -1,0 +1,51 @@
+{
+  "slug": "quien-es-erin-carter",
+  "tipo": "imagen",
+  "titulo": "¿Quién Es Erin Carter?",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0002"
+  },
+  "vtxIds": [
+    "VTX-0002"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/quien-es-erin-carter/images/01-quien-es-erin-carter.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0002"
+    },
+    {
+      "archivo": "POST/social/series/quien-es-erin-carter/images/02-sinopsis-quien-es-erin-carter.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "idioma": "es",
+    "carpeta": "POST/assets/posters/quien-es-erin-carter"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/quien-es-erin-carter/images/02-sinopsis-quien-es-erin-carter.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/quien-es-erin-carter/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-10",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

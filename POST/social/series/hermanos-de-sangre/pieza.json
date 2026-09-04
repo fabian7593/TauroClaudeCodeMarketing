@@ -1,0 +1,41 @@
+{
+  "slug": "hermanos-de-sangre",
+  "tipo": "imagen",
+  "titulo": "Hermanos de Sangre",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0069"
+  },
+  "vtxIds": [
+    "VTX-0069"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/hermanos-de-sangre/images/01-hermanos-de-sangre.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0069"
+    },
+    {
+      "archivo": "POST/social/series/hermanos-de-sangre/images/02-sinopsis-hermanos-de-sangre.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/hermanos-de-sangre"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/hermanos-de-sangre/images/02-sinopsis-hermanos-de-sangre.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/hermanos-de-sangre/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

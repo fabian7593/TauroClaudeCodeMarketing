@@ -1,0 +1,41 @@
+{
+  "slug": "orange-is-the-new-black",
+  "tipo": "imagen",
+  "titulo": "Orange Is the New Black",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0108"
+  },
+  "vtxIds": [
+    "VTX-0108"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/orange-is-the-new-black/images/01-orange-is-the-new-black.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0108"
+    },
+    {
+      "archivo": "POST/social/series/orange-is-the-new-black/images/02-sinopsis-orange-is-the-new-black.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/orange-is-the-new-black"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/orange-is-the-new-black/images/02-sinopsis-orange-is-the-new-black.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/orange-is-the-new-black/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

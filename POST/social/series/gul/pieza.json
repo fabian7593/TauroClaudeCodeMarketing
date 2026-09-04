@@ -1,0 +1,41 @@
+{
+  "slug": "gul",
+  "tipo": "imagen",
+  "titulo": "Gul",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0066"
+  },
+  "vtxIds": [
+    "VTX-0066"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/gul/images/01-gul.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0066"
+    },
+    {
+      "archivo": "POST/social/series/gul/images/02-sinopsis-gul.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/gul"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/gul/images/02-sinopsis-gul.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/gul/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

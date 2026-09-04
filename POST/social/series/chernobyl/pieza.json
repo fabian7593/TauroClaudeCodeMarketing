@@ -1,0 +1,50 @@
+{
+  "slug": "chernobyl",
+  "tipo": "imagen",
+  "titulo": "Chernobyl",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0024"
+  },
+  "vtxIds": [
+    "VTX-0024"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/chernobyl/images/01-chernobyl.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0024"
+    },
+    {
+      "archivo": "POST/social/series/chernobyl/images/02-sinopsis-chernobyl.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/chernobyl"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/chernobyl/images/02-sinopsis-chernobyl.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/chernobyl/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-15",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

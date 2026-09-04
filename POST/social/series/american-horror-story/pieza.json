@@ -1,0 +1,106 @@
+{
+  "slug": "american-horror-story",
+  "tipo": "carrusel",
+  "titulo": "American Horror Story",
+  "grupo": {
+    "clase": "titulo-antologico",
+    "valor": "VTX-0008"
+  },
+  "vtxIds": [
+    "VTX-0008"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/american-horror-story/images/01-ahs-murder-house.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/02-ahs-asylum.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/03-ahs-coven.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/04-ahs-freak-show.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/05-ahs-hotel.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/06-ahs-roanoke.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/07-ahs-cult.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/08-ahs-apocalypse.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/09-ahs-1984.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/10-ahs-double-feature.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/11-ahs-nyc.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/12-ahs-delicate.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0008"
+    },
+    {
+      "archivo": "POST/social/series/american-horror-story/images/13-sinopsis-american-horror-story.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/american-horror-story"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/american-horror-story/images/13-sinopsis-american-horror-story.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/american-horror-story/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-20",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  },
+  "nota": "Serie antológica con 12 temporadas, TODAS incluidas en el carrusel de arte (una por temporada, con su propio póster). La ficha de sinopsis muestra solo 4 en su tira (límite de diseño del template: 2-4 cuadros), curadas para representar el arco completo — Murder House (el origen), Coven (una de las más premiadas), 1984 y Delicate (para mostrar que la serie sigue vigente). Esto es distinto del carrusel de arte, que sí trae las 12 completas."
+}

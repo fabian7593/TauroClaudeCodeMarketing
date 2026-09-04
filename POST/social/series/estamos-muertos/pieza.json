@@ -1,0 +1,41 @@
+{
+  "slug": "estamos-muertos",
+  "tipo": "imagen",
+  "titulo": "Estamos Muertos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0054"
+  },
+  "vtxIds": [
+    "VTX-0054"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/estamos-muertos/images/01-estamos-muertos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0054"
+    },
+    {
+      "archivo": "POST/social/series/estamos-muertos/images/02-sinopsis-estamos-muertos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/estamos-muertos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/estamos-muertos/images/02-sinopsis-estamos-muertos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/estamos-muertos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

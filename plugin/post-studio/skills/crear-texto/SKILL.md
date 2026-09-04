@@ -80,11 +80,18 @@ Verificaciones obligatorias antes de entregar (mecánicas, no "a ojo" — cheque
 - [ ] El texto no repite el párrafo de la imagen de sinopsis
 - [ ] El texto **vende**: nada de describir el título en negativo ("no pasa gran cosa", "no hay sorpresas"). Lo que es una virtud se escribe como virtud
 - [ ] Los datos duros (año, temporadas, edad, puntaje) coinciden con el catálogo y con la ficha de sinopsis
+- [ ] El texto completo (caption + hashtags) entra en el límite de Instagram, 2200 caracteres — es la plataforma más chica de las que arma esta skill; si lo pasa, recortá la descripción antes que el CTA, la edad o los hashtags
+- [ ] Cada hashtag es una sola palabra pegada (`#EjemploAsi`), sin espacios adentro — ver formato técnico en el paso 3
 
 **Control final de la pieza**: antes de dar la pieza por terminada, leé el `post.txt` **y** el texto ya renderizado en la imagen de sinopsis, juntos. Recién ahí se puede decir que está lista: si los dos textos se contradicen, se repiten o alguno no cumple, se corrige antes de entregar.
 
 ## 3. Hashtags — van DENTRO del mismo texto, no aparte
 Generá 5-8 hashtags relevantes (categoría/nicho del contenido, geografía si la marca tiene mercado específico, y marca) y ponelos al final del mismo bloque de texto. **Nunca un hashtag con el nombre de una plataforma competidora** (`#Netflix`, `#HBOMax`, `#DisneyPlus`, `#PrimeVideo`) — pasa fácil cuando el título es un spinoff/adaptación conocido de esa plataforma (ej. universo La Casa de Papel, Marvel, un anime de temporada). Es la misma regla de `forbiddenMentions` que ya se chequea en el cuerpo del texto; revisala también en los hashtags, no solo en las primeras líneas. — **no los guardes en un archivo separado**, van pegados abajo del caption porque así es como se pegan en la plataforma real.
+
+**Formato técnico del hashtag — un espacio adentro lo rompe en dos palabras sueltas** y la plataforma deja de reconocerlo como hashtag desde ahí (ej. `#ParaToda LaFamilia` se publica como el hashtag `#ParaToda` seguido del texto plano "LaFamilia", visible pero sin funcionar como etiqueta — pasó una vez en este proyecto y no se notó hasta programar la publicación). Antes de dar un hashtag por terminado:
+- Sin espacios ni signos de puntuación adentro (`CamelCase` para separar palabras: `#ParaTodaLaFamilia`, no `#Para Toda La Familia` ni `#Para-Toda-La-Familia`).
+- Sin tildes ni eñes si el resto de los hashtags de la pieza tampoco las llevan (consistencia dentro del mismo post).
+- Repasá el bloque final de hashtags carácter por carácter buscando un espacio de más — es el error más fácil de cometer al armarlos a mano y el más fácil de no ver en una lectura rápida.
 
 ## 4. Adaptaciones por plataforma
 - **TikTok/Shorts**: además del caption, generá un guion de 15-30 segundos con marcas de tiempo simples (0-3s hook visual, 3-15s desarrollo, 15-30s CTA).
@@ -93,10 +100,10 @@ Generá 5-8 hashtags relevantes (categoría/nicho del contenido, geografía si l
 No generes acá un prompt de imagen ni de animación — si el usuario necesita eso, es el skill `generar-prompt-movimiento` (a partir de una imagen real) el que lo cubre; ese prompt se muestra en el chat, no se guarda como archivo de este post.
 
 ## 5. Guardar en la carpeta del proyecto
-La raíz de contenido es `contentRoot` de `brand.config.json` (default `POST/` si no está configurado). Instagram y Facebook comparten el mismo texto e imagen — van en una única carpeta, no dupliques contenido en carpetas separadas por plataforma:
+La raíz de contenido es `contentRoot` de `brand.config.json` (default `POST/` si no está configurado). Instagram y Facebook comparten el mismo texto e imagen — van en una única carpeta, no dupliques contenido en carpetas separadas por plataforma. Dentro de `social/` hay un nivel de **categoría** antes del slug — `series` o `peliculas` — para no mezclar ambos tipos de contenido en el mismo listado:
 
 ```
-<contentRoot>/social/[slug]/
+<contentRoot>/social/<categoria>/[slug]/
 ├── post.txt          (caption + hashtags juntos, listo para copiar y pegar)
 ├── images/            (lo produce crear-imagen / crear-carrusel)
 ├── reels/              (lo produce crear-reel, si aplica)
@@ -106,7 +113,7 @@ La raíz de contenido es `contentRoot` de `brand.config.json` (default `POST/` s
     └── guion.txt
 ```
 
-`slug` en minúsculas y guiones (ej. `frieren`, `dragon-ball-z`). Si la carpeta `<contentRoot>/social/[slug]/` no existe, creala. Si el post lleva imagen, usá el skill `crear-imagen` (o `crear-carrusel` si son varias) para producirla dentro de `images/`.
+`slug` en minúsculas y guiones (ej. `frieren`, `dragon-ball-z`). `categoria` sale del campo `tipo` del catálogo del título (Serie → `series`, Película → `peliculas`) — si el pedido viene de `planear-contenido`, ya te la da resuelta en el campo `categoria` de cada grupo; si no, preguntale al usuario o inferila del título antes de crear la carpeta. Si `<contentRoot>/social/<categoria>/[slug]/` no existe, creala. Si el post lleva imagen, usá el skill `crear-imagen` (o `crear-carrusel` si son varias) para producirla dentro de `images/`.
 
 ## 6. Confirmación final
 Después de guardar `post.txt`, mostrá en el chat un resumen corto de qué se creó y en qué ruta, más el texto completo del post para que el usuario lo revise sin abrir el archivo.

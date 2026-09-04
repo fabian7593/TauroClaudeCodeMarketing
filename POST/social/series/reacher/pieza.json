@@ -1,0 +1,41 @@
+{
+  "slug": "reacher",
+  "tipo": "imagen",
+  "titulo": "Reacher",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0116"
+  },
+  "vtxIds": [
+    "VTX-0116"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/reacher/images/01-reacher.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0116"
+    },
+    {
+      "archivo": "POST/social/series/reacher/images/02-sinopsis-reacher.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/reacher"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/reacher/images/02-sinopsis-reacher.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/reacher/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

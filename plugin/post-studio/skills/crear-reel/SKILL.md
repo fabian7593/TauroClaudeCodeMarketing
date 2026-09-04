@@ -30,7 +30,7 @@ Si falta alguna, avisale al usuario — no instales ffmpeg sin que te lo pida.
 - **Videos de origen**: `<contentRoot>/assets/videos/` — buscá ahí el/los archivo(s) si el usuario no los especifica, o preguntá cuáles usar si hay ambigüedad. En modo Fusión, todos los videos de origen suelen salir de esta misma carpeta, pero el usuario puede indicarte otra ruta.
 - **Audio opcional**: `<contentRoot>/assets/audio/` — pistas de música/sonido que el usuario puede querer usar en vez del audio original.
 - **Logo de marca**: el resuelto por `preparar-entorno` (`brand.config.json` → `logoFolder`+`logoFile`). Si el logo es `.svg`, rasterizalo una vez a PNG (por ejemplo con el mismo Chrome headless que usa `crear-imagen`) y cacheá esa versión — ffmpeg no decodifica SVG directo; reusala mientras el SVG original no cambie.
-- **Salida**: `<contentRoot>/social/<slug>/reels/<slug>-reel.mp4` — si ya existe un reel previo para ese slug y el usuario pide otra versión, no lo sobrescribas: guardalo como `<slug>-reel-v2.mp4`, `-v3.mp4`, etc. (mirá qué archivos ya hay en esa carpeta antes de nombrar el nuevo). Esto aplica igual en los tres modos. En modo Fusión, si no hay un slug obvio de un solo item/carpeta (porque los videos son de cosas distintas), preguntale al usuario qué nombre de carpeta/slug usar para el resultado.
+- **Salida**: `<contentRoot>/social/<categoria>/<slug>/reels/<slug>-reel.mp4` — `categoria` es `series` o `peliculas` (misma que ya tenga la pieza en `pieza.json`; si el reel es de una pieza nueva, sale del campo `tipo` del catálogo). Si ya existe un reel previo para ese slug y el usuario pide otra versión, no lo sobrescribas: guardalo como `<slug>-reel-v2.mp4`, `-v3.mp4`, etc. (mirá qué archivos ya hay en esa carpeta antes de nombrar el nuevo). Esto aplica igual en los tres modos. En modo Fusión, si no hay un slug obvio de un solo item/carpeta (porque los videos son de cosas distintas), preguntale al usuario qué nombre de carpeta/slug y qué categoría usar para el resultado.
 - **Marca**: el logo + el texto de `brand.config.json` → `website` (con sombra, no caja de fondo — ver paso 13), abajo a la derecha.
 - **Scripts de esta skill**: `${CLAUDE_PLUGIN_ROOT}/skills/crear-reel/scripts/` — usalos para los pasos mecánicos (formato vertical, marca de agua, unir clips con transición, verificar audio) en vez de reescribir los comandos de ffmpeg a mano; ver pasos 12, 13, H-6 y la verificación de audio. Corré cada uno con `bash`, ej. `bash "${CLAUDE_PLUGIN_ROOT}/skills/crear-reel/scripts/check_audio.sh" archivo.mp4`.
 
@@ -99,7 +99,7 @@ El 4to argumento (texto) es obligatorio — sale de `brand.config.json` → `web
 bash "${CLAUDE_PLUGIN_ROOT}/skills/crear-reel/scripts/check_audio.sh" "FINAL.mp4"
 ```
 Es obligatorio, no opcional. Si devuelve `FAIL`, no entregues: revisá el orden de `-ss`/`-i` antes de continuar.
-- Guardá el resultado en `<contentRoot>/social/<slug>/reels/<slug>-reel.mp4` (o `-v2.mp4`/`-v3.mp4` si ya existe una versión previa).
+- Guardá el resultado en `<contentRoot>/social/<categoria>/<slug>/reels/<slug>-reel.mp4` (o `-v2.mp4`/`-v3.mp4` si ya existe una versión previa).
 
 ## 15. Entrega
 Mostrale al usuario el video final (o la ruta si no se puede adjuntar). Contale en 2-3 líneas qué modo usaste:

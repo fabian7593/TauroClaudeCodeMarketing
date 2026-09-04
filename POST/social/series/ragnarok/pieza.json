@@ -1,0 +1,41 @@
+{
+  "slug": "ragnarok",
+  "tipo": "imagen",
+  "titulo": "Ragnarok",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0114"
+  },
+  "vtxIds": [
+    "VTX-0114"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/ragnarok/images/01-ragnarok.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0114"
+    },
+    {
+      "archivo": "POST/social/series/ragnarok/images/02-sinopsis-ragnarok.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ragnarok"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/ragnarok/images/02-sinopsis-ragnarok.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/ragnarok/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

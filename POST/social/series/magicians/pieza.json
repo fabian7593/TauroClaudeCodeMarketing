@@ -1,0 +1,41 @@
+{
+  "slug": "magicians",
+  "tipo": "imagen",
+  "titulo": "Magicians",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0095"
+  },
+  "vtxIds": [
+    "VTX-0095"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/magicians/images/01-magicians.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0095"
+    },
+    {
+      "archivo": "POST/social/series/magicians/images/02-sinopsis-magicians.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/magicians"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/magicians/images/02-sinopsis-magicians.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/magicians/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

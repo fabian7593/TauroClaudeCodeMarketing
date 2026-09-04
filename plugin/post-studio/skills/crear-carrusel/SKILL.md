@@ -26,9 +26,9 @@ El carrusel **siempre** incluye la imagen de ficha de `crear-sinopsis`, y va **�
 
 ## 2. Generar cada imagen
 Para cada imagen de la colección, en el orden definido, seguí el proceso de `crear-imagen` (sus secciones 1 y 2) con estas particularidades:
-- El slug de carpeta es el de la **colección**, no el de cada item: `<contentRoot>/social/<slug-coleccion>/`
+- El slug de carpeta es el de la **colección**, no el de cada item, y vive bajo la categoría que corresponda: `<contentRoot>/social/<categoria>/<slug-coleccion>/`, donde `categoria` es `series` (colección de temporadas de una serie antológica, ej. American Horror Story) o `peliculas` (colección de películas de una saga, ej. La Purga) — la trae resuelta `planear-contenido` en el campo `categoria` de cada grupo; si armás el carrusel a mano, derivala del campo `tipo` del catálogo (Serie → `series`, Película → `peliculas`).
 - Cada imagen usa el patrón `<NN>-<slug-item>` (`01-digimon-adventure`, `02-digimon-adventure-02`, ...) para el PNG final, numerado según el orden acordado.
-- Guardá cada PNG final en `<contentRoot>/social/<slug-coleccion>/images/<NN>-<slug-item>.png` — nada más que el PNG queda en el proyecto (mismo criterio de limpieza que `crear-imagen`, ver su sección 3).
+- Guardá cada PNG final en `<contentRoot>/social/<categoria>/<slug-coleccion>/images/<NN>-<slug-item>.png` — nada más que el PNG queda en el proyecto (mismo criterio de limpieza que `crear-imagen`, ver su sección 3).
 - `posterFocal`/`posterScale` se ajustan por imagen igual que en `crear-imagen` (cada imagen puede necesitar un encuadre distinto).
 
 Podés reusar el mismo servidor de preview (un solo `python -m http.server` para todo el lote) y renderizar las N imágenes en la misma tanda antes de pasar al texto.
@@ -38,7 +38,7 @@ Usá `crear-texto`, con estas diferencias respecto a un post de una sola imagen:
 - El **hook** debe hablar de la colección completa, no de un item puntual (ej. "Todo el universo Digimon en un solo lugar 🔥" en vez de un hook por temporada).
 - Mencioná en el cuerpo que hay varias opciones para descubrir deslizando (ej. "Deslizá para ver las 4 temporadas disponibles 👉").
 - El resto de las reglas de marca (`CLAUDE.md`/`brand.config.json`) sigue aplicando igual.
-- Guardá en `<contentRoot>/social/<slug-coleccion>/post.txt` (caption + hashtags juntos, como en `crear-texto`) — un solo archivo de texto para todo el carrusel, no uno por imagen.
+- Guardá en `<contentRoot>/social/<categoria>/<slug-coleccion>/post.txt` (caption + hashtags juntos, como en `crear-texto`) — un solo archivo de texto para todo el carrusel, no uno por imagen.
 
 ## 4. Entrega
-Mostrá las N imágenes generadas (en orden) más el texto único del post, y confirmá cuántas imágenes quedaron, en qué orden, y en qué carpeta (`<contentRoot>/social/<slug-coleccion>/`).
+Mostrá las N imágenes generadas (en orden) más el texto único del post, y confirmá cuántas imágenes quedaron, en qué orden, y en qué carpeta (`<contentRoot>/social/<categoria>/<slug-coleccion>/`).

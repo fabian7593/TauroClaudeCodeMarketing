@@ -1,0 +1,41 @@
+{
+  "slug": "dexter-resurreccion",
+  "tipo": "imagen",
+  "titulo": "Dexter: Resurrección",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0032"
+  },
+  "vtxIds": [
+    "VTX-0032"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dexter-resurreccion/images/01-dexter-resurreccion.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0032"
+    },
+    {
+      "archivo": "POST/social/series/dexter-resurreccion/images/02-sinopsis-dexter-resurreccion.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dexter-resurreccion"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dexter-resurreccion/images/02-sinopsis-dexter-resurreccion.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dexter-resurreccion/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dark",
+  "tipo": "imagen",
+  "titulo": "Dark",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0029"
+  },
+  "vtxIds": [
+    "VTX-0029"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dark/images/01-dark.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0029"
+    },
+    {
+      "archivo": "POST/social/series/dark/images/02-sinopsis-dark.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dark"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dark/images/02-sinopsis-dark.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dark/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-05",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

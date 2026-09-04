@@ -1,0 +1,41 @@
+{
+  "slug": "olive-kitteridge",
+  "tipo": "imagen",
+  "titulo": "Olive Kitteridge",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0106"
+  },
+  "vtxIds": [
+    "VTX-0106"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/olive-kitteridge/images/01-olive-kitteridge.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0106"
+    },
+    {
+      "archivo": "POST/social/series/olive-kitteridge/images/02-sinopsis-olive-kitteridge.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/olive-kitteridge"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/olive-kitteridge/images/02-sinopsis-olive-kitteridge.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/olive-kitteridge/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

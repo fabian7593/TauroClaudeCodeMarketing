@@ -1,0 +1,41 @@
+{
+  "slug": "el-pacificador",
+  "tipo": "imagen",
+  "titulo": "El Pacificador",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0046"
+  },
+  "vtxIds": [
+    "VTX-0046"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-pacificador/images/01-el-pacificador.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0046"
+    },
+    {
+      "archivo": "POST/social/series/el-pacificador/images/02-sinopsis-el-pacificador.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-pacificador"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-pacificador/images/02-sinopsis-el-pacificador.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-pacificador/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

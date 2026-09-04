@@ -1,0 +1,50 @@
+{
+  "slug": "berlin",
+  "tipo": "imagen",
+  "titulo": "Berlín",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0016"
+  },
+  "vtxIds": [
+    "VTX-0016"
+  ],
+  "creada": "2026-09-02",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/berlin/images/01-berlin.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0016"
+    },
+    {
+      "archivo": "POST/social/series/berlin/images/02-sinopsis-berlin.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/berlin"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/berlin/images/02-sinopsis-berlin.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/berlin/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-02",
+      "hora": "ver calendario 6 semanas",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
+  }
+}

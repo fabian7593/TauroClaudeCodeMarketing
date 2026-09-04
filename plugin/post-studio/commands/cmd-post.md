@@ -10,7 +10,7 @@ Aunque sea una sola imagen de arte, la pieza igual lleva su **ficha de sinopsis*
 
 Usá el skill `crear-texto` y seguí todas las reglas de marca definidas en `CLAUDE.md`/`brand.config.json` de este proyecto (si `brand.config.json` no existe todavía, corré primero el skill `preparar-entorno`). Si falta información clave, preguntame antes de escribir el post final.
 
-Instagram y Facebook están unificados: un solo texto, una sola imagen, guardados en `<contentRoot>/social/[slug]/` (no generes carpetas separadas por plataforma).
+Instagram y Facebook están unificados: un solo texto, una sola imagen, guardados en `<contentRoot>/social/<categoria>/[slug]/` (no generes carpetas separadas por plataforma). `categoria` es `series` o `peliculas`, según el `tipo` del catálogo (o preguntame si el título no está en el catálogo).
 
 ## Imagen del post
 Además del texto, generá la imagen del post con el skill `crear-imagen`. Antes de generarla, preguntame (con `AskUserQuestion`) qué layout usar:
@@ -23,6 +23,6 @@ La imagen fuente tiene que estar en `<contentRoot>/assets/posters/` — si no es
 Preguntame (con `AskUserQuestion`) si además querés un reel para este post. Si digo que sí:
 - Si ya hay un video para esto en `<contentRoot>/assets/videos/`, usalo. Si no, pedime que lo suba ahí antes de continuar — no generes el reel sin un video real.
 - Usá el skill `crear-reel` para armarlo (incluye su propia pregunta sobre qué audio usar — no la salteés).
-- Guardalo en `<contentRoot>/social/[slug]/reels/` (mismo slug que el post).
+- Guardalo en `<contentRoot>/social/<categoria>/[slug]/reels/` (mismo slug y categoría que el post).
 
 Si digo que no, o no respondo, seguí solo con texto + imagen — no generes el reel por default.

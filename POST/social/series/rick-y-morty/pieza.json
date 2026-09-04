@@ -1,0 +1,41 @@
+{
+  "slug": "rick-y-morty",
+  "tipo": "imagen",
+  "titulo": "Rick y Morty",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0117"
+  },
+  "vtxIds": [
+    "VTX-0117"
+  ],
+  "creada": "2026-09-03",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/rick-y-morty/images/01-rick-y-morty.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0117"
+    },
+    {
+      "archivo": "POST/social/series/rick-y-morty/images/02-sinopsis-rick-y-morty.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/rick-y-morty"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/rick-y-morty/images/02-sinopsis-rick-y-morty.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/rick-y-morty/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
