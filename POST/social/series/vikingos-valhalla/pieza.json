@@ -1,0 +1,41 @@
+{
+  "slug": "vikingos-valhalla",
+  "tipo": "imagen",
+  "titulo": "Vikingos: Valhalla",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0149"
+  },
+  "vtxIds": [
+    "VTX-0149"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/vikingos-valhalla/images/01-vikingos-valhalla.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0149"
+    },
+    {
+      "archivo": "POST/social/series/vikingos-valhalla/images/02-sinopsis-vikingos-valhalla.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/vikingos-valhalla"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/vikingos-valhalla/images/02-sinopsis-vikingos-valhalla.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/vikingos-valhalla/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "the-mandalorian",
+  "tipo": "imagen",
+  "titulo": "The Mandalorian",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0133"
+  },
+  "vtxIds": [
+    "VTX-0133"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-mandalorian/images/01-the-mandalorian.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0133"
+    },
+    {
+      "archivo": "POST/social/series/the-mandalorian/images/02-sinopsis-the-mandalorian.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-mandalorian"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-mandalorian/images/02-sinopsis-the-mandalorian.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-mandalorian/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

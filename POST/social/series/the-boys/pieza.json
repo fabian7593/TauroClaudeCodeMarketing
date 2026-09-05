@@ -1,0 +1,41 @@
+{
+  "slug": "the-boys",
+  "tipo": "imagen",
+  "titulo": "The Boys",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0131"
+  },
+  "vtxIds": [
+    "VTX-0131"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-boys/images/01-the-boys.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0131"
+    },
+    {
+      "archivo": "POST/social/series/the-boys/images/02-sinopsis-the-boys.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-boys"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-boys/images/02-sinopsis-the-boys.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-boys/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

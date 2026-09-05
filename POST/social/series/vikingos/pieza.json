@@ -1,0 +1,41 @@
+{
+  "slug": "vikingos",
+  "tipo": "imagen",
+  "titulo": "Vikingos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0148"
+  },
+  "vtxIds": [
+    "VTX-0148"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/vikingos/images/01-vikingos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0148"
+    },
+    {
+      "archivo": "POST/social/series/vikingos/images/02-sinopsis-vikingos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/vikingos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/vikingos/images/02-sinopsis-vikingos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/vikingos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

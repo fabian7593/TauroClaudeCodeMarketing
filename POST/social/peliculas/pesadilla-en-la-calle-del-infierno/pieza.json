@@ -1,0 +1,78 @@
+{
+  "slug": "pesadilla-en-la-calle-del-infierno",
+  "tipo": "carrusel",
+  "titulo": "Pesadilla en la Calle del Infierno",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Pesadilla en la Calle del Infierno"
+  },
+  "vtxIds": [
+    "VTX-1093",
+    "VTX-1094",
+    "VTX-1095",
+    "VTX-1096",
+    "VTX-1097",
+    "VTX-1098",
+    "VTX-1024"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/01-pesadilla-en-la-calle-del-infierno.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1093"
+    },
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/02-pesadilla-en-la-calle-del-infierno-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1094"
+    },
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/03-pesadilla-en-la-calle-del-infierno-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1095"
+    },
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/04-pesadilla-en-la-calle-del-infierno-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1096"
+    },
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/05-pesadilla-en-la-calle-del-infierno-5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1097"
+    },
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/06-pesadilla-en-la-calle-del-infierno-6.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1098"
+    },
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/07-la-nueva-pesadilla-de-wes-craven.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1024"
+    },
+    {
+      "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/08-sinopsis-pesadilla-en-la-calle-del-infierno.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/pesadilla-en-la-calle-del-infierno"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/08-sinopsis-pesadilla-en-la-calle-del-infierno.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "6 de las 7 posters se usaron en ingles porque TMDB solo trae 'es' en la variante de Espana (\"Pesadilla en Elm Street\", no coincide con tituloEs del catalogo que es la forma LATAM \"Pesadilla en la Calle del Infierno\") -- se descartaron todas las candidatas en es por esa razon, nunca se uso castellano. Score de la ficha es el promedio de calificacion de las 7 peliculas (no la de la primera sola), para no inflar con la mejor calificada."
+}

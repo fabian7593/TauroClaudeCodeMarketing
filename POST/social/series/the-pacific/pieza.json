@@ -1,0 +1,41 @@
+{
+  "slug": "the-pacific",
+  "tipo": "imagen",
+  "titulo": "The Pacific",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0136"
+  },
+  "vtxIds": [
+    "VTX-0136"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-pacific/images/01-the-pacific.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0136"
+    },
+    {
+      "archivo": "POST/social/series/the-pacific/images/02-sinopsis-the-pacific.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-pacific"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-pacific/images/02-sinopsis-the-pacific.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-pacific/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

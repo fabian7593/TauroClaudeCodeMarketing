@@ -1,0 +1,42 @@
+{
+  "slug": "the-warriors",
+  "tipo": "imagen",
+  "titulo": "The Warriors",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0142"
+  },
+  "vtxIds": [
+    "VTX-0142"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-warriors/images/01-the-warriors.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0142"
+    },
+    {
+      "archivo": "POST/social/series/the-warriors/images/02-sinopsis-the-warriors.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-warriors"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-warriors/images/02-sinopsis-the-warriors.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-warriors/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad para este titulo (columna vacia) ni sinopsis oficial en TMDB en espanol/notas — se uso +18 (uno de los 4 baldes de edad definidos en CLAUDE.md) como estimacion conservadora por el tono del poster (adultos, contexto deportivo profesional) y la descripcion se mantuvo general/de genero, sin inventar tramas puntuales que no estan confirmadas."
+}

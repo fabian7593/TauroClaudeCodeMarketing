@@ -1,0 +1,41 @@
+{
+  "slug": "twisted-metal",
+  "tipo": "imagen",
+  "titulo": "Twisted Metal",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0147"
+  },
+  "vtxIds": [
+    "VTX-0147"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/twisted-metal/images/01-twisted-metal.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0147"
+    },
+    {
+      "archivo": "POST/social/series/twisted-metal/images/02-sinopsis-twisted-metal.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/twisted-metal"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/twisted-metal/images/02-sinopsis-twisted-metal.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/twisted-metal/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

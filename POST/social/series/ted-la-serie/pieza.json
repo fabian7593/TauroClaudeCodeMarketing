@@ -1,0 +1,41 @@
+{
+  "slug": "ted-la-serie",
+  "tipo": "imagen",
+  "titulo": "Ted: La Serie",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0130"
+  },
+  "vtxIds": [
+    "VTX-0130"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/ted-la-serie/images/01-ted-la-serie.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0130"
+    },
+    {
+      "archivo": "POST/social/series/ted-la-serie/images/02-sinopsis-ted-la-serie.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ted-la-serie"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/ted-la-serie/images/02-sinopsis-ted-la-serie.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/ted-la-serie/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

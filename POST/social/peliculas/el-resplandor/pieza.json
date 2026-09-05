@@ -1,0 +1,41 @@
+{
+  "slug": "el-resplandor",
+  "tipo": "imagen",
+  "titulo": "El Resplandor",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0552"
+  },
+  "vtxIds": [
+    "VTX-0552"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-resplandor/images/01-el-resplandor.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0552"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-resplandor/images/02-sinopsis-el-resplandor.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-resplandor"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-resplandor/images/02-sinopsis-el-resplandor.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-resplandor/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

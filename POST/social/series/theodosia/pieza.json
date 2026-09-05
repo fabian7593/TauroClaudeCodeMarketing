@@ -1,0 +1,41 @@
+{
+  "slug": "theodosia",
+  "tipo": "imagen",
+  "titulo": "Theodosia",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0144"
+  },
+  "vtxIds": [
+    "VTX-0144"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/theodosia/images/01-theodosia.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0144"
+    },
+    {
+      "archivo": "POST/social/series/theodosia/images/02-sinopsis-theodosia.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/theodosia"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/theodosia/images/02-sinopsis-theodosia.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/theodosia/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

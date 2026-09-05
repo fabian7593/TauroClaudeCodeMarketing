@@ -1,0 +1,41 @@
+{
+  "slug": "the-witcher",
+  "tipo": "imagen",
+  "titulo": "The Witcher",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0143"
+  },
+  "vtxIds": [
+    "VTX-0143"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-witcher/images/01-the-witcher.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0143"
+    },
+    {
+      "archivo": "POST/social/series/the-witcher/images/02-sinopsis-the-witcher.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-witcher"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-witcher/images/02-sinopsis-the-witcher.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-witcher/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,11 +1,51 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
   "generado": "2026-09-04",
-  "totalPiezas": 131,
-  "titulosConContenido": 138,
+  "totalPiezas": 153,
+  "titulosConContenido": 166,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
+    {
+      "slug": "el-resplandor",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "El Resplandor",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0552"
+      },
+      "vtxIds": [
+        "VTX-0552"
+      ],
+      "carpeta": "POST/social/peliculas/el-resplandor",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-resplandor/images/01-el-resplandor.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0552"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-resplandor/images/02-sinopsis-el-resplandor.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-resplandor/images/02-sinopsis-el-resplandor.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-resplandor/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": null
+    },
     {
       "slug": "evangelion-peliculas",
       "categoria": "peliculas",
@@ -136,6 +176,82 @@
       },
       "creada": "2026-09-02",
       "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
+    },
+    {
+      "slug": "pesadilla-en-la-calle-del-infierno",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Pesadilla en la Calle del Infierno",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Pesadilla en la Calle del Infierno"
+      },
+      "vtxIds": [
+        "VTX-1093",
+        "VTX-1094",
+        "VTX-1095",
+        "VTX-1096",
+        "VTX-1097",
+        "VTX-1098",
+        "VTX-1024"
+      ],
+      "carpeta": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/01-pesadilla-en-la-calle-del-infierno.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1093"
+        },
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/02-pesadilla-en-la-calle-del-infierno-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1094"
+        },
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/03-pesadilla-en-la-calle-del-infierno-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1095"
+        },
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/04-pesadilla-en-la-calle-del-infierno-4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1096"
+        },
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/05-pesadilla-en-la-calle-del-infierno-5.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1097"
+        },
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/06-pesadilla-en-la-calle-del-infierno-6.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1098"
+        },
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/07-la-nueva-pesadilla-de-wes-craven.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1024"
+        },
+        {
+          "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/08-sinopsis-pesadilla-en-la-calle-del-infierno.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/images/08-sinopsis-pesadilla-en-la-calle-del-infierno.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/pesadilla-en-la-calle-del-infierno/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "6 de las 7 posters se usaron en ingles porque TMDB solo trae 'es' en la variante de Espana (\"Pesadilla en Elm Street\", no coincide con tituloEs del catalogo que es la forma LATAM \"Pesadilla en la Calle del Infierno\") -- se descartaron todas las candidatas en es por esa razon, nunca se uso castellano. Score de la ficha es el promedio de calificacion de las 7 peliculas (no la de la primera sola), para no inflar con la mejor calificada."
     },
     {
       "slug": "1899",
@@ -5604,6 +5720,806 @@
       },
       "creada": "2026-09-03",
       "nota": null
+    },
+    {
+      "slug": "ted-la-serie",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Ted: La Serie",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0130"
+      },
+      "vtxIds": [
+        "VTX-0130"
+      ],
+      "carpeta": "POST/social/series/ted-la-serie",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/ted-la-serie/images/01-ted-la-serie.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0130"
+        },
+        {
+          "archivo": "POST/social/series/ted-la-serie/images/02-sinopsis-ted-la-serie.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/ted-la-serie/images/02-sinopsis-ted-la-serie.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/ted-la-serie/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-boys",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Boys",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0131"
+      },
+      "vtxIds": [
+        "VTX-0131"
+      ],
+      "carpeta": "POST/social/series/the-boys",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-boys/images/01-the-boys.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0131"
+        },
+        {
+          "archivo": "POST/social/series/the-boys/images/02-sinopsis-the-boys.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-boys/images/02-sinopsis-the-boys.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-boys/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-last-of-us",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Last of Us",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0132"
+      },
+      "vtxIds": [
+        "VTX-0132"
+      ],
+      "carpeta": "POST/social/series/the-last-of-us",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-last-of-us/images/01-the-last-of-us.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0132"
+        },
+        {
+          "archivo": "POST/social/series/the-last-of-us/images/02-sinopsis-the-last-of-us.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-last-of-us/images/02-sinopsis-the-last-of-us.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-last-of-us/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-mandalorian",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Mandalorian",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0133"
+      },
+      "vtxIds": [
+        "VTX-0133"
+      ],
+      "carpeta": "POST/social/series/the-mandalorian",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-mandalorian/images/01-the-mandalorian.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0133"
+        },
+        {
+          "archivo": "POST/social/series/the-mandalorian/images/02-sinopsis-the-mandalorian.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-mandalorian/images/02-sinopsis-the-mandalorian.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-mandalorian/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-midnight-gospel",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Midnight Gospel",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0134"
+      },
+      "vtxIds": [
+        "VTX-0134"
+      ],
+      "carpeta": "POST/social/series/the-midnight-gospel",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-midnight-gospel/images/01-the-midnight-gospel.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0134"
+        },
+        {
+          "archivo": "POST/social/series/the-midnight-gospel/images/02-sinopsis-the-midnight-gospel.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-midnight-gospel/images/02-sinopsis-the-midnight-gospel.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-midnight-gospel/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-oa",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The OA",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0135"
+      },
+      "vtxIds": [
+        "VTX-0135"
+      ],
+      "carpeta": "POST/social/series/the-oa",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-oa/images/01-the-oa.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0135"
+        },
+        {
+          "archivo": "POST/social/series/the-oa/images/02-sinopsis-the-oa.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-oa/images/02-sinopsis-the-oa.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-oa/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-pacific",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Pacific",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0136"
+      },
+      "vtxIds": [
+        "VTX-0136"
+      ],
+      "carpeta": "POST/social/series/the-pacific",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-pacific/images/01-the-pacific.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0136"
+        },
+        {
+          "archivo": "POST/social/series/the-pacific/images/02-sinopsis-the-pacific.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-pacific/images/02-sinopsis-the-pacific.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-pacific/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-purge",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Purge",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0137"
+      },
+      "vtxIds": [
+        "VTX-0137"
+      ],
+      "carpeta": "POST/social/series/the-purge",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-purge/images/01-the-purge.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0137"
+        },
+        {
+          "archivo": "POST/social/series/the-purge/images/02-sinopsis-the-purge.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-purge/images/02-sinopsis-the-purge.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-purge/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": "Serie independiente de la colección de películas 'La Purga' (POST/social/peliculas/la-purga/) — las series nunca se agrupan con las películas, aunque compartan universo."
+    },
+    {
+      "slug": "the-walking-dead-daryl-dixon",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Walking Dead: Daryl Dixon",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0139"
+      },
+      "vtxIds": [
+        "VTX-0139"
+      ],
+      "carpeta": "POST/social/series/the-walking-dead-daryl-dixon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-walking-dead-daryl-dixon/images/01-the-walking-dead-daryl-dixon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0139"
+        },
+        {
+          "archivo": "POST/social/series/the-walking-dead-daryl-dixon/images/02-sinopsis-the-walking-dead-daryl-dixon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-walking-dead-daryl-dixon/images/02-sinopsis-the-walking-dead-daryl-dixon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-walking-dead-daryl-dixon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-walking-dead-dead-city",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Walking Dead: Dead City",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0140"
+      },
+      "vtxIds": [
+        "VTX-0140"
+      ],
+      "carpeta": "POST/social/series/the-walking-dead-dead-city",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-walking-dead-dead-city/images/01-the-walking-dead-dead-city.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0140"
+        },
+        {
+          "archivo": "POST/social/series/the-walking-dead-dead-city/images/02-sinopsis-the-walking-dead-dead-city.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-walking-dead-dead-city/images/02-sinopsis-the-walking-dead-dead-city.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-walking-dead-dead-city/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-walking-dead-world-beyond",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Walking Dead: World Beyond",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0141"
+      },
+      "vtxIds": [
+        "VTX-0141"
+      ],
+      "carpeta": "POST/social/series/the-walking-dead-world-beyond",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-walking-dead-world-beyond/images/01-the-walking-dead-world-beyond.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0141"
+        },
+        {
+          "archivo": "POST/social/series/the-walking-dead-world-beyond/images/02-sinopsis-the-walking-dead-world-beyond.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-walking-dead-world-beyond/images/02-sinopsis-the-walking-dead-world-beyond.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-walking-dead-world-beyond/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-walking-dead",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Walking Dead",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0138"
+      },
+      "vtxIds": [
+        "VTX-0138"
+      ],
+      "carpeta": "POST/social/series/the-walking-dead",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-walking-dead/images/01-the-walking-dead.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0138"
+        },
+        {
+          "archivo": "POST/social/series/the-walking-dead/images/02-sinopsis-the-walking-dead.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-walking-dead/images/02-sinopsis-the-walking-dead.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-walking-dead/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "the-warriors",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Warriors",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0142"
+      },
+      "vtxIds": [
+        "VTX-0142"
+      ],
+      "carpeta": "POST/social/series/the-warriors",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-warriors/images/01-the-warriors.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0142"
+        },
+        {
+          "archivo": "POST/social/series/the-warriors/images/02-sinopsis-the-warriors.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-warriors/images/02-sinopsis-the-warriors.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-warriors/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": "El catalogo no trae clasificacion de edad para este titulo (columna vacia) ni sinopsis oficial en TMDB en espanol/notas — se uso +18 (uno de los 4 baldes de edad definidos en CLAUDE.md) como estimacion conservadora por el tono del poster (adultos, contexto deportivo profesional) y la descripcion se mantuvo general/de genero, sin inventar tramas puntuales que no estan confirmadas."
+    },
+    {
+      "slug": "the-witcher",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "The Witcher",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0143"
+      },
+      "vtxIds": [
+        "VTX-0143"
+      ],
+      "carpeta": "POST/social/series/the-witcher",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/the-witcher/images/01-the-witcher.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0143"
+        },
+        {
+          "archivo": "POST/social/series/the-witcher/images/02-sinopsis-the-witcher.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/the-witcher/images/02-sinopsis-the-witcher.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/the-witcher/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "theodosia",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Theodosia",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0144"
+      },
+      "vtxIds": [
+        "VTX-0144"
+      ],
+      "carpeta": "POST/social/series/theodosia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/theodosia/images/01-theodosia.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0144"
+        },
+        {
+          "archivo": "POST/social/series/theodosia/images/02-sinopsis-theodosia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/theodosia/images/02-sinopsis-theodosia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/theodosia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "todos-odian-a-chris",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Todos Odian a Chris",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0145"
+      },
+      "vtxIds": [
+        "VTX-0145"
+      ],
+      "carpeta": "POST/social/series/todos-odian-a-chris",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/todos-odian-a-chris/images/01-todos-odian-a-chris.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0145"
+        },
+        {
+          "archivo": "POST/social/series/todos-odian-a-chris/images/02-sinopsis-todos-odian-a-chris.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/todos-odian-a-chris/images/02-sinopsis-todos-odian-a-chris.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/todos-odian-a-chris/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "tokyo-vice",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Tokyo Vice",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0146"
+      },
+      "vtxIds": [
+        "VTX-0146"
+      ],
+      "carpeta": "POST/social/series/tokyo-vice",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/tokyo-vice/images/01-tokyo-vice.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0146"
+        },
+        {
+          "archivo": "POST/social/series/tokyo-vice/images/02-sinopsis-tokyo-vice.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/tokyo-vice/images/02-sinopsis-tokyo-vice.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/tokyo-vice/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "twisted-metal",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Twisted Metal",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0147"
+      },
+      "vtxIds": [
+        "VTX-0147"
+      ],
+      "carpeta": "POST/social/series/twisted-metal",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/twisted-metal/images/01-twisted-metal.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0147"
+        },
+        {
+          "archivo": "POST/social/series/twisted-metal/images/02-sinopsis-twisted-metal.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/twisted-metal/images/02-sinopsis-twisted-metal.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/twisted-metal/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "vikingos-valhalla",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Vikingos: Valhalla",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0149"
+      },
+      "vtxIds": [
+        "VTX-0149"
+      ],
+      "carpeta": "POST/social/series/vikingos-valhalla",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/vikingos-valhalla/images/01-vikingos-valhalla.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0149"
+        },
+        {
+          "archivo": "POST/social/series/vikingos-valhalla/images/02-sinopsis-vikingos-valhalla.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/vikingos-valhalla/images/02-sinopsis-vikingos-valhalla.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/vikingos-valhalla/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
+    },
+    {
+      "slug": "vikingos",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Vikingos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0148"
+      },
+      "vtxIds": [
+        "VTX-0148"
+      ],
+      "carpeta": "POST/social/series/vikingos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/vikingos/images/01-vikingos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0148"
+        },
+        {
+          "archivo": "POST/social/series/vikingos/images/02-sinopsis-vikingos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/vikingos/images/02-sinopsis-vikingos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/vikingos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-04",
+      "nota": null
     }
   ],
   "titulos": [
@@ -6640,11 +7556,179 @@
       ]
     },
     {
+      "vtxId": "VTX-0130",
+      "titulo": "Ted: La Serie",
+      "coleccion": null,
+      "piezas": [
+        "ted-la-serie"
+      ]
+    },
+    {
+      "vtxId": "VTX-0131",
+      "titulo": "The Boys",
+      "coleccion": null,
+      "piezas": [
+        "the-boys"
+      ]
+    },
+    {
+      "vtxId": "VTX-0132",
+      "titulo": "The Last of Us",
+      "coleccion": null,
+      "piezas": [
+        "the-last-of-us"
+      ]
+    },
+    {
+      "vtxId": "VTX-0133",
+      "titulo": "The Mandalorian",
+      "coleccion": null,
+      "piezas": [
+        "the-mandalorian"
+      ]
+    },
+    {
+      "vtxId": "VTX-0134",
+      "titulo": "The Midnight Gospel",
+      "coleccion": null,
+      "piezas": [
+        "the-midnight-gospel"
+      ]
+    },
+    {
+      "vtxId": "VTX-0135",
+      "titulo": "The OA",
+      "coleccion": null,
+      "piezas": [
+        "the-oa"
+      ]
+    },
+    {
+      "vtxId": "VTX-0136",
+      "titulo": "The Pacific",
+      "coleccion": null,
+      "piezas": [
+        "the-pacific"
+      ]
+    },
+    {
+      "vtxId": "VTX-0137",
+      "titulo": "The Purge",
+      "coleccion": "La Purga",
+      "piezas": [
+        "the-purge"
+      ]
+    },
+    {
+      "vtxId": "VTX-0138",
+      "titulo": "The Walking Dead",
+      "coleccion": "The Walking Dead",
+      "piezas": [
+        "the-walking-dead"
+      ]
+    },
+    {
+      "vtxId": "VTX-0139",
+      "titulo": "The Walking Dead: Daryl Dixon",
+      "coleccion": "The Walking Dead",
+      "piezas": [
+        "the-walking-dead-daryl-dixon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0140",
+      "titulo": "The Walking Dead: Dead City",
+      "coleccion": "The Walking Dead",
+      "piezas": [
+        "the-walking-dead-dead-city"
+      ]
+    },
+    {
+      "vtxId": "VTX-0141",
+      "titulo": "The Walking Dead: World Beyond",
+      "coleccion": "The Walking Dead",
+      "piezas": [
+        "the-walking-dead-world-beyond"
+      ]
+    },
+    {
+      "vtxId": "VTX-0142",
+      "titulo": "The Warriors",
+      "coleccion": null,
+      "piezas": [
+        "the-warriors"
+      ]
+    },
+    {
+      "vtxId": "VTX-0143",
+      "titulo": "The Witcher",
+      "coleccion": null,
+      "piezas": [
+        "the-witcher"
+      ]
+    },
+    {
+      "vtxId": "VTX-0144",
+      "titulo": "Theodosia",
+      "coleccion": null,
+      "piezas": [
+        "theodosia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0145",
+      "titulo": "Todos Odian a Chris",
+      "coleccion": null,
+      "piezas": [
+        "todos-odian-a-chris"
+      ]
+    },
+    {
+      "vtxId": "VTX-0146",
+      "titulo": "Tokyo Vice",
+      "coleccion": null,
+      "piezas": [
+        "tokyo-vice"
+      ]
+    },
+    {
+      "vtxId": "VTX-0147",
+      "titulo": "Twisted Metal",
+      "coleccion": null,
+      "piezas": [
+        "twisted-metal"
+      ]
+    },
+    {
+      "vtxId": "VTX-0148",
+      "titulo": "Vikingos",
+      "coleccion": null,
+      "piezas": [
+        "vikingos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0149",
+      "titulo": "Vikingos: Valhalla",
+      "coleccion": null,
+      "piezas": [
+        "vikingos-valhalla"
+      ]
+    },
+    {
       "vtxId": "VTX-0286",
       "titulo": "Neon Genesis Evangelion",
       "coleccion": "Evangelion",
       "piezas": [
         "evangelion"
+      ]
+    },
+    {
+      "vtxId": "VTX-0552",
+      "titulo": "El Resplandor",
+      "coleccion": null,
+      "piezas": [
+        "el-resplandor"
       ]
     },
     {
@@ -6672,11 +7756,67 @@
       ]
     },
     {
+      "vtxId": "VTX-1024",
+      "titulo": "La Nueva Pesadilla de Wes Craven",
+      "coleccion": "Pesadilla en la Calle del Infierno",
+      "piezas": [
+        "pesadilla-en-la-calle-del-infierno"
+      ]
+    },
+    {
       "vtxId": "VTX-1027",
       "titulo": "La Purga por Siempre",
       "coleccion": "La Purga",
       "piezas": [
         "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-1093",
+      "titulo": "Pesadilla en la Calle del Infierno",
+      "coleccion": "Pesadilla en la Calle del Infierno",
+      "piezas": [
+        "pesadilla-en-la-calle-del-infierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-1094",
+      "titulo": "Pesadilla en la Calle del Infierno 2",
+      "coleccion": "Pesadilla en la Calle del Infierno",
+      "piezas": [
+        "pesadilla-en-la-calle-del-infierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-1095",
+      "titulo": "Pesadilla en la Calle del Infierno 3",
+      "coleccion": "Pesadilla en la Calle del Infierno",
+      "piezas": [
+        "pesadilla-en-la-calle-del-infierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-1096",
+      "titulo": "Pesadilla en la Calle del Infierno 4: El Amo de los Sueños",
+      "coleccion": "Pesadilla en la Calle del Infierno",
+      "piezas": [
+        "pesadilla-en-la-calle-del-infierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-1097",
+      "titulo": "Pesadilla en la Calle del Infierno 5: Ha Nacido el Hijo de Freddy",
+      "coleccion": "Pesadilla en la Calle del Infierno",
+      "piezas": [
+        "pesadilla-en-la-calle-del-infierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-1098",
+      "titulo": "Pesadilla en la Calle del Infierno 6",
+      "coleccion": "Pesadilla en la Calle del Infierno",
+      "piezas": [
+        "pesadilla-en-la-calle-del-infierno"
       ]
     },
     {

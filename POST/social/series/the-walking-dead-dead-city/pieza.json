@@ -1,0 +1,41 @@
+{
+  "slug": "the-walking-dead-dead-city",
+  "tipo": "imagen",
+  "titulo": "The Walking Dead: Dead City",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0140"
+  },
+  "vtxIds": [
+    "VTX-0140"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-walking-dead-dead-city/images/01-the-walking-dead-dead-city.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0140"
+    },
+    {
+      "archivo": "POST/social/series/the-walking-dead-dead-city/images/02-sinopsis-the-walking-dead-dead-city.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-walking-dead-dead-city"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-walking-dead-dead-city/images/02-sinopsis-the-walking-dead-dead-city.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-walking-dead-dead-city/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

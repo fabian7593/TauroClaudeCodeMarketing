@@ -1,0 +1,41 @@
+{
+  "slug": "the-walking-dead-world-beyond",
+  "tipo": "imagen",
+  "titulo": "The Walking Dead: World Beyond",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0141"
+  },
+  "vtxIds": [
+    "VTX-0141"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-walking-dead-world-beyond/images/01-the-walking-dead-world-beyond.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0141"
+    },
+    {
+      "archivo": "POST/social/series/the-walking-dead-world-beyond/images/02-sinopsis-the-walking-dead-world-beyond.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-walking-dead-world-beyond"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-walking-dead-world-beyond/images/02-sinopsis-the-walking-dead-world-beyond.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-walking-dead-world-beyond/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

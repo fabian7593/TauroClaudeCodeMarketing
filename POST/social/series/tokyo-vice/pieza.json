@@ -1,0 +1,41 @@
+{
+  "slug": "tokyo-vice",
+  "tipo": "imagen",
+  "titulo": "Tokyo Vice",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0146"
+  },
+  "vtxIds": [
+    "VTX-0146"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/tokyo-vice/images/01-tokyo-vice.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0146"
+    },
+    {
+      "archivo": "POST/social/series/tokyo-vice/images/02-sinopsis-tokyo-vice.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/tokyo-vice"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/tokyo-vice/images/02-sinopsis-tokyo-vice.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/tokyo-vice/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

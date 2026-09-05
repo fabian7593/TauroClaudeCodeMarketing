@@ -1,0 +1,41 @@
+{
+  "slug": "todos-odian-a-chris",
+  "tipo": "imagen",
+  "titulo": "Todos Odian a Chris",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0145"
+  },
+  "vtxIds": [
+    "VTX-0145"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/todos-odian-a-chris/images/01-todos-odian-a-chris.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0145"
+    },
+    {
+      "archivo": "POST/social/series/todos-odian-a-chris/images/02-sinopsis-todos-odian-a-chris.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/todos-odian-a-chris"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/todos-odian-a-chris/images/02-sinopsis-todos-odian-a-chris.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/todos-odian-a-chris/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "the-oa",
+  "tipo": "imagen",
+  "titulo": "The OA",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0135"
+  },
+  "vtxIds": [
+    "VTX-0135"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-oa/images/01-the-oa.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0135"
+    },
+    {
+      "archivo": "POST/social/series/the-oa/images/02-sinopsis-the-oa.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-oa"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-oa/images/02-sinopsis-the-oa.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-oa/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

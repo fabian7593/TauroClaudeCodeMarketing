@@ -1,0 +1,42 @@
+{
+  "slug": "the-purge",
+  "tipo": "imagen",
+  "titulo": "The Purge",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0137"
+  },
+  "vtxIds": [
+    "VTX-0137"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-purge/images/01-the-purge.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0137"
+    },
+    {
+      "archivo": "POST/social/series/the-purge/images/02-sinopsis-the-purge.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-purge"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-purge/images/02-sinopsis-the-purge.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-purge/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Serie independiente de la colección de películas 'La Purga' (POST/social/peliculas/la-purga/) — las series nunca se agrupan con las películas, aunque compartan universo."
+}

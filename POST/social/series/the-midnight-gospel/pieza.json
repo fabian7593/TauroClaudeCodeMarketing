@@ -1,0 +1,41 @@
+{
+  "slug": "the-midnight-gospel",
+  "tipo": "imagen",
+  "titulo": "The Midnight Gospel",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0134"
+  },
+  "vtxIds": [
+    "VTX-0134"
+  ],
+  "creada": "2026-09-04",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/the-midnight-gospel/images/01-the-midnight-gospel.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0134"
+    },
+    {
+      "archivo": "POST/social/series/the-midnight-gospel/images/02-sinopsis-the-midnight-gospel.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-midnight-gospel"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/the-midnight-gospel/images/02-sinopsis-the-midnight-gospel.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/the-midnight-gospel/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
