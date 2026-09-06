@@ -1,0 +1,41 @@
+{
+  "slug": "kimi-ni-todoke-llegando-a-ti",
+  "tipo": "imagen",
+  "titulo": "Kimi ni Todoke: Llegando a Ti",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0174"
+  },
+  "vtxIds": [
+    "VTX-0174"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/01-kimi-ni-todoke-llegando-a-ti.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0174"
+    },
+    {
+      "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/02-sinopsis-kimi-ni-todoke-llegando-a-ti.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/kimi-ni-todoke-llegando-a-ti"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/02-sinopsis-kimi-ni-todoke-llegando-a-ti.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

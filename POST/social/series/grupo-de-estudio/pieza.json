@@ -1,0 +1,42 @@
+{
+  "slug": "grupo-de-estudio",
+  "tipo": "imagen",
+  "titulo": "Grupo de Estudio",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0172"
+  },
+  "vtxIds": [
+    "VTX-0172"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/grupo-de-estudio/images/01-grupo-de-estudio.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0172"
+    },
+    {
+      "archivo": "POST/social/series/grupo-de-estudio/images/02-sinopsis-grupo-de-estudio.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/grupo-de-estudio"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/grupo-de-estudio/images/02-sinopsis-grupo-de-estudio.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/grupo-de-estudio/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tono de accion/pelea marcado en el poster oficial."
+}

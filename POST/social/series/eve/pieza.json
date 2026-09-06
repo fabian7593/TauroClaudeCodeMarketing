@@ -1,0 +1,42 @@
+{
+  "slug": "eve",
+  "tipo": "imagen",
+  "titulo": "Eve",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0171"
+  },
+  "vtxIds": [
+    "VTX-0171"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/eve/images/01-eve.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0171"
+    },
+    {
+      "archivo": "POST/social/series/eve/images/02-sinopsis-eve.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/eve"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/eve/images/02-sinopsis-eve.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/eve/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema central de venganza/manipulacion adulta."
+}

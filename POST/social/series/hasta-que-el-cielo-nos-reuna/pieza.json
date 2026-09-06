@@ -1,0 +1,42 @@
+{
+  "slug": "hasta-que-el-cielo-nos-reuna",
+  "tipo": "imagen",
+  "titulo": "Hasta que el Cielo Nos Reúna",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0173"
+  },
+  "vtxIds": [
+    "VTX-0173"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/images/01-hasta-que-el-cielo-nos-reuna.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0173"
+    },
+    {
+      "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/images/02-sinopsis-hasta-que-el-cielo-nos-reuna.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/hasta-que-el-cielo-nos-reuna"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/images/02-sinopsis-hasta-que-el-cielo-nos-reuna.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El primer candidato en es traia el logo de Netflix quemado -- se descarto y se uso otro candidato disponible en es, limpio."
+}

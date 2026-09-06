@@ -1,0 +1,41 @@
+{
+  "slug": "la-belleza-de-gangnam",
+  "tipo": "imagen",
+  "titulo": "La Belleza de Gangnam",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0175"
+  },
+  "vtxIds": [
+    "VTX-0175"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-belleza-de-gangnam/images/01-la-belleza-de-gangnam.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0175"
+    },
+    {
+      "archivo": "POST/social/series/la-belleza-de-gangnam/images/02-sinopsis-la-belleza-de-gangnam.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-belleza-de-gangnam"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-belleza-de-gangnam/images/02-sinopsis-la-belleza-de-gangnam.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-belleza-de-gangnam/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

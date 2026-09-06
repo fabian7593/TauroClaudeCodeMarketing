@@ -1,0 +1,42 @@
+{
+  "slug": "la-venganza-dinero-y-poder",
+  "tipo": "imagen",
+  "titulo": "La Venganza: Dinero y Poder",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0179"
+  },
+  "vtxIds": [
+    "VTX-0179"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-venganza-dinero-y-poder/images/01-la-venganza-dinero-y-poder.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0179"
+    },
+    {
+      "archivo": "POST/social/series/la-venganza-dinero-y-poder/images/02-sinopsis-la-venganza-dinero-y-poder.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-venganza-dinero-y-poder"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-venganza-dinero-y-poder/images/02-sinopsis-la-venganza-dinero-y-poder.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-venganza-dinero-y-poder/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema de corrupcion/crimen financiero."
+}

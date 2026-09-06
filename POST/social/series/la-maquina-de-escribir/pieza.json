@@ -1,0 +1,41 @@
+{
+  "slug": "la-maquina-de-escribir",
+  "tipo": "imagen",
+  "titulo": "La Máquina de Escribir",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0178"
+  },
+  "vtxIds": [
+    "VTX-0178"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-maquina-de-escribir/images/01-la-maquina-de-escribir.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0178"
+    },
+    {
+      "archivo": "POST/social/series/la-maquina-de-escribir/images/02-sinopsis-la-maquina-de-escribir.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-maquina-de-escribir"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-maquina-de-escribir/images/02-sinopsis-la-maquina-de-escribir.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-maquina-de-escribir/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

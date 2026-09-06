@@ -1,8 +1,8 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
   "generado": "2026-09-06",
-  "totalPiezas": 173,
-  "titulosConContenido": 186,
+  "totalPiezas": 183,
+  "titulosConContenido": 196,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
@@ -3186,6 +3186,46 @@
       "nota": null
     },
     {
+      "slug": "espera-mi-juventud",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Espera, Mi Juventud",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0170"
+      },
+      "vtxIds": [
+        "VTX-0170"
+      ],
+      "carpeta": "POST/social/series/espera-mi-juventud",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/espera-mi-juventud/images/01-espera-mi-juventud.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0170"
+        },
+        {
+          "archivo": "POST/social/series/espera-mi-juventud/images/02-sinopsis-espera-mi-juventud.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/espera-mi-juventud/images/02-sinopsis-espera-mi-juventud.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/espera-mi-juventud/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El poster mostraba texto en pinyin (romanizacion china) -- se identifico como produccion CHINA, no coreana, pese a estar en la categoria 'Doramas' del catalogo que agrupa varios paises asiaticos. Se agrego bandera CN nueva a la plantilla para este caso."
+    },
+    {
       "slug": "estamos-muertos",
       "categoria": "series",
       "tipo": "imagen",
@@ -3344,6 +3384,46 @@
       },
       "creada": "2026-09-02",
       "nota": "Anime con audio dual: la fila de audio original es japones, no ingles. Las peliculas de la franquicia van en la pieza evangelion-peliculas."
+    },
+    {
+      "slug": "eve",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Eve",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0171"
+      },
+      "vtxIds": [
+        "VTX-0171"
+      ],
+      "carpeta": "POST/social/series/eve",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/eve/images/01-eve.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0171"
+        },
+        {
+          "archivo": "POST/social/series/eve/images/02-sinopsis-eve.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/eve/images/02-sinopsis-eve.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/eve/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema central de venganza/manipulacion adulta."
     },
     {
       "slug": "falcon-y-el-soldado-del-invierno",
@@ -3725,6 +3805,46 @@
       "nota": "Serie antológica de National Geographic con 3 temporadas (Einstein, Picasso, Aretha Franklin), TODAS incluidas. El catálogo la tenía cargada como 'Genius: Einstein' pero temporadas='1 a 3' confirma que cubre las 3. Ninguna variante de póster en español ni sin texto estaba disponible en TMDB para este título: se usó la mejor variante en inglés sin logo de plataforma para cada temporada (Aretha en particular tenía Disney+ quemado en casi todas las variantes)."
     },
     {
+      "slug": "grupo-de-estudio",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Grupo de Estudio",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0172"
+      },
+      "vtxIds": [
+        "VTX-0172"
+      ],
+      "carpeta": "POST/social/series/grupo-de-estudio",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/grupo-de-estudio/images/01-grupo-de-estudio.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0172"
+        },
+        {
+          "archivo": "POST/social/series/grupo-de-estudio/images/02-sinopsis-grupo-de-estudio.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/grupo-de-estudio/images/02-sinopsis-grupo-de-estudio.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/grupo-de-estudio/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tono de accion/pelea marcado en el poster oficial."
+    },
+    {
       "slug": "gul",
       "categoria": "series",
       "tipo": "imagen",
@@ -3803,6 +3923,46 @@
       },
       "creada": "2026-09-02",
       "nota": "Catálogo marca 'Por Mejorar': faltan subtítulos en los primeros 3 capítulos de la temporada 2. Es un detalle técnico, no de contenido — se avisa acá por si el equipo de soporte lo necesita, no hace falta que aparezca en el caption."
+    },
+    {
+      "slug": "hasta-que-el-cielo-nos-reuna",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Hasta que el Cielo Nos Reúna",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0173"
+      },
+      "vtxIds": [
+        "VTX-0173"
+      ],
+      "carpeta": "POST/social/series/hasta-que-el-cielo-nos-reuna",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/images/01-hasta-que-el-cielo-nos-reuna.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0173"
+        },
+        {
+          "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/images/02-sinopsis-hasta-que-el-cielo-nos-reuna.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/images/02-sinopsis-hasta-que-el-cielo-nos-reuna.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/hasta-que-el-cielo-nos-reuna/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El primer candidato en es traia el logo de Netflix quemado -- se descarto y se uso otro candidato disponible en es, limpio."
     },
     {
       "slug": "helstrom",
@@ -4165,6 +4325,126 @@
       "nota": null
     },
     {
+      "slug": "kimi-ni-todoke-llegando-a-ti",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Kimi ni Todoke: Llegando a Ti",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0174"
+      },
+      "vtxIds": [
+        "VTX-0174"
+      ],
+      "carpeta": "POST/social/series/kimi-ni-todoke-llegando-a-ti",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/01-kimi-ni-todoke-llegando-a-ti.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0174"
+        },
+        {
+          "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/02-sinopsis-kimi-ni-todoke-llegando-a-ti.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/02-sinopsis-kimi-ni-todoke-llegando-a-ti.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
+    },
+    {
+      "slug": "la-belleza-de-gangnam",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "La Belleza de Gangnam",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0175"
+      },
+      "vtxIds": [
+        "VTX-0175"
+      ],
+      "carpeta": "POST/social/series/la-belleza-de-gangnam",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/la-belleza-de-gangnam/images/01-la-belleza-de-gangnam.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0175"
+        },
+        {
+          "archivo": "POST/social/series/la-belleza-de-gangnam/images/02-sinopsis-la-belleza-de-gangnam.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/la-belleza-de-gangnam/images/02-sinopsis-la-belleza-de-gangnam.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/la-belleza-de-gangnam/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
+    },
+    {
+      "slug": "la-buena-mala-madre",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "La Buena Mala Madre",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0176"
+      },
+      "vtxIds": [
+        "VTX-0176"
+      ],
+      "carpeta": "POST/social/series/la-buena-mala-madre",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/la-buena-mala-madre/images/01-la-buena-mala-madre.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0176"
+        },
+        {
+          "archivo": "POST/social/series/la-buena-mala-madre/images/02-sinopsis-la-buena-mala-madre.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/la-buena-mala-madre/images/02-sinopsis-la-buena-mala-madre.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/la-buena-mala-madre/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
+    },
+    {
       "slug": "la-caida-de-la-casa-usher",
       "categoria": "series",
       "tipo": "imagen",
@@ -4405,6 +4685,46 @@
       "nota": null
     },
     {
+      "slug": "la-gloria",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "La Gloria",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0177"
+      },
+      "vtxIds": [
+        "VTX-0177"
+      ],
+      "carpeta": "POST/social/series/la-gloria",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/la-gloria/images/01-la-gloria.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0177"
+        },
+        {
+          "archivo": "POST/social/series/la-gloria/images/02-sinopsis-la-gloria.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/la-gloria/images/02-sinopsis-la-gloria.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/la-gloria/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El primer candidato en es traia el logo de Netflix quemado -- se descarto y se uso otro candidato disponible en es, limpio."
+    },
+    {
       "slug": "la-maldicion-de-widow-s-bay",
       "categoria": "series",
       "tipo": "imagen",
@@ -4443,6 +4763,46 @@
       },
       "creada": "2026-09-02",
       "nota": "Título 2026 muy reciente. La sinopsis se mantuvo deliberadamente general (sin afirmar detalles de trama específicos) por no tener certeza suficiente sobre el argumento exacto — evita inventar trama."
+    },
+    {
+      "slug": "la-maquina-de-escribir",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "La Máquina de Escribir",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0178"
+      },
+      "vtxIds": [
+        "VTX-0178"
+      ],
+      "carpeta": "POST/social/series/la-maquina-de-escribir",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/la-maquina-de-escribir/images/01-la-maquina-de-escribir.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0178"
+        },
+        {
+          "archivo": "POST/social/series/la-maquina-de-escribir/images/02-sinopsis-la-maquina-de-escribir.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/la-maquina-de-escribir/images/02-sinopsis-la-maquina-de-escribir.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/la-maquina-de-escribir/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
     },
     {
       "slug": "la-materia-oscura",
@@ -4563,6 +4923,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "la-venganza-dinero-y-poder",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "La Venganza: Dinero y Poder",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0179"
+      },
+      "vtxIds": [
+        "VTX-0179"
+      ],
+      "carpeta": "POST/social/series/la-venganza-dinero-y-poder",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/la-venganza-dinero-y-poder/images/01-la-venganza-dinero-y-poder.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0179"
+        },
+        {
+          "archivo": "POST/social/series/la-venganza-dinero-y-poder/images/02-sinopsis-la-venganza-dinero-y-poder.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/la-venganza-dinero-y-poder/images/02-sinopsis-la-venganza-dinero-y-poder.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/la-venganza-dinero-y-poder/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema de corrupcion/crimen financiero."
     },
     {
       "slug": "las-aventuras-del-suspenso",
@@ -8730,6 +9130,86 @@
       "coleccion": null,
       "piezas": [
         "erase-un-amor-rural"
+      ]
+    },
+    {
+      "vtxId": "VTX-0170",
+      "titulo": "Espera, Mi Juventud",
+      "coleccion": null,
+      "piezas": [
+        "espera-mi-juventud"
+      ]
+    },
+    {
+      "vtxId": "VTX-0171",
+      "titulo": "Eve",
+      "coleccion": null,
+      "piezas": [
+        "eve"
+      ]
+    },
+    {
+      "vtxId": "VTX-0172",
+      "titulo": "Grupo de Estudio",
+      "coleccion": null,
+      "piezas": [
+        "grupo-de-estudio"
+      ]
+    },
+    {
+      "vtxId": "VTX-0173",
+      "titulo": "Hasta que el Cielo Nos Reúna",
+      "coleccion": null,
+      "piezas": [
+        "hasta-que-el-cielo-nos-reuna"
+      ]
+    },
+    {
+      "vtxId": "VTX-0174",
+      "titulo": "Kimi ni Todoke: Llegando a Ti",
+      "coleccion": null,
+      "piezas": [
+        "kimi-ni-todoke-llegando-a-ti"
+      ]
+    },
+    {
+      "vtxId": "VTX-0175",
+      "titulo": "La Belleza de Gangnam",
+      "coleccion": null,
+      "piezas": [
+        "la-belleza-de-gangnam"
+      ]
+    },
+    {
+      "vtxId": "VTX-0176",
+      "titulo": "La Buena Mala Madre",
+      "coleccion": null,
+      "piezas": [
+        "la-buena-mala-madre"
+      ]
+    },
+    {
+      "vtxId": "VTX-0177",
+      "titulo": "La Gloria",
+      "coleccion": null,
+      "piezas": [
+        "la-gloria"
+      ]
+    },
+    {
+      "vtxId": "VTX-0178",
+      "titulo": "La Máquina de Escribir",
+      "coleccion": null,
+      "piezas": [
+        "la-maquina-de-escribir"
+      ]
+    },
+    {
+      "vtxId": "VTX-0179",
+      "titulo": "La Venganza: Dinero y Poder",
+      "coleccion": null,
+      "piezas": [
+        "la-venganza-dinero-y-poder"
       ]
     },
     {

@@ -1,0 +1,42 @@
+{
+  "slug": "la-gloria",
+  "tipo": "imagen",
+  "titulo": "La Gloria",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0177"
+  },
+  "vtxIds": [
+    "VTX-0177"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-gloria/images/01-la-gloria.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0177"
+    },
+    {
+      "archivo": "POST/social/series/la-gloria/images/02-sinopsis-la-gloria.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-gloria"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-gloria/images/02-sinopsis-la-gloria.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-gloria/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El primer candidato en es traia el logo de Netflix quemado -- se descarto y se uso otro candidato disponible en es, limpio."
+}

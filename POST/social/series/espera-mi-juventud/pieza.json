@@ -1,0 +1,42 @@
+{
+  "slug": "espera-mi-juventud",
+  "tipo": "imagen",
+  "titulo": "Espera, Mi Juventud",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0170"
+  },
+  "vtxIds": [
+    "VTX-0170"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/espera-mi-juventud/images/01-espera-mi-juventud.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0170"
+    },
+    {
+      "archivo": "POST/social/series/espera-mi-juventud/images/02-sinopsis-espera-mi-juventud.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/espera-mi-juventud"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/espera-mi-juventud/images/02-sinopsis-espera-mi-juventud.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/espera-mi-juventud/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El poster mostraba texto en pinyin (romanizacion china) -- se identifico como produccion CHINA, no coreana, pese a estar en la categoria 'Doramas' del catalogo que agrupa varios paises asiaticos. Se agrego bandera CN nueva a la plantilla para este caso."
+}

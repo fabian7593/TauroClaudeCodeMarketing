@@ -1,0 +1,41 @@
+{
+  "slug": "la-buena-mala-madre",
+  "tipo": "imagen",
+  "titulo": "La Buena Mala Madre",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0176"
+  },
+  "vtxIds": [
+    "VTX-0176"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-buena-mala-madre/images/01-la-buena-mala-madre.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0176"
+    },
+    {
+      "archivo": "POST/social/series/la-buena-mala-madre/images/02-sinopsis-la-buena-mala-madre.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-buena-mala-madre"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-buena-mala-madre/images/02-sinopsis-la-buena-mala-madre.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-buena-mala-madre/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
