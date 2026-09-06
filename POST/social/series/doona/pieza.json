@@ -1,0 +1,41 @@
+{
+  "slug": "doona",
+  "tipo": "imagen",
+  "titulo": "Doona!",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0162"
+  },
+  "vtxIds": [
+    "VTX-0162"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/doona/images/01-doona.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0162"
+    },
+    {
+      "archivo": "POST/social/series/doona/images/02-sinopsis-doona.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/doona"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/doona/images/02-sinopsis-doona.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/doona/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

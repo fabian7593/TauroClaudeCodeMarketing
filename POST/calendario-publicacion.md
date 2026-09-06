@@ -79,3 +79,19 @@ Antes de que arrancara el lote de 6 semanas (que empieza el martes 8, primer dí
 23. 2026-10-16 (vie) — Chespirito: Sin Querer Queriendo
 24. 2026-10-17 (sáb) — Cobra Kai
 25. 2026-10-20 (mar, extra) — American Horror Story (carrusel recortado a 10)
+
+## Incidente 2026-09-04/05: reorganización de carpetas rompió los 53 posts ya programados
+
+El 2026-09-04 se reorganizó `POST/social/` en `social/<categoria>/<slug>/` (series vs. películas). Zernio **no guarda la imagen al programar** — guarda una URL de `raw.githubusercontent.com` y la va a buscar recién al momento de publicar. Al mover los archivos, esa URL quedó apuntando a una ruta que ya no existe → todo lo programado (51 piezas) y lo que le tocó salir en el medio (Dahmer) falló con "Image not found".
+
+`posts_update` de Zernio no permite cambiar la imagen de un post existente, así que no hubo forma de "arreglar" los posts rotos — el usuario los borró todos manualmente y se volvieron a crear desde cero el 2026-09-05, con las URLs ya corregidas a la ruta nueva. Lección permanente: **antes de reorganizar rutas de archivos que Zernio ya tiene programados, hay que asumir que se rompe todo lo pendiente** — no hay forma de parchear en caliente, solo recrear.
+
+## Ronda Halloween 2026-10 (recreación completa, 2026-09-05)
+
+Al recrear el calendario roto, el usuario pidió además: (a) orden random real (ya no alfabético — el bug de origen de esta regla, ver `siguiente_lote_zernio.py`), y (b) tener en cuenta las columnas de `epoca` del catálogo para fechas como Halloween, no solo "Cualquier Momento". Regla nueva, ver `siguiente_lote_zernio.py` regla 5: una época se cubre con contenido **cerca** de la fecha real (no exacta), y acercándose a una época marcada hay que revisar activamente el catálogo con `--incluir-epoca` y **producir piezas nuevas si el volumen ya hecho no alcanza** (el usuario fijó "al menos 5" para Halloween).
+
+Piezas Halloween producidas exclusivamente para esta ronda: **Pesadilla en la Calle del Infierno** (saga completa, 7 películas — VTX-1093/1094/1095/1096/1097/1098/1024, época Halloween) y **El Resplandor** (VTX-0552, época Halloween). Se sumaron a Stranger Things (ya producida, época Halloween), American Horror Story y La Purga (ambas "Cualquier Momento" pero de género terror, ya en el calendario) para llegar a 5, todas ubicadas entre el 22 y el 31 de octubre.
+
+Nota de pósters: 6 de las 7 películas de "Pesadilla en la Calle del Infierno" solo tenían candidato TMDB `es` en la variante de España ("Pesadilla en Elm Street", no coincide con `tituloEs` del catálogo que es la forma LATAM "...Calle del Infierno") — se descartaron todas y se usó inglés, nunca castellano, siguiendo la regla de `crear-imagen` 0.1.
+
+Calendario final random (34 piezas, Dahmer como catch-up inmediato + 33 en fechas mar/jue/vie/sáb hasta el 31-oct): ver `pieza.json` de cada slug (`publicado.programado`) para la fecha exacta asignada — no se repite la tabla acá porque el orden es random y no aporta como referencia futura (a diferencia del primer lote, que sí seguía un criterio fijo de selección).

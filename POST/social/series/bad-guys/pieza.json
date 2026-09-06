@@ -1,0 +1,42 @@
+{
+  "slug": "bad-guys",
+  "tipo": "imagen",
+  "titulo": "Bad Guys",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0157"
+  },
+  "vtxIds": [
+    "VTX-0157"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/bad-guys/images/01-bad-guys.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0157"
+    },
+    {
+      "archivo": "POST/social/series/bad-guys/images/02-sinopsis-bad-guys.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bad-guys"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/bad-guys/images/02-sinopsis-bad-guys.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/bad-guys/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tono de accion/crimen con presos armados que muestra el poster, sin inventar detalles de trama no confirmados."
+}

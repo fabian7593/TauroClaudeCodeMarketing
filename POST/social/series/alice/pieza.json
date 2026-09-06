@@ -1,0 +1,42 @@
+{
+  "slug": "alice",
+  "tipo": "imagen",
+  "titulo": "Alice",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0154"
+  },
+  "vtxIds": [
+    "VTX-0154"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/alice/images/01-alice.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0154"
+    },
+    {
+      "archivo": "POST/social/series/alice/images/02-sinopsis-alice.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alice"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/alice/images/02-sinopsis-alice.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/alice/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad para este titulo -- se uso +13 como estimacion conservadora por ser un misterio/ciencia ficcion sin describir en el post detalles violentos puntuales de la trama que no estan confirmados."
+}

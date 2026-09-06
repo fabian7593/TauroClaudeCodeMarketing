@@ -1,0 +1,42 @@
+{
+  "slug": "el-juego-de-la-piramide",
+  "tipo": "imagen",
+  "titulo": "El Juego de la Pirámide",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0166"
+  },
+  "vtxIds": [
+    "VTX-0166"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-juego-de-la-piramide/images/01-el-juego-de-la-piramide.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0166"
+    },
+    {
+      "archivo": "POST/social/series/el-juego-de-la-piramide/images/02-sinopsis-el-juego-de-la-piramide.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-juego-de-la-piramide"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-juego-de-la-piramide/images/02-sinopsis-el-juego-de-la-piramide.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-juego-de-la-piramide/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema central de bullying escolar tratado sin suavizar, mismo criterio que Adolescencia."
+}

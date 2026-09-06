@@ -34,17 +34,11 @@
     "archivo": "POST/social/series/dahmer-monstruo-la-historia-de-jeffrey-dahmer/post.txt"
   },
   "publicado": {
-    "hecho": false,
-    "fecha": null,
-    "plataformas": [],
-    "programado": {
-      "fecha": "2026-09-04",
-      "hora": "ver calendario 6 semanas",
-      "plataformas": [
-        "instagram",
-        "facebook"
-      ],
-      "via": "zernio"
-    }
+    "hecho": true,
+    "fecha": "2026-09-05",
+    "plataformas": [
+      "facebook",
+      "instagram"
+    ]
   }
 }

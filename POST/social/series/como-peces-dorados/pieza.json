@@ -1,0 +1,42 @@
+{
+  "slug": "como-peces-dorados",
+  "tipo": "imagen",
+  "titulo": "Como Peces Dorados",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0159"
+  },
+  "vtxIds": [
+    "VTX-0159"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/como-peces-dorados/images/01-como-peces-dorados.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0159"
+    },
+    {
+      "archivo": "POST/social/series/como-peces-dorados/images/02-sinopsis-como-peces-dorados.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/como-peces-dorados"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/como-peces-dorados/images/02-sinopsis-como-peces-dorados.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/como-peces-dorados/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Sin candidato en espanol en TMDB (0 resultados) -- se uso ingles siguiendo el orden es(LATAM)->en->xx->default. El titulo en pantalla usa el ingles 'FISHBOWL WIVES' porque no hay poster con el titulo LATAM disponible. El indice 1 en ingles traia el logo de Netflix quemado -- se uso el indice 2, limpio."
+}

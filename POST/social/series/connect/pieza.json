@@ -1,0 +1,41 @@
+{
+  "slug": "connect",
+  "tipo": "imagen",
+  "titulo": "Connect",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0160"
+  },
+  "vtxIds": [
+    "VTX-0160"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/connect/images/01-connect.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0160"
+    },
+    {
+      "archivo": "POST/social/series/connect/images/02-sinopsis-connect.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/connect"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/connect/images/02-sinopsis-connect.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/connect/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

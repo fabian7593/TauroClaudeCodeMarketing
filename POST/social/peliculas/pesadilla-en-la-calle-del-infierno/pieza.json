@@ -72,7 +72,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-31",
+      "hora": "18:00 CR (sáb)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "6 de las 7 posters se usaron en ingles porque TMDB solo trae 'es' en la variante de Espana (\"Pesadilla en Elm Street\", no coincide con tituloEs del catalogo que es la forma LATAM \"Pesadilla en la Calle del Infierno\") -- se descartaron todas las candidatas en es por esa razon, nunca se uso castellano. Score de la ficha es el promedio de calificacion de las 7 peliculas (no la de la primera sola), para no inflar con la mejor calificada."
 }

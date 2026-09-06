@@ -1,0 +1,42 @@
+{
+  "slug": "el-rey-eterno-monarca",
+  "tipo": "imagen",
+  "titulo": "El Rey: Eterno Monarca",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0167"
+  },
+  "vtxIds": [
+    "VTX-0167"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-rey-eterno-monarca/images/01-el-rey-eterno-monarca.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0167"
+    },
+    {
+      "archivo": "POST/social/series/el-rey-eterno-monarca/images/02-sinopsis-el-rey-eterno-monarca.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-rey-eterno-monarca"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-rey-eterno-monarca/images/02-sinopsis-el-rey-eterno-monarca.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-rey-eterno-monarca/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad -- se uso +13 por ser fantasia/romance sin señal de contenido explicito."
+}

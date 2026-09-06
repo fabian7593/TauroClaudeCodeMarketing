@@ -1,0 +1,42 @@
+{
+  "slug": "el-juego-de-la-muerte",
+  "tipo": "imagen",
+  "titulo": "El Juego de la Muerte",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0165"
+  },
+  "vtxIds": [
+    "VTX-0165"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-juego-de-la-muerte/images/01-el-juego-de-la-muerte.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0165"
+    },
+    {
+      "archivo": "POST/social/series/el-juego-de-la-muerte/images/02-sinopsis-el-juego-de-la-muerte.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-juego-de-la-muerte"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-juego-de-la-muerte/images/02-sinopsis-el-juego-de-la-muerte.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-juego-de-la-muerte/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El primer candidato en es tenia un efecto de glitch/distorsion que lo hacia dificil de leer -- se descarto por calidad, no por logo, y se uso el otro candidato disponible en es (mosaico de personajes en blanco y negro), limpio y legible."
+}

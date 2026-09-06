@@ -36,6 +36,15 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-24",
+      "hora": "18:00 CR (sáb)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   }
 }

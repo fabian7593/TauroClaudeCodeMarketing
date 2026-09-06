@@ -1,0 +1,41 @@
+{
+  "slug": "el-tranvia",
+  "tipo": "imagen",
+  "titulo": "El Tranvía",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0168"
+  },
+  "vtxIds": [
+    "VTX-0168"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-tranvia/images/01-el-tranvia.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0168"
+    },
+    {
+      "archivo": "POST/social/series/el-tranvia/images/02-sinopsis-el-tranvia.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-tranvia"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-tranvia/images/02-sinopsis-el-tranvia.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-tranvia/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

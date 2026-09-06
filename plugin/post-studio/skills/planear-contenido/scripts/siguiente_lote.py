@@ -44,6 +44,12 @@ def item_resumen(t):
         "anio": t.get("anio"), "tmdbId": t.get("tmdbId"),
         "tmdbTipo": "tv" if (t.get("tipo") or "").lower().startswith("serie") else "movie",
         "audioDual": bool(t.get("audioDual")), "esAnime": bool(t.get("esAnime")),
+        # catalogoCategoria (NO confundir con la "categoria" series/peliculas que arma este
+        # mismo script mas abajo): seccion del catalogo (Doramas/Anime/Series/etc). Junto con
+        # tercerAudio, es la senal para elegir la fila de audio-idioma-original -- ver
+        # CLAUDE.md "Filas de audio/subtitulos", corregido 2026-09-05 porque audioDual solo
+        # nunca alcanza para saber SI hay un idioma original no-ingles ni CUAL es.
+        "catalogoCategoria": t.get("categoria"), "tercerAudio": t.get("tercerAudio"),
         "calificacion": t.get("calificacion"), "clasificacion": t.get("clasificacion"),
         "temporadas": t.get("temporadas"), "episodios": t.get("episodios"),
         "duracionMin": t.get("duracionMin"), "generos": t.get("generos") or [],

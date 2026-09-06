@@ -20,15 +20,22 @@ Bankai+ es el servicio B2C de streaming de VORTEX TV, dirigido a Costa Rica y el
 3. Nunca prometer dispositivos no soportados. No existe función de "cast"/mirroring desde el celular — la app se instala directo (por APK o Play Store) en cada dispositivo. Dispositivos compatibles hoy: Smart TV/Box con Android TV, Chromecast con Google TV (instalando la app directo en el dispositivo), Amazon Fire TV Stick, celular/tablet Android, pantallas automotrices. NO compatible todavía: Roku, Samsung/LG nativo, iOS (próximamente).
 
 ## Filas de audio/subtítulos en las imágenes
-Las imágenes de post llevan filas de info técnica. Se llenan con datos del catálogo (`Audio Dual` + si el título es anime), nunca a ojo:
+Las imágenes de post llevan filas de info técnica. El criterio que manda es el **idioma original de rodaje/producción del título**, no el booleano `audioDual` solo — ese campo dice si hay doblaje extra, pero no dice a qué idioma está doblado ni cuál es el original. Corregido el 2026-09-05 después de que el sistema anterior (basado solo en `audioDual` + `esAnime`) mostrara "Audio Inglés" en series coreanas/alemanas/etc., o se comiera la fila de idioma original en doramas.
 
-**Si NO es anime:**
-- **Audio Dual = Sí** → `Audio Esp. Latino` + `Audio Inglés` (bandera de USA) + `Subtítulo Español`
-- **Audio Dual = No** → solo `Audio Esp. Latino`. Sin audio original y sin subtítulos.
+**Paso 1 — determinar el idioma original del título** (no asumir, revisar en este orden):
+1. Campo `tercerAudio` del catálogo: si trae un valor que es un idioma real distinto del inglés (`Korean`/`Koreano`, `Portuguese`/`Portugues`/`Portugese`, `Italiano`, `German`, `Hindi`, etc.) — OJO, esa fila es texto libre con errores de tipeo y mayúsculas inconsistentes, y en la mayoría de los casos (`portugues` sobre un show en inglés como Ahsoka o Andor, `Espanol castellano` en Los Simpson) es solo una nota de doblaje EXTRA disponible en un show que sigue siendo en inglés — no cambia el idioma original. Solo cuenta como señal real cuando el título en sí no es angloparlante (con `categoria`, género y conocimiento del título se distingue rápido).
+2. Campo `categoria` = `Doramas` → casi siempre coreano o japonés; hay que identificar cuál específicamente (país/estudio de origen), nunca asumir "coreano" a ciegas — ej. "Como Peces Dorados" (Fishbowl Wives) es japonés, no coreano, aunque esté en la misma categoría que series coreanas.
+3. Campo `categoria` = `Anime` o `Anime Peliculas`, o `esAnime = true` → japonés. Si el título es evidentemente anime pero `esAnime` viene en `false` en el catálogo (dato incompleto, ej. pasó con Yu-Gi-Oh!), tratarlo igual como japonés — la descripción/hashtags pueden seguir llamándolo anime sin problema, ese flag solo controla esta fila.
+4. Ninguno de los catálogos anteriores basta por sí solo: hay títulos que ni `tercerAudio` ni `categoria` marcan (pasó con "Bandidos de Hoy", brasileña, y "Ju-On: Orígenes", japonesa) — si al escribir la sinopsis identificás que el título es una producción extranjera no angloparlante (serie brasileña, dorama, coreana, europea, etc.), aplicá igual la regla de abajo aunque el catálogo no lo marque explícitamente.
 
-**Si ES anime** (categoría Anime o Anime Peliculas): el japonés y los subtítulos van **siempre**, porque el anime está en su idioma original con subtítulos aunque no tenga doblaje.
-- **Audio Dual = Sí** → `Audio Esp. Latino` + `Audio Japonés` + `Subtítulo Español`
-- **Audio Dual = No** → `Audio Japonés` + `Subtítulo Español` (**sin** fila de español latino: ese doblaje no existe)
+**Paso 2 — filas según el idioma original identificado:**
+- **Original = español** (LATAM o España, ej. telenovelas, series de España): solo `Audio Esp. Latino`. No hace falta fila de idioma original (ya es el mismo idioma) ni subtítulo.
+- **Original = inglés**: sigue el criterio de siempre — `Audio Dual = Sí` → `Audio Esp. Latino` + `Audio Inglés` + `Subtítulo Español`; `Audio Dual = No` → solo `Audio Esp. Latino`.
+- **Original = cualquier otro idioma** (coreano, japonés, portugués, italiano, alemán, hindi, etc.): **SIEMPRE las 3 filas** — `Audio Esp. Latino` + `Audio [Idioma Original]` + `Subtítulo Español` — **sin importar lo que diga `audioDual`**. Bankai+ siempre ofrece las tres para contenido extranjero no angloparlante; no usar la ausencia de dato en `audioDual` como excusa para omitir la fila del idioma original o el doblaje latino. Esta es la regla que se venía pasando por alto (corregida a pedido explícito del usuario el 2026-09-05, afectó 17 piezas ya publicadas: Black Knight, El Asesino Mediático, El Juego del Calamar, Estamos Muertos, La Casa de Papel: Corea, La Chica Enmascarada, Alice, Aterrizaje de Emergencia en tu Corazón, Bad Guys, Besos Kitty, Como Peces Dorados, Ju-On: Orígenes, Este Mundo No Me Hará Mala Persona, Gul, Dark, Bandidos de Hoy, Evangelion: las películas).
+
+Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/post-template.html`, `FLAG_COLORS`): MX (latino), US (inglés), JP (japonés), KR (coreano), BR (portugués — usar aunque el título no sea brasileño, es la única bandera de portugués definida), IT (italiano), DE (alemán), IN (hindi), ES (subtítulo). Si aparece un idioma original nuevo que no está en esa lista, agregar el gradiente CSS ahí antes de usarlo — nunca approximar con la bandera de otro idioma.
+
+**Las banderas van SIN el código de dos letras encima** (nunca "MX", "ES", "KR", etc. como texto sobre el ícono) — pedido explícito del usuario el 2026-09-06, aplica a todas las filas de audio/subtítulo de cualquier idioma, no solo a alguna en particular. Solo la bandera sola, el label de al lado ya dice el idioma en palabras. Implementado en `post-template.html`: `flag.textContent` queda siempre vacío.
 
 ## Estructura fija de post (Instagram/Facebook)
 1. Título del show/película/saga (primera línea, para saber de qué se habla sin leer todo)

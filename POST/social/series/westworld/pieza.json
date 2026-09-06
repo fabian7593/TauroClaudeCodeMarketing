@@ -1,0 +1,41 @@
+{
+  "slug": "westworld",
+  "tipo": "imagen",
+  "titulo": "Westworld",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0151"
+  },
+  "vtxIds": [
+    "VTX-0151"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/westworld/images/01-westworld.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0151"
+    },
+    {
+      "archivo": "POST/social/series/westworld/images/02-sinopsis-westworld.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/westworld"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/westworld/images/02-sinopsis-westworld.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/westworld/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

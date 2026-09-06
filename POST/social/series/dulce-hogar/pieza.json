@@ -1,0 +1,41 @@
+{
+  "slug": "dulce-hogar",
+  "tipo": "imagen",
+  "titulo": "Dulce Hogar",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0163"
+  },
+  "vtxIds": [
+    "VTX-0163"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dulce-hogar/images/01-dulce-hogar.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0163"
+    },
+    {
+      "archivo": "POST/social/series/dulce-hogar/images/02-sinopsis-dulce-hogar.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dulce-hogar"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dulce-hogar/images/02-sinopsis-dulce-hogar.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dulce-hogar/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

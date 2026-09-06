@@ -1,0 +1,41 @@
+{
+  "slug": "erase-un-amor-rural",
+  "tipo": "imagen",
+  "titulo": "Érase un Amor Rural",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0169"
+  },
+  "vtxIds": [
+    "VTX-0169"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/erase-un-amor-rural/images/01-erase-un-amor-rural.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0169"
+    },
+    {
+      "archivo": "POST/social/series/erase-un-amor-rural/images/02-sinopsis-erase-un-amor-rural.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/erase-un-amor-rural"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/erase-un-amor-rural/images/02-sinopsis-erase-un-amor-rural.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/erase-un-amor-rural/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

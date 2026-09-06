@@ -36,7 +36,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-09-29",
+      "hora": "19:00 CR (mar)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "Catálogo marca estado Incompleto: faltan las temporadas 12, 13 y 14. El caption no promete la serie completa."
 }

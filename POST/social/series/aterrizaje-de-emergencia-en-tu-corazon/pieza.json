@@ -1,0 +1,41 @@
+{
+  "slug": "aterrizaje-de-emergencia-en-tu-corazon",
+  "tipo": "imagen",
+  "titulo": "Aterrizaje de Emergencia en tu Corazón",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0156"
+  },
+  "vtxIds": [
+    "VTX-0156"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/images/01-aterrizaje-de-emergencia-en-tu-corazon.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0156"
+    },
+    {
+      "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/images/02-sinopsis-aterrizaje-de-emergencia-en-tu-corazon.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/aterrizaje-de-emergencia-en-tu-corazon"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/images/02-sinopsis-aterrizaje-de-emergencia-en-tu-corazon.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

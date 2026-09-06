@@ -1,0 +1,42 @@
+{
+  "slug": "besos-kitty",
+  "tipo": "imagen",
+  "titulo": "Besos, Kitty",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0158"
+  },
+  "vtxIds": [
+    "VTX-0158"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/besos-kitty/images/01-besos-kitty.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0158"
+    },
+    {
+      "archivo": "POST/social/series/besos-kitty/images/02-sinopsis-besos-kitty.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/besos-kitty"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/besos-kitty/images/02-sinopsis-besos-kitty.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/besos-kitty/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Los primeros candidatos en es traian 'SOLO EN NETFLIX' quemado en el poster -- se descarto y se uso el indice 5, la misma key art sin el banner promocional."
+}

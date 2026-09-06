@@ -1,0 +1,42 @@
+{
+  "slug": "anna",
+  "tipo": "imagen",
+  "titulo": "Anna",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0155"
+  },
+  "vtxIds": [
+    "VTX-0155"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/anna/images/01-anna.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0155"
+    },
+    {
+      "archivo": "POST/social/series/anna/images/02-sinopsis-anna.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/anna"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/anna/images/02-sinopsis-anna.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/anna/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema sensible (acoso digital/imagen manipulada de una menor), mismo criterio que se aplico con Adolescencia. La descripcion se mantuvo general y sin detalles graficos a proposito."
+}

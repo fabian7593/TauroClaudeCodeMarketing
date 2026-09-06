@@ -1,0 +1,42 @@
+{
+  "slug": "el-agente-divino",
+  "tipo": "imagen",
+  "titulo": "El Agente Divino",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0164"
+  },
+  "vtxIds": [
+    "VTX-0164"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-agente-divino/images/01-el-agente-divino.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0164"
+    },
+    {
+      "archivo": "POST/social/series/el-agente-divino/images/02-sinopsis-el-agente-divino.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-agente-divino"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-agente-divino/images/02-sinopsis-el-agente-divino.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-agente-divino/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Titulo 2026 muy nuevo, el catalogo no trae clasificacion de edad ni sinopsis oficial detallada -- se uso +13 como estimacion (generos Drama/Accion/Fantasia sin senal de contenido explicito) y la descripcion se mantuvo general de genero, sin inventar tramas puntuales no confirmadas. Poster: el indice 1 de TMDB en ingles traia 'A NETFLIX SERIES' + 'ONLY ON NETFLIX' quemado -- se descarto y se uso el otro candidato disponible, limpio."
+}

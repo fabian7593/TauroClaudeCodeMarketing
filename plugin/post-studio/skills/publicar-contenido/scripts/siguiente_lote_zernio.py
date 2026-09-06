@@ -26,12 +26,28 @@ POST/calendario-publicacion.md):
      Instagram/Facebook no aceptan mas de 10 elementos por post (contando la
      ficha de sinopsis). Hay que recortar a mano cual publicar, ver SKILL.md
      5C punto 5.
+  5. Epoca NO significa "solo el dia exacto". Pedido explicito del usuario
+     el 2026-09-05: un feriado/epoca (Halloween, Navidad, Dia del Nino, etc.)
+     se cubre con contenido tematico ubicado CERCA de la fecha real -- unos
+     dias antes o despues sirve igual, no hace falta pegarle al dia exacto.
+     Ademas, acercandose a una epoca marcada (ej. las ultimas 1-2 semanas de
+     octubre para Halloween) hay que REVISAR ACTIVAMENTE el catalogo con
+     --incluir-epoca "<nombre>" y no asumir que alcanza con lo que ya cayo
+     "Cualquier Momento": si el volumen tematico ya producido es bajo (el
+     2026-09-05 la meta que fijo el usuario fue "al menos 5 piezas" para
+     Halloween y solo habia 1 ya producida -- Stranger Things -- mas 2
+     piezas evergreen que igual encajan por genero -- American Horror Story,
+     La Purga), hay que PRODUCIR piezas nuevas para esa epoca en vez de
+     rellenar con lo primero que salga random (ver POST/calendario-publicacion.md,
+     seccion "Ronda Halloween 2026-10"). Esto aplica a cualquier epoca
+     marcada, no solo Halloween -- es la politica estandar de ahora en mas.
 
 Uso:
   python siguiente_lote_zernio.py --limite 4
   python siguiente_lote_zernio.py --limite 10 --incluir-epoca "Navidad"
   python siguiente_lote_zernio.py --limite 6 --orden vtxid
   python siguiente_lote_zernio.py --limite 6 --semilla 42   # random reproducible (debug)
+  python siguiente_lote_zernio.py --limite 10 --incluir-epoca "Halloween"  # acercandose a fin de octubre
 """
 import argparse
 import glob

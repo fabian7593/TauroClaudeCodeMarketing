@@ -1,0 +1,41 @@
+{
+  "slug": "vis-a-vis",
+  "tipo": "imagen",
+  "titulo": "Vis a Vis",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0150"
+  },
+  "vtxIds": [
+    "VTX-0150"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/vis-a-vis/images/01-vis-a-vis.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0150"
+    },
+    {
+      "archivo": "POST/social/series/vis-a-vis/images/02-sinopsis-vis-a-vis.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/vis-a-vis"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/vis-a-vis/images/02-sinopsis-vis-a-vis.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/vis-a-vis/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

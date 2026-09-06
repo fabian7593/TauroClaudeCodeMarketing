@@ -1,0 +1,42 @@
+{
+  "slug": "yo-soy-betty-la-fea",
+  "tipo": "imagen",
+  "titulo": "Yo Soy Betty, la Fea",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0152"
+  },
+  "vtxIds": [
+    "VTX-0152"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/yo-soy-betty-la-fea/images/01-yo-soy-betty-la-fea.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0152"
+    },
+    {
+      "archivo": "POST/social/series/yo-soy-betty-la-fea/images/02-sinopsis-yo-soy-betty-la-fea.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/yo-soy-betty-la-fea"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/yo-soy-betty-la-fea/images/02-sinopsis-yo-soy-betty-la-fea.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/yo-soy-betty-la-fea/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catalogo no trae clasificacion de edad para este titulo (columna vacia) -- se uso +13 como estimacion conservadora por ser una comedia romantica de oficina sin contenido explicito, uno de los 4 baldes definidos en CLAUDE.md."
+}

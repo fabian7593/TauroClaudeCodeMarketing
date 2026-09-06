@@ -36,7 +36,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-29",
+      "hora": "19:00 CR (jue)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "epoca=Halloween en el catalogo — producida ahora, pero conviene reservarla para programar en Zernio recien cerca de octubre/Halloween."
 }

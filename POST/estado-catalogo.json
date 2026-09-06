@@ -1,8 +1,8 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
-  "generado": "2026-09-04",
-  "totalPiezas": 153,
-  "titulosConContenido": 166,
+  "generado": "2026-09-06",
+  "totalPiezas": 173,
+  "titulosConContenido": 186,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
@@ -41,7 +41,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-24",
+          "hora": "18:00 CR (sáb)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-05",
       "nota": null
@@ -165,8 +174,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-11",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-22",
+          "hora": "19:00 CR (jue)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -248,7 +257,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-31",
+          "hora": "18:00 CR (sáb)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-05",
       "nota": "6 de las 7 posters se usaron en ingles porque TMDB solo trae 'es' en la variante de Espana (\"Pesadilla en Elm Street\", no coincide con tituloEs del catalogo que es la forma LATAM \"Pesadilla en la Calle del Infierno\") -- se descartaron todas las candidatas en es por esa razon, nunca se uso castellano. Score de la ficha es el promedio de calificacion de las 7 peliculas (no la de la primera sola), para no inflar con la mejor calificada."
@@ -290,8 +308,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-12",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-18",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -339,8 +357,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-15",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-17",
+          "hora": "18:00 CR (sáb)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -388,8 +406,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-17",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-09",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -399,6 +417,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "alice",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Alice",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0154"
+      },
+      "vtxIds": [
+        "VTX-0154"
+      ],
+      "carpeta": "POST/social/series/alice",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/alice/images/01-alice.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0154"
+        },
+        {
+          "archivo": "POST/social/series/alice/images/02-sinopsis-alice.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/alice/images/02-sinopsis-alice.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/alice/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "El catalogo no trae clasificacion de edad para este titulo -- se uso +13 como estimacion conservadora por ser un misterio/ciencia ficcion sin describir en el post detalles violentos puntuales de la trama que no estan confirmados."
     },
     {
       "slug": "alien-planeta-tierra",
@@ -437,8 +495,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-18",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-11",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -541,8 +599,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-20",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-30",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -590,8 +648,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-19",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-01",
+          "hora": "19:00 CR (jue)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -639,8 +697,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-22",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-16",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -688,8 +746,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-24",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-23",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -699,6 +757,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "anna",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Anna",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0155"
+      },
+      "vtxIds": [
+        "VTX-0155"
+      ],
+      "carpeta": "POST/social/series/anna",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/anna/images/01-anna.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0155"
+        },
+        {
+          "archivo": "POST/social/series/anna/images/02-sinopsis-anna.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/anna/images/02-sinopsis-anna.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/anna/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema sensible (acoso digital/imagen manipulada de una menor), mismo criterio que se aplico con Adolescencia. La descripcion se mantuvo general y sin detalles graficos a proposito."
     },
     {
       "slug": "arcane",
@@ -737,8 +835,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-25",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-08",
+          "hora": "19:00 CR (jue)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -747,6 +845,46 @@
         }
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "aterrizaje-de-emergencia-en-tu-corazon",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Aterrizaje de Emergencia en tu Corazón",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0156"
+      },
+      "vtxIds": [
+        "VTX-0156"
+      ],
+      "carpeta": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/images/01-aterrizaje-de-emergencia-en-tu-corazon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0156"
+        },
+        {
+          "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/images/02-sinopsis-aterrizaje-de-emergencia-en-tu-corazon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/images/02-sinopsis-aterrizaje-de-emergencia-en-tu-corazon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/aterrizaje-de-emergencia-en-tu-corazon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
       "nota": null
     },
     {
@@ -786,8 +924,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-26",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-13",
+          "hora": "19:00 CR (mar)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -797,6 +935,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "bad-guys",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Bad Guys",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0157"
+      },
+      "vtxIds": [
+        "VTX-0157"
+      ],
+      "carpeta": "POST/social/series/bad-guys",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/bad-guys/images/01-bad-guys.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0157"
+        },
+        {
+          "archivo": "POST/social/series/bad-guys/images/02-sinopsis-bad-guys.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/bad-guys/images/02-sinopsis-bad-guys.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/bad-guys/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tono de accion/crimen con presos armados que muestra el poster, sin inventar detalles de trama no confirmados."
     },
     {
       "slug": "bandidos-de-hoy",
@@ -835,8 +1013,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-29",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-17",
+          "hora": "19:00 CR (jue)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -884,8 +1062,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-01",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-10",
+          "hora": "18:00 CR (sáb)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -933,8 +1111,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-03",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-12",
+          "hora": "18:00 CR (sáb)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -982,8 +1160,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-02",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-24",
+          "hora": "19:00 CR (jue)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -993,6 +1171,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "besos-kitty",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Besos, Kitty",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0158"
+      },
+      "vtxIds": [
+        "VTX-0158"
+      ],
+      "carpeta": "POST/social/series/besos-kitty",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/besos-kitty/images/01-besos-kitty.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0158"
+        },
+        {
+          "archivo": "POST/social/series/besos-kitty/images/02-sinopsis-besos-kitty.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/besos-kitty/images/02-sinopsis-besos-kitty.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/besos-kitty/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "Los primeros candidatos en es traian 'SOLO EN NETFLIX' quemado en el poster -- se descarto y se uso el indice 5, la misma key art sin el banner promocional."
     },
     {
       "slug": "better-call-saul",
@@ -1031,8 +1249,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-06",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-15",
+          "hora": "19:00 CR (mar)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1120,8 +1338,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-08",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-02",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1169,8 +1387,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-09",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-19",
+          "hora": "18:00 CR (sáb)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1218,8 +1436,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-10",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-03",
+          "hora": "18:00 CR (sáb)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1267,8 +1485,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-13",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-05",
+          "hora": "18:00 CR (sáb)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1316,8 +1534,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-15",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-06",
+          "hora": "19:00 CR (mar)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1365,8 +1583,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-16",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-25",
+          "hora": "20:00 CR (vie)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1414,8 +1632,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-10-17",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-20",
+          "hora": "19:00 CR (mar)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1476,6 +1694,86 @@
       "nota": null
     },
     {
+      "slug": "como-peces-dorados",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Como Peces Dorados",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0159"
+      },
+      "vtxIds": [
+        "VTX-0159"
+      ],
+      "carpeta": "POST/social/series/como-peces-dorados",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/como-peces-dorados/images/01-como-peces-dorados.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0159"
+        },
+        {
+          "archivo": "POST/social/series/como-peces-dorados/images/02-sinopsis-como-peces-dorados.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/como-peces-dorados/images/02-sinopsis-como-peces-dorados.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/como-peces-dorados/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "Sin candidato en espanol en TMDB (0 resultados) -- se uso ingles siguiendo el orden es(LATAM)->en->xx->default. El titulo en pantalla usa el ingles 'FISHBOWL WIVES' porque no hay poster con el titulo LATAM disponible. El indice 1 en ingles traia el logo de Netflix quemado -- se uso el indice 2, limpio."
+    },
+    {
+      "slug": "connect",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Connect",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0160"
+      },
+      "vtxIds": [
+        "VTX-0160"
+      ],
+      "carpeta": "POST/social/series/connect",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/connect/images/01-connect.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0160"
+        },
+        {
+          "archivo": "POST/social/series/connect/images/02-sinopsis-connect.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/connect/images/02-sinopsis-connect.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/connect/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
+    },
+    {
       "slug": "dahmer-monstruo-la-historia-de-jeffrey-dahmer",
       "categoria": "series",
       "tipo": "imagen",
@@ -1508,18 +1806,12 @@
         "archivo": "POST/social/series/dahmer-monstruo-la-historia-de-jeffrey-dahmer/post.txt"
       },
       "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": [],
-        "programado": {
-          "fecha": "2026-09-04",
-          "hora": "ver calendario 6 semanas",
-          "plataformas": [
-            "instagram",
-            "facebook"
-          ],
-          "via": "zernio"
-        }
+        "hecho": true,
+        "fecha": "2026-09-05",
+        "plataformas": [
+          "facebook",
+          "instagram"
+        ]
       },
       "creada": "2026-09-02",
       "nota": null
@@ -1561,8 +1853,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-05",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-15",
+          "hora": "19:00 CR (jue)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -1694,6 +1986,46 @@
       "nota": null
     },
     {
+      "slug": "dongjae-the-good-or-the-bastard",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dongjae, the Good or the Bastard",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0161"
+      },
+      "vtxIds": [
+        "VTX-0161"
+      ],
+      "carpeta": "POST/social/series/dongjae-the-good-or-the-bastard",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/01-dongjae-the-good-or-the-bastard.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0161"
+        },
+        {
+          "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/02-sinopsis-dongjae-the-good-or-the-bastard.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/02-sinopsis-dongjae-the-good-or-the-bastard.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
+    },
+    {
       "slug": "doom-patrol",
       "categoria": "series",
       "tipo": "imagen",
@@ -1731,6 +2063,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "doona",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Doona!",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0162"
+      },
+      "vtxIds": [
+        "VTX-0162"
+      ],
+      "carpeta": "POST/social/series/doona",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/doona/images/01-doona.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0162"
+        },
+        {
+          "archivo": "POST/social/series/doona/images/02-sinopsis-doona.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/doona/images/02-sinopsis-doona.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/doona/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
       "nota": null
     },
     {
@@ -1814,6 +2186,46 @@
       "nota": null
     },
     {
+      "slug": "dulce-hogar",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dulce Hogar",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0163"
+      },
+      "vtxIds": [
+        "VTX-0163"
+      ],
+      "carpeta": "POST/social/series/dulce-hogar",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dulce-hogar/images/01-dulce-hogar.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0163"
+        },
+        {
+          "archivo": "POST/social/series/dulce-hogar/images/02-sinopsis-dulce-hogar.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dulce-hogar/images/02-sinopsis-dulce-hogar.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dulce-hogar/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
+    },
+    {
       "slug": "duna-la-profecia",
       "categoria": "series",
       "tipo": "imagen",
@@ -1892,6 +2304,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "el-agente-divino",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "El Agente Divino",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0164"
+      },
+      "vtxIds": [
+        "VTX-0164"
+      ],
+      "carpeta": "POST/social/series/el-agente-divino",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/el-agente-divino/images/01-el-agente-divino.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0164"
+        },
+        {
+          "archivo": "POST/social/series/el-agente-divino/images/02-sinopsis-el-agente-divino.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/el-agente-divino/images/02-sinopsis-el-agente-divino.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/el-agente-divino/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "Titulo 2026 muy nuevo, el catalogo no trae clasificacion de edad ni sinopsis oficial detallada -- se uso +13 como estimacion (generos Drama/Accion/Fantasia sin senal de contenido explicito) y la descripcion se mantuvo general de genero, sin inventar tramas puntuales no confirmadas. Poster: el indice 1 de TMDB en ingles traia 'A NETFLIX SERIES' + 'ONLY ON NETFLIX' quemado -- se descarto y se uso el otro candidato disponible, limpio."
     },
     {
       "slug": "el-asesino-mediatico",
@@ -2092,6 +2544,86 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "el-juego-de-la-muerte",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "El Juego de la Muerte",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0165"
+      },
+      "vtxIds": [
+        "VTX-0165"
+      ],
+      "carpeta": "POST/social/series/el-juego-de-la-muerte",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/el-juego-de-la-muerte/images/01-el-juego-de-la-muerte.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0165"
+        },
+        {
+          "archivo": "POST/social/series/el-juego-de-la-muerte/images/02-sinopsis-el-juego-de-la-muerte.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/el-juego-de-la-muerte/images/02-sinopsis-el-juego-de-la-muerte.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/el-juego-de-la-muerte/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El primer candidato en es tenia un efecto de glitch/distorsion que lo hacia dificil de leer -- se descarto por calidad, no por logo, y se uso el otro candidato disponible en es (mosaico de personajes en blanco y negro), limpio y legible."
+    },
+    {
+      "slug": "el-juego-de-la-piramide",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "El Juego de la Pirámide",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0166"
+      },
+      "vtxIds": [
+        "VTX-0166"
+      ],
+      "carpeta": "POST/social/series/el-juego-de-la-piramide",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/el-juego-de-la-piramide/images/01-el-juego-de-la-piramide.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0166"
+        },
+        {
+          "archivo": "POST/social/series/el-juego-de-la-piramide/images/02-sinopsis-el-juego-de-la-piramide.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/el-juego-de-la-piramide/images/02-sinopsis-el-juego-de-la-piramide.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/el-juego-de-la-piramide/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema central de bullying escolar tratado sin suavizar, mismo criterio que Adolescencia."
     },
     {
       "slug": "el-juego-del-calamar",
@@ -2334,6 +2866,46 @@
       "nota": null
     },
     {
+      "slug": "el-rey-eterno-monarca",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "El Rey: Eterno Monarca",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0167"
+      },
+      "vtxIds": [
+        "VTX-0167"
+      ],
+      "carpeta": "POST/social/series/el-rey-eterno-monarca",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/el-rey-eterno-monarca/images/01-el-rey-eterno-monarca.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0167"
+        },
+        {
+          "archivo": "POST/social/series/el-rey-eterno-monarca/images/02-sinopsis-el-rey-eterno-monarca.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/el-rey-eterno-monarca/images/02-sinopsis-el-rey-eterno-monarca.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/el-rey-eterno-monarca/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": "El catalogo no trae clasificacion de edad -- se uso +13 por ser fantasia/romance sin señal de contenido explicito."
+    },
+    {
       "slug": "el-senor-de-los-anillos-los-anillos-de-poder",
       "categoria": "series",
       "tipo": "imagen",
@@ -2371,6 +2943,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "el-tranvia",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "El Tranvía",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0168"
+      },
+      "vtxIds": [
+        "VTX-0168"
+      ],
+      "carpeta": "POST/social/series/el-tranvia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/el-tranvia/images/01-el-tranvia.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0168"
+        },
+        {
+          "archivo": "POST/social/series/el-tranvia/images/02-sinopsis-el-tranvia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/el-tranvia/images/02-sinopsis-el-tranvia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/el-tranvia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
       "nota": null
     },
     {
@@ -2412,6 +3024,46 @@
       },
       "creada": "2026-09-02",
       "nota": "El catálogo no trae clasificación por edad para este título; el post se dejó sin esa línea en vez de inventarla."
+    },
+    {
+      "slug": "erase-un-amor-rural",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Érase un Amor Rural",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0169"
+      },
+      "vtxIds": [
+        "VTX-0169"
+      ],
+      "carpeta": "POST/social/series/erase-un-amor-rural",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/erase-un-amor-rural/images/01-erase-un-amor-rural.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0169"
+        },
+        {
+          "archivo": "POST/social/series/erase-un-amor-rural/images/02-sinopsis-erase-un-amor-rural.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/erase-un-amor-rural/images/02-sinopsis-erase-un-amor-rural.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/erase-un-amor-rural/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-06",
+      "nota": null
     },
     {
       "slug": "escalofrios-la-serie",
@@ -2968,7 +3620,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-09-29",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": "Catálogo marca estado Incompleto: faltan las temporadas 12, 13 y 14. El caption no promete la serie completa."
@@ -3980,8 +4641,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-08",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-10-27",
+          "hora": "19:00 CR (mar)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -4467,7 +5128,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-09-26",
+          "hora": "18:00 CR (sáb)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -4987,7 +5657,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-09-08",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -5069,8 +5748,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-09-10",
-          "hora": "ver calendario 6 semanas",
+          "fecha": "2026-09-22",
+          "hora": "19:00 CR (mar)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -5636,7 +6315,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-29",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-03",
       "nota": "epoca=Halloween en el catalogo — producida ahora, pero conviene reservarla para programar en Zernio recien cerca de octubre/Halloween."
@@ -5876,7 +6564,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-09-10",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-04",
       "nota": null
@@ -6520,6 +7217,166 @@
       },
       "creada": "2026-09-04",
       "nota": null
+    },
+    {
+      "slug": "vis-a-vis",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Vis a Vis",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0150"
+      },
+      "vtxIds": [
+        "VTX-0150"
+      ],
+      "carpeta": "POST/social/series/vis-a-vis",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/vis-a-vis/images/01-vis-a-vis.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0150"
+        },
+        {
+          "archivo": "POST/social/series/vis-a-vis/images/02-sinopsis-vis-a-vis.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/vis-a-vis/images/02-sinopsis-vis-a-vis.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/vis-a-vis/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": null
+    },
+    {
+      "slug": "westworld",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Westworld",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0151"
+      },
+      "vtxIds": [
+        "VTX-0151"
+      ],
+      "carpeta": "POST/social/series/westworld",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/westworld/images/01-westworld.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0151"
+        },
+        {
+          "archivo": "POST/social/series/westworld/images/02-sinopsis-westworld.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/westworld/images/02-sinopsis-westworld.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/westworld/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": null
+    },
+    {
+      "slug": "yo-soy-betty-la-fea",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Yo Soy Betty, la Fea",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0152"
+      },
+      "vtxIds": [
+        "VTX-0152"
+      ],
+      "carpeta": "POST/social/series/yo-soy-betty-la-fea",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/yo-soy-betty-la-fea/images/01-yo-soy-betty-la-fea.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0152"
+        },
+        {
+          "archivo": "POST/social/series/yo-soy-betty-la-fea/images/02-sinopsis-yo-soy-betty-la-fea.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/yo-soy-betty-la-fea/images/02-sinopsis-yo-soy-betty-la-fea.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/yo-soy-betty-la-fea/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "El catalogo no trae clasificacion de edad para este titulo (columna vacia) -- se uso +13 como estimacion conservadora por ser una comedia romantica de oficina sin contenido explicito, uno de los 4 baldes definidos en CLAUDE.md."
+    },
+    {
+      "slug": "yu-gi-oh-duelo-de-monstruos",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Yu-Gi-Oh! Duelo de Monstruos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0153"
+      },
+      "vtxIds": [
+        "VTX-0153"
+      ],
+      "carpeta": "POST/social/series/yu-gi-oh-duelo-de-monstruos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/images/01-yu-gi-oh-duelo-de-monstruos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0153"
+        },
+        {
+          "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/images/02-sinopsis-yu-gi-oh-duelo-de-monstruos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/images/02-sinopsis-yu-gi-oh-duelo-de-monstruos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-05",
+      "nota": "Catalogo marca esAnime=false y clasificacion TV-Y (mas permisiva que las 4 clasif. de CLAUDE.md) -- se mapeo a 'Apta para toda la familia' (el balde TV-PG) por ser el mas cercano hacia abajo. El texto sigue llamandolo anime porque lo es genericamente -- ese flag solo controla la fila de audio, no la descripcion."
     }
   ],
   "titulos": [
@@ -7713,6 +8570,166 @@
       "coleccion": null,
       "piezas": [
         "vikingos-valhalla"
+      ]
+    },
+    {
+      "vtxId": "VTX-0150",
+      "titulo": "Vis a Vis",
+      "coleccion": null,
+      "piezas": [
+        "vis-a-vis"
+      ]
+    },
+    {
+      "vtxId": "VTX-0151",
+      "titulo": "Westworld",
+      "coleccion": null,
+      "piezas": [
+        "westworld"
+      ]
+    },
+    {
+      "vtxId": "VTX-0152",
+      "titulo": "Yo Soy Betty, la Fea",
+      "coleccion": null,
+      "piezas": [
+        "yo-soy-betty-la-fea"
+      ]
+    },
+    {
+      "vtxId": "VTX-0153",
+      "titulo": "Yu-Gi-Oh! Duelo de Monstruos",
+      "coleccion": null,
+      "piezas": [
+        "yu-gi-oh-duelo-de-monstruos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0154",
+      "titulo": "Alice",
+      "coleccion": null,
+      "piezas": [
+        "alice"
+      ]
+    },
+    {
+      "vtxId": "VTX-0155",
+      "titulo": "Anna",
+      "coleccion": null,
+      "piezas": [
+        "anna"
+      ]
+    },
+    {
+      "vtxId": "VTX-0156",
+      "titulo": "Aterrizaje de Emergencia en Tu Corazón",
+      "coleccion": null,
+      "piezas": [
+        "aterrizaje-de-emergencia-en-tu-corazon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0157",
+      "titulo": "Bad Guys",
+      "coleccion": null,
+      "piezas": [
+        "bad-guys"
+      ]
+    },
+    {
+      "vtxId": "VTX-0158",
+      "titulo": "Besos, Kitty",
+      "coleccion": null,
+      "piezas": [
+        "besos-kitty"
+      ]
+    },
+    {
+      "vtxId": "VTX-0159",
+      "titulo": "Como Peces Dorados",
+      "coleccion": null,
+      "piezas": [
+        "como-peces-dorados"
+      ]
+    },
+    {
+      "vtxId": "VTX-0160",
+      "titulo": "Connect",
+      "coleccion": null,
+      "piezas": [
+        "connect"
+      ]
+    },
+    {
+      "vtxId": "VTX-0161",
+      "titulo": "Dongjae, the Good or the Bastard",
+      "coleccion": null,
+      "piezas": [
+        "dongjae-the-good-or-the-bastard"
+      ]
+    },
+    {
+      "vtxId": "VTX-0162",
+      "titulo": "Doona!",
+      "coleccion": null,
+      "piezas": [
+        "doona"
+      ]
+    },
+    {
+      "vtxId": "VTX-0163",
+      "titulo": "Dulce Hogar",
+      "coleccion": null,
+      "piezas": [
+        "dulce-hogar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0164",
+      "titulo": "El Agente Divino",
+      "coleccion": null,
+      "piezas": [
+        "el-agente-divino"
+      ]
+    },
+    {
+      "vtxId": "VTX-0165",
+      "titulo": "El Juego de la Muerte",
+      "coleccion": null,
+      "piezas": [
+        "el-juego-de-la-muerte"
+      ]
+    },
+    {
+      "vtxId": "VTX-0166",
+      "titulo": "El Juego de la Pirámide",
+      "coleccion": null,
+      "piezas": [
+        "el-juego-de-la-piramide"
+      ]
+    },
+    {
+      "vtxId": "VTX-0167",
+      "titulo": "El Rey: Eterno Monarca",
+      "coleccion": null,
+      "piezas": [
+        "el-rey-eterno-monarca"
+      ]
+    },
+    {
+      "vtxId": "VTX-0168",
+      "titulo": "El Tranvía",
+      "coleccion": null,
+      "piezas": [
+        "el-tranvia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0169",
+      "titulo": "Érase un Amor Rural",
+      "coleccion": null,
+      "piezas": [
+        "erase-un-amor-rural"
       ]
     },
     {

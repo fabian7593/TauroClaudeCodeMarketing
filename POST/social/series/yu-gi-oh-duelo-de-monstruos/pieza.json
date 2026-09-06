@@ -1,0 +1,42 @@
+{
+  "slug": "yu-gi-oh-duelo-de-monstruos",
+  "tipo": "imagen",
+  "titulo": "Yu-Gi-Oh! Duelo de Monstruos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0153"
+  },
+  "vtxIds": [
+    "VTX-0153"
+  ],
+  "creada": "2026-09-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/images/01-yu-gi-oh-duelo-de-monstruos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0153"
+    },
+    {
+      "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/images/02-sinopsis-yu-gi-oh-duelo-de-monstruos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/yu-gi-oh-duelo-de-monstruos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/images/02-sinopsis-yu-gi-oh-duelo-de-monstruos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/yu-gi-oh-duelo-de-monstruos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catalogo marca esAnime=false y clasificacion TV-Y (mas permisiva que las 4 clasif. de CLAUDE.md) -- se mapeo a 'Apta para toda la familia' (el balde TV-PG) por ser el mas cercano hacia abajo. El texto sigue llamandolo anime porque lo es genericamente -- ese flag solo controla la fila de audio, no la descripcion."
+}

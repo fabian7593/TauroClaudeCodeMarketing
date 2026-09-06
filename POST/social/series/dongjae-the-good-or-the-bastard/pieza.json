@@ -1,0 +1,41 @@
+{
+  "slug": "dongjae-the-good-or-the-bastard",
+  "tipo": "imagen",
+  "titulo": "Dongjae, the Good or the Bastard",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0161"
+  },
+  "vtxIds": [
+    "VTX-0161"
+  ],
+  "creada": "2026-09-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/01-dongjae-the-good-or-the-bastard.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0161"
+    },
+    {
+      "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/02-sinopsis-dongjae-the-good-or-the-bastard.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dongjae-the-good-or-the-bastard"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/02-sinopsis-dongjae-the-good-or-the-bastard.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
