@@ -1,8 +1,8 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
-  "generado": "2026-09-06",
-  "totalPiezas": 183,
-  "titulosConContenido": 196,
+  "generado": "2026-09-12",
+  "totalPiezas": 193,
+  "titulosConContenido": 206,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
@@ -321,6 +321,46 @@
       "nota": null
     },
     {
+      "slug": "86-eighty-six",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "86: Eighty-Six",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0205"
+      },
+      "vtxIds": [
+        "VTX-0205"
+      ],
+      "carpeta": "POST/social/series/86-eighty-six",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/86-eighty-six/images/01-86-eighty-six.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0205"
+        },
+        {
+          "archivo": "POST/social/series/86-eighty-six/images/02-sinopsis-86-eighty-six.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/86-eighty-six/images/02-sinopsis-86-eighty-six.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/86-eighty-six/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "adolescencia",
       "categoria": "series",
       "tipo": "imagen",
@@ -367,6 +407,46 @@
         }
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "aggretsuko",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Aggretsuko",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0206"
+      },
+      "vtxIds": [
+        "VTX-0206"
+      ],
+      "carpeta": "POST/social/series/aggretsuko",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/aggretsuko/images/01-aggretsuko.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0206"
+        },
+        {
+          "archivo": "POST/social/series/aggretsuko/images/02-sinopsis-aggretsuko.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/aggretsuko/images/02-sinopsis-aggretsuko.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/aggretsuko/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
       "nota": null
     },
     {
@@ -888,6 +968,46 @@
       "nota": null
     },
     {
+      "slug": "attack-on-titan",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Attack on Titan",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0207"
+      },
+      "vtxIds": [
+        "VTX-0207"
+      ],
+      "carpeta": "POST/social/series/attack-on-titan",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/attack-on-titan/images/01-attack-on-titan.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0207"
+        },
+        {
+          "archivo": "POST/social/series/attack-on-titan/images/02-sinopsis-attack-on-titan.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/attack-on-titan/images/02-sinopsis-attack-on-titan.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/attack-on-titan/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "avatar-la-leyenda-de-aang",
       "categoria": "series",
       "tipo": "imagen",
@@ -975,6 +1095,126 @@
       },
       "creada": "2026-09-05",
       "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tono de accion/crimen con presos armados que muestra el poster, sin inventar detalles de trama no confirmados."
+    },
+    {
+      "slug": "baki-dou-el-samurai-invencible",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Baki-Dou: El Samurái Invencible",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0210"
+      },
+      "vtxIds": [
+        "VTX-0210"
+      ],
+      "carpeta": "POST/social/series/baki-dou-el-samurai-invencible",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/baki-dou-el-samurai-invencible/images/01-baki-dou-el-samurai-invencible.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0210"
+        },
+        {
+          "archivo": "POST/social/series/baki-dou-el-samurai-invencible/images/02-sinopsis-baki-dou-el-samurai-invencible.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/baki-dou-el-samurai-invencible/images/02-sinopsis-baki-dou-el-samurai-invencible.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/baki-dou-el-samurai-invencible/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "baki-hanma",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Baki Hanma",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0209"
+      },
+      "vtxIds": [
+        "VTX-0209"
+      ],
+      "carpeta": "POST/social/series/baki-hanma",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/baki-hanma/images/01-baki-hanma.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0209"
+        },
+        {
+          "archivo": "POST/social/series/baki-hanma/images/02-sinopsis-baki-hanma.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/baki-hanma/images/02-sinopsis-baki-hanma.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/baki-hanma/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "baki",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Baki",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0208"
+      },
+      "vtxIds": [
+        "VTX-0208"
+      ],
+      "carpeta": "POST/social/series/baki",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/baki/images/01-baki.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0208"
+        },
+        {
+          "archivo": "POST/social/series/baki/images/02-sinopsis-baki.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/baki/images/02-sinopsis-baki.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/baki/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
     },
     {
       "slug": "bandidos-de-hoy",
@@ -1075,6 +1315,46 @@
       "nota": null
     },
     {
+      "slug": "beck-mongolian-chop-squad",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Beck: Mongolian Chop Squad",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0211"
+      },
+      "vtxIds": [
+        "VTX-0211"
+      ],
+      "carpeta": "POST/social/series/beck-mongolian-chop-squad",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/beck-mongolian-chop-squad/images/01-beck-mongolian-chop-squad.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0211"
+        },
+        {
+          "archivo": "POST/social/series/beck-mongolian-chop-squad/images/02-sinopsis-beck-mongolian-chop-squad.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/beck-mongolian-chop-squad/images/02-sinopsis-beck-mongolian-chop-squad.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/beck-mongolian-chop-squad/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "berlin-y-la-dama-del-armino",
       "categoria": "series",
       "tipo": "imagen",
@@ -1170,6 +1450,126 @@
         }
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "berserk-2",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Berserk",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0213"
+      },
+      "vtxIds": [
+        "VTX-0213"
+      ],
+      "carpeta": "POST/social/series/berserk-2",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/berserk-2/images/01-berserk-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0213"
+        },
+        {
+          "archivo": "POST/social/series/berserk-2/images/02-sinopsis-berserk-2.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/berserk-2/images/02-sinopsis-berserk-2.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/berserk-2/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "berserk-la-edad-de-oro-memorial-edition",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Berserk: La Edad de Oro – Memorial Edition",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0214"
+      },
+      "vtxIds": [
+        "VTX-0214"
+      ],
+      "carpeta": "POST/social/series/berserk-la-edad-de-oro-memorial-edition",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/images/01-berserk-la-edad-de-oro-memorial-edition.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0214"
+        },
+        {
+          "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/images/02-sinopsis-berserk-la-edad-de-oro-memorial-edition.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/images/02-sinopsis-berserk-la-edad-de-oro-memorial-edition.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": "Catalogo no trae 'clasificacion' para este titulo -- se clasifico como 'Apta para mayores de 18' por continuidad de franquicia (mismo universo y nivel de violencia que las otras piezas de Berserk, que si estan marcadas TV-MA)."
+    },
+    {
+      "slug": "berserk",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Berserk",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0212"
+      },
+      "vtxIds": [
+        "VTX-0212"
+      ],
+      "carpeta": "POST/social/series/berserk",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/berserk/images/01-berserk.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0212"
+        },
+        {
+          "archivo": "POST/social/series/berserk/images/02-sinopsis-berserk.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/berserk/images/02-sinopsis-berserk.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/berserk/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
       "nota": null
     },
     {
@@ -9210,6 +9610,86 @@
       "coleccion": null,
       "piezas": [
         "la-venganza-dinero-y-poder"
+      ]
+    },
+    {
+      "vtxId": "VTX-0205",
+      "titulo": "86: Eighty-Six",
+      "coleccion": null,
+      "piezas": [
+        "86-eighty-six"
+      ]
+    },
+    {
+      "vtxId": "VTX-0206",
+      "titulo": "Aggretsuko",
+      "coleccion": null,
+      "piezas": [
+        "aggretsuko"
+      ]
+    },
+    {
+      "vtxId": "VTX-0207",
+      "titulo": "Attack on Titan",
+      "coleccion": null,
+      "piezas": [
+        "attack-on-titan"
+      ]
+    },
+    {
+      "vtxId": "VTX-0208",
+      "titulo": "Baki",
+      "coleccion": "Baki",
+      "piezas": [
+        "baki"
+      ]
+    },
+    {
+      "vtxId": "VTX-0209",
+      "titulo": "Baki Hanma",
+      "coleccion": "Baki",
+      "piezas": [
+        "baki-hanma"
+      ]
+    },
+    {
+      "vtxId": "VTX-0210",
+      "titulo": "Baki-Dou: El Samurái Invencible",
+      "coleccion": "Baki",
+      "piezas": [
+        "baki-dou-el-samurai-invencible"
+      ]
+    },
+    {
+      "vtxId": "VTX-0211",
+      "titulo": "Beck: Mongolian Chop Squad",
+      "coleccion": null,
+      "piezas": [
+        "beck-mongolian-chop-squad"
+      ]
+    },
+    {
+      "vtxId": "VTX-0212",
+      "titulo": "Berserk",
+      "coleccion": "Berserk",
+      "piezas": [
+        "berserk"
+      ]
+    },
+    {
+      "vtxId": "VTX-0213",
+      "titulo": "Berserk",
+      "coleccion": "Berserk",
+      "piezas": [
+        "berserk-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-0214",
+      "titulo": "Berserk: La Edad de Oro – Memorial Edition",
+      "coleccion": "Berserk",
+      "piezas": [
+        "berserk-la-edad-de-oro-memorial-edition"
       ]
     },
     {

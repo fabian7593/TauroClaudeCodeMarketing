@@ -1,0 +1,41 @@
+{
+  "slug": "baki-hanma",
+  "tipo": "imagen",
+  "titulo": "Baki Hanma",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0209"
+  },
+  "vtxIds": [
+    "VTX-0209"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/baki-hanma/images/01-baki-hanma.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0209"
+    },
+    {
+      "archivo": "POST/social/series/baki-hanma/images/02-sinopsis-baki-hanma.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/baki-hanma"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/baki-hanma/images/02-sinopsis-baki-hanma.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/baki-hanma/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

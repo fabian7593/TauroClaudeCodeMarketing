@@ -1,0 +1,41 @@
+{
+  "slug": "baki-dou-el-samurai-invencible",
+  "tipo": "imagen",
+  "titulo": "Baki-Dou: El Samurái Invencible",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0210"
+  },
+  "vtxIds": [
+    "VTX-0210"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/baki-dou-el-samurai-invencible/images/01-baki-dou-el-samurai-invencible.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0210"
+    },
+    {
+      "archivo": "POST/social/series/baki-dou-el-samurai-invencible/images/02-sinopsis-baki-dou-el-samurai-invencible.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/baki-dou-el-samurai-invencible"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/baki-dou-el-samurai-invencible/images/02-sinopsis-baki-dou-el-samurai-invencible.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/baki-dou-el-samurai-invencible/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

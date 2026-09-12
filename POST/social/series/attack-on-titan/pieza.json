@@ -1,0 +1,41 @@
+{
+  "slug": "attack-on-titan",
+  "tipo": "imagen",
+  "titulo": "Attack on Titan",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0207"
+  },
+  "vtxIds": [
+    "VTX-0207"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/attack-on-titan/images/01-attack-on-titan.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0207"
+    },
+    {
+      "archivo": "POST/social/series/attack-on-titan/images/02-sinopsis-attack-on-titan.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/attack-on-titan"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/attack-on-titan/images/02-sinopsis-attack-on-titan.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/attack-on-titan/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

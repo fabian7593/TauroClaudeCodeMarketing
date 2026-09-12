@@ -47,8 +47,39 @@ Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/po
 5. Descripción del show (2-3 líneas humanas, cercanas, sin sonar a IA) — informada por los datos reales del catálogo: año/antigüedad, puntaje, clasificación por edad, temporadas
 6. Clasificación por edad en una línea corta y amena: "Apta para toda la familia", "Apta de 7 años en adelante", "Apta para mayores de 13", "Apta para mayores de 18" — nunca advertencias ni sermones
 7. Invitación a sumarse a Bankai+ (por qué vale la pena estar adentro, distinto del CTA de contacto)
-8. Pregunta de engagement + "¡Cuéntanos en los comentarios! 👇"
-9. Hashtags relevantes
+8. Pregunta de engagement + "¡Cuéntanos en los comentarios! 👇" — **última línea del post, sin nada después**
+
+**Sin hashtags y sin menciones de Costa Rica en el texto del post** — pedido explícito del usuario 2026-09-12. Antes se cerraba con una línea de hashtags (incluyendo uno de geolocalización tipo `#CostaRica`); de ahora en adelante esa línea **no va**, en ningún post nuevo. La segmentación geográfica sigue existiendo para audiencia/horario de publicación (ver más abajo), pero no se escribe en el caption ni en hashtags.
+
+## Cómo debe verse la imagen de arte — SIEMPRE `layout: 'full_bleed'`, NUNCA `panel_lateral`
+**Incidente 2026-09-12**: se generaron 10 piezas de anime usando `layout: 'panel_lateral'` (panel de color sólido a la izquierda, con el color dominante del póster extraído y un patrón de puntos decorativo) — el usuario las rechazó de inmediato ("todas están malas... no sé por qué usaste ese color a la izquierda"). El template (`post-template.html`) soporta los dos layouts y trae `panel_lateral` como ejemplo por default en su CONFIG de demostración, pero **la casa SIEMPRE usa `full_bleed`** para el arte principal — nunca se usó `panel_lateral` en ninguna pieza real publicada. Antes de armar el `CONFIG` de un lote nuevo, especialmente si hay que reconstruir el pipeline de cero (ej. tras perderse los scripts de un directorio temporal), **abrí con `Read` el PNG de una pieza ya instalada** (ej. `POST/social/series/alice/images/01-alice.png` o `.../yu-gi-oh-duelo-de-monstruos/images/01-yu-gi-oh-duelo-de-monstruos.png`) y compará contra lo que se está por generar — nunca asumas la config de ejemplo del template.
+
+**Estructura exacta del arte (`full_bleed`)**, de abajo hacia arriba, todo dentro de una imagen 1080x1350:
+1. **Póster completo de fondo** (`posterFull`, `background-size:contain`, centrado) sobre una copia del mismo póster desenfocada y oscurecida (`posterBlur`, cubre todo el canvas) — así no quedan barras negras lisas si el aspect ratio del póster no calza exacto con 1080x1350, se ven blureadas con el propio arte.
+2. **Degradado oscuro** desde abajo (para que el texto sea legible sobre cualquier imagen).
+3. **Badge dorado "1080p" arriba a la derecha** (`badges: ['1080p']`) — aparece en el 100% de las piezas ya publicadas, siempre incluirlo.
+4. **Fila(s) de logo + sitio** (`bankaiplus.com`) pegadas abajo del todo, logo y texto en una misma fila horizontal.
+5. **Filas de audio/subtítulo** justo arriba de eso, en fila horizontal (no apiladas en columna) — banderas + label, ver sección de audio más abajo para cuáles filas van.
+6. **Título del show** (blanco, negrita, mayúsculas) arriba de las filas, pegado al margen izquierdo.
+
+CONFIG mínimo correcto para el arte:
+```
+{
+  format: 'feed_portrait',
+  layout: 'full_bleed',
+  posterImage: './poster.jpg',
+  title: '...',
+  titleFont: 'font-sans',
+  titleCase: 'case-upper',
+  rows: [...],
+  badges: ['1080p'],
+  logo: './logo.png',
+  site: 'bankaiplus.com'
+}
+```
+`panelColorMode`, `panelColorManual`, `panelWidth`, `decorative`, `posterFocal`, `posterScale` son exclusivos de `panel_lateral` y no aplican ni hace falta tocarlos en `full_bleed` — el motor mide todo solo (alto real del logo, de las filas, etc.) y apila desde abajo.
+
+La imagen de ficha/sinopsis (`sinopsis-template.html`) es un diseño aparte y no tiene este problema — esa sí se armó bien en el incidente del 2026-09-12, no tiene modo "panel" ni "full_bleed", solo su propio layout fijo (tira de pósters + columna de texto + anillo de aprobación).
 
 ## Cómo se arma cada pieza de contenido
 - **Toda pieza lleva una imagen de ficha/sinopsis** (texto explicativo largo + tira de pósters + % de aprobación), sea post de una imagen o carrusel. Va **última**, después del arte. El texto profundo va ahí; el caption es más corto y más comercial, nunca el mismo párrafo repetido.
@@ -64,11 +95,16 @@ Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/po
 - **Ningún póster puede traer el logo de una plataforma competidora** (la N de Netflix, "A NETFLIX SERIES", HBO, Prime, Disney+). Muchos pósters promocionales de TMDB lo tienen quemado: hay que mirarlos antes de usarlos y descartar los que lo traigan. Es la misma regla de menciones prohibidas, pero dentro de la imagen.
 - El detalle operativo de todo esto está en los skills `planear-contenido`, `crear-sinopsis` y `crear-imagen` del plugin post-studio.
 
+## Orden de producción por lotes (mezclado, no por categoría agotada)
+`siguiente_lote.py` recorría el catálogo en orden estricto de vtxId ascendente, lo que agotaba una categoría interna entera (ej. Series) antes de tocar la siguiente (ej. Películas) — con Series ya al 100%, esto significaba decenas de lotes seguidos de solo Anime/Documentales/Infantiles antes de llegar a películas reales. Corregido a pedido explícito del usuario 2026-09-07: **la producción debe alternar tipos** — a veces película, a veces serie, a veces anime, a veces dorama, lo que haya pendiente — no seguir agotando una categoría por orden de catálogo.
+- El script ahora soporta `--orden mezclado` (default) que intercala round-robin por categoría interna del catálogo (Series, Doramas, Anime, Peliculas, Peliculas Colecciones, Anime Peliculas, Infantiles Series, Infantiles Peliculas, Documentales, Animados, SHOW), respetando el orden de vtxId dentro de cada categoría. `--orden vtxid` deja el comportamiento viejo disponible si hiciera falta.
+- **Después de producir cada lote pedido por el usuario, siempre devolver una tabla de estadísticas** (categoría interna | hechas | total | faltan) igual a la usada el 2026-09-07, para que el usuario vea a simple vista cuántas vueltas de producción automática faltan. `siguiente_lote.py --resumen` ya expone `porCategoria` con estos datos (cuenta piezas, no títulos sueltos — un carrusel de colección cuenta 1).
+
 ## Mix de contenido recomendado
 70% entretenimiento (recomendaciones, trivia) / 20% producto (planes, CTA directo, comparación de precio) / 10% prueba social (testimonios, capturas, resultados)
 
 ## Segmentación geográfica
-Priorizar audiencia de Costa Rica y LATAM. Usar hashtags regionales y horario de publicación 7-10pm hora Costa Rica.
+Priorizar audiencia de Costa Rica y LATAM para horario de publicación (7-10pm hora Costa Rica) y análisis de audiencia — esto es criterio interno de programación, **no texto que se escribe en el post** (ver "Sin hashtags..." arriba: nada de "Costa Rica" ni hashtags de geolocalización dentro del caption).
 
 ## Contacto
 WhatsApp: +506 6171-9869

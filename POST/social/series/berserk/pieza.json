@@ -1,0 +1,41 @@
+{
+  "slug": "berserk",
+  "tipo": "imagen",
+  "titulo": "Berserk",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0212"
+  },
+  "vtxIds": [
+    "VTX-0212"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/berserk/images/01-berserk.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0212"
+    },
+    {
+      "archivo": "POST/social/series/berserk/images/02-sinopsis-berserk.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/berserk"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/berserk/images/02-sinopsis-berserk.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/berserk/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

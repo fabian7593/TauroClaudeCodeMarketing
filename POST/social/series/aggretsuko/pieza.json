@@ -1,0 +1,41 @@
+{
+  "slug": "aggretsuko",
+  "tipo": "imagen",
+  "titulo": "Aggretsuko",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0206"
+  },
+  "vtxIds": [
+    "VTX-0206"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/aggretsuko/images/01-aggretsuko.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0206"
+    },
+    {
+      "archivo": "POST/social/series/aggretsuko/images/02-sinopsis-aggretsuko.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/aggretsuko"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/aggretsuko/images/02-sinopsis-aggretsuko.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/aggretsuko/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

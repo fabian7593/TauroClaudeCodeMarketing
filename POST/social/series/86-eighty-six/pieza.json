@@ -1,0 +1,41 @@
+{
+  "slug": "86-eighty-six",
+  "tipo": "imagen",
+  "titulo": "86: Eighty-Six",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0205"
+  },
+  "vtxIds": [
+    "VTX-0205"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/86-eighty-six/images/01-86-eighty-six.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0205"
+    },
+    {
+      "archivo": "POST/social/series/86-eighty-six/images/02-sinopsis-86-eighty-six.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/86-eighty-six"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/86-eighty-six/images/02-sinopsis-86-eighty-six.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/86-eighty-six/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

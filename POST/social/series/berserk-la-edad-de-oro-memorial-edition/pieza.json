@@ -1,0 +1,42 @@
+{
+  "slug": "berserk-la-edad-de-oro-memorial-edition",
+  "tipo": "imagen",
+  "titulo": "Berserk: La Edad de Oro – Memorial Edition",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0214"
+  },
+  "vtxIds": [
+    "VTX-0214"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/images/01-berserk-la-edad-de-oro-memorial-edition.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0214"
+    },
+    {
+      "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/images/02-sinopsis-berserk-la-edad-de-oro-memorial-edition.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/berserk-la-edad-de-oro-memorial-edition"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/images/02-sinopsis-berserk-la-edad-de-oro-memorial-edition.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/berserk-la-edad-de-oro-memorial-edition/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catalogo no trae 'clasificacion' para este titulo -- se clasifico como 'Apta para mayores de 18' por continuidad de franquicia (mismo universo y nivel de violencia que las otras piezas de Berserk, que si estan marcadas TV-MA)."
+}

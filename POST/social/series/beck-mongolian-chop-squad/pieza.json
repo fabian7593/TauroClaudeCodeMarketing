@@ -1,0 +1,41 @@
+{
+  "slug": "beck-mongolian-chop-squad",
+  "tipo": "imagen",
+  "titulo": "Beck: Mongolian Chop Squad",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0211"
+  },
+  "vtxIds": [
+    "VTX-0211"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/beck-mongolian-chop-squad/images/01-beck-mongolian-chop-squad.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0211"
+    },
+    {
+      "archivo": "POST/social/series/beck-mongolian-chop-squad/images/02-sinopsis-beck-mongolian-chop-squad.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/beck-mongolian-chop-squad"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/beck-mongolian-chop-squad/images/02-sinopsis-beck-mongolian-chop-squad.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/beck-mongolian-chop-squad/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

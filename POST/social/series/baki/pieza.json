@@ -1,0 +1,41 @@
+{
+  "slug": "baki",
+  "tipo": "imagen",
+  "titulo": "Baki",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0208"
+  },
+  "vtxIds": [
+    "VTX-0208"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/baki/images/01-baki.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0208"
+    },
+    {
+      "archivo": "POST/social/series/baki/images/02-sinopsis-baki.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/baki"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/baki/images/02-sinopsis-baki.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/baki/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,8 +1,8 @@
 # Calendario de publicación — Bankai+
 
-## Decisión vigente (desde 2026-09-03)
+## Decisión vigente (desde 2026-09-12 — actualizado de 4 a 5 publicaciones/semana)
 
-**4 publicaciones por semana**, en Instagram (@bankaiplus) y Facebook (Taurotv), horario Costa Rica:
+**5 publicaciones por semana**, en Instagram (@bankaiplus) y Facebook (Taurotv), horario Costa Rica:
 
 | Día | Hora (CR) | Rol |
 |---|---|---|
@@ -10,10 +10,13 @@
 | Jueves | 7:00 pm | Entretenimiento — siembra qué ver el fin de semana |
 | Viernes | 8:00 pm | Empuje más fuerte (producto/CTA) — TGIF, ya deciden el plan de la noche |
 | Sábado | 6:00 pm | Cierre de fin de semana — antes de que se decidan por otro plan |
+| Domingo | 7:00 pm | Último tramo del finde antes del lunes — alta intención de maratonear algo antes de que arranque la semana |
+
+**Historial:** del 2026-09-03 al 2026-09-11 fue 4 publicaciones/semana (mar/jue/vie/sáb). El usuario pidió el 2026-09-12 agregar domingo para llegar a 5 — no se tocan las fechas ya programadas de piezas anteriores, el quinto día aplica desde el próximo lote que se programe en adelante.
 
 **Por qué esta franja y no mediodía**: el scroll de almuerzo es rápido, "matar el rato" — no es el momento en que alguien decide qué ver. La noche (después de cenar, antes de dormir) es el momento real de intención: es cuando el CTA "¿Querés verla hoy mismo?" convierte mejor. Coincide con la regla ya fijada en `CLAUDE.md` (horario 7-10pm hora Costa Rica).
 
-**Por qué 4 días y no solo viernes/sábado**: publicar únicamente fin de semana deja 5 días de silencio semanal — se pierde el hábito de scroll entre semana.
+**Por qué 5 días y no solo viernes/sábado/domingo**: publicar únicamente fin de semana deja días de silencio entre semana — se pierde el hábito de scroll entre semana. Martes y jueves siembran la intención, viernes/sábado/domingo cierran el finde.
 
 ## Estado de la data al decidir esto
 

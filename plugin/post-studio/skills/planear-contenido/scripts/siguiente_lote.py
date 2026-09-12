@@ -95,8 +95,42 @@ def calcular_grupos(catalogo):
 
     for g in grupos:
         g["ordenCatalogo"] = min(vtx_num(t["vtxId"]) for t in g["items"])
+        # categoria interna real del catalogo (Series/Doramas/Anime/Peliculas/etc.),
+        # tomada del primer item -- usada para mezclar tipos en modo "mezclado".
+        g["categoriaInterna"] = g["items"][0].get("categoria") or "Sin categoria"
     grupos.sort(key=lambda g: g["ordenCatalogo"])
     return grupos
+
+
+def mezclar_por_categoria(pendientes):
+    """Intercala piezas pendientes por categoria interna (round-robin), en vez de
+    agotar una categoria entera antes de pasar a la siguiente. Dentro de cada
+    categoria se respeta el orden de catalogo (vtxId ascendente).
+
+    Regla pedida por el usuario 2026-09-07: la produccion debe alternar series,
+    peliculas, anime, doramas, etc. segun lo que haya pendiente -- no agotar
+    "Series" completo antes de tocar "Peliculas" solo porque el vtxId es menor.
+    """
+    baldes = {}
+    orden_baldes = []
+    for g in pendientes:
+        cat = g["categoriaInterna"]
+        if cat not in baldes:
+            baldes[cat] = []
+            orden_baldes.append(cat)
+        baldes[cat].append(g)
+
+    resultado = []
+    while True:
+        avanzo = False
+        for cat in orden_baldes:
+            cola = baldes[cat]
+            if cola:
+                resultado.append(cola.pop(0))
+                avanzo = True
+        if not avanzo:
+            break
+    return resultado
 
 
 def vtxIds_hechos(content_root):
@@ -140,6 +174,11 @@ def main():
     ap.add_argument("--offset", type=int, default=0, help="saltar las primeras N piezas pendientes (para paginar)")
     ap.add_argument("--resumen", action="store_true", help="solo contar, no listar detalle")
     ap.add_argument("--filtro-tipo", choices=["imagen", "carrusel"], help="listar solo piezas de este tipo")
+    ap.add_argument("--orden", choices=["mezclado", "vtxid"], default="mezclado",
+                     help="mezclado (default): intercala categorias (series/peliculas/anime/doramas/...). "
+                          "vtxid: orden estricto de catalogo (comportamiento viejo).")
+    ap.add_argument("--solo-categoria", help="filtra solo piezas de esta categoria interna del catalogo "
+                                              "(ej. Anime, Doramas, Peliculas, 'Peliculas Colecciones')")
     args = ap.parse_args()
 
     catalogo = cargar(args.catalogo)
@@ -164,11 +203,22 @@ def main():
             parciales.append(g)
 
     if args.resumen:
+        por_categoria = {}
+        for g in grupos:
+            cat = g["categoriaInterna"]
+            d = por_categoria.setdefault(cat, {"total": 0, "hechos": 0, "pendientes": 0})
+            d["total"] += 1
+            ids = {t["vtxId"] for t in g["items"]}
+            if ids <= hechos:
+                d["hechos"] += 1
+            elif not (ids & hechos):
+                d["pendientes"] += 1
         print(json.dumps({
             "totalGrupos": len(grupos),
             "pendientes": len(pendientes),
             "parciales": len(parciales),
             "hechosCompletos": len(grupos) - len(pendientes) - len(parciales),
+            "porCategoria": por_categoria,
         }, ensure_ascii=False, indent=1))
         if parciales:
             print("\nGRUPOS PARCIALMENTE HECHOS (revisar a mano):")
@@ -178,6 +228,12 @@ def main():
 
     if args.filtro_tipo:
         pendientes = [g for g in pendientes if g["tipoPieza"] == args.filtro_tipo]
+
+    if args.solo_categoria:
+        pendientes = [g for g in pendientes if g["categoriaInterna"] == args.solo_categoria]
+
+    if args.orden == "mezclado":
+        pendientes = mezclar_por_categoria(pendientes)
 
     lote = pendientes[args.offset:args.offset + args.limite]
     salida = []
