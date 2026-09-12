@@ -36,7 +36,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-11-01",
+      "hora": "19:00 CR (dom)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "Catalogo no trae 'clasificacion' para este titulo -- se clasifico como 'Apta para mayores de 18' por continuidad de franquicia (mismo universo y nivel de violencia que las otras piezas de Berserk, que si estan marcadas TV-MA)."
 }

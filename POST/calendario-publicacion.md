@@ -98,3 +98,24 @@ Piezas Halloween producidas exclusivamente para esta ronda: **Pesadilla en la Ca
 Nota de pósters: 6 de las 7 películas de "Pesadilla en la Calle del Infierno" solo tenían candidato TMDB `es` en la variante de España ("Pesadilla en Elm Street", no coincide con `tituloEs` del catálogo que es la forma LATAM "...Calle del Infierno") — se descartaron todas y se usó inglés, nunca castellano, siguiendo la regla de `crear-imagen` 0.1.
 
 Calendario final random (34 piezas, Dahmer como catch-up inmediato + 33 en fechas mar/jue/vie/sáb hasta el 31-oct): ver `pieza.json` de cada slug (`publicado.programado`) para la fecha exacta asignada — no se repite la tabla acá porque el orden es random y no aporta como referencia futura (a diferencia del primer lote, que sí seguía un criterio fijo de selección).
+
+## Lote anime + relleno de domingo (programado 2026-09-12)
+
+Al agregar el quinto día (domingo) el 2026-09-12, se detectó que las 34 piezas ya programadas hasta esa fecha (ver arriba) cubrían mar/jue/vie/sáb sin excepción — **ningún domingo tenía nada programado**, porque ese día no existía todavía cuando se armó el calendario. El usuario pidió simultáneamente: (a) publicar 10 piezas de anime ya producidas (IG + FB), y (b) rellenar los días que faltan según la tabla de 5 días/semana.
+
+Se resolvió con una sola acción: las 10 piezas de anime se usaron para llenar exactamente los 8 domingos vacíos entre hoy y el final del calendario ya programado (2026-10-31), y las 2 piezas restantes tomaron los siguientes martes/jueves libres después de esa fecha — es decir, los "próximos 10 huecos" reales del calendario ya coinciden con "los 10 posts de anime". De paso, esto convierte el domingo en el día temático de anime para este tramo.
+
+| Fecha | Día | Hora (CR) | Pieza |
+|---|---|---|---|
+| 2026-09-13 | Domingo | 19:00 | Attack on Titan |
+| 2026-09-20 | Domingo | 19:00 | Baki |
+| 2026-09-27 | Domingo | 19:00 | Aggretsuko |
+| 2026-10-04 | Domingo | 19:00 | Berserk (1997) |
+| 2026-10-11 | Domingo | 19:00 | 86: Eighty-Six |
+| 2026-10-18 | Domingo | 19:00 | Baki Hanma |
+| 2026-10-25 | Domingo | 19:00 | Beck: Mongolian Chop Squad |
+| 2026-11-01 | Domingo | 19:00 | Berserk: La Edad de Oro – Memorial Edition |
+| 2026-11-03 | Martes | 19:00 | Baki-Dou: El Samurái Invencible |
+| 2026-11-05 | Jueves | 19:00 | Berserk (2016, continuación) |
+
+Programado vía la API de Zernio (`posts_create`, una llamada por plataforma), mismo mecanismo que el resto del calendario — imágenes servidas desde `raw.githubusercontent.com` (commit `c58059d`, ya pusheado antes de programar). Cada `pieza.json` de estas 10 tiene su `publicado.programado` actualizado. A partir de 2026-11-08 (el siguiente martes libre) el calendario vuelve a estar completamente abierto en los 5 días — el próximo lote (de cualquier categoría) continúa desde ahí.
