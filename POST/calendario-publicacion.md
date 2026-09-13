@@ -119,3 +119,28 @@ Se resolvió con una sola acción: las 10 piezas de anime se usaron para llenar 
 | 2026-11-05 | Jueves | 19:00 | Berserk (2016, continuación) |
 
 Programado vía la API de Zernio (`posts_create`, una llamada por plataforma), mismo mecanismo que el resto del calendario — imágenes servidas desde `raw.githubusercontent.com` (commit `c58059d`, ya pusheado antes de programar). Cada `pieza.json` de estas 10 tiene su `publicado.programado` actualizado. A partir de 2026-11-08 (el siguiente martes libre) el calendario vuelve a estar completamente abierto en los 5 días — el próximo lote (de cualquier categoría) continúa desde ahí.
+
+## Hallazgo de QC 2026-09-13: bug de bandera con código de dos letras en 128 piezas ya producidas
+
+Al armar el lote random de abajo se detectó que la corrección del 2026-09-06 ("las banderas van sin el código de dos letras encima") solo se aplicó al código de `post-template.html` — **las imágenes ya renderizadas antes de esa fecha nunca se regeneraron** y siguen mostrando "MX"/"US"/"ES"/"IN"/etc. sobre el ícono. Conteo sobre el catálogo pendiente: **128 de 158 piezas (81%) tienen el bug, solo 30 están limpias**. Se confirmó además que "Berlín y la Dama del Armiño" (programada para el mismo 2026-09-12) también lo tiene.
+
+**Decisión del usuario (2026-09-13):** dejar salir el post del 2026-09-12 tal cual (no reprogramar), y usar el catálogo completo para programar de acá en adelante **sin filtrar por el bug** — se acepta como defecto menor, no bloquea la producción ni la programación. Si en el futuro se decide regenerar las 128 piezas, es un lote de producción aparte (correr de nuevo `crear-imagen` sobre cada una) — no se hizo en esta sesión.
+
+## Lote random (programado 2026-09-13, temática mixta)
+
+10 piezas random del catálogo ya producido (`siguiente_lote_zernio.py --limite 10`, sin filtrar por categoría) para continuar el calendario justo donde quedó abierto tras el lote de anime — arranca en el próximo viernes libre (2026-11-06) porque los slots de vie/sáb/dom de esa semana todavía no tenían nada.
+
+| Fecha | Día | Hora (CR) | Pieza |
+|---|---|---|---|
+| 2026-11-06 | Viernes | 20:00 | La Máquina de Escribir |
+| 2026-11-07 | Sábado | 18:00 | IT: Bienvenidos a Derry |
+| 2026-11-08 | Domingo | 19:00 | Pablo Escobar, el Patrón del Mal |
+| 2026-11-10 | Martes | 19:00 | Gul |
+| 2026-11-12 | Jueves | 19:00 | Spider-Noir |
+| 2026-11-13 | Viernes | 20:00 | El Rey León (saga reboot) |
+| 2026-11-14 | Sábado | 18:00 | Roswell, Nuevo México |
+| 2026-11-15 | Domingo | 19:00 | Lost |
+| 2026-11-17 | Martes | 19:00 | Anna |
+| 2026-11-19 | Jueves | 19:00 | La Cosa del Pantano |
+
+Antes de programar se les quitó la línea de hashtags/`#CostaRica` que todavía traían en su `post.txt` (piezas producidas antes de la regla del 2026-09-12) — se corrigió el archivo fuente, no solo el texto enviado a Zernio. A partir de 2026-11-20 el calendario vuelve a estar completamente abierto.

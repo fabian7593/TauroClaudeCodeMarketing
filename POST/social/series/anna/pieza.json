@@ -36,7 +36,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-11-17",
+      "hora": "19:00 CR (mar)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema sensible (acoso digital/imagen manipulada de una menor), mismo criterio que se aplico con Adolescencia. La descripcion se mantuvo general y sin detalles graficos a proposito."
 }
