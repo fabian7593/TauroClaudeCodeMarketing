@@ -1,11 +1,63 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
   "generado": "2026-09-12",
-  "totalPiezas": 193,
-  "titulosConContenido": 206,
+  "totalPiezas": 203,
+  "titulosConContenido": 222,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
+    {
+      "slug": "avatar",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Avatar",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Avatar"
+      },
+      "vtxIds": [
+        "VTX-0781",
+        "VTX-0782",
+        "VTX-0493"
+      ],
+      "carpeta": "POST/social/peliculas/avatar",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/avatar/images/01-avatar-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0781"
+        },
+        {
+          "archivo": "POST/social/peliculas/avatar/images/02-avatar-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0782"
+        },
+        {
+          "archivo": "POST/social/peliculas/avatar/images/03-avatar-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0493"
+        },
+        {
+          "archivo": "POST/social/peliculas/avatar/images/04-sinopsis-avatar.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/avatar/images/04-sinopsis-avatar.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/avatar/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
     {
       "slug": "el-resplandor",
       "categoria": "peliculas",
@@ -114,6 +166,46 @@
       "nota": "La coleccion Evangelion viene de catalogo.overrides.json, no del Excel."
     },
     {
+      "slug": "franco-escamilla-voyerista-auditivo",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Franco Escamilla: Voyerista Auditivo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-1401"
+      },
+      "vtxIds": [
+        "VTX-1401"
+      ],
+      "carpeta": "POST/social/peliculas/franco-escamilla-voyerista-auditivo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/franco-escamilla-voyerista-auditivo/images/01-franco-escamilla-voyerista-auditivo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1401"
+        },
+        {
+          "archivo": "POST/social/peliculas/franco-escamilla-voyerista-auditivo/images/02-sinopsis-franco-escamilla-voyerista-auditivo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/franco-escamilla-voyerista-auditivo/images/02-sinopsis-franco-escamilla-voyerista-auditivo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/franco-escamilla-voyerista-auditivo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "la-purga",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -185,6 +277,104 @@
       },
       "creada": "2026-09-02",
       "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
+    },
+    {
+      "slug": "my-hero-academia",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "My Hero Academia",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "My Hero Academia"
+      },
+      "vtxIds": [
+        "VTX-1280",
+        "VTX-1281",
+        "VTX-0219",
+        "VTX-1279"
+      ],
+      "carpeta": "POST/social/peliculas/my-hero-academia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/my-hero-academia/images/01-mha-dosheroes.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1280"
+        },
+        {
+          "archivo": "POST/social/peliculas/my-hero-academia/images/02-mha-despertar.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1281"
+        },
+        {
+          "archivo": "POST/social/peliculas/my-hero-academia/images/03-mha-mision.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0219"
+        },
+        {
+          "archivo": "POST/social/peliculas/my-hero-academia/images/04-mha-turno.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1279"
+        },
+        {
+          "archivo": "POST/social/peliculas/my-hero-academia/images/05-sinopsis-my-hero-academia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/my-hero-academia/images/05-sinopsis-my-hero-academia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/my-hero-academia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "nop",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "¡Nop!",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0406"
+      },
+      "vtxIds": [
+        "VTX-0406"
+      ],
+      "carpeta": "POST/social/peliculas/nop",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/nop/images/01-nop.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0406"
+        },
+        {
+          "archivo": "POST/social/peliculas/nop/images/02-sinopsis-nop.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/nop/images/02-sinopsis-nop.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/nop/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
     },
     {
       "slug": "pesadilla-en-la-calle-del-infierno",
@@ -272,6 +462,52 @@
       "nota": "6 de las 7 posters se usaron en ingles porque TMDB solo trae 'es' en la variante de Espana (\"Pesadilla en Elm Street\", no coincide con tituloEs del catalogo que es la forma LATAM \"Pesadilla en la Calle del Infierno\") -- se descartaron todas las candidatas en es por esa razon, nunca se uso castellano. Score de la ficha es el promedio de calificacion de las 7 peliculas (no la de la primera sola), para no inflar con la mejor calificada."
     },
     {
+      "slug": "the-lion-king-reboot",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "El Rey León (saga reboot)",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "El Rey León (saga reboot)"
+      },
+      "vtxIds": [
+        "VTX-1314",
+        "VTX-0632"
+      ],
+      "carpeta": "POST/social/peliculas/the-lion-king-reboot",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/the-lion-king-reboot/images/01-el-rey-leon-2019.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1314"
+        },
+        {
+          "archivo": "POST/social/peliculas/the-lion-king-reboot/images/02-mufasa-el-rey-leon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0632"
+        },
+        {
+          "archivo": "POST/social/peliculas/the-lion-king-reboot/images/03-sinopsis-the-lion-king-reboot.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/the-lion-king-reboot/images/03-sinopsis-the-lion-king-reboot.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/the-lion-king-reboot/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "1899",
       "categoria": "series",
       "tipo": "imagen",
@@ -321,6 +557,46 @@
       "nota": null
     },
     {
+      "slug": "72-animales-peligrosos-america-latina",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "72 Animales Peligrosos: América Latina",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0378"
+      },
+      "vtxIds": [
+        "VTX-0378"
+      ],
+      "carpeta": "POST/social/series/72-animales-peligrosos-america-latina",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/72-animales-peligrosos-america-latina/images/01-animales-peligrosos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0378"
+        },
+        {
+          "archivo": "POST/social/series/72-animales-peligrosos-america-latina/images/02-sinopsis-72-animales-peligrosos-america-latina.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/72-animales-peligrosos-america-latina/images/02-sinopsis-72-animales-peligrosos-america-latina.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/72-animales-peligrosos-america-latina/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": "Catalogo no trae 'clasificacion' para este titulo -- se clasifico como 'Apta para toda la familia' por ser un documental de naturaleza sin contenido sensible."
+    },
+    {
       "slug": "86-eighty-six",
       "categoria": "series",
       "tipo": "imagen",
@@ -355,7 +631,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-11",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -444,7 +729,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-09-27",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -585,6 +879,46 @@
         }
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "alvinnn-y-las-ardillas",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "¡¡¡Alvinnn!!! y las Ardillas",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0332"
+      },
+      "vtxIds": [
+        "VTX-0332"
+      ],
+      "carpeta": "POST/social/series/alvinnn-y-las-ardillas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/alvinnn-y-las-ardillas/images/01-alvinnn-y-las-ardillas.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0332"
+        },
+        {
+          "archivo": "POST/social/series/alvinnn-y-las-ardillas/images/02-sinopsis-alvinnn-y-las-ardillas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/alvinnn-y-las-ardillas/images/02-sinopsis-alvinnn-y-las-ardillas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/alvinnn-y-las-ardillas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
       "nota": null
     },
     {
@@ -1002,7 +1336,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-09-13",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1131,7 +1474,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-03",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1171,7 +1523,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-18",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1211,7 +1572,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-09-20",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1349,7 +1719,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-25",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1487,7 +1866,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-05",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1527,7 +1915,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-01",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": "Catalogo no trae 'clasificacion' para este titulo -- se clasifico como 'Apta para mayores de 18' por continuidad de franquicia (mismo universo y nivel de violencia que las otras piezas de Berserk, que si estan marcadas TV-MA)."
@@ -1567,7 +1964,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-04",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1659,6 +2065,46 @@
         }
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "beyblade",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Beyblade",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0215"
+      },
+      "vtxIds": [
+        "VTX-0215"
+      ],
+      "carpeta": "POST/social/series/beyblade",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/beyblade/images/01-beyblade.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0215"
+        },
+        {
+          "archivo": "POST/social/series/beyblade/images/02-sinopsis-beyblade.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/beyblade/images/02-sinopsis-beyblade.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/beyblade/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
       "nota": null
     },
     {
@@ -3343,6 +3789,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "el-show-de-cuphead",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "¡El Show de Cuphead!",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0319"
+      },
+      "vtxIds": [
+        "VTX-0319"
+      ],
+      "carpeta": "POST/social/series/el-show-de-cuphead",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/el-show-de-cuphead/images/01-el-show-de-cuphead.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0319"
+        },
+        {
+          "archivo": "POST/social/series/el-show-de-cuphead/images/02-sinopsis-el-show-de-cuphead.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/el-show-de-cuphead/images/02-sinopsis-el-show-de-cuphead.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/el-show-de-cuphead/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
       "nota": null
     },
     {
@@ -5402,6 +5888,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "las-inclemencias-del-amor",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Las Inclemencias del Amor",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0180"
+      },
+      "vtxIds": [
+        "VTX-0180"
+      ],
+      "carpeta": "POST/social/series/las-inclemencias-del-amor",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/las-inclemencias-del-amor/images/01-las-inclemencias-del-amor.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0180"
+        },
+        {
+          "archivo": "POST/social/series/las-inclemencias-del-amor/images/02-sinopsis-las-inclemencias-del-amor.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/las-inclemencias-del-amor/images/02-sinopsis-las-inclemencias-del-amor.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/las-inclemencias-del-amor/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
       "nota": null
     },
     {
@@ -9613,6 +10139,14 @@
       ]
     },
     {
+      "vtxId": "VTX-0180",
+      "titulo": "Las Inclemencias del Amor",
+      "coleccion": null,
+      "piezas": [
+        "las-inclemencias-del-amor"
+      ]
+    },
+    {
       "vtxId": "VTX-0205",
       "titulo": "86: Eighty-Six",
       "coleccion": null,
@@ -9693,6 +10227,22 @@
       ]
     },
     {
+      "vtxId": "VTX-0215",
+      "titulo": "Beyblade",
+      "coleccion": null,
+      "piezas": [
+        "beyblade"
+      ]
+    },
+    {
+      "vtxId": "VTX-0219",
+      "titulo": "Boku No Hero Academia: Misión Mundial de Héroes",
+      "coleccion": "My Hero Academia",
+      "piezas": [
+        "my-hero-academia"
+      ]
+    },
+    {
       "vtxId": "VTX-0286",
       "titulo": "Neon Genesis Evangelion",
       "coleccion": "Evangelion",
@@ -9701,11 +10251,59 @@
       ]
     },
     {
+      "vtxId": "VTX-0319",
+      "titulo": "¡El Show de Cuphead!",
+      "coleccion": null,
+      "piezas": [
+        "el-show-de-cuphead"
+      ]
+    },
+    {
+      "vtxId": "VTX-0332",
+      "titulo": "¡¡¡Alvinnn!!! y las Ardillas",
+      "coleccion": null,
+      "piezas": [
+        "alvinnn-y-las-ardillas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0378",
+      "titulo": "72 Animales Peligrosos: América Latina",
+      "coleccion": null,
+      "piezas": [
+        "72-animales-peligrosos-america-latina"
+      ]
+    },
+    {
+      "vtxId": "VTX-0406",
+      "titulo": "¡Nop!",
+      "coleccion": null,
+      "piezas": [
+        "nop"
+      ]
+    },
+    {
+      "vtxId": "VTX-0493",
+      "titulo": "Avatar: Fuego y Ceniza",
+      "coleccion": "Avatar",
+      "piezas": [
+        "avatar"
+      ]
+    },
+    {
       "vtxId": "VTX-0552",
       "titulo": "El Resplandor",
       "coleccion": null,
       "piezas": [
         "el-resplandor"
+      ]
+    },
+    {
+      "vtxId": "VTX-0632",
+      "titulo": "Mufasa: El Rey León",
+      "coleccion": "The Lion King (Reboot)",
+      "piezas": [
+        "the-lion-king-reboot"
       ]
     },
     {
@@ -9722,6 +10320,22 @@
       "coleccion": "La Purga",
       "piezas": [
         "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-0781",
+      "titulo": "Avatar",
+      "coleccion": "Avatar",
+      "piezas": [
+        "avatar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0782",
+      "titulo": "Avatar: El Camino del Agua",
+      "coleccion": "Avatar",
+      "piezas": [
+        "avatar"
       ]
     },
     {
@@ -9826,6 +10440,46 @@
       "coleccion": "Evangelion",
       "piezas": [
         "evangelion-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1279",
+      "titulo": "My Hero Academia: Ahora Es Tu Turno",
+      "coleccion": "My Hero Academia",
+      "piezas": [
+        "my-hero-academia"
+      ]
+    },
+    {
+      "vtxId": "VTX-1280",
+      "titulo": "My Hero Academia: Dos Héroes",
+      "coleccion": "My Hero Academia",
+      "piezas": [
+        "my-hero-academia"
+      ]
+    },
+    {
+      "vtxId": "VTX-1281",
+      "titulo": "My Hero Academia: El Despertar de los Héroes",
+      "coleccion": "My Hero Academia",
+      "piezas": [
+        "my-hero-academia"
+      ]
+    },
+    {
+      "vtxId": "VTX-1314",
+      "titulo": "El Rey León",
+      "coleccion": "The Lion King (Reboot)",
+      "piezas": [
+        "the-lion-king-reboot"
+      ]
+    },
+    {
+      "vtxId": "VTX-1401",
+      "titulo": "Franco Escamilla: Voyerista Auditivo",
+      "coleccion": null,
+      "piezas": [
+        "franco-escamilla-voyerista-auditivo"
       ]
     }
   ]

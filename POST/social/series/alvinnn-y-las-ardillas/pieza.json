@@ -1,0 +1,41 @@
+{
+  "slug": "alvinnn-y-las-ardillas",
+  "tipo": "imagen",
+  "titulo": "¡¡¡Alvinnn!!! y las Ardillas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0332"
+  },
+  "vtxIds": [
+    "VTX-0332"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/alvinnn-y-las-ardillas/images/01-alvinnn-y-las-ardillas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0332"
+    },
+    {
+      "archivo": "POST/social/series/alvinnn-y-las-ardillas/images/02-sinopsis-alvinnn-y-las-ardillas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alvinnn-y-las-ardillas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/alvinnn-y-las-ardillas/images/02-sinopsis-alvinnn-y-las-ardillas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/alvinnn-y-las-ardillas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

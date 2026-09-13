@@ -1,0 +1,42 @@
+{
+  "slug": "72-animales-peligrosos-america-latina",
+  "tipo": "imagen",
+  "titulo": "72 Animales Peligrosos: América Latina",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0378"
+  },
+  "vtxIds": [
+    "VTX-0378"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/72-animales-peligrosos-america-latina/images/01-animales-peligrosos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0378"
+    },
+    {
+      "archivo": "POST/social/series/72-animales-peligrosos-america-latina/images/02-sinopsis-72-animales-peligrosos-america-latina.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/72-animales-peligrosos-america-latina"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/72-animales-peligrosos-america-latina/images/02-sinopsis-72-animales-peligrosos-america-latina.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/72-animales-peligrosos-america-latina/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catalogo no trae 'clasificacion' para este titulo -- se clasifico como 'Apta para toda la familia' por ser un documental de naturaleza sin contenido sensible."
+}

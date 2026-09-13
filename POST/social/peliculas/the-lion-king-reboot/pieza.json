@@ -1,0 +1,47 @@
+{
+  "slug": "the-lion-king-reboot",
+  "tipo": "carrusel",
+  "titulo": "El Rey León (saga reboot)",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "El Rey León (saga reboot)"
+  },
+  "vtxIds": [
+    "VTX-1314",
+    "VTX-0632"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/the-lion-king-reboot/images/01-el-rey-leon-2019.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1314"
+    },
+    {
+      "archivo": "POST/social/peliculas/the-lion-king-reboot/images/02-mufasa-el-rey-leon.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0632"
+    },
+    {
+      "archivo": "POST/social/peliculas/the-lion-king-reboot/images/03-sinopsis-the-lion-king-reboot.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/the-lion-king-reboot"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/the-lion-king-reboot/images/03-sinopsis-the-lion-king-reboot.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/the-lion-king-reboot/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

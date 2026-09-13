@@ -1,0 +1,41 @@
+{
+  "slug": "nop",
+  "tipo": "imagen",
+  "titulo": "¡Nop!",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0406"
+  },
+  "vtxIds": [
+    "VTX-0406"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/nop/images/01-nop.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0406"
+    },
+    {
+      "archivo": "POST/social/peliculas/nop/images/02-sinopsis-nop.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/nop"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/nop/images/02-sinopsis-nop.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/nop/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

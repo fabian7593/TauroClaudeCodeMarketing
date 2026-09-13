@@ -1,0 +1,41 @@
+{
+  "slug": "beyblade",
+  "tipo": "imagen",
+  "titulo": "Beyblade",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0215"
+  },
+  "vtxIds": [
+    "VTX-0215"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/beyblade/images/01-beyblade.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0215"
+    },
+    {
+      "archivo": "POST/social/series/beyblade/images/02-sinopsis-beyblade.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/beyblade"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/beyblade/images/02-sinopsis-beyblade.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/beyblade/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

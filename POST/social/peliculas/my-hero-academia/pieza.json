@@ -1,0 +1,59 @@
+{
+  "slug": "my-hero-academia",
+  "tipo": "carrusel",
+  "titulo": "My Hero Academia",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "My Hero Academia"
+  },
+  "vtxIds": [
+    "VTX-1280",
+    "VTX-1281",
+    "VTX-0219",
+    "VTX-1279"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/my-hero-academia/images/01-mha-dosheroes.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1280"
+    },
+    {
+      "archivo": "POST/social/peliculas/my-hero-academia/images/02-mha-despertar.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1281"
+    },
+    {
+      "archivo": "POST/social/peliculas/my-hero-academia/images/03-mha-mision.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0219"
+    },
+    {
+      "archivo": "POST/social/peliculas/my-hero-academia/images/04-mha-turno.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1279"
+    },
+    {
+      "archivo": "POST/social/peliculas/my-hero-academia/images/05-sinopsis-my-hero-academia.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/my-hero-academia"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/my-hero-academia/images/05-sinopsis-my-hero-academia.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/my-hero-academia/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

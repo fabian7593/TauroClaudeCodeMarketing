@@ -1,0 +1,41 @@
+{
+  "slug": "el-show-de-cuphead",
+  "tipo": "imagen",
+  "titulo": "¡El Show de Cuphead!",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0319"
+  },
+  "vtxIds": [
+    "VTX-0319"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-show-de-cuphead/images/01-el-show-de-cuphead.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0319"
+    },
+    {
+      "archivo": "POST/social/series/el-show-de-cuphead/images/02-sinopsis-el-show-de-cuphead.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-show-de-cuphead"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-show-de-cuphead/images/02-sinopsis-el-show-de-cuphead.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-show-de-cuphead/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

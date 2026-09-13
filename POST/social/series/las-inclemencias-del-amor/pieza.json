@@ -1,0 +1,41 @@
+{
+  "slug": "las-inclemencias-del-amor",
+  "tipo": "imagen",
+  "titulo": "Las Inclemencias del Amor",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0180"
+  },
+  "vtxIds": [
+    "VTX-0180"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/las-inclemencias-del-amor/images/01-las-inclemencias-del-amor.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0180"
+    },
+    {
+      "archivo": "POST/social/series/las-inclemencias-del-amor/images/02-sinopsis-las-inclemencias-del-amor.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/las-inclemencias-del-amor"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/las-inclemencias-del-amor/images/02-sinopsis-las-inclemencias-del-amor.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/las-inclemencias-del-amor/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

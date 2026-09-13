@@ -1,0 +1,53 @@
+{
+  "slug": "avatar",
+  "tipo": "carrusel",
+  "titulo": "Avatar",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Avatar"
+  },
+  "vtxIds": [
+    "VTX-0781",
+    "VTX-0782",
+    "VTX-0493"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/avatar/images/01-avatar-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0781"
+    },
+    {
+      "archivo": "POST/social/peliculas/avatar/images/02-avatar-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0782"
+    },
+    {
+      "archivo": "POST/social/peliculas/avatar/images/03-avatar-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0493"
+    },
+    {
+      "archivo": "POST/social/peliculas/avatar/images/04-sinopsis-avatar.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/avatar"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/avatar/images/04-sinopsis-avatar.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/avatar/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
