@@ -1,0 +1,41 @@
+{
+  "slug": "10-dias-de-un-buen-hombre",
+  "tipo": "imagen",
+  "titulo": "10 Días de un Buen Hombre",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0413"
+  },
+  "vtxIds": [
+    "VTX-0413"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/01-10-dias-de-un-buen-hombre.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0413"
+    },
+    {
+      "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/02-sinopsis-10-dias-de-un-buen-hombre.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/10-dias-de-un-buen-hombre"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/02-sinopsis-10-dias-de-un-buen-hombre.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

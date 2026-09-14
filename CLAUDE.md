@@ -50,7 +50,7 @@ Las imágenes de post llevan filas de info técnica. El criterio que manda es el
 - **Original = inglés**: sigue el criterio de siempre — `Audio Dual = Sí` → `Audio Esp. Latino` + `Audio Inglés` + `Subtítulo Español`; `Audio Dual = No` → solo `Audio Esp. Latino`.
 - **Original = cualquier otro idioma** (coreano, japonés, portugués, italiano, alemán, hindi, etc.): **SIEMPRE las 3 filas** — `Audio Esp. Latino` + `Audio [Idioma Original]` + `Subtítulo Español` — **sin importar lo que diga `audioDual`**. Bankai+ siempre ofrece las tres para contenido extranjero no angloparlante; no usar la ausencia de dato en `audioDual` como excusa para omitir la fila del idioma original o el doblaje latino. Esta es la regla que se venía pasando por alto (corregida a pedido explícito del usuario el 2026-09-05; afectó a 17 piezas ya publicadas, listadas en `docs/incidentes.md`). `producir_lote.py --validar` la chequea antes de renderizar.
 
-Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/post-template.html`, `FLAG_COLORS`): MX (latino), US (inglés), JP (japonés), KR (coreano), BR (portugués — usar aunque el título no sea brasileño, es la única bandera de portugués definida), IT (italiano), DE (alemán), IN (hindi), CN (chino), ES (subtítulo). Si aparece un idioma original nuevo que no está en esa lista, agregar el gradiente CSS ahí antes de usarlo — nunca approximar con la bandera de otro idioma.
+Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/post-template.html`, `FLAG_COLORS`): MX (latino), US (inglés), JP (japonés), KR (coreano), BR (portugués — usar aunque el título no sea brasileño, es la única bandera de portugués definida), IT (italiano), DE (alemán), IN (hindi), CN (chino), TR (turco — agregado 2026-09-14 para el lote de películas, primer título turco del catálogo), ES (subtítulo). Si aparece un idioma original nuevo que no está en esa lista, agregar el gradiente CSS ahí antes de usarlo — nunca approximar con la bandera de otro idioma.
 
 **Ojo con "Doramas" ≠ automáticamente coreano**: la categoría del catálogo agrupa coreano, japonés Y CHINO por igual — "Espera, Mi Juventud" (categoría Doramas) resultó ser china (el póster mostraba texto en pinyin), no coreana. Siempre verificar con el póster/conocimiento del título antes de asumir el idioma dentro de "Doramas".
 
@@ -113,6 +113,11 @@ La imagen de ficha/sinopsis (`sinopsis-template.html`) es un diseño aparte y no
 - El detalle operativo de todo esto está en los skills `planear-contenido`, `crear-sinopsis` y `crear-imagen` del plugin post-studio.
 
 ## Producción en lote: usar SIEMPRE `producir_lote.py`, nunca rearmar el pipeline
+
+**Cualquier pedido de producir varias piezas dispara este flujo, esté o no escrito con detalle.** "Generame las próximas 10 imágenes del catálogo", "hacé 10 piezas más", "seguí con el siguiente lote", "producime 5 de anime" — todas son lo mismo: andá directo al comando `/lote` (`.claude/commands/lote.md`), que interpreta la cantidad y el filtro de categoría y remite al flujo completo de `plugin/post-studio/commands/cmd-lote.md`. No hace falta que el pedido explique el procedimiento; el procedimiento vive acá.
+
+Al terminar, mostrar siempre las tres cosas sin resumir: la salida completa del motor, la tabla de estadísticas por categoría, y el resultado del QC de pósters (cuántos, en cuántas rondas, y los que no salieron `OK`).
+
 Un lote de piezas se produce con **un solo comando**:
 
 ```bash

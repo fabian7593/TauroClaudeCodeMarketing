@@ -1,0 +1,41 @@
+{
+  "slug": "12-anos-de-esclavitud",
+  "tipo": "imagen",
+  "titulo": "12 Años de Esclavitud",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0417"
+  },
+  "vtxIds": [
+    "VTX-0417"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/12-anos-de-esclavitud/images/01-12-anos-de-esclavitud.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0417"
+    },
+    {
+      "archivo": "POST/social/peliculas/12-anos-de-esclavitud/images/02-sinopsis-12-anos-de-esclavitud.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/12-anos-de-esclavitud"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/12-anos-de-esclavitud/images/02-sinopsis-12-anos-de-esclavitud.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/12-anos-de-esclavitud/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

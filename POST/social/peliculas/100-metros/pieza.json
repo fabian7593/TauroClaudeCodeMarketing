@@ -1,0 +1,42 @@
+{
+  "slug": "100-metros",
+  "tipo": "imagen",
+  "titulo": "100 Metros",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0416"
+  },
+  "vtxIds": [
+    "VTX-0416"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/100-metros/images/01-100-metros.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0416"
+    },
+    {
+      "archivo": "POST/social/peliculas/100-metros/images/02-sinopsis-100-metros.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/100-metros"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/100-metros/images/02-sinopsis-100-metros.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/100-metros/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo no trae clasificación de edad — se usó 'Apta para mayores de 13' por ser un drama inspirador basado en hechos reales, sin violencia ni contenido explícito."
+}

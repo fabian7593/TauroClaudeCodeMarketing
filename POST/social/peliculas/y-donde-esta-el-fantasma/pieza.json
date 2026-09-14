@@ -1,0 +1,41 @@
+{
+  "slug": "y-donde-esta-el-fantasma",
+  "tipo": "imagen",
+  "titulo": "¿Y Dónde Está el Fantasma?",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0410"
+  },
+  "vtxIds": [
+    "VTX-0410"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/images/01-y-donde-esta-el-fantasma.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0410"
+    },
+    {
+      "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/images/02-sinopsis-y-donde-esta-el-fantasma.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/y-donde-esta-el-fantasma"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/images/02-sinopsis-y-donde-esta-el-fantasma.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

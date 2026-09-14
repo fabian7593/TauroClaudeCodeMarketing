@@ -1,0 +1,41 @@
+{
+  "slug": "500-dias-con-ella",
+  "tipo": "imagen",
+  "titulo": "(500) Días con Ella",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0411"
+  },
+  "vtxIds": [
+    "VTX-0411"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/500-dias-con-ella/images/01-500-dias-con-ella.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0411"
+    },
+    {
+      "archivo": "POST/social/peliculas/500-dias-con-ella/images/02-sinopsis-500-dias-con-ella.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/500-dias-con-ella"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/500-dias-con-ella/images/02-sinopsis-500-dias-con-ella.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/500-dias-con-ella/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

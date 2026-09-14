@@ -1,0 +1,41 @@
+{
+  "slug": "y-como-es-el",
+  "tipo": "imagen",
+  "titulo": "¿Y Cómo Es Él?",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0409"
+  },
+  "vtxIds": [
+    "VTX-0409"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/y-como-es-el/images/01-y-como-es-el.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0409"
+    },
+    {
+      "archivo": "POST/social/peliculas/y-como-es-el/images/02-sinopsis-y-como-es-el.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/y-como-es-el"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/y-como-es-el/images/02-sinopsis-y-como-es-el.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/y-como-es-el/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

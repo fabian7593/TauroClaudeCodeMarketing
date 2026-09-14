@@ -1,11 +1,291 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
   "generado": "2026-09-14",
-  "totalPiezas": 223,
-  "titulosConContenido": 250,
+  "totalPiezas": 233,
+  "titulosConContenido": 260,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
+    {
+      "slug": "007-operacion-skyfall",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "007: Operación Skyfall",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0412"
+      },
+      "vtxIds": [
+        "VTX-0412"
+      ],
+      "carpeta": "POST/social/peliculas/007-operacion-skyfall",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/007-operacion-skyfall/images/01-007-operacion-skyfall.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0412"
+        },
+        {
+          "archivo": "POST/social/peliculas/007-operacion-skyfall/images/02-sinopsis-007-operacion-skyfall.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/007-operacion-skyfall/images/02-sinopsis-007-operacion-skyfall.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/007-operacion-skyfall/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "10-000-a-c",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "10.000 A.C.",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0415"
+      },
+      "vtxIds": [
+        "VTX-0415"
+      ],
+      "carpeta": "POST/social/peliculas/10-000-a-c",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/10-000-a-c/images/01-10-000-a-c.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0415"
+        },
+        {
+          "archivo": "POST/social/peliculas/10-000-a-c/images/02-sinopsis-10-000-a-c.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/10-000-a-c/images/02-sinopsis-10-000-a-c.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/10-000-a-c/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "10-dias-de-un-buen-hombre",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "10 Días de un Buen Hombre",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0413"
+      },
+      "vtxIds": [
+        "VTX-0413"
+      ],
+      "carpeta": "POST/social/peliculas/10-dias-de-un-buen-hombre",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/01-10-dias-de-un-buen-hombre.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0413"
+        },
+        {
+          "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/02-sinopsis-10-dias-de-un-buen-hombre.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/02-sinopsis-10-dias-de-un-buen-hombre.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "10-minutos-para-morir",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "10 Minutos para Morir",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0414"
+      },
+      "vtxIds": [
+        "VTX-0414"
+      ],
+      "carpeta": "POST/social/peliculas/10-minutos-para-morir",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/10-minutos-para-morir/images/01-10-minutos-para-morir.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0414"
+        },
+        {
+          "archivo": "POST/social/peliculas/10-minutos-para-morir/images/02-sinopsis-10-minutos-para-morir.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/10-minutos-para-morir/images/02-sinopsis-10-minutos-para-morir.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/10-minutos-para-morir/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "100-metros",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "100 Metros",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0416"
+      },
+      "vtxIds": [
+        "VTX-0416"
+      ],
+      "carpeta": "POST/social/peliculas/100-metros",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/100-metros/images/01-100-metros.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0416"
+        },
+        {
+          "archivo": "POST/social/peliculas/100-metros/images/02-sinopsis-100-metros.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/100-metros/images/02-sinopsis-100-metros.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/100-metros/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": "Catálogo no trae clasificación de edad — se usó 'Apta para mayores de 13' por ser un drama inspirador basado en hechos reales, sin violencia ni contenido explícito."
+    },
+    {
+      "slug": "12-anos-de-esclavitud",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "12 Años de Esclavitud",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0417"
+      },
+      "vtxIds": [
+        "VTX-0417"
+      ],
+      "carpeta": "POST/social/peliculas/12-anos-de-esclavitud",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/12-anos-de-esclavitud/images/01-12-anos-de-esclavitud.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0417"
+        },
+        {
+          "archivo": "POST/social/peliculas/12-anos-de-esclavitud/images/02-sinopsis-12-anos-de-esclavitud.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/12-anos-de-esclavitud/images/02-sinopsis-12-anos-de-esclavitud.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/12-anos-de-esclavitud/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "127-horas",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "127 Horas",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0418"
+      },
+      "vtxIds": [
+        "VTX-0418"
+      ],
+      "carpeta": "POST/social/peliculas/127-horas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/127-horas/images/01-127-horas.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0418"
+        },
+        {
+          "archivo": "POST/social/peliculas/127-horas/images/02-sinopsis-127-horas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/127-horas/images/02-sinopsis-127-horas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/127-horas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
     {
       "slug": "5-centimetros-por-segundo",
       "categoria": "peliculas",
@@ -44,6 +324,46 @@
         "plataformas": []
       },
       "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "500-dias-con-ella",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "(500) Días con Ella",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0411"
+      },
+      "vtxIds": [
+        "VTX-0411"
+      ],
+      "carpeta": "POST/social/peliculas/500-dias-con-ella",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/500-dias-con-ella/images/01-500-dias-con-ella.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0411"
+        },
+        {
+          "archivo": "POST/social/peliculas/500-dias-con-ella/images/02-sinopsis-500-dias-con-ella.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/500-dias-con-ella/images/02-sinopsis-500-dias-con-ella.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/500-dias-con-ella/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -233,7 +553,7 @@
         "fecha": null,
         "plataformas": []
       },
-      "creada": "2026-09-12",
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -922,6 +1242,86 @@
         }
       },
       "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "y-como-es-el",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "¿Y Cómo Es Él?",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0409"
+      },
+      "vtxIds": [
+        "VTX-0409"
+      ],
+      "carpeta": "POST/social/peliculas/y-como-es-el",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/y-como-es-el/images/01-y-como-es-el.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0409"
+        },
+        {
+          "archivo": "POST/social/peliculas/y-como-es-el/images/02-sinopsis-y-como-es-el.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/y-como-es-el/images/02-sinopsis-y-como-es-el.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/y-como-es-el/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "y-donde-esta-el-fantasma",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "¿Y Dónde Está el Fantasma?",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0410"
+      },
+      "vtxIds": [
+        "VTX-0410"
+      ],
+      "carpeta": "POST/social/peliculas/y-donde-esta-el-fantasma",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/images/01-y-donde-esta-el-fantasma.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0410"
+        },
+        {
+          "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/images/02-sinopsis-y-donde-esta-el-fantasma.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/images/02-sinopsis-y-donde-esta-el-fantasma.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/y-donde-esta-el-fantasma/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -6765,7 +7165,7 @@
       "slug": "los-chicos-son-mejores-que-las-flores",
       "categoria": "series",
       "tipo": "imagen",
-      "titulo": "Los Chicos Son Mejores que las Flores",
+      "titulo": "Boys Over Flowers",
       "grupo": {
         "clase": "titulo",
         "valor": "VTX-0181"
@@ -6798,7 +7198,7 @@
         "fecha": null,
         "plataformas": []
       },
-      "creada": "2026-09-12",
+      "creada": "2026-09-14",
       "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para mayores de 13' por el tono general del dorama (romance/comedia con temas de clase social y algo de bullying escolar, sin contenido explicito)."
     },
     {
@@ -7383,7 +7783,7 @@
       "slug": "negocio-letal",
       "categoria": "series",
       "tipo": "imagen",
-      "titulo": "Negocio Letal",
+      "titulo": "A Shop for Killers",
       "grupo": {
         "clase": "titulo",
         "valor": "VTX-0183"
@@ -11330,6 +11730,86 @@
       "coleccion": null,
       "piezas": [
         "que-fue-del-sr-cha"
+      ]
+    },
+    {
+      "vtxId": "VTX-0409",
+      "titulo": "¿Y Cómo Es Él?",
+      "coleccion": null,
+      "piezas": [
+        "y-como-es-el"
+      ]
+    },
+    {
+      "vtxId": "VTX-0410",
+      "titulo": "¿Y Dónde Está el Fantasma?",
+      "coleccion": null,
+      "piezas": [
+        "y-donde-esta-el-fantasma"
+      ]
+    },
+    {
+      "vtxId": "VTX-0411",
+      "titulo": "(500) Días con Ella",
+      "coleccion": null,
+      "piezas": [
+        "500-dias-con-ella"
+      ]
+    },
+    {
+      "vtxId": "VTX-0412",
+      "titulo": "007: Operación Skyfall",
+      "coleccion": null,
+      "piezas": [
+        "007-operacion-skyfall"
+      ]
+    },
+    {
+      "vtxId": "VTX-0413",
+      "titulo": "10 Días de un Buen Hombre",
+      "coleccion": null,
+      "piezas": [
+        "10-dias-de-un-buen-hombre"
+      ]
+    },
+    {
+      "vtxId": "VTX-0414",
+      "titulo": "10 Minutos para Morir",
+      "coleccion": null,
+      "piezas": [
+        "10-minutos-para-morir"
+      ]
+    },
+    {
+      "vtxId": "VTX-0415",
+      "titulo": "10.000 A.C.",
+      "coleccion": null,
+      "piezas": [
+        "10-000-a-c"
+      ]
+    },
+    {
+      "vtxId": "VTX-0416",
+      "titulo": "100 Metros",
+      "coleccion": null,
+      "piezas": [
+        "100-metros"
+      ]
+    },
+    {
+      "vtxId": "VTX-0417",
+      "titulo": "12 Años de Esclavitud",
+      "coleccion": null,
+      "piezas": [
+        "12-anos-de-esclavitud"
+      ]
+    },
+    {
+      "vtxId": "VTX-0418",
+      "titulo": "127 Horas",
+      "coleccion": null,
+      "piezas": [
+        "127-horas"
       ]
     },
     {

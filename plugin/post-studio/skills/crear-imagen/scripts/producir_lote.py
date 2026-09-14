@@ -82,6 +82,7 @@ ROW_LABELS = {
     "DE": "Audio Alemán",
     "IN": "Audio Hindi",
     "CN": "Audio Chino",
+    "TR": "Audio Turco",
     "ES": "Subtítulo Español",
 }
 
@@ -97,6 +98,7 @@ IDIOMA_CAPTION = {
     "DE": ("y", "alemán"),
     "IN": ("e", "hindi"),
     "CN": ("y", "chino"),
+    "TR": ("y", "turco"),
 }
 
 FORMATOS = {

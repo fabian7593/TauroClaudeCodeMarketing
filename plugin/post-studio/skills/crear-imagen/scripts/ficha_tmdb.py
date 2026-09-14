@@ -57,6 +57,7 @@ IDIOMA_A_CODIGO = {
     "mandarin": "CN",
     "chinese": "CN",
     "cantonese": "CN",
+    "turkish": "TR",
 }
 
 RE_TITLE = re.compile(r"<title>\s*(.*?)\s*</title>", re.S)
@@ -109,12 +110,18 @@ def ficha(tmdb_id, tipo):
 
 
 def codigo_de_idioma(idioma):
-    """Devuelve (codigo, conocido). codigo None + conocido True = original en español."""
+    """Devuelve (codigo, conocido). codigo None + conocido True = original en español.
+
+    TMDB no siempre expone un solo nombre: el idioma "es" viene como
+    "Spanish, Castilian" (o con ";"), no como "Spanish" a secas. Por eso se
+    tokeniza y se prueba cada palabra contra el mapa, en vez de exigir un
+    match exacto de todo el string.
+    """
     if not idioma:
         return None, False
-    clave = idioma.strip().lower()
-    if clave in IDIOMA_A_CODIGO:
-        return IDIOMA_A_CODIGO[clave], True
+    for token in re.split(r"[^a-z]+", idioma.strip().lower()):
+        if token in IDIOMA_A_CODIGO:
+            return IDIOMA_A_CODIGO[token], True
     return None, False
 
 

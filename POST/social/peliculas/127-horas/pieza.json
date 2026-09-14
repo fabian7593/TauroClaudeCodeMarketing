@@ -1,0 +1,41 @@
+{
+  "slug": "127-horas",
+  "tipo": "imagen",
+  "titulo": "127 Horas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0418"
+  },
+  "vtxIds": [
+    "VTX-0418"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/127-horas/images/01-127-horas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0418"
+    },
+    {
+      "archivo": "POST/social/peliculas/127-horas/images/02-sinopsis-127-horas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/127-horas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/127-horas/images/02-sinopsis-127-horas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/127-horas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
