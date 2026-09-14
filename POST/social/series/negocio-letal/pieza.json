@@ -1,0 +1,41 @@
+{
+  "slug": "negocio-letal",
+  "tipo": "imagen",
+  "titulo": "A Shop for Killers",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0183"
+  },
+  "vtxIds": [
+    "VTX-0183"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/negocio-letal/images/01-negocio-letal.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0183"
+    },
+    {
+      "archivo": "POST/social/series/negocio-letal/images/02-sinopsis-negocio-letal.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/negocio-letal"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/negocio-letal/images/02-sinopsis-negocio-letal.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/negocio-letal/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

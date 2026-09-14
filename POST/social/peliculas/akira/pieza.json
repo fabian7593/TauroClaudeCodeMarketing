@@ -1,0 +1,41 @@
+{
+  "slug": "akira",
+  "tipo": "imagen",
+  "titulo": "Akira",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1234"
+  },
+  "vtxIds": [
+    "VTX-1234"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/akira/images/01-akira.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1234"
+    },
+    {
+      "archivo": "POST/social/peliculas/akira/images/02-sinopsis-akira.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/akira"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/akira/images/02-sinopsis-akira.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/akira/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

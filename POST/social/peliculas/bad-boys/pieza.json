@@ -1,0 +1,59 @@
+{
+  "slug": "bad-boys",
+  "tipo": "carrusel",
+  "titulo": "Bad Boys",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Bad Boys"
+  },
+  "vtxIds": [
+    "VTX-0838",
+    "VTX-0787",
+    "VTX-0497",
+    "VTX-0498"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/bad-boys/images/01-bb1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0838"
+    },
+    {
+      "archivo": "POST/social/peliculas/bad-boys/images/02-bb2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0787"
+    },
+    {
+      "archivo": "POST/social/peliculas/bad-boys/images/03-bb3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0497"
+    },
+    {
+      "archivo": "POST/social/peliculas/bad-boys/images/04-bb4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0498"
+    },
+    {
+      "archivo": "POST/social/peliculas/bad-boys/images/05-sinopsis-bad-boys.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bad-boys"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/bad-boys/images/05-sinopsis-bad-boys.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/bad-boys/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

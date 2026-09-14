@@ -1,0 +1,41 @@
+{
+  "slug": "bleach",
+  "tipo": "imagen",
+  "titulo": "Bleach",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0217"
+  },
+  "vtxIds": [
+    "VTX-0217"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/bleach/images/01-bleach.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0217"
+    },
+    {
+      "archivo": "POST/social/series/bleach/images/02-sinopsis-bleach.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bleach"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/bleach/images/02-sinopsis-bleach.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/bleach/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

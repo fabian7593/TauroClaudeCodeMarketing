@@ -1,0 +1,41 @@
+{
+  "slug": "manana",
+  "tipo": "imagen",
+  "titulo": "Mañana",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0182"
+  },
+  "vtxIds": [
+    "VTX-0182"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/manana/images/01-manana.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0182"
+    },
+    {
+      "archivo": "POST/social/series/manana/images/02-sinopsis-manana.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/manana"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/manana/images/02-sinopsis-manana.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/manana/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

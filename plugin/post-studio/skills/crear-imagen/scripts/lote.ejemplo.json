@@ -1,0 +1,82 @@
+{
+  "_comment": "Formato del lote.json que consume producir_lote.py. SOLO DATOS: ninguna ruta de template, ninguna config de render, ningún dato de marca — todo eso sale de brand.config.json y de POST/_template/. Copiá este archivo al directorio scratch de la sesión, llenalo con las piezas del lote, y corré: python producir_lote.py lote.json --todo",
+
+  "lote": "lote-22",
+  "fecha": "2026-09-14",
+  "format": "feed_portrait",
+
+  "piezas": [
+    {
+      "_comment_pieza_simple": "Pieza de un solo título: un arte + la ficha de sinopsis.",
+      "slug": "black-clover",
+      "categoria": "series",
+      "titulo": "Black Clover",
+      "vtxIds": ["VTX-0216"],
+
+      "_comment_rows": "Códigos nada más; los labels ('Audio Japonés') y la línea del caption ('🎧 Audio español latino y japonés | 📺 Subtítulos en español') las arma el script, así imagen y texto no pueden discrepar. Regla: original no angloparlante => SIEMPRE las 3 filas (MX + original + ES), sin importar audioDual. Original en español => solo MX. Válidos: MX US JP KR BR IT DE IN CN ES.",
+      "rows": ["MX", "JP", "ES"],
+
+      "_comment_arte": "Un item por imagen de arte. 'poster' es el nombre del archivo dentro de POST/assets/posters/<slug>/. En un carrusel van varios, en orden cronológico.",
+      "arte": [
+        {
+          "id": "black-clover",
+          "titulo": "Black Clover",
+          "poster": "01-black-clover.jpg",
+          "vtxId": "VTX-0216"
+        }
+      ],
+
+      "sinopsis": {
+        "_comment": "La ficha explicativa, que va SIEMPRE última. 'tira' son los cuadros de la tira de pósters: MÍNIMO 2, máximo 4, todos distintos entre sí. El body es el texto más largo de la pieza (~450-750 caracteres), en español latino neutro, más profundo que el caption.",
+        "tagline": "Sin magia, sin miedo, sin límite.",
+        "body": "En un mundo donde el poder mágico lo determina todo desde el nacimiento, Asta es la excepción: el único joven que nace sin ningún poder mágico...",
+        "meta": ["2017-2021", "4 temporadas", "170 episodios"],
+        "score": 85,
+        "tira": ["01-black-clover.jpg", "02-black-clover-alt.jpg"]
+      },
+
+      "post": {
+        "_comment": "Las piezas variables del caption. El título, el CTA fijo y la línea de audio los pone el script. Sin hashtags y sin mencionar Costa Rica.",
+        "hook": "Un chico sin magia en un mundo donde la magia lo es todo, decidido a convertirse en el mago más fuerte.",
+        "desc": "Black Clover sigue a Asta, el único joven de su generación que nace sin poderes mágicos, empeñado en superar a todos los magos de su reino a puro esfuerzo y terquedad.",
+        "clasif": "Apta para mayores de 18",
+        "invit": "En Bankai+ tenés las 4 partes completas para maratonear sin cortes. Planes desde $6 al mes.",
+        "engage": "¿Asta o Yuno? ¿A quién le vas en esta rivalidad? ¡Contanos en los comentarios! 👇"
+      }
+    },
+
+    {
+      "_comment_pieza_carrusel": "Carrusel de colección: varias películas de la misma saga en una sola pieza. El arte lleva un item por película (01, 02, 03...) y la ficha de sinopsis va al final (04). 'tipoPieza' se deriva solo si hay más de un item, pero se puede forzar.",
+      "slug": "mulan",
+      "categoria": "peliculas",
+      "titulo": "Mulán",
+      "tipoPieza": "carrusel",
+      "vtxIds": ["VTX-1365", "VTX-0633"],
+      "rows": ["MX", "US", "ES"],
+
+      "arte": [
+        { "id": "mulan1", "titulo": "Mulán", "poster": "01-mulan.jpg", "vtxId": "VTX-1365" },
+        { "id": "mulan2", "titulo": "Mulán II", "poster": "02-mulan-ii.jpg", "vtxId": "VTX-0633" }
+      ],
+
+      "sinopsis": {
+        "tagline": "Ninguna armadura pudo esconder quién era en realidad.",
+        "body": "Cuando el ejército llama a su padre enfermo a la guerra, Mulán se corta el pelo, se pone su armadura y se hace pasar por él para salvarlo...",
+        "meta": ["1998-2004", "2 películas"],
+        "score": 72,
+        "tira": ["01-mulan.jpg", "02-mulan-ii.jpg"]
+      },
+
+      "post": {
+        "hook": "Una hija se hace pasar por soldado para salvar a su padre, y termina salvando a todo un imperio.",
+        "desc": "Mulán y su secuela siguen a la joven guerrera china que se disfraza de hombre para ir a la guerra en lugar de su padre.",
+        "clasif": "Apta para toda la familia",
+        "invit": "En Bankai+ tenés las 2 películas de Mulán para disfrutar en familia. Planes desde $6 al mes.",
+        "engage": "¿Cuál es tu escena favorita de Mulán? ¡Contanos en los comentarios! 👇"
+      },
+
+      "_comment_opcionales": "posterDir: si los pósters no están en POST/assets/posters/<slug>/ sino en otra carpeta. nota: se copia tal cual a pieza.json, para dejar asentada una decisión (ej. por qué se eligió una clasificación de edad que el catálogo no trae).",
+      "nota": null
+    }
+  ]
+}

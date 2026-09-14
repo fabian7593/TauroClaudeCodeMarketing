@@ -60,7 +60,12 @@ Es **el texto más largo de toda la pieza** (≈450-750 caracteres) y tiene que 
 - Si el título es `Incompleto` en el catálogo, no digas "completa" ni "todas las temporadas".
 
 ## 3. Render
-Igual que `crear-imagen` (misma mecánica, mismo Chrome headless):
+
+**En un lote, esta ficha NO se renderiza aparte.** `producir_lote.py` (ver `crear-imagen`, sección "Camino por default") genera el arte y la ficha de cada pieza en la misma corrida: el bloque `sinopsis` del `lote.json` lleva `tagline`, `body`, `meta`, `score` y `tira`, y el motor se encarga del resto — numera la ficha después del último arte, arma el `CONFIG`, renderiza y la instala. Tu trabajo acá es **escribir el texto** (sección 2) y **elegir los pósters de la tira** (sección 1), no operar Chrome.
+
+El motor además valida antes de renderizar que la tira tenga **mínimo 2 cuadros y ninguno repetido**, que es el error que rompió el diseño en el incidente del 2026-09-12.
+
+Lo que sigue es la mecánica manual, para una ficha suelta o para entender qué hace el motor por dentro. Igual que `crear-imagen` (misma mecánica, mismo Chrome headless):
 1. Copiá al directorio scratch de la sesión, como archivos hermanos: la copia editable del template (`work.html`), el logo (`logo.png`) y las imágenes de la tira (`img1.jpg`, `img2.jpg`, ...).
 2. Editá el bloque `CONFIG` con los campos de arriba, más `logo: './logo.png'`, `site: brand.config.json.website`, `images: ['./img1.jpg', ...]`.
 3. Serví el scratch con `python -m http.server <puerto> --directory <scratch>` y renderizá:
@@ -76,7 +81,7 @@ Igual que `crear-imagen` (misma mecánica, mismo Chrome headless):
 ## 4. Verificar antes de darla por buena
 **Abrí el PNG con `Read` y leé el texto renderizado, no el que escribiste.** Es el paso que atrapa lo que se rompe entre el borrador y la imagen final. Recién después de esto se puede dar un veredicto sobre la pieza.
 
-**En un lote de varias piezas, seguí la misma economía de tokens que `crear-imagen` sección 2 (verificación en lote)**: un contact sheet con todas las fichas del lote en vez de leer cada una suelta, y muestreo (~1 de cada 2-3) una vez que el diseño ya está probado — no la rederives acá.
+**En un lote de varias piezas, seguí la misma economía de tokens que `crear-imagen` sección 2 (verificación en lote)**: el contact sheet y las copias de 600px que ya deja `producir_lote.py --qc`, en vez de leer cada ficha suelta a resolución completa, y muestreo (~1 de cada 2-3) una vez que el diseño ya está probado — no la rederives acá. Para leer el texto de la ficha, la copia de 600px alcanza.
 
 Revisión visual:
 - [ ] El texto entra completo y no quedó cortado abajo (el template baja el tamaño solo; si igual no entra, **acortá el texto**, no toques el layout)

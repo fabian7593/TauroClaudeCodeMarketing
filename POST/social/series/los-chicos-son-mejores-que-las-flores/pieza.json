@@ -1,0 +1,42 @@
+{
+  "slug": "los-chicos-son-mejores-que-las-flores",
+  "tipo": "imagen",
+  "titulo": "Boys Over Flowers",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0181"
+  },
+  "vtxIds": [
+    "VTX-0181"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/images/01-los-chicos-son-mejores-que-las-flores.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0181"
+    },
+    {
+      "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/images/02-sinopsis-los-chicos-son-mejores-que-las-flores.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/los-chicos-son-mejores-que-las-flores"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/images/02-sinopsis-los-chicos-son-mejores-que-las-flores.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para mayores de 13' por el tono general del dorama (romance/comedia con temas de clase social y algo de bullying escolar, sin contenido explicito)."
+}

@@ -47,5 +47,5 @@
       "via": "zernio"
     }
   },
-  "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema sensible (acoso digital/imagen manipulada de una menor), mismo criterio que se aplico con Adolescencia. La descripcion se mantuvo general y sin detalles graficos a proposito."
+  "nota": "CORREGIDO 2026-09-12: la sinopsis/caption originales describian por error la miniserie ESPANOLA 'Anna' (2021, acoso digital/foto manipulada) en vez del dorama COREANO 'Anna' (2022, tmdbId 196268 confirmado contra catalogo.json, Bae Suzy) que es el que realmente indica el catalogo para VTX-0155 -- el poster ya era el correcto, solo el texto y la fila de audio (antes solo 'Audio Esp. Latino') estaban mal. Reescrita la sinopsis/caption con la trama real (actriz que miente sobre su titulo universitario y termina viviendo una identidad inventada) y corregidas las filas de audio a Latino+Coreano+Subtitulo. Clasificacion actualizada de +18 a +13 (catalogo no trae clasificacion; +18 se habia puesto por el tema equivocado). No se toco publicado.programado."
 }

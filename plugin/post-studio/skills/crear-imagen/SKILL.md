@@ -9,6 +9,33 @@ Este skill NO escribe el texto del post (eso lo hace `crear-texto`) — genera �
 
 Requiere que `preparar-entorno` ya se haya corrido al menos una vez en este proyecto (o corrélo ahora si `brand.config.json` no existe) — de ahí sale el logo resuelto y los colores de marca.
 
+## ⚡ Camino por default: `producir_lote.py` (lotes de varias piezas)
+
+**Si vas a producir más de una pieza, no armes nada a mano: usá el motor.** Las secciones 1-3 de abajo describen el trabajo manual pieza por pieza — sirven para entender qué hace el motor y para casos sueltos, pero **no son el camino normal**, y rehacerlas a mano en cada lote fue durante meses la mayor fuente de consumo de tokens del proyecto.
+
+```bash
+python "${CLAUDE_PLUGIN_ROOT}/skills/crear-imagen/scripts/producir_lote.py" <scratch>/lote.json --todo
+```
+
+Un solo comando hace: validar → armar los HTML → renderizar con Chrome headless → contact sheet + copias de QC → instalar en el proyecto (PNG + `post.txt` + `pieza.json`). Lo único que escribís vos es el `lote.json`, que son **datos puros** — ver `scripts/lote.ejemplo.json` para el formato completo y comentado.
+
+Etapas sueltas cuando algo falla: `--validar`, `--build`, `--render`, `--qc`, `--instalar`. Y `--verificar <dir>` compara los PNG recién renderizados contra otra corrida o contra lo ya instalado, byte a byte — es la prueba de regresión que usás si alguna vez tocás el template o el motor.
+
+**Lo que el motor ya garantiza solo** (no lo rehagas ni lo verifiques a mano):
+- `layout: 'full_bleed'` siempre, con `badges: ['1080p']` — el `panel_lateral` del template es solo un ejemplo y nunca se usa en producción.
+- Los labels de las filas de audio y la línea `🎧 ... | 📺 ...` del caption salen de los **mismos** códigos, así que no pueden discrepar entre imagen y texto.
+- La estructura fija del `post.txt` (título, hook, CTA, info técnica, descripción, clasificación, invitación, engagement) y el `pieza.json` completo.
+
+**Lo que valida antes de renderizar** (cada error atrapado acá evita un ciclo completo de render + revisión + arreglo):
+- que exista cada póster referenciado;
+- que la tira de la ficha tenga **mínimo 2 cuadros** y ninguno repetido;
+- que un idioma original no angloparlante lleve **las 3 filas** (latino + original + subtítulo);
+- que ningún texto mencione una plataforma prohibida ni traiga hashtags;
+- que el código de idioma exista en `FLAG_COLORS` del template (si es nuevo, hay que agregar el gradiente ahí primero);
+- **contra TMDB** (`--verificar-tmdb`, incluido en `--todo`): que el año que declara la ficha coincida con el del `tmdbId` real, y que las filas de audio coincidan con el idioma original que informa TMDB. Es el chequeo que atrapa el incidente Anna.
+
+Lo que **no** hace el motor, porque es criterio y no mecánica: elegir el póster correcto (sección 0.1), verificar que la **trama** que escribís es la de esa ficha (el motor cruza año e idioma, no el argumento), y escribir los textos. Eso sigue siendo tuyo.
+
 ## 0. Ubicaciones
 - **Template canónico** (nunca se edita directo): `${CLAUDE_PLUGIN_ROOT}/templates/post-template.html`. Si el plugin llega a incluir más de un diseño en el futuro (`${CLAUDE_PLUGIN_ROOT}/templates/*.html`), preguntá cuál usar cuando haya más de uno — hoy hay uno solo.
 - **Copia editable del proyecto**: `<contentRoot>/_template/post-template.html` (`contentRoot` sale de `brand.config.json`, default `POST/`). Si no existe todavía, copiala desde el template canónico del plugin — esa copia es la que se edita/personaliza a partir de ahora, nunca vuelvas a pisarla automáticamente con la del plugin una vez que existe (solo si el usuario pide explícitamente "resetear el template").
@@ -39,6 +66,8 @@ El script no valida el idioma por vos — solo hace la búsqueda técnica en TMD
 - Que el idioma del texto sea el que decís que es.
 - **Si el candidato es de `--idioma es`: que el texto sea la forma LATAM del título, no la de España.** Comparalo contra `tituloEs` del catálogo. Si dice algo distinto (la traducción de España), no lo uses — tratalo como si no hubiera candidato en español y seguí al escalón de inglés.
 - **Que no traiga el logo ni el nombre de NINGUNA plataforma de streaming**, no solo las de `forbiddenMentions` — esa lista es el mínimo explícito, pero la regla de marca es "ninguna plataforma de streaming", punto. Ya aparecieron en la práctica: la "N" roja de Netflix, "A NETFLIX SERIES", "ONLY ON…", "HBO Original"/"HBO Max", "MAX Original", el logo de Disney+, y también otras menos obvias como **Showtime** o **Apple TV+** — cualquier sello de una plataforma competidora cuenta, la esté buscando o no. TMDB está lleno de pósters promocionales con esa marca quemada. Si el candidato la trae, descartalo y pasá al siguiente (`--indice N`), o usá una versión sin texto (`--idioma xx`). El chequeo de texto automático (`forbiddenMentions`) no ve esto — es SIEMPRE un chequeo visual, mirando el póster.
+
+**En un lote, delegá este chequeo al subagente `qc-posters`.** Cada póster que abrís en la sesión principal se queda en el contexto y se vuelve a pagar en cada mensaje posterior del lote; el subagente los mira en su propio contexto (a resolución completa, uno por uno, con la regla de marca completa en su instrucción) y devuelve solo un veredicto de texto por póster. El rigor es el mismo — **el QC de logos nunca se relaja ni se muestrea** —, lo que cambia es dónde viven las imágenes. Pasale la ruta de cada póster, el `tituloEs` del catálogo y el idioma con el que se bajó; esperá una línea por póster y, si te devuelve menos veredictos que pósters enviados, repetí los que falten en vez de darlos por buenos.
 
 ## 1. Recopilar parámetros
 Preguntá lo que falte (no asumas):
@@ -89,8 +118,10 @@ Notas ya resueltas (no las reinvestigues):
 5. Verificá el PNG con la tool `Read` antes de darlo por bueno: el logo/título original no debe quedar tapado, las filas de info no se cortan ni se pegan, el color del panel combina con la imagen, y el logo se ve completo y bien proporcionado (el template mide el aspect ratio real del logo al cargarlo, así que un logo distinto siempre se ve correcto sin ajustar nada a mano).
 
 **Verificación en lote (varias piezas de una corrida) — economía de tokens, pedido explícito del usuario (2026-09-03):**
-- **No leas cada PNG final por separado.** Armá un contact sheet con todos los arte + fichas de sinopsis del lote (mismo patrón ya usado para el QC de pósters en la sección 0.1) y revisá esa grilla en una sola lectura.
-- Abrí a resolución completa (`Read` individual) solo lo que se vea raro en la grilla, o una **muestra** (~1 de cada 2-3 piezas) cuando todo el lote usa el mismo diseño de template ya probado en producción — no hace falta abrir el 100% una por una.
+- **No leas cada PNG final por separado.** `producir_lote.py --qc` ya deja todo listo en `<work>/qc/`: un `contact_sheet.jpg` con el lote entero (más la lista impresa de qué pieza es cada celda) y una copia reducida a 600px de cada render. Revisá el contact sheet en **una sola lectura**.
+- Las copias de 600px son para las lecturas individuales: alcanzan de sobra para confirmar que el texto entró y que las filas no se cortan, a un tercio del costo de abrir el PNG de 1080. **El PNG de 1080x1350 nunca se toca** — se renderiza una sola vez y es el que se publica; estas copias son material de revisión descartable.
+- Abrí el PNG de 1080 a resolución completa solo si algo se ve mal en la copia reducida y necesitás confirmarlo. Para el resto, una **muestra** (~1 de cada 2-3 piezas) cuando todo el lote usa el mismo diseño ya probado en producción.
+- Referencia de costo real, lote de 24 imágenes: los 24 PNG a 1080 = ~89.000 tokens; contact sheet + 8 copias de 600px = ~7.500. Misma información útil, 12 veces más barato.
 - **Esto NO aplica al chequeo de logos de plataformas competidoras en los pósters fuente** (sección 0.1) — ese sigue siendo 100%, a resolución completa, por póster: es un chequeo de cumplimiento de marca, no de calidad visual del template, y ya se colaron dos violaciones reales que un contact sheet en miniatura no mostraba (ver memoria `feedback-poster-logo-qc-fullres`). El muestreo es solo para verificar que el RENDER final (texto, layout, datos) salió bien, no para el chequeo de logos.
 - Si algo sale mal en un render ya publicado o programado, volvé a 100% verificación individual hasta encontrar la causa — el muestreo asume que el patrón ya viene probado, no que nunca hay que mirar.
 

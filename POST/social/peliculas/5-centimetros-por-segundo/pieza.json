@@ -1,0 +1,41 @@
+{
+  "slug": "5-centimetros-por-segundo",
+  "tipo": "imagen",
+  "titulo": "5 Centímetros por Segundo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1233"
+  },
+  "vtxIds": [
+    "VTX-1233"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/5-centimetros-por-segundo/images/01-5-centimetros-por-segundo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1233"
+    },
+    {
+      "archivo": "POST/social/peliculas/5-centimetros-por-segundo/images/02-sinopsis-5-centimetros-por-segundo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/5-centimetros-por-segundo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/5-centimetros-por-segundo/images/02-sinopsis-5-centimetros-por-segundo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/5-centimetros-por-segundo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

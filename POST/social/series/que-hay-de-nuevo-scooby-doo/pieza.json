@@ -1,0 +1,41 @@
+{
+  "slug": "que-hay-de-nuevo-scooby-doo",
+  "tipo": "imagen",
+  "titulo": "¿Qué Hay de Nuevo, Scooby-Doo?",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0334"
+  },
+  "vtxIds": [
+    "VTX-0334"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/images/01-scooby-doo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0334"
+    },
+    {
+      "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/images/02-sinopsis-que-hay-de-nuevo-scooby-doo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/que-hay-de-nuevo-scooby-doo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/images/02-sinopsis-que-hay-de-nuevo-scooby-doo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

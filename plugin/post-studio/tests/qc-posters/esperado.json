@@ -1,0 +1,50 @@
+{
+ "_comment": "Verdad de referencia del fixture de QC de posters. Establecida a resolucion completa y verificada pixel a pixel contra los originales el 2026-09-14. NO editar sin rehacer esa verificacion.",
+ "casos": [
+  {
+   "id": "p1",
+   "tituloEs": "El Juego del Calamar",
+   "idioma": "en",
+   "esperado": "OK",
+   "porque": "limpio, sin sello de plataforma; texto en ingles (escalon 2, valido)"
+  },
+  {
+   "id": "p2",
+   "tituloEs": "Stranger Things",
+   "idioma": "en",
+   "esperado": "RECHAZO",
+   "porque": "'N' roja + 'A NETFLIX SERIES' arriba a la izquierda -- sello grande y visible"
+  },
+  {
+   "id": "p3",
+   "tituloEs": "Mulan",
+   "idioma": "es",
+   "esperado": "OK",
+   "aceptable": [
+    "DUDA"
+   ],
+   "porque": "wordmark 'Disney' en script SIN el '+' = marca de ESTUDIO, aceptable. Ademas es-LATAM correcto. DUDA se acepta como respuesta conservadora; RECHAZO es falso positivo"
+  },
+  {
+   "id": "p4",
+   "tituloEs": "The Boys",
+   "idioma": "en",
+   "esperado": "RECHAZO",
+   "porque": "'prime video' abajo a la derecha con el swoosh azul -- chico y en bajo contraste, EL CASO DIFICIL"
+  },
+  {
+   "id": "p5",
+   "tituloEs": "Lost",
+   "idioma": "es",
+   "esperado": "RECHAZO",
+   "porque": "el poster dice 'PERDIDOS' (traduccion de Espana) y el tituloEs es 'Lost' -- no sirve ni como ultimo recurso"
+  },
+  {
+   "id": "p6",
+   "tituloEs": "The Mandalorian",
+   "idioma": "en",
+   "esperado": "RECHAZO",
+   "porque": "logo 'Disney+' CON el '+' arriba a la derecha = PLATAFORMA, distinto del estudio de p3"
+  }
+ ]
+}

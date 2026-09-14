@@ -19,6 +19,23 @@ Bankai+ es el servicio B2C de streaming de VORTEX TV, dirigido a Costa Rica y el
 2. CTA fijo en todo post: "👉 ¿Querés verla hoy mismo? Escribinos al DM o entrá a bankaiplus.com" (va cerca del principio del post, no al final — ver estructura abajo). No se agrega ningún otro CTA además de este.
 3. Nunca prometer dispositivos no soportados. No existe función de "cast"/mirroring desde el celular — la app se instala directo (por APK o Play Store) en cada dispositivo. Dispositivos compatibles hoy: Smart TV/Box con Android TV, Chromecast con Google TV (instalando la app directo en el dispositivo), Amazon Fire TV Stick, celular/tablet Android, pantallas automotrices. NO compatible todavía: Roku, Samsung/LG nativo, iOS (próximamente).
 
+## Todo dato de la pieza sale del `tmdbId` exacto del catálogo — nunca de memoria por el nombre del título
+Hay bastantes títulos que comparten nombre entre países y versiones (Anna, Lost — hay más de uno —, remakes, etc.): **el nombre del título NUNCA alcanza para saber de qué show se trata.** Ya pasó una vez que se describió el show equivocado con el póster correcto (incidente "Anna", 2026-09-12 — narración completa en `docs/incidentes.md`).
+
+**Esto ahora se verifica mecánicamente.** `producir_lote.py --verificar-tmdb` (incluido en `--todo`) consulta la ficha real de cada `tmdbId` y cruza dos datos contra el `lote.json`:
+- **el año**: si la ficha declara 2021 y TMDB dice que ese id es de 2022, el lote se frena — es exactamente la firma del incidente Anna (coreana 2022 vs miniserie española 2021);
+- **el idioma original**: determina qué filas de audio corresponden sin depender de `audioDual` ni de adivinar por `categoria`, que es la regla que se violó en 17 piezas publicadas.
+
+El chequeo no reemplaza la verificación humana de la trama — un texto puede describir mal un show del año correcto — pero atrapa el caso que ya ocurrió. Verificado: frena un incidente Anna simulado, y pasa limpio sobre el lote 21 real (14 fichas, cero falsos positivos).
+
+**Regla estricta:**
+1. El `tmdbId` de cada item es el que trae el catálogo (`POST/catalogo.json`, reflejo del Excel) — nunca se cambia, nunca se busca "a ojo" uno que parezca correcto.
+2. Antes de escribir cualquier sinopsis, tagline, hook o descripción, confirmar que el año, el país/reparto y la trama descritos corresponden a esa ficha puntual de TMDB (`tmdbUrl` del catálogo) — no completar de memoria por el nombre, aunque sea un título conocido.
+3. El póster ya verificado es una señal cruzada: si el reparto/idioma del póster no calza con lo que se está por escribir (ej. actores asiáticos en el póster pero un texto describiendo un colegio europeo), es alarma de que se mezclaron dos títulos distintos — parar y reverificar antes de seguir.
+
+## La tira de la ficha de sinopsis SIEMPRE lleva mínimo 2 cuadros, nunca 1
+El template (`sinopsis-template.html`) calcula el alto de la tira según la cantidad de imágenes: con 1 sola queda corta y descentrada, y rompe el diseño. **La tira nunca baja de 2 cuadros.** Si TMDB no tiene una segunda imagen realmente distinta y sin logos, usar la mejor alternativa disponible aunque sea muy parecida a la principal (otra resolución o recorte del mismo material) — preferible a romper el diseño con 1 solo cuadro. `producir_lote.py --validar` ya rechaza el lote si una tira tiene menos de 2 cuadros o repite uno. (Incidente 2026-09-12/13, ver `docs/incidentes.md`.)
+
 ## Filas de audio/subtítulos en las imágenes
 Las imágenes de post llevan filas de info técnica. El criterio que manda es el **idioma original de rodaje/producción del título**, no el booleano `audioDual` solo — ese campo dice si hay doblaje extra, pero no dice a qué idioma está doblado ni cuál es el original. Corregido el 2026-09-05 después de que el sistema anterior (basado solo en `audioDual` + `esAnime`) mostrara "Audio Inglés" en series coreanas/alemanas/etc., o se comiera la fila de idioma original en doramas.
 
@@ -31,7 +48,7 @@ Las imágenes de post llevan filas de info técnica. El criterio que manda es el
 **Paso 2 — filas según el idioma original identificado:**
 - **Original = español** (LATAM o España, ej. telenovelas, series de España): solo `Audio Esp. Latino`. No hace falta fila de idioma original (ya es el mismo idioma) ni subtítulo.
 - **Original = inglés**: sigue el criterio de siempre — `Audio Dual = Sí` → `Audio Esp. Latino` + `Audio Inglés` + `Subtítulo Español`; `Audio Dual = No` → solo `Audio Esp. Latino`.
-- **Original = cualquier otro idioma** (coreano, japonés, portugués, italiano, alemán, hindi, etc.): **SIEMPRE las 3 filas** — `Audio Esp. Latino` + `Audio [Idioma Original]` + `Subtítulo Español` — **sin importar lo que diga `audioDual`**. Bankai+ siempre ofrece las tres para contenido extranjero no angloparlante; no usar la ausencia de dato en `audioDual` como excusa para omitir la fila del idioma original o el doblaje latino. Esta es la regla que se venía pasando por alto (corregida a pedido explícito del usuario el 2026-09-05, afectó 17 piezas ya publicadas: Black Knight, El Asesino Mediático, El Juego del Calamar, Estamos Muertos, La Casa de Papel: Corea, La Chica Enmascarada, Alice, Aterrizaje de Emergencia en tu Corazón, Bad Guys, Besos Kitty, Como Peces Dorados, Ju-On: Orígenes, Este Mundo No Me Hará Mala Persona, Gul, Dark, Bandidos de Hoy, Evangelion: las películas).
+- **Original = cualquier otro idioma** (coreano, japonés, portugués, italiano, alemán, hindi, etc.): **SIEMPRE las 3 filas** — `Audio Esp. Latino` + `Audio [Idioma Original]` + `Subtítulo Español` — **sin importar lo que diga `audioDual`**. Bankai+ siempre ofrece las tres para contenido extranjero no angloparlante; no usar la ausencia de dato en `audioDual` como excusa para omitir la fila del idioma original o el doblaje latino. Esta es la regla que se venía pasando por alto (corregida a pedido explícito del usuario el 2026-09-05; afectó a 17 piezas ya publicadas, listadas en `docs/incidentes.md`). `producir_lote.py --validar` la chequea antes de renderizar.
 
 Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/post-template.html`, `FLAG_COLORS`): MX (latino), US (inglés), JP (japonés), KR (coreano), BR (portugués — usar aunque el título no sea brasileño, es la única bandera de portugués definida), IT (italiano), DE (alemán), IN (hindi), CN (chino), ES (subtítulo). Si aparece un idioma original nuevo que no está en esa lista, agregar el gradiente CSS ahí antes de usarlo — nunca approximar con la bandera de otro idioma.
 
@@ -52,7 +69,7 @@ Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/po
 **Sin hashtags y sin menciones de Costa Rica en el texto del post** — pedido explícito del usuario 2026-09-12. Antes se cerraba con una línea de hashtags (incluyendo uno de geolocalización tipo `#CostaRica`); de ahora en adelante esa línea **no va**, en ningún post nuevo. La segmentación geográfica sigue existiendo para audiencia/horario de publicación (ver más abajo), pero no se escribe en el caption ni en hashtags.
 
 ## Cómo debe verse la imagen de arte — SIEMPRE `layout: 'full_bleed'`, NUNCA `panel_lateral`
-**Incidente 2026-09-12**: se generaron 10 piezas de anime usando `layout: 'panel_lateral'` (panel de color sólido a la izquierda, con el color dominante del póster extraído y un patrón de puntos decorativo) — el usuario las rechazó de inmediato ("todas están malas... no sé por qué usaste ese color a la izquierda"). El template (`post-template.html`) soporta los dos layouts y trae `panel_lateral` como ejemplo por default en su CONFIG de demostración, pero **la casa SIEMPRE usa `full_bleed`** para el arte principal — nunca se usó `panel_lateral` en ninguna pieza real publicada. Antes de armar el `CONFIG` de un lote nuevo, especialmente si hay que reconstruir el pipeline de cero (ej. tras perderse los scripts de un directorio temporal), **abrí con `Read` el PNG de una pieza ya instalada** (ej. `POST/social/series/alice/images/01-alice.png` o `.../yu-gi-oh-duelo-de-monstruos/images/01-yu-gi-oh-duelo-de-monstruos.png`) y compará contra lo que se está por generar — nunca asumas la config de ejemplo del template.
+El template (`post-template.html`) soporta los dos layouts y trae `panel_lateral` como ejemplo por default en su CONFIG de demostración, pero **la casa SIEMPRE usa `full_bleed`** para el arte principal — nunca se usó `panel_lateral` en ninguna pieza real publicada. Un lote generado con `panel_lateral` fue rechazado entero (incidente 2026-09-12, ver `docs/incidentes.md`). Desde 2026-09-14 `producir_lote.py` fija `full_bleed` y `badges: ['1080p']` por código, así que en un lote el layout ya no es una decisión que se pueda equivocar — y no hace falta abrir ningún PNG de referencia para confirmarlo.
 
 **Estructura exacta del arte (`full_bleed`)**, de abajo hacia arriba, todo dentro de una imagen 1080x1350:
 1. **Póster completo de fondo** (`posterFull`, `background-size:contain`, centrado) sobre una copia del mismo póster desenfocada y oscurecida (`posterBlur`, cubre todo el canvas) — así no quedan barras negras lisas si el aspect ratio del póster no calza exacto con 1080x1350, se ven blureadas con el propio arte.
@@ -94,6 +111,23 @@ La imagen de ficha/sinopsis (`sinopsis-template.html`) es un diseño aparte y no
   5. Solo si no hay nada de lo anterior: el póster default del catálogo (columna Póster), avisando qué idioma trae.
 - **Ningún póster puede traer el logo de una plataforma competidora** (la N de Netflix, "A NETFLIX SERIES", HBO, Prime, Disney+). Muchos pósters promocionales de TMDB lo tienen quemado: hay que mirarlos antes de usarlos y descartar los que lo traigan. Es la misma regla de menciones prohibidas, pero dentro de la imagen.
 - El detalle operativo de todo esto está en los skills `planear-contenido`, `crear-sinopsis` y `crear-imagen` del plugin post-studio.
+
+## Producción en lote: usar SIEMPRE `producir_lote.py`, nunca rearmar el pipeline
+Un lote de piezas se produce con **un solo comando**:
+
+```bash
+python plugin/post-studio/skills/crear-imagen/scripts/producir_lote.py <scratch>/lote.json --todo
+```
+
+Valida → arma los HTML desde `POST/_template/` → renderiza con Chrome headless a 1080x1350 → deja contact sheet y copias de QC → instala PNG + `post.txt` + `pieza.json`. Lo único que se escribe a mano es el `lote.json`, que son **datos puros** (formato comentado en `scripts/lote.ejemplo.json`). El flujo completo del lote está en el comando `/cmd-lote`.
+
+**Por qué esta regla existe (2026-09-14):** hasta el lote 21 este pipeline se reescribía a mano en una carpeta temporal en cada lote, con los datos incrustados dentro del propio `.py`. Se medió el costo real en los transcripts del proyecto: **2.810 millones de tokens acumulados**, con un solo turno de "producí el siguiente lote" llegando a **127 millones**. El 90% de eso no era trabajo nuevo — era volver a pagar contexto ya acumulado. El motor está verificado contra regresión: reproduce los 24 PNG del lote 21 **byte a byte idénticos**, y los mismos `post.txt` y `pieza.json`.
+
+Reglas derivadas, todas no negociables:
+1. **Un lote = una sesión nueva.** El arrastre de conversación es el mayor gasto individual del proyecto. El estado vive en disco (`pieza.json`, `estado-catalogo.json`), no en la conversación.
+2. **No rearmar el motor ni sus scripts.** Si algo no entra en el `lote.json`, se corrige el `lote.json`; si falta una capacidad real, se extiende `producir_lote.py` en el repo y se vuelve a correr `--verificar` para probar que el diseño no se movió.
+3. **El QC de pósters va por el subagente `qc-posters`** (`.claude/agents/qc-posters.md`), no en la sesión principal. Sigue siendo 100% de los pósters, a resolución completa, uno por uno — lo único que cambia es que las imágenes viven en el contexto del subagente y no en el principal. Si devuelve menos veredictos que pósters enviados, se repiten los faltantes.
+4. **Para revisar renders, el contact sheet y las copias de 600px de `<work>/qc/`**, no los PNG de 1080. El PNG de 1080x1350 se renderiza una sola vez y es el que se publica — nunca se baja de resolución para ahorrar. Referencia medida: 24 PNG a 1080 = ~89.000 tokens; contact sheet + 8 copias de 600px = ~7.500, con la misma información útil.
 
 ## Orden de producción por lotes (mezclado, no por categoría agotada)
 `siguiente_lote.py` recorría el catálogo en orden estricto de vtxId ascendente, lo que agotaba una categoría interna entera (ej. Series) antes de tocar la siguiente (ej. Películas) — con Series ya al 100%, esto significaba decenas de lotes seguidos de solo Anime/Documentales/Infantiles antes de llegar a películas reales. Corregido a pedido explícito del usuario 2026-09-07: **la producción debe alternar tipos** — a veces película, a veces serie, a veces anime, a veces dorama, lo que haya pendiente — no seguir agotando una categoría por orden de catálogo.

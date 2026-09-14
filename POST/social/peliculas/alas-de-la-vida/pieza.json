@@ -1,0 +1,42 @@
+{
+  "slug": "alas-de-la-vida",
+  "tipo": "imagen",
+  "titulo": "Alas de la Vida",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0379"
+  },
+  "vtxIds": [
+    "VTX-0379"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alas-de-la-vida/images/01-alas-de-la-vida.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0379"
+    },
+    {
+      "archivo": "POST/social/peliculas/alas-de-la-vida/images/02-sinopsis-alas-de-la-vida.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alas-de-la-vida"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alas-de-la-vida/images/02-sinopsis-alas-de-la-vida.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alas-de-la-vida/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para toda la familia' por ser un documental de naturaleza sin contenido sensible."
+}

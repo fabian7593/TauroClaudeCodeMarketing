@@ -1,0 +1,41 @@
+{
+  "slug": "black-clover",
+  "tipo": "imagen",
+  "titulo": "Black Clover",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0216"
+  },
+  "vtxIds": [
+    "VTX-0216"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/black-clover/images/01-black-clover.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0216"
+    },
+    {
+      "archivo": "POST/social/series/black-clover/images/02-sinopsis-black-clover.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/black-clover"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/black-clover/images/02-sinopsis-black-clover.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/black-clover/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

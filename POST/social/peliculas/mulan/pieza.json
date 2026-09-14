@@ -1,0 +1,47 @@
+{
+  "slug": "mulan",
+  "tipo": "carrusel",
+  "titulo": "Mulán",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Mulán"
+  },
+  "vtxIds": [
+    "VTX-1365",
+    "VTX-0633"
+  ],
+  "creada": "2026-09-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/mulan/images/01-mulan1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1365"
+    },
+    {
+      "archivo": "POST/social/peliculas/mulan/images/02-mulan2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0633"
+    },
+    {
+      "archivo": "POST/social/peliculas/mulan/images/03-sinopsis-mulan.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/mulan"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/mulan/images/03-sinopsis-mulan.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/mulan/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

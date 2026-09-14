@@ -1,0 +1,41 @@
+{
+  "slug": "dragon-striker",
+  "tipo": "imagen",
+  "titulo": "Dragon Striker",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0321"
+  },
+  "vtxIds": [
+    "VTX-0321"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dragon-striker/images/01-dragon-striker.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0321"
+    },
+    {
+      "archivo": "POST/social/series/dragon-striker/images/02-sinopsis-dragon-striker.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-striker"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dragon-striker/images/02-sinopsis-dragon-striker.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dragon-striker/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

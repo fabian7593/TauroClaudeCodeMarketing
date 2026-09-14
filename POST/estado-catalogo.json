@@ -1,11 +1,131 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
-  "generado": "2026-09-12",
-  "totalPiezas": 203,
-  "titulosConContenido": 222,
+  "generado": "2026-09-14",
+  "totalPiezas": 223,
+  "titulosConContenido": 250,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
+    {
+      "slug": "5-centimetros-por-segundo",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "5 Centímetros por Segundo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-1233"
+      },
+      "vtxIds": [
+        "VTX-1233"
+      ],
+      "carpeta": "POST/social/peliculas/5-centimetros-por-segundo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/5-centimetros-por-segundo/images/01-5-centimetros-por-segundo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1233"
+        },
+        {
+          "archivo": "POST/social/peliculas/5-centimetros-por-segundo/images/02-sinopsis-5-centimetros-por-segundo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/5-centimetros-por-segundo/images/02-sinopsis-5-centimetros-por-segundo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/5-centimetros-por-segundo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "akira",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Akira",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-1234"
+      },
+      "vtxIds": [
+        "VTX-1234"
+      ],
+      "carpeta": "POST/social/peliculas/akira",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/akira/images/01-akira.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1234"
+        },
+        {
+          "archivo": "POST/social/peliculas/akira/images/02-sinopsis-akira.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/akira/images/02-sinopsis-akira.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/akira/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "alas-de-la-vida",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Alas de la Vida",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0379"
+      },
+      "vtxIds": [
+        "VTX-0379"
+      ],
+      "carpeta": "POST/social/peliculas/alas-de-la-vida",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/alas-de-la-vida/images/01-alas-de-la-vida.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0379"
+        },
+        {
+          "archivo": "POST/social/peliculas/alas-de-la-vida/images/02-sinopsis-alas-de-la-vida.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/alas-de-la-vida/images/02-sinopsis-alas-de-la-vida.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/alas-de-la-vida/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para toda la familia' por ser un documental de naturaleza sin contenido sensible."
+    },
     {
       "slug": "avatar",
       "categoria": "peliculas",
@@ -56,6 +176,116 @@
         "plataformas": []
       },
       "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "bad-boys",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Bad Boys",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Bad Boys"
+      },
+      "vtxIds": [
+        "VTX-0838",
+        "VTX-0787",
+        "VTX-0497",
+        "VTX-0498"
+      ],
+      "carpeta": "POST/social/peliculas/bad-boys",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/bad-boys/images/01-bb1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0838"
+        },
+        {
+          "archivo": "POST/social/peliculas/bad-boys/images/02-bb2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0787"
+        },
+        {
+          "archivo": "POST/social/peliculas/bad-boys/images/03-bb3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0497"
+        },
+        {
+          "archivo": "POST/social/peliculas/bad-boys/images/04-bb4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0498"
+        },
+        {
+          "archivo": "POST/social/peliculas/bad-boys/images/05-sinopsis-bad-boys.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/bad-boys/images/05-sinopsis-bad-boys.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/bad-boys/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "batman-antologia",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Batman Antología",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Batman Antología"
+      },
+      "vtxIds": [
+        "VTX-0791",
+        "VTX-0793",
+        "VTX-0500"
+      ],
+      "carpeta": "POST/social/peliculas/batman-antologia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/batman-antologia/images/01-batman-1989.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0791"
+        },
+        {
+          "archivo": "POST/social/peliculas/batman-antologia/images/02-batman-regresa.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0793"
+        },
+        {
+          "archivo": "POST/social/peliculas/batman-antologia/images/03-batman-eternamente.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0500"
+        },
+        {
+          "archivo": "POST/social/peliculas/batman-antologia/images/04-sinopsis-batman-antologia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/batman-antologia/images/04-sinopsis-batman-antologia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/batman-antologia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -206,6 +436,58 @@
       "nota": null
     },
     {
+      "slug": "la-bella-y-la-bestia",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "La Bella y la Bestia",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "La Bella y la Bestia"
+      },
+      "vtxIds": [
+        "VTX-1330",
+        "VTX-1007",
+        "VTX-1332"
+      ],
+      "carpeta": "POST/social/peliculas/la-bella-y-la-bestia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/01-bella-bestia-1991.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1330"
+        },
+        {
+          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/02-bella-bestia-navidad.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1007"
+        },
+        {
+          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/03-bella-bestia-mundo-magico.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1332"
+        },
+        {
+          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/04-sinopsis-la-bella-y-la-bestia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/04-sinopsis-la-bella-y-la-bestia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/la-bella-y-la-bestia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
       "slug": "la-purga",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -277,6 +559,52 @@
       },
       "creada": "2026-09-02",
       "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
+    },
+    {
+      "slug": "mulan",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Mulán",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Mulán"
+      },
+      "vtxIds": [
+        "VTX-1365",
+        "VTX-0633"
+      ],
+      "carpeta": "POST/social/peliculas/mulan",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/mulan/images/01-mulan1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1365"
+        },
+        {
+          "archivo": "POST/social/peliculas/mulan/images/02-mulan2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0633"
+        },
+        {
+          "archivo": "POST/social/peliculas/mulan/images/03-sinopsis-mulan.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/mulan/images/03-sinopsis-mulan.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/mulan/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
     },
     {
       "slug": "my-hero-academia",
@@ -377,6 +705,46 @@
       "nota": null
     },
     {
+      "slug": "patos",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "¡Patos!",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0407"
+      },
+      "vtxIds": [
+        "VTX-0407"
+      ],
+      "carpeta": "POST/social/peliculas/patos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/patos/images/01-patos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0407"
+        },
+        {
+          "archivo": "POST/social/peliculas/patos/images/02-sinopsis-patos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/patos/images/02-sinopsis-patos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/patos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "pesadilla-en-la-calle-del-infierno",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -462,6 +830,46 @@
       "nota": "6 de las 7 posters se usaron en ingles porque TMDB solo trae 'es' en la variante de Espana (\"Pesadilla en Elm Street\", no coincide con tituloEs del catalogo que es la forma LATAM \"Pesadilla en la Calle del Infierno\") -- se descartaron todas las candidatas en es por esa razon, nunca se uso castellano. Score de la ficha es el promedio de calificacion de las 7 peliculas (no la de la primera sola), para no inflar con la mejor calificada."
     },
     {
+      "slug": "que-fue-del-sr-cha",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "¿Qué Fue del Sr. Cha?",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0408"
+      },
+      "vtxIds": [
+        "VTX-0408"
+      ],
+      "carpeta": "POST/social/peliculas/que-fue-del-sr-cha",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/que-fue-del-sr-cha/images/01-sr-cha.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0408"
+        },
+        {
+          "archivo": "POST/social/peliculas/que-fue-del-sr-cha/images/02-sinopsis-que-fue-del-sr-cha.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/que-fue-del-sr-cha/images/02-sinopsis-que-fue-del-sr-cha.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/que-fue-del-sr-cha/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
       "slug": "the-lion-king-reboot",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -502,7 +910,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-13",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -1207,10 +1624,19 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-17",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-05",
-      "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema sensible (acoso digital/imagen manipulada de una menor), mismo criterio que se aplico con Adolescencia. La descripcion se mantuvo general y sin detalles graficos a proposito."
+      "nota": "CORREGIDO 2026-09-12: la sinopsis/caption originales describian por error la miniserie ESPANOLA 'Anna' (2021, acoso digital/foto manipulada) en vez del dorama COREANO 'Anna' (2022, tmdbId 196268 confirmado contra catalogo.json, Bae Suzy) que es el que realmente indica el catalogo para VTX-0155 -- el poster ya era el correcto, solo el texto y la fila de audio (antes solo 'Audio Esp. Latino') estaban mal. Reescrita la sinopsis/caption con la trama real (actriz que miente sobre su titulo universitario y termina viviendo una identidad inventada) y corregidas las filas de audio a Latino+Coreano+Subtitulo. Clasificacion actualizada de +18 a +13 (catalogo no trae clasificacion; +18 se habia puesto por el tema equivocado). No se toco publicado.programado."
     },
     {
       "slug": "arcane",
@@ -1685,6 +2111,86 @@
       "nota": null
     },
     {
+      "slug": "batman-del-futuro",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Batman del Futuro",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0320"
+      },
+      "vtxIds": [
+        "VTX-0320"
+      ],
+      "carpeta": "POST/social/series/batman-del-futuro",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/batman-del-futuro/images/01-batman-del-futuro.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0320"
+        },
+        {
+          "archivo": "POST/social/series/batman-del-futuro/images/02-sinopsis-batman-del-futuro.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/batman-del-futuro/images/02-sinopsis-batman-del-futuro.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/batman-del-futuro/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
+      "slug": "baymax",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "¡Baymax!",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0333"
+      },
+      "vtxIds": [
+        "VTX-0333"
+      ],
+      "carpeta": "POST/social/series/baymax",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/baymax/images/01-baymax.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0333"
+        },
+        {
+          "archivo": "POST/social/series/baymax/images/02-sinopsis-baymax.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/baymax/images/02-sinopsis-baymax.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/baymax/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "beck-mongolian-chop-squad",
       "categoria": "series",
       "tipo": "imagen",
@@ -2108,6 +2614,86 @@
       "nota": null
     },
     {
+      "slug": "bienvenidos-a-la-tierra",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Bienvenidos a la Tierra",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0380"
+      },
+      "vtxIds": [
+        "VTX-0380"
+      ],
+      "carpeta": "POST/social/series/bienvenidos-a-la-tierra",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/bienvenidos-a-la-tierra/images/01-bienvenidos-a-la-tierra.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0380"
+        },
+        {
+          "archivo": "POST/social/series/bienvenidos-a-la-tierra/images/02-sinopsis-bienvenidos-a-la-tierra.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/bienvenidos-a-la-tierra/images/02-sinopsis-bienvenidos-a-la-tierra.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/bienvenidos-a-la-tierra/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "black-clover",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Black Clover",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0216"
+      },
+      "vtxIds": [
+        "VTX-0216"
+      ],
+      "carpeta": "POST/social/series/black-clover",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/black-clover/images/01-black-clover.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0216"
+        },
+        {
+          "archivo": "POST/social/series/black-clover/images/02-sinopsis-black-clover.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/black-clover/images/02-sinopsis-black-clover.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/black-clover/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": null
+    },
+    {
       "slug": "black-knight",
       "categoria": "series",
       "tipo": "imagen",
@@ -2194,6 +2780,46 @@
         }
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "bleach",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Bleach",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0217"
+      },
+      "vtxIds": [
+        "VTX-0217"
+      ],
+      "carpeta": "POST/social/series/bleach",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/bleach/images/01-bleach.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0217"
+        },
+        {
+          "archivo": "POST/social/series/bleach/images/02-sinopsis-bleach.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/bleach/images/02-sinopsis-bleach.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/bleach/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -2989,6 +3615,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "dragon-striker",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dragon Striker",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0321"
+      },
+      "vtxIds": [
+        "VTX-0321"
+      ],
+      "carpeta": "POST/social/series/dragon-striker",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dragon-striker/images/01-dragon-striker.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0321"
+        },
+        {
+          "archivo": "POST/social/series/dragon-striker/images/02-sinopsis-dragon-striker.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dragon-striker/images/02-sinopsis-dragon-striker.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dragon-striker/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -4765,7 +5431,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-10",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -5125,7 +5800,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-07",
+          "hora": "18:00 CR (sáb)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -5565,7 +6249,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-19",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -5685,7 +6378,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-06",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
       "nota": null
@@ -6060,6 +6762,46 @@
       "nota": null
     },
     {
+      "slug": "los-chicos-son-mejores-que-las-flores",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Los Chicos Son Mejores que las Flores",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0181"
+      },
+      "vtxIds": [
+        "VTX-0181"
+      ],
+      "carpeta": "POST/social/series/los-chicos-son-mejores-que-las-flores",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/images/01-los-chicos-son-mejores-que-las-flores.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0181"
+        },
+        {
+          "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/images/02-sinopsis-los-chicos-son-mejores-que-las-flores.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/images/02-sinopsis-los-chicos-son-mejores-que-las-flores.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/los-chicos-son-mejores-que-las-flores/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
+      "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para mayores de 13' por el tono general del dorama (romance/comedia con temas de clase social y algo de bullying escolar, sin contenido explicito)."
+    },
+    {
       "slug": "los-informaticos",
       "categoria": "series",
       "tipo": "imagen",
@@ -6214,7 +6956,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-15",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -6297,6 +7048,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "manana",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Mañana",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0182"
+      },
+      "vtxIds": [
+        "VTX-0182"
+      ],
+      "carpeta": "POST/social/series/manana",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/manana/images/01-manana.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0182"
+        },
+        {
+          "archivo": "POST/social/series/manana/images/02-sinopsis-manana.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/manana/images/02-sinopsis-manana.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/manana/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-12",
       "nota": null
     },
     {
@@ -6589,6 +7380,46 @@
       "nota": null
     },
     {
+      "slug": "negocio-letal",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Negocio Letal",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0183"
+      },
+      "vtxIds": [
+        "VTX-0183"
+      ],
+      "carpeta": "POST/social/series/negocio-letal",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/negocio-letal/images/01-negocio-letal.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0183"
+        },
+        {
+          "archivo": "POST/social/series/negocio-letal/images/02-sinopsis-negocio-letal.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/negocio-letal/images/02-sinopsis-negocio-letal.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/negocio-letal/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
+      "nota": null
+    },
+    {
       "slug": "new-amsterdam",
       "categoria": "series",
       "tipo": "imagen",
@@ -6626,6 +7457,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "no-soy-un-robot",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "No Soy un Robot",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0184"
+      },
+      "vtxIds": [
+        "VTX-0184"
+      ],
+      "carpeta": "POST/social/series/no-soy-un-robot",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/no-soy-un-robot/images/01-no-soy-un-robot.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0184"
+        },
+        {
+          "archivo": "POST/social/series/no-soy-un-robot/images/02-sinopsis-no-soy-un-robot.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/no-soy-un-robot/images/02-sinopsis-no-soy-un-robot.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/no-soy-un-robot/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -6943,7 +7814,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-08",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -7035,6 +7915,46 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "que-hay-de-nuevo-scooby-doo",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "¿Qué Hay de Nuevo, Scooby-Doo?",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0334"
+      },
+      "vtxIds": [
+        "VTX-0334"
+      ],
+      "carpeta": "POST/social/series/que-hay-de-nuevo-scooby-doo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/images/01-scooby-doo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0334"
+        },
+        {
+          "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/images/02-sinopsis-que-hay-de-nuevo-scooby-doo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/images/02-sinopsis-que-hay-de-nuevo-scooby-doo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/que-hay-de-nuevo-scooby-doo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-14",
       "nota": null
     },
     {
@@ -7361,7 +8281,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-14",
+          "hora": "18:00 CR (sáb)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-03",
       "nota": null
@@ -7481,7 +8410,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-12",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-03",
       "nota": null
@@ -10147,6 +11085,38 @@
       ]
     },
     {
+      "vtxId": "VTX-0181",
+      "titulo": "Los Chicos Son Mejores que las Flores",
+      "coleccion": null,
+      "piezas": [
+        "los-chicos-son-mejores-que-las-flores"
+      ]
+    },
+    {
+      "vtxId": "VTX-0182",
+      "titulo": "Mañana",
+      "coleccion": null,
+      "piezas": [
+        "manana"
+      ]
+    },
+    {
+      "vtxId": "VTX-0183",
+      "titulo": "Negocio Letal",
+      "coleccion": null,
+      "piezas": [
+        "negocio-letal"
+      ]
+    },
+    {
+      "vtxId": "VTX-0184",
+      "titulo": "No Soy un Robot",
+      "coleccion": null,
+      "piezas": [
+        "no-soy-un-robot"
+      ]
+    },
+    {
       "vtxId": "VTX-0205",
       "titulo": "86: Eighty-Six",
       "coleccion": null,
@@ -10235,6 +11205,22 @@
       ]
     },
     {
+      "vtxId": "VTX-0216",
+      "titulo": "Black Clover",
+      "coleccion": null,
+      "piezas": [
+        "black-clover"
+      ]
+    },
+    {
+      "vtxId": "VTX-0217",
+      "titulo": "Bleach",
+      "coleccion": null,
+      "piezas": [
+        "bleach"
+      ]
+    },
+    {
       "vtxId": "VTX-0219",
       "titulo": "Boku No Hero Academia: Misión Mundial de Héroes",
       "coleccion": "My Hero Academia",
@@ -10259,11 +11245,43 @@
       ]
     },
     {
+      "vtxId": "VTX-0320",
+      "titulo": "Batman del Futuro",
+      "coleccion": null,
+      "piezas": [
+        "batman-del-futuro"
+      ]
+    },
+    {
+      "vtxId": "VTX-0321",
+      "titulo": "Dragon Striker",
+      "coleccion": null,
+      "piezas": [
+        "dragon-striker"
+      ]
+    },
+    {
       "vtxId": "VTX-0332",
       "titulo": "¡¡¡Alvinnn!!! y las Ardillas",
       "coleccion": null,
       "piezas": [
         "alvinnn-y-las-ardillas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0333",
+      "titulo": "¡Baymax!",
+      "coleccion": null,
+      "piezas": [
+        "baymax"
+      ]
+    },
+    {
+      "vtxId": "VTX-0334",
+      "titulo": "¿Qué Hay de Nuevo, Scooby-Doo?",
+      "coleccion": null,
+      "piezas": [
+        "que-hay-de-nuevo-scooby-doo"
       ]
     },
     {
@@ -10275,6 +11293,22 @@
       ]
     },
     {
+      "vtxId": "VTX-0379",
+      "titulo": "Alas de la Vida",
+      "coleccion": null,
+      "piezas": [
+        "alas-de-la-vida"
+      ]
+    },
+    {
+      "vtxId": "VTX-0380",
+      "titulo": "Bienvenidos a la Tierra",
+      "coleccion": null,
+      "piezas": [
+        "bienvenidos-a-la-tierra"
+      ]
+    },
+    {
       "vtxId": "VTX-0406",
       "titulo": "¡Nop!",
       "coleccion": null,
@@ -10283,11 +11317,51 @@
       ]
     },
     {
+      "vtxId": "VTX-0407",
+      "titulo": "¡Patos!",
+      "coleccion": null,
+      "piezas": [
+        "patos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0408",
+      "titulo": "¿Qué Fue del Sr. Cha?",
+      "coleccion": null,
+      "piezas": [
+        "que-fue-del-sr-cha"
+      ]
+    },
+    {
       "vtxId": "VTX-0493",
       "titulo": "Avatar: Fuego y Ceniza",
       "coleccion": "Avatar",
       "piezas": [
         "avatar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0497",
+      "titulo": "Bad Boys para Siempre",
+      "coleccion": "Bad Boys",
+      "piezas": [
+        "bad-boys"
+      ]
+    },
+    {
+      "vtxId": "VTX-0498",
+      "titulo": "Bad Boys: Hasta la Muerte",
+      "coleccion": "Bad Boys",
+      "piezas": [
+        "bad-boys"
+      ]
+    },
+    {
+      "vtxId": "VTX-0500",
+      "titulo": "Batman Eternamente",
+      "coleccion": "Batman Antologia",
+      "piezas": [
+        "batman-antologia"
       ]
     },
     {
@@ -10304,6 +11378,14 @@
       "coleccion": "The Lion King (Reboot)",
       "piezas": [
         "the-lion-king-reboot"
+      ]
+    },
+    {
+      "vtxId": "VTX-0633",
+      "titulo": "Mulan II",
+      "coleccion": "Mulan",
+      "piezas": [
+        "mulan"
       ]
     },
     {
@@ -10336,6 +11418,46 @@
       "coleccion": "Avatar",
       "piezas": [
         "avatar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0787",
+      "titulo": "Bad Boys II: Vuelven más Rebeldes",
+      "coleccion": "Bad Boys",
+      "piezas": [
+        "bad-boys"
+      ]
+    },
+    {
+      "vtxId": "VTX-0791",
+      "titulo": "Batman",
+      "coleccion": "Batman Antologia",
+      "piezas": [
+        "batman-antologia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0793",
+      "titulo": "Batman Regresa",
+      "coleccion": "Batman Antologia",
+      "piezas": [
+        "batman-antologia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0838",
+      "titulo": "Dos Policías Rebeldes",
+      "coleccion": "Bad Boys",
+      "piezas": [
+        "bad-boys"
+      ]
+    },
+    {
+      "vtxId": "VTX-1007",
+      "titulo": "La Bella y la Bestia: Una Navidad Encantada",
+      "coleccion": "La Bella y la Bestia",
+      "piezas": [
+        "la-bella-y-la-bestia"
       ]
     },
     {
@@ -10411,6 +11533,22 @@
       ]
     },
     {
+      "vtxId": "VTX-1233",
+      "titulo": "5 Centímetros por Segundo",
+      "coleccion": null,
+      "piezas": [
+        "5-centimetros-por-segundo"
+      ]
+    },
+    {
+      "vtxId": "VTX-1234",
+      "titulo": "Akira",
+      "coleccion": null,
+      "piezas": [
+        "akira"
+      ]
+    },
+    {
       "vtxId": "VTX-1264",
       "titulo": "Evangelion: 1.11 Tú (No) Estás Solo",
       "coleccion": "Evangelion",
@@ -10472,6 +11610,30 @@
       "coleccion": "The Lion King (Reboot)",
       "piezas": [
         "the-lion-king-reboot"
+      ]
+    },
+    {
+      "vtxId": "VTX-1330",
+      "titulo": "La Bella y la Bestia",
+      "coleccion": "La Bella y la Bestia",
+      "piezas": [
+        "la-bella-y-la-bestia"
+      ]
+    },
+    {
+      "vtxId": "VTX-1332",
+      "titulo": "La Bella y la Bestia : El Mundo Mágico de Bella",
+      "coleccion": "La Bella y la Bestia",
+      "piezas": [
+        "la-bella-y-la-bestia"
+      ]
+    },
+    {
+      "vtxId": "VTX-1365",
+      "titulo": "Mulán",
+      "coleccion": "Mulan",
+      "piezas": [
+        "mulan"
       ]
     },
     {

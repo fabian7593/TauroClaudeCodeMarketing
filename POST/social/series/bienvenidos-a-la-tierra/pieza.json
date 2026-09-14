@@ -1,0 +1,41 @@
+{
+  "slug": "bienvenidos-a-la-tierra",
+  "tipo": "imagen",
+  "titulo": "Bienvenidos a la Tierra",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0380"
+  },
+  "vtxIds": [
+    "VTX-0380"
+  ],
+  "creada": "2026-09-14",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/bienvenidos-a-la-tierra/images/01-bienvenidos-a-la-tierra.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0380"
+    },
+    {
+      "archivo": "POST/social/series/bienvenidos-a-la-tierra/images/02-sinopsis-bienvenidos-a-la-tierra.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bienvenidos-a-la-tierra"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/bienvenidos-a-la-tierra/images/02-sinopsis-bienvenidos-a-la-tierra.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/bienvenidos-a-la-tierra/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
