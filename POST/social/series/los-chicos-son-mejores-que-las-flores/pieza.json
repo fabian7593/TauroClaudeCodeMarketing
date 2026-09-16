@@ -36,7 +36,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-12-11",
+      "hora": "20:00 CR (vie)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para mayores de 13' por el tono general del dorama (romance/comedia con temas de clase social y algo de bullying escolar, sin contenido explicito)."
 }

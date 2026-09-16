@@ -36,7 +36,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-12-29",
+      "hora": "19:00 CR (mar)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "El primer candidato en es tenia un efecto de glitch/distorsion que lo hacia dificil de leer -- se descarto por calidad, no por logo, y se uso el otro candidato disponible en es (mosaico de personajes en blanco y negro), limpio y legible."
 }

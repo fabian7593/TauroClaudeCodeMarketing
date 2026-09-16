@@ -36,7 +36,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-12-13",
+      "hora": "19:00 CR (dom)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "Los primeros candidatos en es traian 'SOLO EN NETFLIX' quemado en el poster -- se descarto y se uso el indice 5, la misma key art sin el banner promocional."
 }

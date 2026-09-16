@@ -8,6 +8,7 @@ Bankai+ es el servicio B2C de streaming de VORTEX TV, dirigido a Costa Rica y el
 - Standard: ₡4,500/mes
 - Family: ₡6,000/mes
 - El precio "desde" que se usa en los posts (el más barato, Basic) va en USD con signo $. Standard y Family quedan en colones hasta que se confirme su conversión — no inventar ese tipo de cambio.
+- **La línea de invitación del post (punto 7 de la estructura, abajo) ya NO menciona precio.** Desde 2026-09-16, en vez de "Planes desde $6 al mes" (o cualquier variante de precio) cierra siempre con: "Registrate en nuestra plataforma bankaiplus.com y obten un mes gratis 🤩" — pedido explícito del usuario. Aplica a piezas nuevas de acá en adelante; no se edita retroactivamente lo ya publicado.
 
 ## Tono de comunicación
 - Español costarricense casual, conjugación "vos"
@@ -63,7 +64,7 @@ Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/po
 4. Info técnica: 🎧 Audios disponibles | 📺 Subtítulos disponibles
 5. Descripción del show (2-3 líneas humanas, cercanas, sin sonar a IA) — informada por los datos reales del catálogo: año/antigüedad, puntaje, clasificación por edad, temporadas
 6. Clasificación por edad en una línea corta y amena: "Apta para toda la familia", "Apta de 7 años en adelante", "Apta para mayores de 13", "Apta para mayores de 18" — nunca advertencias ni sermones
-7. Invitación a sumarse a Bankai+ (por qué vale la pena estar adentro, distinto del CTA de contacto)
+7. Invitación a sumarse a Bankai+ (por qué vale la pena estar adentro, distinto del CTA de contacto) — cierra siempre con "Registrate en nuestra plataforma bankaiplus.com y obten un mes gratis 🤩" (ver nota en `## Planes` — ya no se menciona precio acá)
 8. Pregunta de engagement + "¡Cuéntanos en los comentarios! 👇" — **última línea del post, sin nada después**
 
 **Sin hashtags y sin menciones de Costa Rica en el texto del post** — pedido explícito del usuario 2026-09-12. Antes se cerraba con una línea de hashtags (incluyendo uno de geolocalización tipo `#CostaRica`); de ahora en adelante esa línea **no va**, en ningún post nuevo. La segmentación geográfica sigue existiendo para audiencia/horario de publicación (ver más abajo), pero no se escribe en el caption ni en hashtags.

@@ -144,3 +144,46 @@ Al armar el lote random de abajo se detectó que la corrección del 2026-09-06 (
 | 2026-11-19 | Jueves | 19:00 | La Cosa del Pantano |
 
 Antes de programar se les quitó la línea de hashtags/`#CostaRica` que todavía traían en su `post.txt` (piezas producidas antes de la regla del 2026-09-12) — se corrigió el archivo fuente, no solo el texto enviado a Zernio. A partir de 2026-11-20 el calendario vuelve a estar completamente abierto.
+
+## Calendario completo hasta fin de año (programado 2026-09-14, temática mixta)
+
+A pedido del usuario, se llenó **todo el calendario restante de 2026** (2026-11-20 a 2026-12-31, 30 slots) con piezas random de cualquier categoría del catálogo ya producido — no solo series, mezcla de series/doramas/películas/animados. Selección: `siguiente_lote_zernio.py --limite 27` (pool "Cualquier Momento") + las 3 piezas pendientes con época `Navidad` (`batman-antologia`, `la-bella-y-la-bestia`, `ojo-de-halcon`), ubicadas deliberadamente en la semana del 20 al 25 de diciembre en vez de en fechas random.
+
+| Fecha | Día | Hora (CR) | Pieza |
+|---|---|---|---|
+| 2026-11-20 | Viernes | 20:00 | Star Trek: Extraños Nuevos Mundos |
+| 2026-11-21 | Sábado | 18:00 | Succession |
+| 2026-11-22 | Domingo | 19:00 | Eve |
+| 2026-11-24 | Martes | 19:00 | Dave |
+| 2026-11-26 | Jueves | 19:00 | Love, Death & Robots |
+| 2026-11-27 | Viernes | 20:00 | Juego de Tronos |
+| 2026-11-28 | Sábado | 18:00 | No Soy un Robot |
+| 2026-11-29 | Domingo | 19:00 | The Witcher |
+| 2026-12-01 | Martes | 19:00 | Connect |
+| 2026-12-03 | Jueves | 19:00 | Magicians |
+| 2026-12-04 | Viernes | 20:00 | Reacher |
+| 2026-12-05 | Sábado | 18:00 | Merlina |
+| 2026-12-06 | Domingo | 19:00 | El Agente Divino |
+| 2026-12-08 | Martes | 19:00 | Loki |
+| 2026-12-10 | Jueves | 19:00 | ¡Baymax! |
+| 2026-12-11 | Viernes | 20:00 | Boys Over Flowers |
+| 2026-12-12 | Sábado | 18:00 | El Libro de Boba Fett |
+| 2026-12-13 | Domingo | 19:00 | Besos, Kitty |
+| 2026-12-15 | Martes | 19:00 | El Señor de los Anillos: Los Anillos de Poder |
+| 2026-12-17 | Jueves | 19:00 | La Venganza: Dinero y Poder |
+| 2026-12-18 | Viernes | 20:00 | Estamos Muertos |
+| 2026-12-19 | Sábado | 18:00 | Bad Boys (saga, 4 películas) |
+| 2026-12-20 | Domingo | 19:00 | La Bella y la Bestia (época Navidad) |
+| 2026-12-22 | Martes | 19:00 | La Buena Mala Madre |
+| 2026-12-24 | Jueves | 19:00 | Ojo de Halcón (época Navidad) |
+| 2026-12-25 | Viernes | 20:00 | Batman Antología (época Navidad) |
+| 2026-12-26 | Sábado | 18:00 | El Príncipe del Rap en Bel-Air |
+| 2026-12-27 | Domingo | 19:00 | Dongjae, the Good or the Bastard |
+| 2026-12-29 | Martes | 19:00 | El Juego de la Muerte |
+| 2026-12-31 | Jueves | 19:00 | Ozark |
+
+Se le quitó la línea de hashtags/`#CostaRica` a las 24 de estas 30 piezas que todavía la traían en su `post.txt` (producidas antes del 2026-09-12) — archivo fuente corregido, no solo el texto enviado a Zernio. QC de las 30 piezas hecho a resolución completa (layout `full_bleed`, filas de audio correctas, sin logos de plataformas competidoras quemados en el póster — el logo de estudio tipo "DC"/"Marvel Studios"/"WARNER BROS"/"Disney" en la tipografía original del póster no cuenta como esto, es crédito de estudio, no de una plataforma de streaming rival) — sin bloquear por el bug de bandera de dos letras ya aceptado (ver [[feedback_flag_code_bug_accepted]]).
+
+Con esto, el calendario de Bankai+ queda cubierto de punta a punta hasta el 31 de diciembre de 2026. El siguiente lote que se programe arranca el 2027-01-02 (próximo sábado libre).
+
+**Nota:** estos cambios de bookkeeping (este archivo + los 30 `pieza.json`) quedaron en el working tree sin commitear, a pedido explícito del usuario de no commitear salvo que lo pida en el mensaje (ver [[feedback_no_commit_sin_pedido]]) — las piezas ya están programadas y en vivo en Zernio de todos modos, el commit es solo para que el repo refleje el estado real, no bloquea nada.
