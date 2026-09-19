@@ -136,6 +136,10 @@ def leer_xlsx(ruta, cfg, avisos):
                 fila[campo] = valor if not isinstance(valor, str) else valor.strip()
         if not fila.get("vtxId"):
             continue
+        # fila con ID pre-cargado pero sin datos: es un espacio reservado del
+        # Excel, no un título del catálogo.
+        if not str(fila.get("tituloEs") or "").strip() and not str(fila.get("tituloEn") or "").strip():
+            continue
         filas.append(limpiar(fila, cfg))
 
     wb.close()

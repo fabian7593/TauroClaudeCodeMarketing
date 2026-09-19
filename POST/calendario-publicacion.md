@@ -135,10 +135,10 @@ Al armar el lote random de abajo se detectó que la corrección del 2026-09-06 (
 | 2026-11-06 | Viernes | 20:00 | La Máquina de Escribir |
 | 2026-11-07 | Sábado | 18:00 | IT: Bienvenidos a Derry |
 | 2026-11-08 | Domingo | 19:00 | Pablo Escobar, el Patrón del Mal |
-| 2026-11-10 | Martes | 19:00 | Gul |
+| 2026-11-10 | Martes | 19:00 | The Pacific *(reemplaza a Gul — ver abajo)* |
 | 2026-11-12 | Jueves | 19:00 | Spider-Noir |
 | 2026-11-13 | Viernes | 20:00 | El Rey León (saga reboot) |
-| 2026-11-14 | Sábado | 18:00 | Roswell, Nuevo México |
+| 2026-11-14 | Sábado | 18:00 | The OA *(reemplaza a Roswell, Nuevo México — ver abajo)* |
 | 2026-11-15 | Domingo | 19:00 | Lost |
 | 2026-11-17 | Martes | 19:00 | Anna |
 | 2026-11-19 | Jueves | 19:00 | La Cosa del Pantano |
@@ -165,7 +165,7 @@ A pedido del usuario, se llenó **todo el calendario restante de 2026** (2026-11
 | 2026-12-05 | Sábado | 18:00 | Merlina |
 | 2026-12-06 | Domingo | 19:00 | El Agente Divino |
 | 2026-12-08 | Martes | 19:00 | Loki |
-| 2026-12-10 | Jueves | 19:00 | ¡Baymax! |
+| 2026-12-10 | Jueves | 19:00 | Obi-Wan Kenobi *(reemplaza a ¡Baymax! — ver abajo)* |
 | 2026-12-11 | Viernes | 20:00 | Boys Over Flowers |
 | 2026-12-12 | Sábado | 18:00 | El Libro de Boba Fett |
 | 2026-12-13 | Domingo | 19:00 | Besos, Kitty |
@@ -173,12 +173,12 @@ A pedido del usuario, se llenó **todo el calendario restante de 2026** (2026-11
 | 2026-12-17 | Jueves | 19:00 | La Venganza: Dinero y Poder |
 | 2026-12-18 | Viernes | 20:00 | Estamos Muertos |
 | 2026-12-19 | Sábado | 18:00 | Bad Boys (saga, 4 películas) |
-| 2026-12-20 | Domingo | 19:00 | La Bella y la Bestia (época Navidad) |
+| 2026-12-20 | Domingo | 19:00 | Mi Pobre Angelito — la saga completa (época Navidad) *(reemplaza a La Bella y la Bestia — ver abajo)* |
 | 2026-12-22 | Martes | 19:00 | La Buena Mala Madre |
 | 2026-12-24 | Jueves | 19:00 | Ojo de Halcón (época Navidad) |
 | 2026-12-25 | Viernes | 20:00 | Batman Antología (época Navidad) |
 | 2026-12-26 | Sábado | 18:00 | El Príncipe del Rap en Bel-Air |
-| 2026-12-27 | Domingo | 19:00 | Dongjae, the Good or the Bastard |
+| 2026-12-27 | Domingo | 19:00 | Invencible *(reemplaza a Dongjae, the Good or the Bastard — ver abajo)* |
 | 2026-12-29 | Martes | 19:00 | El Juego de la Muerte |
 | 2026-12-31 | Jueves | 19:00 | Ozark |
 
@@ -187,3 +187,22 @@ Se le quitó la línea de hashtags/`#CostaRica` a las 24 de estas 30 piezas que 
 Con esto, el calendario de Bankai+ queda cubierto de punta a punta hasta el 31 de diciembre de 2026. El siguiente lote que se programe arranca el 2027-01-02 (próximo sábado libre).
 
 **Nota:** estos cambios de bookkeeping (este archivo + los 30 `pieza.json`) quedaron en el working tree sin commitear, a pedido explícito del usuario de no commitear salvo que lo pida en el mensaje (ver [[feedback_no_commit_sin_pedido]]) — las piezas ya están programadas y en vivo en Zernio de todos modos, el commit es solo para que el repo refleje el estado real, no bloquea nada.
+
+## Reemplazos por títulos sacados del catálogo (2026-09-18)
+
+Fabián actualizó el Excel maestro y sacó 77 títulos del catálogo (más 2 correcciones de TMDB ID). De las 273 piezas ya producidas, **16 quedaron huérfanas** (su título ya no existe) y se borraron de `POST/social/`. De esas 16, **6 estaban programadas en Zernio** y todavía no habían salido en vivo: se borraron los 12 posts (IG + FB de cada una) y se ocuparon los mismos slots con otras piezas.
+
+| Slot | Hora (CR) | Pieza que salió | Pieza que entró | Por qué esa |
+|---|---|---|---|---|
+| 2026-10-17 | 18:00 (sáb) | Adolescencia | ¿Y Dónde Está el Fantasma? | fantasmas cerca de Halloween |
+| 2026-11-10 | 19:00 (mar) | Gul | The Pacific | random del pool "Cualquier Momento" |
+| 2026-11-14 | 18:00 (sáb) | Roswell, Nuevo México | The OA | random del pool "Cualquier Momento" |
+| 2026-12-10 | 19:00 (jue) | ¡Baymax! | Obi-Wan Kenobi | random del pool "Cualquier Momento" |
+| 2026-12-20 | 19:00 (dom) | La Bella y la Bestia *(época Navidad)* | **Mi Pobre Angelito — la saga completa** *(época Navidad)* | **pieza nueva**: el slot era de Navidad y no quedaba ninguna pieza de esa época sin programar |
+| 2026-12-27 | 19:00 (dom) | Dongjae, the Good or the Bastard | Invencible | random del pool "Cualquier Momento" |
+
+**La pieza de Navidad se produjo de cero** (`producir_lote.py --todo`): carrusel de las 6 películas de la saga Home Alone que tiene el catálogo (VTX-1060 a VTX-1065, todas con época `Navidad`) + la ficha de sinopsis = 7 imágenes, dentro del límite de 10. QC de los 30 pósters candidatos por el subagente `qc-posters`: 16 OK, 14 descartados (todos por ser la traducción de España — "Solo en casa"), 0 alarmas, ningún logo de plataforma competidora. Los slots 1, 4 y 5 quedaron en inglés porque no había ningún candidato válido en español LATAM.
+
+A las 5 piezas ya producidas que entraron se les corrigió el `post.txt` antes de programarlas (archivo fuente, no solo el texto enviado a Zernio): se les quitó la línea de hashtags/`#CostaRica` (4 de 5 todavía la traían) y se les cambió "Planes desde $6 al mes" por "Registrate en nuestra plataforma bankaiplus.com y obten un mes gratis 🤩", que es la invitación vigente desde el 2026-09-16.
+
+**Nota sobre el 2026-10-17**: la lista de la ventana de 6 semanas (más arriba en este archivo) todavía dice que Adolescencia iba el 2026-09-15. Esa lista quedó desactualizada con la recreación del 2026-09-05; la fecha real que tenían el `pieza.json` y Zernio era 2026-10-17 18:00, y esa es la que se reemplazó.

@@ -1,9 +1,9 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
   "generado": "2026-09-18",
-  "totalPiezas": 273,
-  "titulosConContenido": 305,
-  "titulosEnCatalogo": 1401,
+  "totalPiezas": 258,
+  "titulosConContenido": 293,
+  "titulosEnCatalogo": 1416,
   "problemas": [],
   "piezas": [
     {
@@ -77,86 +77,6 @@
       "texto": {
         "creado": true,
         "archivo": "POST/social/peliculas/10-000-a-c/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-14",
-      "nota": null
-    },
-    {
-      "slug": "10-dias-de-un-buen-hombre",
-      "categoria": "peliculas",
-      "tipo": "imagen",
-      "titulo": "10 Días de un Buen Hombre",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0413"
-      },
-      "vtxIds": [
-        "VTX-0413"
-      ],
-      "carpeta": "POST/social/peliculas/10-dias-de-un-buen-hombre",
-      "imagenes": [
-        {
-          "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/01-10-dias-de-un-buen-hombre.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0413"
-        },
-        {
-          "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/02-sinopsis-10-dias-de-un-buen-hombre.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/images/02-sinopsis-10-dias-de-un-buen-hombre.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/peliculas/10-dias-de-un-buen-hombre/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-14",
-      "nota": null
-    },
-    {
-      "slug": "10-minutos-para-morir",
-      "categoria": "peliculas",
-      "tipo": "imagen",
-      "titulo": "10 Minutos para Morir",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0414"
-      },
-      "vtxIds": [
-        "VTX-0414"
-      ],
-      "carpeta": "POST/social/peliculas/10-minutos-para-morir",
-      "imagenes": [
-        {
-          "archivo": "POST/social/peliculas/10-minutos-para-morir/images/01-10-minutos-para-morir.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0414"
-        },
-        {
-          "archivo": "POST/social/peliculas/10-minutos-para-morir/images/02-sinopsis-10-minutos-para-morir.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/peliculas/10-minutos-para-morir/images/02-sinopsis-10-minutos-para-morir.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/peliculas/10-minutos-para-morir/post.txt"
       },
       "publicado": {
         "hecho": false,
@@ -774,67 +694,6 @@
       "nota": null
     },
     {
-      "slug": "la-bella-y-la-bestia",
-      "categoria": "peliculas",
-      "tipo": "carrusel",
-      "titulo": "La Bella y la Bestia",
-      "grupo": {
-        "clase": "coleccion",
-        "valor": "La Bella y la Bestia"
-      },
-      "vtxIds": [
-        "VTX-1330",
-        "VTX-1007",
-        "VTX-1332"
-      ],
-      "carpeta": "POST/social/peliculas/la-bella-y-la-bestia",
-      "imagenes": [
-        {
-          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/01-bella-bestia-1991.png",
-          "tipo": "arte",
-          "vtxId": "VTX-1330"
-        },
-        {
-          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/02-bella-bestia-navidad.png",
-          "tipo": "arte",
-          "vtxId": "VTX-1007"
-        },
-        {
-          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/03-bella-bestia-mundo-magico.png",
-          "tipo": "arte",
-          "vtxId": "VTX-1332"
-        },
-        {
-          "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/04-sinopsis-la-bella-y-la-bestia.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/peliculas/la-bella-y-la-bestia/images/04-sinopsis-la-bella-y-la-bestia.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/peliculas/la-bella-y-la-bestia/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": [],
-        "programado": {
-          "fecha": "2026-12-20",
-          "hora": "19:00 CR (dom)",
-          "plataformas": [
-            "instagram",
-            "facebook"
-          ],
-          "via": "zernio"
-        }
-      },
-      "creada": "2026-09-14",
-      "nota": null
-    },
-    {
       "slug": "la-purga",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -906,6 +765,76 @@
       },
       "creada": "2026-09-02",
       "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
+    },
+    {
+      "slug": "mi-pobre-angelito",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Mi Pobre Angelito — la saga completa",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Mi Pobre Angelito — la saga completa"
+      },
+      "vtxIds": [
+        "VTX-1060",
+        "VTX-1061",
+        "VTX-1062",
+        "VTX-1063",
+        "VTX-1064",
+        "VTX-1065"
+      ],
+      "carpeta": "POST/social/peliculas/mi-pobre-angelito",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/mi-pobre-angelito/images/01-ha1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1060"
+        },
+        {
+          "archivo": "POST/social/peliculas/mi-pobre-angelito/images/02-ha2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1061"
+        },
+        {
+          "archivo": "POST/social/peliculas/mi-pobre-angelito/images/03-ha3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1062"
+        },
+        {
+          "archivo": "POST/social/peliculas/mi-pobre-angelito/images/04-ha4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1063"
+        },
+        {
+          "archivo": "POST/social/peliculas/mi-pobre-angelito/images/05-ha5.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1064"
+        },
+        {
+          "archivo": "POST/social/peliculas/mi-pobre-angelito/images/06-ha6.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1065"
+        },
+        {
+          "archivo": "POST/social/peliculas/mi-pobre-angelito/images/07-sinopsis-mi-pobre-angelito.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/mi-pobre-angelito/images/07-sinopsis-mi-pobre-angelito.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/mi-pobre-angelito/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": "Reemplaza a la pieza de La Bella y la Bestia en el slot de Navidad del 2026-12-20: esos títulos salieron del catálogo. Póster del slot 2 en es-LATAM a 710x1066 (se escala ~1.5x): se eligió idioma sobre nitidez, según la regla de marca. Slots 1, 4 y 5 van en inglés porque todos los candidatos en español eran la traducción de España."
     },
     {
       "slug": "mulan",
@@ -1177,46 +1106,6 @@
       "nota": "6 de las 7 posters se usaron en ingles porque TMDB solo trae 'es' en la variante de Espana (\"Pesadilla en Elm Street\", no coincide con tituloEs del catalogo que es la forma LATAM \"Pesadilla en la Calle del Infierno\") -- se descartaron todas las candidatas en es por esa razon, nunca se uso castellano. Score de la ficha es el promedio de calificacion de las 7 peliculas (no la de la primera sola), para no inflar con la mejor calificada."
     },
     {
-      "slug": "que-fue-del-sr-cha",
-      "categoria": "peliculas",
-      "tipo": "imagen",
-      "titulo": "¿Qué Fue del Sr. Cha?",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0408"
-      },
-      "vtxIds": [
-        "VTX-0408"
-      ],
-      "carpeta": "POST/social/peliculas/que-fue-del-sr-cha",
-      "imagenes": [
-        {
-          "archivo": "POST/social/peliculas/que-fue-del-sr-cha/images/01-sr-cha.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0408"
-        },
-        {
-          "archivo": "POST/social/peliculas/que-fue-del-sr-cha/images/02-sinopsis-que-fue-del-sr-cha.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/peliculas/que-fue-del-sr-cha/images/02-sinopsis-que-fue-del-sr-cha.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/peliculas/que-fue-del-sr-cha/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-14",
-      "nota": null
-    },
-    {
       "slug": "the-lion-king-reboot",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -1346,7 +1235,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-10-17",
+          "hora": "18:00 CR (sáb)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-14",
       "nota": null
@@ -1487,55 +1385,6 @@
         }
       },
       "creada": "2026-09-12",
-      "nota": null
-    },
-    {
-      "slug": "adolescencia",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Adolescencia",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0005"
-      },
-      "vtxIds": [
-        "VTX-0005"
-      ],
-      "carpeta": "POST/social/series/adolescencia",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/adolescencia/images/01-adolescencia.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0005"
-        },
-        {
-          "archivo": "POST/social/series/adolescencia/images/02-sinopsis-adolescencia.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/adolescencia/images/02-sinopsis-adolescencia.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/adolescencia/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": [],
-        "programado": {
-          "fecha": "2026-10-17",
-          "hora": "18:00 CR (sáb)",
-          "plataformas": [
-            "instagram",
-            "facebook"
-          ],
-          "via": "zernio"
-        }
-      },
-      "creada": "2026-09-02",
       "nota": null
     },
     {
@@ -2573,55 +2422,6 @@
         "hecho": false,
         "fecha": null,
         "plataformas": []
-      },
-      "creada": "2026-09-12",
-      "nota": null
-    },
-    {
-      "slug": "baymax",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "¡Baymax!",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0333"
-      },
-      "vtxIds": [
-        "VTX-0333"
-      ],
-      "carpeta": "POST/social/series/baymax",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/baymax/images/01-baymax.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0333"
-        },
-        {
-          "archivo": "POST/social/series/baymax/images/02-sinopsis-baymax.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/baymax/images/02-sinopsis-baymax.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/baymax/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": [],
-        "programado": {
-          "fecha": "2026-12-10",
-          "hora": "19:00 CR (jue)",
-          "plataformas": [
-            "instagram",
-            "facebook"
-          ],
-          "via": "zernio"
-        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -3851,46 +3651,6 @@
       "nota": null
     },
     {
-      "slug": "como-peces-dorados",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Como Peces Dorados",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0159"
-      },
-      "vtxIds": [
-        "VTX-0159"
-      ],
-      "carpeta": "POST/social/series/como-peces-dorados",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/como-peces-dorados/images/01-como-peces-dorados.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0159"
-        },
-        {
-          "archivo": "POST/social/series/como-peces-dorados/images/02-sinopsis-como-peces-dorados.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/como-peces-dorados/images/02-sinopsis-como-peces-dorados.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/como-peces-dorados/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-05",
-      "nota": "Sin candidato en espanol en TMDB (0 resultados) -- se uso ingles siguiendo el orden es(LATAM)->en->xx->default. El titulo en pantalla usa el ingles 'FISHBOWL WIVES' porque no hay poster con el titulo LATAM disponible. El indice 1 en ingles traia el logo de Netflix quemado -- se uso el indice 2, limpio."
-    },
-    {
       "slug": "complejo-residencial-c",
       "categoria": "series",
       "tipo": "imagen",
@@ -4548,55 +4308,6 @@
         "plataformas": []
       },
       "creada": "2026-09-18",
-      "nota": null
-    },
-    {
-      "slug": "dongjae-the-good-or-the-bastard",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Dongjae, the Good or the Bastard",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0161"
-      },
-      "vtxIds": [
-        "VTX-0161"
-      ],
-      "carpeta": "POST/social/series/dongjae-the-good-or-the-bastard",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/01-dongjae-the-good-or-the-bastard.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0161"
-        },
-        {
-          "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/02-sinopsis-dongjae-the-good-or-the-bastard.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/images/02-sinopsis-dongjae-the-good-or-the-bastard.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/dongjae-the-good-or-the-bastard/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": [],
-        "programado": {
-          "fecha": "2026-12-27",
-          "hora": "19:00 CR (dom)",
-          "plataformas": [
-            "instagram",
-            "facebook"
-          ],
-          "via": "zernio"
-        }
-      },
-      "creada": "2026-09-06",
       "nota": null
     },
     {
@@ -5449,46 +5160,6 @@
       "nota": null
     },
     {
-      "slug": "el-elegido",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "El Elegido",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0041"
-      },
-      "vtxIds": [
-        "VTX-0041"
-      ],
-      "carpeta": "POST/social/series/el-elegido",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/el-elegido/images/01-el-elegido.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0041"
-        },
-        {
-          "archivo": "POST/social/series/el-elegido/images/02-sinopsis-el-elegido.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/el-elegido/images/02-sinopsis-el-elegido.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/el-elegido/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-02",
-      "nota": "Catálogo marca estado Incompleto: falta temporada 4 a 5. El caption no promete la serie completa."
-    },
-    {
       "slug": "el-joven-sheldon",
       "categoria": "series",
       "tipo": "imagen",
@@ -6083,46 +5754,6 @@
       },
       "creada": "2026-09-18",
       "nota": null
-    },
-    {
-      "slug": "eliminar",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Eliminar",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0050"
-      },
-      "vtxIds": [
-        "VTX-0050"
-      ],
-      "carpeta": "POST/social/series/eliminar",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/eliminar/images/01-eliminar.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0050"
-        },
-        {
-          "archivo": "POST/social/series/eliminar/images/02-sinopsis-eliminar.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/eliminar/images/02-sinopsis-eliminar.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/eliminar/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-02",
-      "nota": "El catálogo no trae clasificación por edad para este título; el post se dejó sin esa línea en vez de inventarla."
     },
     {
       "slug": "erase-un-amor-rural",
@@ -7242,55 +6873,6 @@
       "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tono de accion/pelea marcado en el poster oficial."
     },
     {
-      "slug": "gul",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Gul",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0066"
-      },
-      "vtxIds": [
-        "VTX-0066"
-      ],
-      "carpeta": "POST/social/series/gul",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/gul/images/01-gul.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0066"
-        },
-        {
-          "archivo": "POST/social/series/gul/images/02-sinopsis-gul.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/gul/images/02-sinopsis-gul.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/gul/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": [],
-        "programado": {
-          "fecha": "2026-11-10",
-          "hora": "19:00 CR (mar)",
-          "plataformas": [
-            "instagram",
-            "facebook"
-          ],
-          "via": "zernio"
-        }
-      },
-      "creada": "2026-09-02",
-      "nota": null
-    },
-    {
       "slug": "gurren-lagann",
       "categoria": "series",
       "tipo": "imagen",
@@ -7691,46 +7273,6 @@
       "nota": "Pieza rehecha con la serie de 2011 (tmdbId 46298) a pedido explícito del usuario. El Excel todavía trae en VTX-0263 el tmdbId 45952, que es la serie de 1999; las temporadas y episodios del catálogo (6 / 148) sí corresponden a la de 2011."
     },
     {
-      "slug": "insania",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Insania",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0070"
-      },
-      "vtxIds": [
-        "VTX-0070"
-      ],
-      "carpeta": "POST/social/series/insania",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/insania/images/01-insania.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0070"
-        },
-        {
-          "archivo": "POST/social/series/insania/images/02-sinopsis-insania.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/insania/images/02-sinopsis-insania.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/insania/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-02",
-      "nota": "El catálogo no trae clasificación por edad ni sinopsis detallada para este título; la descripción se mantuvo deliberadamente general por no tener certeza suficiente del argumento exacto."
-    },
-    {
       "slug": "inuyasha",
       "categoria": "series",
       "tipo": "imagen",
@@ -7885,7 +7427,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-27",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -8066,46 +7617,6 @@
         }
       },
       "creada": "2026-09-02",
-      "nota": null
-    },
-    {
-      "slug": "kimi-ni-todoke-llegando-a-ti",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Kimi ni Todoke: Llegando a Ti",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0174"
-      },
-      "vtxIds": [
-        "VTX-0174"
-      ],
-      "carpeta": "POST/social/series/kimi-ni-todoke-llegando-a-ti",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/01-kimi-ni-todoke-llegando-a-ti.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0174"
-        },
-        {
-          "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/02-sinopsis-kimi-ni-todoke-llegando-a-ti.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/images/02-sinopsis-kimi-ni-todoke-llegando-a-ti.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/kimi-ni-todoke-llegando-a-ti/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-06",
       "nota": null
     },
     {
@@ -9780,7 +9291,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-10",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -10520,95 +10040,6 @@
       "nota": null
     },
     {
-      "slug": "roswell-nuevo-mexico",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Roswell, Nuevo México",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0120"
-      },
-      "vtxIds": [
-        "VTX-0120"
-      ],
-      "carpeta": "POST/social/series/roswell-nuevo-mexico",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/roswell-nuevo-mexico/images/01-roswell-nuevo-mexico.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0120"
-        },
-        {
-          "archivo": "POST/social/series/roswell-nuevo-mexico/images/02-sinopsis-roswell-nuevo-mexico.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/roswell-nuevo-mexico/images/02-sinopsis-roswell-nuevo-mexico.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/roswell-nuevo-mexico/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": [],
-        "programado": {
-          "fecha": "2026-11-14",
-          "hora": "18:00 CR (sáb)",
-          "plataformas": [
-            "instagram",
-            "facebook"
-          ],
-          "via": "zernio"
-        }
-      },
-      "creada": "2026-09-03",
-      "nota": null
-    },
-    {
-      "slug": "sonic-prime",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Sonic Prime",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0121"
-      },
-      "vtxIds": [
-        "VTX-0121"
-      ],
-      "carpeta": "POST/social/series/sonic-prime",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/sonic-prime/images/01-sonic-prime.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0121"
-        },
-        {
-          "archivo": "POST/social/series/sonic-prime/images/02-sinopsis-sonic-prime.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/sonic-prime/images/02-sinopsis-sonic-prime.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/sonic-prime/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
-      },
-      "creada": "2026-09-03",
-      "nota": null
-    },
-    {
       "slug": "soy-virgo",
       "categoria": "series",
       "tipo": "imagen",
@@ -11208,7 +10639,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-14",
+          "hora": "18:00 CR (sáb)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-04",
       "nota": null
@@ -11248,7 +10688,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-10",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-04",
       "nota": null
@@ -11538,46 +10987,6 @@
           ],
           "via": "zernio"
         }
-      },
-      "creada": "2026-09-04",
-      "nota": null
-    },
-    {
-      "slug": "theodosia",
-      "categoria": "series",
-      "tipo": "imagen",
-      "titulo": "Theodosia",
-      "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0144"
-      },
-      "vtxIds": [
-        "VTX-0144"
-      ],
-      "carpeta": "POST/social/series/theodosia",
-      "imagenes": [
-        {
-          "archivo": "POST/social/series/theodosia/images/01-theodosia.png",
-          "tipo": "arte",
-          "vtxId": "VTX-0144"
-        },
-        {
-          "archivo": "POST/social/series/theodosia/images/02-sinopsis-theodosia.png",
-          "tipo": "sinopsis"
-        }
-      ],
-      "sinopsis": {
-        "creada": true,
-        "archivo": "POST/social/series/theodosia/images/02-sinopsis-theodosia.png"
-      },
-      "texto": {
-        "creado": true,
-        "archivo": "POST/social/series/theodosia/post.txt"
-      },
-      "publicado": {
-        "hecho": false,
-        "fecha": null,
-        "plataformas": []
       },
       "creada": "2026-09-04",
       "nota": null
@@ -11977,14 +11386,6 @@
       ]
     },
     {
-      "vtxId": "VTX-0005",
-      "titulo": "Adolescencia",
-      "coleccion": null,
-      "piezas": [
-        "adolescencia"
-      ]
-    },
-    {
       "vtxId": "VTX-0006",
       "titulo": "Ahsoka",
       "coleccion": null,
@@ -12043,7 +11444,7 @@
     {
       "vtxId": "VTX-0013",
       "titulo": "Avatar: La Leyenda de Aang",
-      "coleccion": null,
+      "coleccion": "Avatar La Leyenda De Ang",
       "piezas": [
         "avatar-la-leyenda-de-aang"
       ]
@@ -12265,14 +11666,6 @@
       ]
     },
     {
-      "vtxId": "VTX-0041",
-      "titulo": "El Elegido",
-      "coleccion": null,
-      "piezas": [
-        "el-elegido"
-      ]
-    },
-    {
       "vtxId": "VTX-0042",
       "titulo": "El Joven Sheldon",
       "coleccion": null,
@@ -12334,14 +11727,6 @@
       "coleccion": null,
       "piezas": [
         "el-senor-de-los-anillos-los-anillos-de-poder"
-      ]
-    },
-    {
-      "vtxId": "VTX-0050",
-      "titulo": "Eliminar",
-      "coleccion": null,
-      "piezas": [
-        "eliminar"
       ]
     },
     {
@@ -12465,14 +11850,6 @@
       ]
     },
     {
-      "vtxId": "VTX-0066",
-      "titulo": "Gul",
-      "coleccion": null,
-      "piezas": [
-        "gul"
-      ]
-    },
-    {
       "vtxId": "VTX-0067",
       "titulo": "Halo",
       "coleccion": null,
@@ -12494,14 +11871,6 @@
       "coleccion": null,
       "piezas": [
         "hermanos-de-sangre"
-      ]
-    },
-    {
-      "vtxId": "VTX-0070",
-      "titulo": "Insania",
-      "coleccion": null,
-      "piezas": [
-        "insania"
       ]
     },
     {
@@ -12897,22 +12266,6 @@
       ]
     },
     {
-      "vtxId": "VTX-0120",
-      "titulo": "Roswell, Nuevo Mexico",
-      "coleccion": null,
-      "piezas": [
-        "roswell-nuevo-mexico"
-      ]
-    },
-    {
-      "vtxId": "VTX-0121",
-      "titulo": "Sonic Prime",
-      "coleccion": null,
-      "piezas": [
-        "sonic-prime"
-      ]
-    },
-    {
       "vtxId": "VTX-0122",
       "titulo": "Soy Virgo",
       "coleccion": null,
@@ -12923,7 +12276,7 @@
     {
       "vtxId": "VTX-0123",
       "titulo": "Spider-Noir",
-      "coleccion": null,
+      "coleccion": "Spiderman",
       "piezas": [
         "spider-noir"
       ]
@@ -13074,7 +12427,7 @@
     },
     {
       "vtxId": "VTX-0142",
-      "titulo": "The Warriors",
+      "titulo": "Warrior",
       "coleccion": null,
       "piezas": [
         "the-warriors"
@@ -13086,14 +12439,6 @@
       "coleccion": null,
       "piezas": [
         "the-witcher"
-      ]
-    },
-    {
-      "vtxId": "VTX-0144",
-      "titulo": "Theodosia",
-      "coleccion": null,
-      "piezas": [
-        "theodosia"
       ]
     },
     {
@@ -13209,27 +12554,11 @@
       ]
     },
     {
-      "vtxId": "VTX-0159",
-      "titulo": "Como Peces Dorados",
-      "coleccion": null,
-      "piezas": [
-        "como-peces-dorados"
-      ]
-    },
-    {
       "vtxId": "VTX-0160",
       "titulo": "Connect",
       "coleccion": null,
       "piezas": [
         "connect"
-      ]
-    },
-    {
-      "vtxId": "VTX-0161",
-      "titulo": "Dongjae, the Good or the Bastard",
-      "coleccion": null,
-      "piezas": [
-        "dongjae-the-good-or-the-bastard"
       ]
     },
     {
@@ -13326,14 +12655,6 @@
       "coleccion": null,
       "piezas": [
         "hasta-que-el-cielo-nos-reuna"
-      ]
-    },
-    {
-      "vtxId": "VTX-0174",
-      "titulo": "Kimi ni Todoke: Llegando a Ti",
-      "coleccion": null,
-      "piezas": [
-        "kimi-ni-todoke-llegando-a-ti"
       ]
     },
     {
@@ -13929,14 +13250,6 @@
       ]
     },
     {
-      "vtxId": "VTX-0333",
-      "titulo": "¡Baymax!",
-      "coleccion": null,
-      "piezas": [
-        "baymax"
-      ]
-    },
-    {
       "vtxId": "VTX-0334",
       "titulo": "¿Qué Hay de Nuevo, Scooby-Doo?",
       "coleccion": null,
@@ -13985,14 +13298,6 @@
       ]
     },
     {
-      "vtxId": "VTX-0408",
-      "titulo": "¿Qué Fue del Sr. Cha?",
-      "coleccion": null,
-      "piezas": [
-        "que-fue-del-sr-cha"
-      ]
-    },
-    {
       "vtxId": "VTX-0409",
       "titulo": "¿Y Cómo Es Él?",
       "coleccion": null,
@@ -14022,22 +13327,6 @@
       "coleccion": null,
       "piezas": [
         "007-operacion-skyfall"
-      ]
-    },
-    {
-      "vtxId": "VTX-0413",
-      "titulo": "10 Días de un Buen Hombre",
-      "coleccion": null,
-      "piezas": [
-        "10-dias-de-un-buen-hombre"
-      ]
-    },
-    {
-      "vtxId": "VTX-0414",
-      "titulo": "10 Minutos para Morir",
-      "coleccion": null,
-      "piezas": [
-        "10-minutos-para-morir"
       ]
     },
     {
@@ -14193,14 +13482,6 @@
       ]
     },
     {
-      "vtxId": "VTX-1007",
-      "titulo": "La Bella y la Bestia: Una Navidad Encantada",
-      "coleccion": "La Bella y la Bestia",
-      "piezas": [
-        "la-bella-y-la-bestia"
-      ]
-    },
-    {
       "vtxId": "VTX-1019",
       "titulo": "La Noche de la Expiación",
       "coleccion": "La Purga",
@@ -14222,6 +13503,54 @@
       "coleccion": "La Purga",
       "piezas": [
         "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-1060",
+      "titulo": "Mi Pobre Angelito",
+      "coleccion": "Mi Pobre Angelito",
+      "piezas": [
+        "mi-pobre-angelito"
+      ]
+    },
+    {
+      "vtxId": "VTX-1061",
+      "titulo": "Mi Pobre Angelito 2: Perdido en Nueva York",
+      "coleccion": "Mi Pobre Angelito",
+      "piezas": [
+        "mi-pobre-angelito"
+      ]
+    },
+    {
+      "vtxId": "VTX-1062",
+      "titulo": "Mi Pobre Angelito 3",
+      "coleccion": "Mi Pobre Angelito",
+      "piezas": [
+        "mi-pobre-angelito"
+      ]
+    },
+    {
+      "vtxId": "VTX-1063",
+      "titulo": "Mi Pobre Angelito 4",
+      "coleccion": "Mi Pobre Angelito",
+      "piezas": [
+        "mi-pobre-angelito"
+      ]
+    },
+    {
+      "vtxId": "VTX-1064",
+      "titulo": "Mi Pobre Angelito 5",
+      "coleccion": null,
+      "piezas": [
+        "mi-pobre-angelito"
+      ]
+    },
+    {
+      "vtxId": "VTX-1065",
+      "titulo": "Mi Pobre y Dulce Angelito",
+      "coleccion": null,
+      "piezas": [
+        "mi-pobre-angelito"
       ]
     },
     {
@@ -14350,22 +13679,6 @@
       "coleccion": "The Lion King (Reboot)",
       "piezas": [
         "the-lion-king-reboot"
-      ]
-    },
-    {
-      "vtxId": "VTX-1330",
-      "titulo": "La Bella y la Bestia",
-      "coleccion": "La Bella y la Bestia",
-      "piezas": [
-        "la-bella-y-la-bestia"
-      ]
-    },
-    {
-      "vtxId": "VTX-1332",
-      "titulo": "La Bella y la Bestia : El Mundo Mágico de Bella",
-      "coleccion": "La Bella y la Bestia",
-      "piezas": [
-        "la-bella-y-la-bestia"
       ]
     },
     {

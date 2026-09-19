@@ -1,0 +1,72 @@
+{
+  "slug": "mi-pobre-angelito",
+  "tipo": "carrusel",
+  "titulo": "Mi Pobre Angelito — la saga completa",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Mi Pobre Angelito — la saga completa"
+  },
+  "vtxIds": [
+    "VTX-1060",
+    "VTX-1061",
+    "VTX-1062",
+    "VTX-1063",
+    "VTX-1064",
+    "VTX-1065"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/mi-pobre-angelito/images/01-ha1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1060"
+    },
+    {
+      "archivo": "POST/social/peliculas/mi-pobre-angelito/images/02-ha2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1061"
+    },
+    {
+      "archivo": "POST/social/peliculas/mi-pobre-angelito/images/03-ha3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1062"
+    },
+    {
+      "archivo": "POST/social/peliculas/mi-pobre-angelito/images/04-ha4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1063"
+    },
+    {
+      "archivo": "POST/social/peliculas/mi-pobre-angelito/images/05-ha5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1064"
+    },
+    {
+      "archivo": "POST/social/peliculas/mi-pobre-angelito/images/06-ha6.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1065"
+    },
+    {
+      "archivo": "POST/social/peliculas/mi-pobre-angelito/images/07-sinopsis-mi-pobre-angelito.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/mi-pobre-angelito"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/mi-pobre-angelito/images/07-sinopsis-mi-pobre-angelito.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/mi-pobre-angelito/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Reemplaza a la pieza de La Bella y la Bestia en el slot de Navidad del 2026-12-20: esos títulos salieron del catálogo. Póster del slot 2 en es-LATAM a 710x1066 (se escala ~1.5x): se eligió idioma sobre nitidez, según la regla de marca. Slots 1, 4 y 5 van en inglés porque todos los candidatos en español eran la traducción de España."
+}
