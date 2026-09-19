@@ -1,6 +1,6 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
-  "generado": "2026-09-18",
+  "generado": "2026-09-19",
   "totalPiezas": 258,
   "titulosConContenido": 293,
   "titulosEnCatalogo": 1416,
@@ -831,7 +831,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-20",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-18",
       "nota": "Reemplaza a la pieza de La Bella y la Bestia en el slot de Navidad del 2026-12-20: esos títulos salieron del catálogo. Póster del slot 2 en es-LATAM a 710x1066 (se escala ~1.5x): se eligió idioma sobre nitidez, según la regla de marca. Slots 1, 4 y 5 van en inglés porque todos los candidatos en español eran la traducción de España."
