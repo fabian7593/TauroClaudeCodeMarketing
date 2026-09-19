@@ -1,0 +1,41 @@
+{
+  "slug": "dragon-quest-las-aventuras-de-fly",
+  "tipo": "imagen",
+  "titulo": "Dragon Quest: Las Aventuras de Fly",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0248"
+  },
+  "vtxIds": [
+    "VTX-0248"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/images/01-dragon-quest-fly.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0248"
+    },
+    {
+      "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/images/02-sinopsis-dragon-quest-las-aventuras-de-fly.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-quest-las-aventuras-de-fly"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/images/02-sinopsis-dragon-quest-las-aventuras-de-fly.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

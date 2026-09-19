@@ -1,0 +1,41 @@
+{
+  "slug": "gantz",
+  "tipo": "imagen",
+  "titulo": "Gantz",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0254"
+  },
+  "vtxIds": [
+    "VTX-0254"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/gantz/images/01-gantz.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0254"
+    },
+    {
+      "archivo": "POST/social/series/gantz/images/02-sinopsis-gantz.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/gantz"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/gantz/images/02-sinopsis-gantz.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/gantz/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

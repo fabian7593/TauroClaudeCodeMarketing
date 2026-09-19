@@ -1,0 +1,41 @@
+{
+  "slug": "devil-may-cry",
+  "tipo": "imagen",
+  "titulo": "Devil May Cry",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0231"
+  },
+  "vtxIds": [
+    "VTX-0231"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/devil-may-cry/images/01-devil-may-cry-2007.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0231"
+    },
+    {
+      "archivo": "POST/social/series/devil-may-cry/images/02-sinopsis-devil-may-cry.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/devil-may-cry"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/devil-may-cry/images/02-sinopsis-devil-may-cry.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/devil-may-cry/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "cells-at-work",
+  "tipo": "imagen",
+  "titulo": "Cells at Work!",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0221"
+  },
+  "vtxIds": [
+    "VTX-0221"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/cells-at-work/images/01-cells-at-work.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0221"
+    },
+    {
+      "archivo": "POST/social/series/cells-at-work/images/02-sinopsis-cells-at-work.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/cells-at-work"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/cells-at-work/images/02-sinopsis-cells-at-work.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/cells-at-work/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

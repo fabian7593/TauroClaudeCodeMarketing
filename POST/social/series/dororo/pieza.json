@@ -1,0 +1,41 @@
+{
+  "slug": "dororo",
+  "tipo": "imagen",
+  "titulo": "Dororo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0240"
+  },
+  "vtxIds": [
+    "VTX-0240"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dororo/images/01-dororo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0240"
+    },
+    {
+      "archivo": "POST/social/series/dororo/images/02-sinopsis-dororo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dororo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dororo/images/02-sinopsis-dororo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dororo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "dragon-ball-z",
+  "tipo": "imagen",
+  "titulo": "Dragon Ball Z",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0247"
+  },
+  "vtxIds": [
+    "VTX-0247"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dragon-ball-z/images/01-dragon-ball-z.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0247"
+    },
+    {
+      "archivo": "POST/social/series/dragon-ball-z/images/02-sinopsis-dragon-ball-z.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-z"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dragon-ball-z/images/02-sinopsis-dragon-ball-z.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dragon-ball-z/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "detroit-metal-city",
+  "tipo": "imagen",
+  "titulo": "Detroit Metal City",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0230"
+  },
+  "vtxIds": [
+    "VTX-0230"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/detroit-metal-city/images/01-detroit-metal-city.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0230"
+    },
+    {
+      "archivo": "POST/social/series/detroit-metal-city/images/02-sinopsis-detroit-metal-city.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/detroit-metal-city"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/detroit-metal-city/images/02-sinopsis-detroit-metal-city.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/detroit-metal-city/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "fullmetal-alchemist-brotherhood",
+  "tipo": "imagen",
+  "titulo": "Fullmetal Alchemist: Brotherhood",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0253"
+  },
+  "vtxIds": [
+    "VTX-0253"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/images/01-fma-brotherhood.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0253"
+    },
+    {
+      "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/images/02-sinopsis-fullmetal-alchemist-brotherhood.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/fullmetal-alchemist-brotherhood"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/images/02-sinopsis-fullmetal-alchemist-brotherhood.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

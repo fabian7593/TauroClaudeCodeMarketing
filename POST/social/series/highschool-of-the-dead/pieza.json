@@ -1,0 +1,41 @@
+{
+  "slug": "highschool-of-the-dead",
+  "tipo": "imagen",
+  "titulo": "Highschool of the Dead",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0261"
+  },
+  "vtxIds": [
+    "VTX-0261"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/highschool-of-the-dead/images/01-highschool-of-the-dead.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0261"
+    },
+    {
+      "archivo": "POST/social/series/highschool-of-the-dead/images/02-sinopsis-highschool-of-the-dead.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/highschool-of-the-dead"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/highschool-of-the-dead/images/02-sinopsis-highschool-of-the-dead.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/highschool-of-the-dead/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

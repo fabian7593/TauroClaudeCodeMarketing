@@ -1,0 +1,41 @@
+{
+  "slug": "hell-s-paradise",
+  "tipo": "imagen",
+  "titulo": "Hell's Paradise",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0259"
+  },
+  "vtxIds": [
+    "VTX-0259"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/hell-s-paradise/images/01-hell-s-paradise.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0259"
+    },
+    {
+      "archivo": "POST/social/series/hell-s-paradise/images/02-sinopsis-hell-s-paradise.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/hell-s-paradise"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/hell-s-paradise/images/02-sinopsis-hell-s-paradise.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/hell-s-paradise/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

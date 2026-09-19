@@ -1,0 +1,41 @@
+{
+  "slug": "espiritu-de-lucha-hajime-no-ippo",
+  "tipo": "imagen",
+  "titulo": "Espíritu de Lucha: Hajime No Ippo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0252"
+  },
+  "vtxIds": [
+    "VTX-0252"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/images/01-hajime-no-ippo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0252"
+    },
+    {
+      "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/images/02-sinopsis-espiritu-de-lucha-hajime-no-ippo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/espiritu-de-lucha-hajime-no-ippo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/images/02-sinopsis-espiritu-de-lucha-hajime-no-ippo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "death-note",
+  "tipo": "imagen",
+  "titulo": "Death Note",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0228"
+  },
+  "vtxIds": [
+    "VTX-0228"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/death-note/images/01-death-note.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0228"
+    },
+    {
+      "archivo": "POST/social/series/death-note/images/02-sinopsis-death-note.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/death-note"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/death-note/images/02-sinopsis-death-note.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/death-note/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

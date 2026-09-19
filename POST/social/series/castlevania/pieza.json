@@ -1,0 +1,41 @@
+{
+  "slug": "castlevania",
+  "tipo": "imagen",
+  "titulo": "Castlevania",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0220"
+  },
+  "vtxIds": [
+    "VTX-0220"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/castlevania/images/01-castlevania.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0220"
+    },
+    {
+      "archivo": "POST/social/series/castlevania/images/02-sinopsis-castlevania.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/castlevania"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/castlevania/images/02-sinopsis-castlevania.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/castlevania/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

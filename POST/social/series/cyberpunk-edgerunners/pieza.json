@@ -1,0 +1,41 @@
+{
+  "slug": "cyberpunk-edgerunners",
+  "tipo": "imagen",
+  "titulo": "Cyberpunk: Edgerunners",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0226"
+  },
+  "vtxIds": [
+    "VTX-0226"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/cyberpunk-edgerunners/images/01-cyberpunk-edgerunners.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0226"
+    },
+    {
+      "archivo": "POST/social/series/cyberpunk-edgerunners/images/02-sinopsis-cyberpunk-edgerunners.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/cyberpunk-edgerunners"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/cyberpunk-edgerunners/images/02-sinopsis-cyberpunk-edgerunners.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/cyberpunk-edgerunners/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

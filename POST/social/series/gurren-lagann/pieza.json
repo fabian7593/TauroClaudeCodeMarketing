@@ -1,0 +1,41 @@
+{
+  "slug": "gurren-lagann",
+  "tipo": "imagen",
+  "titulo": "Gurren Lagann",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0257"
+  },
+  "vtxIds": [
+    "VTX-0257"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/gurren-lagann/images/01-gurren-lagann.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0257"
+    },
+    {
+      "archivo": "POST/social/series/gurren-lagann/images/02-sinopsis-gurren-lagann.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/gurren-lagann"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/gurren-lagann/images/02-sinopsis-gurren-lagann.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/gurren-lagann/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

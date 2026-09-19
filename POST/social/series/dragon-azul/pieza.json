@@ -1,0 +1,41 @@
+{
+  "slug": "dragon-azul",
+  "tipo": "imagen",
+  "titulo": "Dragón Azul",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0243"
+  },
+  "vtxIds": [
+    "VTX-0243"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dragon-azul/images/01-dragon-azul.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0243"
+    },
+    {
+      "archivo": "POST/social/series/dragon-azul/images/02-sinopsis-dragon-azul.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-azul"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dragon-azul/images/02-sinopsis-dragon-azul.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dragon-azul/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

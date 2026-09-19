@@ -1,0 +1,41 @@
+{
+  "slug": "dr-stone",
+  "tipo": "imagen",
+  "titulo": "Dr. Stone",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0242"
+  },
+  "vtxIds": [
+    "VTX-0242"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dr-stone/images/01-dr-stone.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0242"
+    },
+    {
+      "archivo": "POST/social/series/dr-stone/images/02-sinopsis-dr-stone.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dr-stone"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dr-stone/images/02-sinopsis-dr-stone.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dr-stone/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

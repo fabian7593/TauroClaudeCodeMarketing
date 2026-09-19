@@ -1,0 +1,41 @@
+{
+  "slug": "inuyasha",
+  "tipo": "imagen",
+  "titulo": "Inuyasha",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0264"
+  },
+  "vtxIds": [
+    "VTX-0264"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/inuyasha/images/01-inuyasha.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0264"
+    },
+    {
+      "archivo": "POST/social/series/inuyasha/images/02-sinopsis-inuyasha.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/inuyasha"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/inuyasha/images/02-sinopsis-inuyasha.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/inuyasha/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -34,7 +34,7 @@ Datos que hay que usar (no son decorativos — cambian lo que se escribe):
 
 - **Año / antigüedad**: cambia el ángulo del texto. Un estreno reciente se vende como novedad; un clásico de hace 20-30 años se vende por nostalgia o por "si no la viste, es el momento". No trates un título de 1992 como si fuera un estreno.
 - **Temporadas / episodios / duración**: sirven para el argumento de "maratón" (muchas temporadas) o de "se ve en una noche" (miniserie, película corta). Nunca prometas más temporadas de las que dice el catálogo.
-- **Estado `Incompleto`** (+ `notas`): faltan temporadas o episodios. El texto **no puede** decir "completa", "todas las temporadas" ni "de principio a fin". Se puede publicar igual, pero sin prometer lo que falta.
+- **Estado `Incompleto`** (+ `notas`): faltan temporadas o episodios. El texto **no puede** decir "completa", "todas las temporadas" ni "de principio a fin". Se puede publicar igual, pero sin prometer lo que falta — y sin mencionar esa ausencia en tono de disculpa o carencia (nada de "todavía falta la temporada X", "por ahora solo está la primera parte", "podés ir empezando con lo que hay"). La ausencia simplemente no se nombra: se describe con entusiasmo lo que SÍ está disponible, como si fuera completo en sí mismo (ver regla 4 de `CLAUDE.md`).
 - **Colección**: si el título pertenece a una saga y la pieza cubre la colección entera, el texto habla de la saga, no de un título suelto (ver `planear-contenido`).
 
 **Cómo se dice la edad en el post** (una línea corta, amena y descriptiva — nunca un sermón tipo "no la veas con los chiquitos"):

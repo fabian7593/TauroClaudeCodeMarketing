@@ -1,0 +1,41 @@
+{
+  "slug": "jojo-s-bizarre-adventure",
+  "tipo": "imagen",
+  "titulo": "Jojo's Bizarre Adventure",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0265"
+  },
+  "vtxIds": [
+    "VTX-0265"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/jojo-s-bizarre-adventure/images/01-jojo-s-bizarre-adventure.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0265"
+    },
+    {
+      "archivo": "POST/social/series/jojo-s-bizarre-adventure/images/02-sinopsis-jojo-s-bizarre-adventure.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/jojo-s-bizarre-adventure"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/jojo-s-bizarre-adventure/images/02-sinopsis-jojo-s-bizarre-adventure.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/jojo-s-bizarre-adventure/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

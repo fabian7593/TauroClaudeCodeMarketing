@@ -1,0 +1,42 @@
+{
+  "slug": "complejo-residencial-c",
+  "tipo": "imagen",
+  "titulo": "Complejo Residencial C",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0225"
+  },
+  "vtxIds": [
+    "VTX-0225"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/complejo-residencial-c/images/01-complejo-residencial-c.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0225"
+    },
+    {
+      "archivo": "POST/social/series/complejo-residencial-c/images/02-sinopsis-complejo-residencial-c.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/complejo-residencial-c"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/complejo-residencial-c/images/02-sinopsis-complejo-residencial-c.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/complejo-residencial-c/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "TMDB (tv/195382) expone 'Original Language: English' pero es un dato mal cargado -- el reparto de voces es 100% japones (Ayahi Takagaki, Haruka Tomatsu, Wataru Hatano, etc.), el titulo es bilingue ingles/japones ('Housing Complex C' + 'C団地') y el escenario es el pueblo costero ficticio de Kurosaki (nombre japones). Verificado a mano en TMDB el 2026-09-18 antes de forzar las filas JP -- se salteo --verificar-tmdb solo para esta pieza porque el chequeo mecanico no distingue un dato mal cargado de un titulo distinto (caso similar a Bandidos de Hoy / Ju-On: Origenes en CLAUDE.md)."
+}

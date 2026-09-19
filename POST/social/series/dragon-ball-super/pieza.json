@@ -1,0 +1,41 @@
+{
+  "slug": "dragon-ball-super",
+  "tipo": "imagen",
+  "titulo": "Dragon Ball Super",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0246"
+  },
+  "vtxIds": [
+    "VTX-0246"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dragon-ball-super/images/01-dragon-ball-super.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0246"
+    },
+    {
+      "archivo": "POST/social/series/dragon-ball-super/images/02-sinopsis-dragon-ball-super.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-super"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dragon-ball-super/images/02-sinopsis-dragon-ball-super.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dragon-ball-super/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "blue-exorcist",
+  "tipo": "imagen",
+  "titulo": "Blue Exorcist",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0218"
+  },
+  "vtxIds": [
+    "VTX-0218"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/blue-exorcist/images/01-blue-exorcist.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0218"
+    },
+    {
+      "archivo": "POST/social/series/blue-exorcist/images/02-sinopsis-blue-exorcist.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/blue-exorcist"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/blue-exorcist/images/02-sinopsis-blue-exorcist.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/blue-exorcist/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

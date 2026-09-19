@@ -1,0 +1,41 @@
+{
+  "slug": "great-teacher-onizuka",
+  "tipo": "imagen",
+  "titulo": "Great Teacher Onizuka",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0256"
+  },
+  "vtxIds": [
+    "VTX-0256"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/great-teacher-onizuka/images/01-great-teacher-onizuka.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0256"
+    },
+    {
+      "archivo": "POST/social/series/great-teacher-onizuka/images/02-sinopsis-great-teacher-onizuka.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/great-teacher-onizuka"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/great-teacher-onizuka/images/02-sinopsis-great-teacher-onizuka.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/great-teacher-onizuka/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

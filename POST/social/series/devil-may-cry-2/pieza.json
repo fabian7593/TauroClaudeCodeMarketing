@@ -1,0 +1,41 @@
+{
+  "slug": "devil-may-cry-2",
+  "tipo": "imagen",
+  "titulo": "Devil May Cry",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0232"
+  },
+  "vtxIds": [
+    "VTX-0232"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/devil-may-cry-2/images/01-devil-may-cry-2025.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0232"
+    },
+    {
+      "archivo": "POST/social/series/devil-may-cry-2/images/02-sinopsis-devil-may-cry-2.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/devil-may-cry-2"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/devil-may-cry-2/images/02-sinopsis-devil-may-cry-2.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/devil-may-cry-2/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

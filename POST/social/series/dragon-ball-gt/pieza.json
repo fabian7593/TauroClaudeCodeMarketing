@@ -1,0 +1,41 @@
+{
+  "slug": "dragon-ball-gt",
+  "tipo": "imagen",
+  "titulo": "Dragon Ball GT",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0245"
+  },
+  "vtxIds": [
+    "VTX-0245"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dragon-ball-gt/images/01-dragon-ball-gt.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0245"
+    },
+    {
+      "archivo": "POST/social/series/dragon-ball-gt/images/02-sinopsis-dragon-ball-gt.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-gt"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dragon-ball-gt/images/02-sinopsis-dragon-ball-gt.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dragon-ball-gt/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "elfen-lied",
+  "tipo": "imagen",
+  "titulo": "Elfen Lied",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0249"
+  },
+  "vtxIds": [
+    "VTX-0249"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/elfen-lied/images/01-elfen-lied.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0249"
+    },
+    {
+      "archivo": "POST/social/series/elfen-lied/images/02-sinopsis-elfen-lied.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/elfen-lied"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/elfen-lied/images/02-sinopsis-elfen-lied.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/elfen-lied/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "dragon-ball-daima",
+  "tipo": "imagen",
+  "titulo": "Dragon Ball Daima",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0244"
+  },
+  "vtxIds": [
+    "VTX-0244"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dragon-ball-daima/images/01-dragon-ball-daima.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0244"
+    },
+    {
+      "archivo": "POST/social/series/dragon-ball-daima/images/02-sinopsis-dragon-ball-daima.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-daima"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dragon-ball-daima/images/02-sinopsis-dragon-ball-daima.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dragon-ball-daima/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

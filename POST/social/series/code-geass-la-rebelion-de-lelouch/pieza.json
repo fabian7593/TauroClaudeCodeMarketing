@@ -1,0 +1,41 @@
+{
+  "slug": "code-geass-la-rebelion-de-lelouch",
+  "tipo": "imagen",
+  "titulo": "Code Geass: La Rebelión de Lelouch",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0224"
+  },
+  "vtxIds": [
+    "VTX-0224"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/images/01-code-geass.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0224"
+    },
+    {
+      "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/images/02-sinopsis-code-geass-la-rebelion-de-lelouch.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/code-geass-la-rebelion-de-lelouch"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/images/02-sinopsis-code-geass-la-rebelion-de-lelouch.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

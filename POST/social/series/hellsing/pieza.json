@@ -1,0 +1,41 @@
+{
+  "slug": "hellsing",
+  "tipo": "imagen",
+  "titulo": "Hellsing",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0260"
+  },
+  "vtxIds": [
+    "VTX-0260"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/hellsing/images/01-hellsing.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0260"
+    },
+    {
+      "archivo": "POST/social/series/hellsing/images/02-sinopsis-hellsing.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/hellsing"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/hellsing/images/02-sinopsis-hellsing.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/hellsing/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

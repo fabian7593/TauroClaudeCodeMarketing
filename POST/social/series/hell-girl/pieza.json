@@ -1,0 +1,41 @@
+{
+  "slug": "hell-girl",
+  "tipo": "imagen",
+  "titulo": "Hell Girl",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0258"
+  },
+  "vtxIds": [
+    "VTX-0258"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/hell-girl/images/01-hell-girl.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0258"
+    },
+    {
+      "archivo": "POST/social/series/hell-girl/images/02-sinopsis-hell-girl.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/hell-girl"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/hell-girl/images/02-sinopsis-hell-girl.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/hell-girl/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

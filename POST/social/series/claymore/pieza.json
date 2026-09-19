@@ -1,0 +1,41 @@
+{
+  "slug": "claymore",
+  "tipo": "imagen",
+  "titulo": "Claymore",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0223"
+  },
+  "vtxIds": [
+    "VTX-0223"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/claymore/images/01-claymore.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0223"
+    },
+    {
+      "archivo": "POST/social/series/claymore/images/02-sinopsis-claymore.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/claymore"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/claymore/images/02-sinopsis-claymore.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/claymore/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

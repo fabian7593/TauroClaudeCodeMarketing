@@ -1,0 +1,41 @@
+{
+  "slug": "demon-slayer-kimetsu-no-yaiba",
+  "tipo": "imagen",
+  "titulo": "Demon Slayer: Kimetsu No Yaiba",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0229"
+  },
+  "vtxIds": [
+    "VTX-0229"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/images/01-demon-slayer.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0229"
+    },
+    {
+      "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/images/02-sinopsis-demon-slayer-kimetsu-no-yaiba.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/demon-slayer-kimetsu-no-yaiba"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/images/02-sinopsis-demon-slayer-kimetsu-no-yaiba.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

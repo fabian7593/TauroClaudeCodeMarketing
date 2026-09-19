@@ -1,0 +1,71 @@
+{
+  "slug": "digimon",
+  "tipo": "carrusel",
+  "titulo": "Digimon",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Digimon"
+  },
+  "vtxIds": [
+    "VTX-0233",
+    "VTX-0239",
+    "VTX-0237",
+    "VTX-0234",
+    "VTX-0238",
+    "VTX-0236"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/digimon/images/01-digimon1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0233"
+    },
+    {
+      "archivo": "POST/social/series/digimon/images/02-digimon2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0239"
+    },
+    {
+      "archivo": "POST/social/series/digimon/images/03-digimon3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0237"
+    },
+    {
+      "archivo": "POST/social/series/digimon/images/04-digimon4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0234"
+    },
+    {
+      "archivo": "POST/social/series/digimon/images/05-digimon5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0238"
+    },
+    {
+      "archivo": "POST/social/series/digimon/images/06-digimon6.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0236"
+    },
+    {
+      "archivo": "POST/social/series/digimon/images/07-sinopsis-digimon.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/digimon"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/digimon/images/07-sinopsis-digimon.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/digimon/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

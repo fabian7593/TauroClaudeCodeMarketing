@@ -1,0 +1,41 @@
+{
+  "slug": "chainsaw-man",
+  "tipo": "imagen",
+  "titulo": "Chainsaw Man",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0222"
+  },
+  "vtxIds": [
+    "VTX-0222"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/chainsaw-man/images/01-chainsaw-man.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0222"
+    },
+    {
+      "archivo": "POST/social/series/chainsaw-man/images/02-sinopsis-chainsaw-man.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/chainsaw-man"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/chainsaw-man/images/02-sinopsis-chainsaw-man.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/chainsaw-man/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

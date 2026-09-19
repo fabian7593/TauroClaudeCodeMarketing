@@ -1,0 +1,41 @@
+{
+  "slug": "grappler-baki",
+  "tipo": "imagen",
+  "titulo": "Grappler Baki",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0255"
+  },
+  "vtxIds": [
+    "VTX-0255"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/grappler-baki/images/01-grappler-baki.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0255"
+    },
+    {
+      "archivo": "POST/social/series/grappler-baki/images/02-sinopsis-grappler-baki.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/grappler-baki"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/grappler-baki/images/02-sinopsis-grappler-baki.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/grappler-baki/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "hunter-x-hunter",
+  "tipo": "imagen",
+  "titulo": "Hunter X Hunter",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0263"
+  },
+  "vtxIds": [
+    "VTX-0263"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/hunter-x-hunter/images/01-hunter-x-hunter.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0263"
+    },
+    {
+      "archivo": "POST/social/series/hunter-x-hunter/images/02-sinopsis-hunter-x-hunter.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/hunter-x-hunter"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/hunter-x-hunter/images/02-sinopsis-hunter-x-hunter.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/hunter-x-hunter/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Pieza rehecha con la serie de 2011 (tmdbId 46298) a pedido explícito del usuario. El Excel todavía trae en VTX-0263 el tmdbId 45952, que es la serie de 1999; las temporadas y episodios del catálogo (6 / 148) sí corresponden a la de 2011."
+}

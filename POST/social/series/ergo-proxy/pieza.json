@@ -1,0 +1,41 @@
+{
+  "slug": "ergo-proxy",
+  "tipo": "imagen",
+  "titulo": "Ergo Proxy",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0250"
+  },
+  "vtxIds": [
+    "VTX-0250"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/ergo-proxy/images/01-ergo-proxy.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0250"
+    },
+    {
+      "archivo": "POST/social/series/ergo-proxy/images/02-sinopsis-ergo-proxy.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ergo-proxy"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/ergo-proxy/images/02-sinopsis-ergo-proxy.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/ergo-proxy/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

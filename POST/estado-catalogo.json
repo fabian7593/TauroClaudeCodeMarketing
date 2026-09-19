@@ -1,8 +1,8 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
-  "generado": "2026-09-14",
-  "totalPiezas": 233,
-  "titulosConContenido": 260,
+  "generado": "2026-09-18",
+  "totalPiezas": 273,
+  "titulosConContenido": 305,
   "titulosEnCatalogo": 1401,
   "problemas": [],
   "piezas": [
@@ -551,7 +551,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-19",
+          "hora": "18:00 CR (sab)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-14",
       "nota": null
@@ -603,7 +612,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-25",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-14",
       "nota": null
@@ -802,7 +820,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-20",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-14",
       "nota": null
@@ -2585,7 +2612,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-10",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-12",
       "nota": null
@@ -2919,7 +2955,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-13",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-05",
       "nota": "Los primeros candidatos en es traian 'SOLO EN NETFLIX' quemado en el poster -- se descarto y se uso el indice 5, la misma key art sin el banner promocional."
@@ -3223,6 +3268,46 @@
       "nota": null
     },
     {
+      "slug": "blue-exorcist",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Blue Exorcist",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0218"
+      },
+      "vtxIds": [
+        "VTX-0218"
+      ],
+      "carpeta": "POST/social/series/blue-exorcist",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/blue-exorcist/images/01-blue-exorcist.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0218"
+        },
+        {
+          "archivo": "POST/social/series/blue-exorcist/images/02-sinopsis-blue-exorcist.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/blue-exorcist/images/02-sinopsis-blue-exorcist.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/blue-exorcist/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "breaking-bad",
       "categoria": "series",
       "tipo": "imagen",
@@ -3370,6 +3455,126 @@
       "nota": null
     },
     {
+      "slug": "castlevania",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Castlevania",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0220"
+      },
+      "vtxIds": [
+        "VTX-0220"
+      ],
+      "carpeta": "POST/social/series/castlevania",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/castlevania/images/01-castlevania.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0220"
+        },
+        {
+          "archivo": "POST/social/series/castlevania/images/02-sinopsis-castlevania.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/castlevania/images/02-sinopsis-castlevania.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/castlevania/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "cells-at-work",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Cells at Work!",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0221"
+      },
+      "vtxIds": [
+        "VTX-0221"
+      ],
+      "carpeta": "POST/social/series/cells-at-work",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/cells-at-work/images/01-cells-at-work.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0221"
+        },
+        {
+          "archivo": "POST/social/series/cells-at-work/images/02-sinopsis-cells-at-work.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/cells-at-work/images/02-sinopsis-cells-at-work.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/cells-at-work/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "chainsaw-man",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Chainsaw Man",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0222"
+      },
+      "vtxIds": [
+        "VTX-0222"
+      ],
+      "carpeta": "POST/social/series/chainsaw-man",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/chainsaw-man/images/01-chainsaw-man.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0222"
+        },
+        {
+          "archivo": "POST/social/series/chainsaw-man/images/02-sinopsis-chainsaw-man.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/chainsaw-man/images/02-sinopsis-chainsaw-man.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/chainsaw-man/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "chernobyl",
       "categoria": "series",
       "tipo": "imagen",
@@ -3468,6 +3673,46 @@
       "nota": null
     },
     {
+      "slug": "claymore",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Claymore",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0223"
+      },
+      "vtxIds": [
+        "VTX-0223"
+      ],
+      "carpeta": "POST/social/series/claymore",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/claymore/images/01-claymore.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0223"
+        },
+        {
+          "archivo": "POST/social/series/claymore/images/02-sinopsis-claymore.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/claymore/images/02-sinopsis-claymore.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/claymore/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "cobra-kai",
       "categoria": "series",
       "tipo": "imagen",
@@ -3514,6 +3759,46 @@
         }
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "code-geass-la-rebelion-de-lelouch",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Code Geass: La Rebelión de Lelouch",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0224"
+      },
+      "vtxIds": [
+        "VTX-0224"
+      ],
+      "carpeta": "POST/social/series/code-geass-la-rebelion-de-lelouch",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/images/01-code-geass.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0224"
+        },
+        {
+          "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/images/02-sinopsis-code-geass-la-rebelion-de-lelouch.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/images/02-sinopsis-code-geass-la-rebelion-de-lelouch.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/code-geass-la-rebelion-de-lelouch/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
       "nota": null
     },
     {
@@ -3606,6 +3891,46 @@
       "nota": "Sin candidato en espanol en TMDB (0 resultados) -- se uso ingles siguiendo el orden es(LATAM)->en->xx->default. El titulo en pantalla usa el ingles 'FISHBOWL WIVES' porque no hay poster con el titulo LATAM disponible. El indice 1 en ingles traia el logo de Netflix quemado -- se uso el indice 2, limpio."
     },
     {
+      "slug": "complejo-residencial-c",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Complejo Residencial C",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0225"
+      },
+      "vtxIds": [
+        "VTX-0225"
+      ],
+      "carpeta": "POST/social/series/complejo-residencial-c",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/complejo-residencial-c/images/01-complejo-residencial-c.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0225"
+        },
+        {
+          "archivo": "POST/social/series/complejo-residencial-c/images/02-sinopsis-complejo-residencial-c.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/complejo-residencial-c/images/02-sinopsis-complejo-residencial-c.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/complejo-residencial-c/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": "TMDB (tv/195382) expone 'Original Language: English' pero es un dato mal cargado -- el reparto de voces es 100% japones (Ayahi Takagaki, Haruka Tomatsu, Wataru Hatano, etc.), el titulo es bilingue ingles/japones ('Housing Complex C' + 'C団地') y el escenario es el pueblo costero ficticio de Kurosaki (nombre japones). Verificado a mano en TMDB el 2026-09-18 antes de forzar las filas JP -- se salteo --verificar-tmdb solo para esta pieza porque el chequeo mecanico no distingue un dato mal cargado de un titulo distinto (caso similar a Bandidos de Hoy / Ju-On: Origenes en CLAUDE.md)."
+    },
+    {
       "slug": "connect",
       "categoria": "series",
       "tipo": "imagen",
@@ -3640,9 +3965,58 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-01",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
+      "nota": null
+    },
+    {
+      "slug": "cyberpunk-edgerunners",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Cyberpunk: Edgerunners",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0226"
+      },
+      "vtxIds": [
+        "VTX-0226"
+      ],
+      "carpeta": "POST/social/series/cyberpunk-edgerunners",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/cyberpunk-edgerunners/images/01-cyberpunk-edgerunners.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0226"
+        },
+        {
+          "archivo": "POST/social/series/cyberpunk-edgerunners/images/02-sinopsis-cyberpunk-edgerunners.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/cyberpunk-edgerunners/images/02-sinopsis-cyberpunk-edgerunners.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/cyberpunk-edgerunners/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
       "nota": null
     },
     {
@@ -3686,6 +4060,46 @@
         ]
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "dan-da-dan",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "DAN DA DAN",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0227"
+      },
+      "vtxIds": [
+        "VTX-0227"
+      ],
+      "carpeta": "POST/social/series/dan-da-dan",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dan-da-dan/images/01-dan-da-dan.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0227"
+        },
+        {
+          "archivo": "POST/social/series/dan-da-dan/images/02-sinopsis-dan-da-dan.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dan-da-dan/images/02-sinopsis-dan-da-dan.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dan-da-dan/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
       "nota": null
     },
     {
@@ -3772,10 +4186,219 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-24",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": "Catálogo marca estado Incompleto: falta la temporada 3. El caption no promete la serie completa."
+    },
+    {
+      "slug": "death-note",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Death Note",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0228"
+      },
+      "vtxIds": [
+        "VTX-0228"
+      ],
+      "carpeta": "POST/social/series/death-note",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/death-note/images/01-death-note.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0228"
+        },
+        {
+          "archivo": "POST/social/series/death-note/images/02-sinopsis-death-note.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/death-note/images/02-sinopsis-death-note.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/death-note/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "demon-slayer-kimetsu-no-yaiba",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Demon Slayer: Kimetsu No Yaiba",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0229"
+      },
+      "vtxIds": [
+        "VTX-0229"
+      ],
+      "carpeta": "POST/social/series/demon-slayer-kimetsu-no-yaiba",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/images/01-demon-slayer.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0229"
+        },
+        {
+          "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/images/02-sinopsis-demon-slayer-kimetsu-no-yaiba.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/images/02-sinopsis-demon-slayer-kimetsu-no-yaiba.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/demon-slayer-kimetsu-no-yaiba/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "detroit-metal-city",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Detroit Metal City",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0230"
+      },
+      "vtxIds": [
+        "VTX-0230"
+      ],
+      "carpeta": "POST/social/series/detroit-metal-city",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/detroit-metal-city/images/01-detroit-metal-city.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0230"
+        },
+        {
+          "archivo": "POST/social/series/detroit-metal-city/images/02-sinopsis-detroit-metal-city.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/detroit-metal-city/images/02-sinopsis-detroit-metal-city.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/detroit-metal-city/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "devil-may-cry-2",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Devil May Cry",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0232"
+      },
+      "vtxIds": [
+        "VTX-0232"
+      ],
+      "carpeta": "POST/social/series/devil-may-cry-2",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/devil-may-cry-2/images/01-devil-may-cry-2025.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0232"
+        },
+        {
+          "archivo": "POST/social/series/devil-may-cry-2/images/02-sinopsis-devil-may-cry-2.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/devil-may-cry-2/images/02-sinopsis-devil-may-cry-2.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/devil-may-cry-2/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "devil-may-cry",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Devil May Cry",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0231"
+      },
+      "vtxIds": [
+        "VTX-0231"
+      ],
+      "carpeta": "POST/social/series/devil-may-cry",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/devil-may-cry/images/01-devil-may-cry-2007.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0231"
+        },
+        {
+          "archivo": "POST/social/series/devil-may-cry/images/02-sinopsis-devil-may-cry.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/devil-may-cry/images/02-sinopsis-devil-may-cry.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/devil-may-cry/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
     },
     {
       "slug": "dexter-resurreccion",
@@ -3858,6 +4481,76 @@
       "nota": null
     },
     {
+      "slug": "digimon",
+      "categoria": "series",
+      "tipo": "carrusel",
+      "titulo": "Digimon",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Digimon"
+      },
+      "vtxIds": [
+        "VTX-0233",
+        "VTX-0239",
+        "VTX-0237",
+        "VTX-0234",
+        "VTX-0238",
+        "VTX-0236"
+      ],
+      "carpeta": "POST/social/series/digimon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/digimon/images/01-digimon1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0233"
+        },
+        {
+          "archivo": "POST/social/series/digimon/images/02-digimon2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0239"
+        },
+        {
+          "archivo": "POST/social/series/digimon/images/03-digimon3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0237"
+        },
+        {
+          "archivo": "POST/social/series/digimon/images/04-digimon4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0234"
+        },
+        {
+          "archivo": "POST/social/series/digimon/images/05-digimon5.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0238"
+        },
+        {
+          "archivo": "POST/social/series/digimon/images/06-digimon6.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0236"
+        },
+        {
+          "archivo": "POST/social/series/digimon/images/07-sinopsis-digimon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/digimon/images/07-sinopsis-digimon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/digimon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "dongjae-the-good-or-the-bastard",
       "categoria": "series",
       "tipo": "imagen",
@@ -3892,7 +4585,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-27",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
       "nota": null
@@ -3978,6 +4680,46 @@
       "nota": null
     },
     {
+      "slug": "dororo",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dororo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0240"
+      },
+      "vtxIds": [
+        "VTX-0240"
+      ],
+      "carpeta": "POST/social/series/dororo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dororo/images/01-dororo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0240"
+        },
+        {
+          "archivo": "POST/social/series/dororo/images/02-sinopsis-dororo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dororo/images/02-sinopsis-dororo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dororo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "dos-hombres-y-medio",
       "categoria": "series",
       "tipo": "imagen",
@@ -4015,6 +4757,326 @@
         "plataformas": []
       },
       "creada": "2026-09-02",
+      "nota": null
+    },
+    {
+      "slug": "dota-sangre-de-dragon",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "DOTA: Sangre de Dragón",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0241"
+      },
+      "vtxIds": [
+        "VTX-0241"
+      ],
+      "carpeta": "POST/social/series/dota-sangre-de-dragon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dota-sangre-de-dragon/images/01-dota.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0241"
+        },
+        {
+          "archivo": "POST/social/series/dota-sangre-de-dragon/images/02-sinopsis-dota-sangre-de-dragon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dota-sangre-de-dragon/images/02-sinopsis-dota-sangre-de-dragon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dota-sangre-de-dragon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "dr-stone",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dr. Stone",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0242"
+      },
+      "vtxIds": [
+        "VTX-0242"
+      ],
+      "carpeta": "POST/social/series/dr-stone",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dr-stone/images/01-dr-stone.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0242"
+        },
+        {
+          "archivo": "POST/social/series/dr-stone/images/02-sinopsis-dr-stone.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dr-stone/images/02-sinopsis-dr-stone.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dr-stone/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "dragon-azul",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dragón Azul",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0243"
+      },
+      "vtxIds": [
+        "VTX-0243"
+      ],
+      "carpeta": "POST/social/series/dragon-azul",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dragon-azul/images/01-dragon-azul.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0243"
+        },
+        {
+          "archivo": "POST/social/series/dragon-azul/images/02-sinopsis-dragon-azul.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dragon-azul/images/02-sinopsis-dragon-azul.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dragon-azul/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "dragon-ball-daima",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dragon Ball Daima",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0244"
+      },
+      "vtxIds": [
+        "VTX-0244"
+      ],
+      "carpeta": "POST/social/series/dragon-ball-daima",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dragon-ball-daima/images/01-dragon-ball-daima.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0244"
+        },
+        {
+          "archivo": "POST/social/series/dragon-ball-daima/images/02-sinopsis-dragon-ball-daima.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dragon-ball-daima/images/02-sinopsis-dragon-ball-daima.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dragon-ball-daima/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "dragon-ball-gt",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dragon Ball GT",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0245"
+      },
+      "vtxIds": [
+        "VTX-0245"
+      ],
+      "carpeta": "POST/social/series/dragon-ball-gt",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dragon-ball-gt/images/01-dragon-ball-gt.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0245"
+        },
+        {
+          "archivo": "POST/social/series/dragon-ball-gt/images/02-sinopsis-dragon-ball-gt.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dragon-ball-gt/images/02-sinopsis-dragon-ball-gt.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dragon-ball-gt/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "dragon-ball-super",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dragon Ball Super",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0246"
+      },
+      "vtxIds": [
+        "VTX-0246"
+      ],
+      "carpeta": "POST/social/series/dragon-ball-super",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dragon-ball-super/images/01-dragon-ball-super.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0246"
+        },
+        {
+          "archivo": "POST/social/series/dragon-ball-super/images/02-sinopsis-dragon-ball-super.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dragon-ball-super/images/02-sinopsis-dragon-ball-super.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dragon-ball-super/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "dragon-ball-z",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dragon Ball Z",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0247"
+      },
+      "vtxIds": [
+        "VTX-0247"
+      ],
+      "carpeta": "POST/social/series/dragon-ball-z",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dragon-ball-z/images/01-dragon-ball-z.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0247"
+        },
+        {
+          "archivo": "POST/social/series/dragon-ball-z/images/02-sinopsis-dragon-ball-z.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dragon-ball-z/images/02-sinopsis-dragon-ball-z.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dragon-ball-z/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "dragon-quest-las-aventuras-de-fly",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Dragon Quest: Las Aventuras de Fly",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0248"
+      },
+      "vtxIds": [
+        "VTX-0248"
+      ],
+      "carpeta": "POST/social/series/dragon-quest-las-aventuras-de-fly",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/images/01-dragon-quest-fly.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0248"
+        },
+        {
+          "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/images/02-sinopsis-dragon-quest-las-aventuras-de-fly.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/images/02-sinopsis-dragon-quest-las-aventuras-de-fly.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/dragon-quest-las-aventuras-de-fly/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
       "nota": null
     },
     {
@@ -4252,7 +5314,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-06",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
       "nota": "Titulo 2026 muy nuevo, el catalogo no trae clasificacion de edad ni sinopsis oficial detallada -- se uso +13 como estimacion (generos Drama/Accion/Fantasia sin senal de contenido explicito) y la descripcion se mantuvo general de genero, sin inventar tramas puntuales no confirmadas. Poster: el indice 1 de TMDB en ingles traia 'A NETFLIX SERIES' + 'ONLY ON NETFLIX' quemado -- se descarto y se uso el otro candidato disponible, limpio."
@@ -4492,7 +5563,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-29",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
       "nota": "El primer candidato en es tenia un efecto de glitch/distorsion que lo hacia dificil de leer -- se descarto por calidad, no por logo, y se uso el otro candidato disponible en es (mosaico de personajes en blanco y negro), limpio y legible."
@@ -4612,7 +5692,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-12",
+          "hora": "18:00 CR (sab)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -4772,7 +5861,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-26",
+          "hora": "18:00 CR (sab)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -4852,7 +5950,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-15",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -4938,6 +6045,46 @@
       "nota": null
     },
     {
+      "slug": "elfen-lied",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Elfen Lied",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0249"
+      },
+      "vtxIds": [
+        "VTX-0249"
+      ],
+      "carpeta": "POST/social/series/elfen-lied",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/elfen-lied/images/01-elfen-lied.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0249"
+        },
+        {
+          "archivo": "POST/social/series/elfen-lied/images/02-sinopsis-elfen-lied.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/elfen-lied/images/02-sinopsis-elfen-lied.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/elfen-lied/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "eliminar",
       "categoria": "series",
       "tipo": "imagen",
@@ -5015,6 +6162,46 @@
         "plataformas": []
       },
       "creada": "2026-09-06",
+      "nota": null
+    },
+    {
+      "slug": "ergo-proxy",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Ergo Proxy",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0250"
+      },
+      "vtxIds": [
+        "VTX-0250"
+      ],
+      "carpeta": "POST/social/series/ergo-proxy",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/ergo-proxy/images/01-ergo-proxy.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0250"
+        },
+        {
+          "archivo": "POST/social/series/ergo-proxy/images/02-sinopsis-ergo-proxy.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/ergo-proxy/images/02-sinopsis-ergo-proxy.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/ergo-proxy/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
       "nota": null
     },
     {
@@ -5098,6 +6285,46 @@
       "nota": null
     },
     {
+      "slug": "escuadron-suicida-isekai",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Escuadrón Suicida: Isekai",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0251"
+      },
+      "vtxIds": [
+        "VTX-0251"
+      ],
+      "carpeta": "POST/social/series/escuadron-suicida-isekai",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/escuadron-suicida-isekai/images/01-escuadron-suicida-isekai.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0251"
+        },
+        {
+          "archivo": "POST/social/series/escuadron-suicida-isekai/images/02-sinopsis-escuadron-suicida-isekai.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/escuadron-suicida-isekai/images/02-sinopsis-escuadron-suicida-isekai.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/escuadron-suicida-isekai/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "eso",
       "categoria": "series",
       "tipo": "imagen",
@@ -5178,6 +6405,46 @@
       "nota": "El poster mostraba texto en pinyin (romanizacion china) -- se identifico como produccion CHINA, no coreana, pese a estar en la categoria 'Doramas' del catalogo que agrupa varios paises asiaticos. Se agrego bandera CN nueva a la plantilla para este caso."
     },
     {
+      "slug": "espiritu-de-lucha-hajime-no-ippo",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Espíritu de Lucha: Hajime No Ippo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0252"
+      },
+      "vtxIds": [
+        "VTX-0252"
+      ],
+      "carpeta": "POST/social/series/espiritu-de-lucha-hajime-no-ippo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/images/01-hajime-no-ippo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0252"
+        },
+        {
+          "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/images/02-sinopsis-espiritu-de-lucha-hajime-no-ippo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/images/02-sinopsis-espiritu-de-lucha-hajime-no-ippo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/espiritu-de-lucha-hajime-no-ippo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "estamos-muertos",
       "categoria": "series",
       "tipo": "imagen",
@@ -5212,7 +6479,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-18",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -5372,7 +6648,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-22",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
       "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema central de venganza/manipulacion adulta."
@@ -5618,6 +6903,46 @@
       "nota": null
     },
     {
+      "slug": "fullmetal-alchemist-brotherhood",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Fullmetal Alchemist: Brotherhood",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0253"
+      },
+      "vtxIds": [
+        "VTX-0253"
+      ],
+      "carpeta": "POST/social/series/fullmetal-alchemist-brotherhood",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/images/01-fma-brotherhood.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0253"
+        },
+        {
+          "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/images/02-sinopsis-fullmetal-alchemist-brotherhood.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/images/02-sinopsis-fullmetal-alchemist-brotherhood.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/fullmetal-alchemist-brotherhood/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "futurama",
       "categoria": "series",
       "tipo": "imagen",
@@ -5707,6 +7032,46 @@
       "nota": null
     },
     {
+      "slug": "gantz",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Gantz",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0254"
+      },
+      "vtxIds": [
+        "VTX-0254"
+      ],
+      "carpeta": "POST/social/series/gantz",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/gantz/images/01-gantz.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0254"
+        },
+        {
+          "archivo": "POST/social/series/gantz/images/02-sinopsis-gantz.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/gantz/images/02-sinopsis-gantz.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/gantz/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "genius",
       "categoria": "series",
       "tipo": "carrusel",
@@ -5755,6 +7120,86 @@
       },
       "creada": "2026-09-02",
       "nota": "Serie antológica de National Geographic con 3 temporadas (Einstein, Picasso, Aretha Franklin), TODAS incluidas. El catálogo la tenía cargada como 'Genius: Einstein' pero temporadas='1 a 3' confirma que cubre las 3. Ninguna variante de póster en español ni sin texto estaba disponible en TMDB para este título: se usó la mejor variante en inglés sin logo de plataforma para cada temporada (Aretha en particular tenía Disney+ quemado en casi todas las variantes)."
+    },
+    {
+      "slug": "grappler-baki",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Grappler Baki",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0255"
+      },
+      "vtxIds": [
+        "VTX-0255"
+      ],
+      "carpeta": "POST/social/series/grappler-baki",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/grappler-baki/images/01-grappler-baki.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0255"
+        },
+        {
+          "archivo": "POST/social/series/grappler-baki/images/02-sinopsis-grappler-baki.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/grappler-baki/images/02-sinopsis-grappler-baki.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/grappler-baki/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "great-teacher-onizuka",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Great Teacher Onizuka",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0256"
+      },
+      "vtxIds": [
+        "VTX-0256"
+      ],
+      "carpeta": "POST/social/series/great-teacher-onizuka",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/great-teacher-onizuka/images/01-great-teacher-onizuka.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0256"
+        },
+        {
+          "archivo": "POST/social/series/great-teacher-onizuka/images/02-sinopsis-great-teacher-onizuka.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/great-teacher-onizuka/images/02-sinopsis-great-teacher-onizuka.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/great-teacher-onizuka/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
     },
     {
       "slug": "grupo-de-estudio",
@@ -5846,6 +7291,46 @@
       "nota": null
     },
     {
+      "slug": "gurren-lagann",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Gurren Lagann",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0257"
+      },
+      "vtxIds": [
+        "VTX-0257"
+      ],
+      "carpeta": "POST/social/series/gurren-lagann",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/gurren-lagann/images/01-gurren-lagann.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0257"
+        },
+        {
+          "archivo": "POST/social/series/gurren-lagann/images/02-sinopsis-gurren-lagann.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/gurren-lagann/images/02-sinopsis-gurren-lagann.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/gurren-lagann/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "halo",
       "categoria": "series",
       "tipo": "imagen",
@@ -5924,6 +7409,126 @@
       },
       "creada": "2026-09-06",
       "nota": "El primer candidato en es traia el logo de Netflix quemado -- se descarto y se uso otro candidato disponible en es, limpio."
+    },
+    {
+      "slug": "hell-girl",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Hell Girl",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0258"
+      },
+      "vtxIds": [
+        "VTX-0258"
+      ],
+      "carpeta": "POST/social/series/hell-girl",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/hell-girl/images/01-hell-girl.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0258"
+        },
+        {
+          "archivo": "POST/social/series/hell-girl/images/02-sinopsis-hell-girl.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/hell-girl/images/02-sinopsis-hell-girl.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/hell-girl/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "hell-s-paradise",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Hell's Paradise",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0259"
+      },
+      "vtxIds": [
+        "VTX-0259"
+      ],
+      "carpeta": "POST/social/series/hell-s-paradise",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/hell-s-paradise/images/01-hell-s-paradise.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0259"
+        },
+        {
+          "archivo": "POST/social/series/hell-s-paradise/images/02-sinopsis-hell-s-paradise.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/hell-s-paradise/images/02-sinopsis-hell-s-paradise.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/hell-s-paradise/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "hellsing",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Hellsing",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0260"
+      },
+      "vtxIds": [
+        "VTX-0260"
+      ],
+      "carpeta": "POST/social/series/hellsing",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/hellsing/images/01-hellsing.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0260"
+        },
+        {
+          "archivo": "POST/social/series/hellsing/images/02-sinopsis-hellsing.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/hellsing/images/02-sinopsis-hellsing.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/hellsing/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
     },
     {
       "slug": "helstrom",
@@ -6006,6 +7611,86 @@
       "nota": null
     },
     {
+      "slug": "highschool-of-the-dead",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Highschool of the Dead",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0261"
+      },
+      "vtxIds": [
+        "VTX-0261"
+      ],
+      "carpeta": "POST/social/series/highschool-of-the-dead",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/highschool-of-the-dead/images/01-highschool-of-the-dead.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0261"
+        },
+        {
+          "archivo": "POST/social/series/highschool-of-the-dead/images/02-sinopsis-highschool-of-the-dead.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/highschool-of-the-dead/images/02-sinopsis-highschool-of-the-dead.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/highschool-of-the-dead/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
+      "slug": "hunter-x-hunter",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Hunter X Hunter",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0263"
+      },
+      "vtxIds": [
+        "VTX-0263"
+      ],
+      "carpeta": "POST/social/series/hunter-x-hunter",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/hunter-x-hunter/images/01-hunter-x-hunter.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0263"
+        },
+        {
+          "archivo": "POST/social/series/hunter-x-hunter/images/02-sinopsis-hunter-x-hunter.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/hunter-x-hunter/images/02-sinopsis-hunter-x-hunter.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/hunter-x-hunter/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": "Pieza rehecha con la serie de 2011 (tmdbId 46298) a pedido explícito del usuario. El Excel todavía trae en VTX-0263 el tmdbId 45952, que es la serie de 1999; las temporadas y episodios del catálogo (6 / 148) sí corresponden a la de 2011."
+    },
+    {
       "slug": "insania",
       "categoria": "series",
       "tipo": "imagen",
@@ -6044,6 +7729,46 @@
       },
       "creada": "2026-09-02",
       "nota": "El catálogo no trae clasificación por edad ni sinopsis detallada para este título; la descripción se mantuvo deliberadamente general por no tener certeza suficiente del argumento exacto."
+    },
+    {
+      "slug": "inuyasha",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Inuyasha",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0264"
+      },
+      "vtxIds": [
+        "VTX-0264"
+      ],
+      "carpeta": "POST/social/series/inuyasha",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/inuyasha/images/01-inuyasha.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0264"
+        },
+        {
+          "archivo": "POST/social/series/inuyasha/images/02-sinopsis-inuyasha.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/inuyasha/images/02-sinopsis-inuyasha.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/inuyasha/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
     },
     {
       "slug": "invasion-secreta",
@@ -6215,6 +7940,46 @@
       "nota": null
     },
     {
+      "slug": "jojo-s-bizarre-adventure",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Jojo's Bizarre Adventure",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0265"
+      },
+      "vtxIds": [
+        "VTX-0265"
+      ],
+      "carpeta": "POST/social/series/jojo-s-bizarre-adventure",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/jojo-s-bizarre-adventure/images/01-jojo-s-bizarre-adventure.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0265"
+        },
+        {
+          "archivo": "POST/social/series/jojo-s-bizarre-adventure/images/02-sinopsis-jojo-s-bizarre-adventure.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/jojo-s-bizarre-adventure/images/02-sinopsis-jojo-s-bizarre-adventure.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/jojo-s-bizarre-adventure/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-09-18",
+      "nota": null
+    },
+    {
       "slug": "ju-on-origenes",
       "categoria": "series",
       "tipo": "imagen",
@@ -6289,7 +8054,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-27",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -6409,7 +8183,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-22",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
       "nota": null
@@ -6947,7 +8730,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-17",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-06",
       "nota": "El catalogo no trae clasificacion de edad -- se uso +18 (conservador) por el tema de corrupcion/crimen financiero."
@@ -7116,7 +8908,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-08",
+          "hora": "19:00 CR (mar)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -7196,7 +8997,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-11",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-14",
       "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para mayores de 13' por el tono general del dorama (romance/comedia con temas de clase social y algo de bullying escolar, sin contenido explicito)."
@@ -7405,7 +9215,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-26",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -7445,7 +9264,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-03",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -7605,7 +9433,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-05",
+          "hora": "18:00 CR (sab)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -7894,7 +9731,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-28",
+          "hora": "18:00 CR (sab)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-14",
       "nota": null
@@ -7974,7 +9820,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-24",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -8174,7 +10029,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-31",
+          "hora": "19:00 CR (jue)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-02",
       "nota": null
@@ -8521,7 +10385,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-04",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-03",
       "nota": null
@@ -8899,7 +10772,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-20",
+          "hora": "20:00 CR (vie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-03",
       "nota": null
@@ -9028,7 +10910,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-21",
+          "hora": "18:00 CR (sab)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-03",
       "nota": null
@@ -9637,7 +11528,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-11-29",
+          "hora": "19:00 CR (dom)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-04",
       "nota": null
@@ -11621,11 +13521,371 @@
       ]
     },
     {
+      "vtxId": "VTX-0218",
+      "titulo": "Blue Exorcist",
+      "coleccion": "Blue Exorcist",
+      "piezas": [
+        "blue-exorcist"
+      ]
+    },
+    {
       "vtxId": "VTX-0219",
       "titulo": "Boku No Hero Academia: Misión Mundial de Héroes",
       "coleccion": "My Hero Academia",
       "piezas": [
         "my-hero-academia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0220",
+      "titulo": "Castlevania",
+      "coleccion": null,
+      "piezas": [
+        "castlevania"
+      ]
+    },
+    {
+      "vtxId": "VTX-0221",
+      "titulo": "Cells at Work!",
+      "coleccion": null,
+      "piezas": [
+        "cells-at-work"
+      ]
+    },
+    {
+      "vtxId": "VTX-0222",
+      "titulo": "Chainsaw Man",
+      "coleccion": null,
+      "piezas": [
+        "chainsaw-man"
+      ]
+    },
+    {
+      "vtxId": "VTX-0223",
+      "titulo": "Claymore",
+      "coleccion": null,
+      "piezas": [
+        "claymore"
+      ]
+    },
+    {
+      "vtxId": "VTX-0224",
+      "titulo": "Code Geass: La Rebelión de Lelouch",
+      "coleccion": null,
+      "piezas": [
+        "code-geass-la-rebelion-de-lelouch"
+      ]
+    },
+    {
+      "vtxId": "VTX-0225",
+      "titulo": "Complejo Residencial C",
+      "coleccion": null,
+      "piezas": [
+        "complejo-residencial-c"
+      ]
+    },
+    {
+      "vtxId": "VTX-0226",
+      "titulo": "Cyberpunk: Edgerunners",
+      "coleccion": null,
+      "piezas": [
+        "cyberpunk-edgerunners"
+      ]
+    },
+    {
+      "vtxId": "VTX-0227",
+      "titulo": "DAN DA DAN",
+      "coleccion": null,
+      "piezas": [
+        "dan-da-dan"
+      ]
+    },
+    {
+      "vtxId": "VTX-0228",
+      "titulo": "Death Note",
+      "coleccion": null,
+      "piezas": [
+        "death-note"
+      ]
+    },
+    {
+      "vtxId": "VTX-0229",
+      "titulo": "Demon Slayer: Kimetsu No Yaiba",
+      "coleccion": "Demon Slayer: Kimetsu no Yaiba",
+      "piezas": [
+        "demon-slayer-kimetsu-no-yaiba"
+      ]
+    },
+    {
+      "vtxId": "VTX-0230",
+      "titulo": "Detroit Metal City",
+      "coleccion": null,
+      "piezas": [
+        "detroit-metal-city"
+      ]
+    },
+    {
+      "vtxId": "VTX-0231",
+      "titulo": "Devil May Cry",
+      "coleccion": "Devil May Cry",
+      "piezas": [
+        "devil-may-cry"
+      ]
+    },
+    {
+      "vtxId": "VTX-0232",
+      "titulo": "Devil May Cry",
+      "coleccion": "Devil May Cry",
+      "piezas": [
+        "devil-may-cry-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-0233",
+      "titulo": "Digimon",
+      "coleccion": "Digimon",
+      "piezas": [
+        "digimon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0234",
+      "titulo": "Digimon Adventure (2020)",
+      "coleccion": "Digimon",
+      "piezas": [
+        "digimon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0236",
+      "titulo": "Digimon Beatbreak",
+      "coleccion": "Digimon",
+      "piezas": [
+        "digimon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0237",
+      "titulo": "Digimon Frontier",
+      "coleccion": "Digimon",
+      "piezas": [
+        "digimon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0238",
+      "titulo": "Digimon Ghost Game",
+      "coleccion": "Digimon",
+      "piezas": [
+        "digimon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0239",
+      "titulo": "Digimon Tamers",
+      "coleccion": "Digimon",
+      "piezas": [
+        "digimon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0240",
+      "titulo": "Dororo",
+      "coleccion": null,
+      "piezas": [
+        "dororo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0241",
+      "titulo": "DOTA: Sangre de Dragón",
+      "coleccion": null,
+      "piezas": [
+        "dota-sangre-de-dragon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0242",
+      "titulo": "Dr. Stone",
+      "coleccion": null,
+      "piezas": [
+        "dr-stone"
+      ]
+    },
+    {
+      "vtxId": "VTX-0243",
+      "titulo": "Dragón Azul",
+      "coleccion": null,
+      "piezas": [
+        "dragon-azul"
+      ]
+    },
+    {
+      "vtxId": "VTX-0244",
+      "titulo": "Dragon Ball Daima",
+      "coleccion": null,
+      "piezas": [
+        "dragon-ball-daima"
+      ]
+    },
+    {
+      "vtxId": "VTX-0245",
+      "titulo": "Dragon Ball GT",
+      "coleccion": null,
+      "piezas": [
+        "dragon-ball-gt"
+      ]
+    },
+    {
+      "vtxId": "VTX-0246",
+      "titulo": "Dragon Ball Super",
+      "coleccion": null,
+      "piezas": [
+        "dragon-ball-super"
+      ]
+    },
+    {
+      "vtxId": "VTX-0247",
+      "titulo": "Dragon Ball Z",
+      "coleccion": null,
+      "piezas": [
+        "dragon-ball-z"
+      ]
+    },
+    {
+      "vtxId": "VTX-0248",
+      "titulo": "Dragon Quest: Las Aventuras de Fly",
+      "coleccion": null,
+      "piezas": [
+        "dragon-quest-las-aventuras-de-fly"
+      ]
+    },
+    {
+      "vtxId": "VTX-0249",
+      "titulo": "Elfen Lied",
+      "coleccion": null,
+      "piezas": [
+        "elfen-lied"
+      ]
+    },
+    {
+      "vtxId": "VTX-0250",
+      "titulo": "Ergo Proxy",
+      "coleccion": null,
+      "piezas": [
+        "ergo-proxy"
+      ]
+    },
+    {
+      "vtxId": "VTX-0251",
+      "titulo": "Escuadrón Suicida: Isekai",
+      "coleccion": null,
+      "piezas": [
+        "escuadron-suicida-isekai"
+      ]
+    },
+    {
+      "vtxId": "VTX-0252",
+      "titulo": "Espíritu de Lucha: Hajime No Ippo",
+      "coleccion": null,
+      "piezas": [
+        "espiritu-de-lucha-hajime-no-ippo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0253",
+      "titulo": "Fullmetal Alchemist: Brotherhood",
+      "coleccion": null,
+      "piezas": [
+        "fullmetal-alchemist-brotherhood"
+      ]
+    },
+    {
+      "vtxId": "VTX-0254",
+      "titulo": "Gantz",
+      "coleccion": null,
+      "piezas": [
+        "gantz"
+      ]
+    },
+    {
+      "vtxId": "VTX-0255",
+      "titulo": "Grappler Baki",
+      "coleccion": "Baki",
+      "piezas": [
+        "grappler-baki"
+      ]
+    },
+    {
+      "vtxId": "VTX-0256",
+      "titulo": "Great Teacher Onizuka",
+      "coleccion": null,
+      "piezas": [
+        "great-teacher-onizuka"
+      ]
+    },
+    {
+      "vtxId": "VTX-0257",
+      "titulo": "Gurren Lagann",
+      "coleccion": null,
+      "piezas": [
+        "gurren-lagann"
+      ]
+    },
+    {
+      "vtxId": "VTX-0258",
+      "titulo": "Hell Girl",
+      "coleccion": null,
+      "piezas": [
+        "hell-girl"
+      ]
+    },
+    {
+      "vtxId": "VTX-0259",
+      "titulo": "Hell's Paradise",
+      "coleccion": null,
+      "piezas": [
+        "hell-s-paradise"
+      ]
+    },
+    {
+      "vtxId": "VTX-0260",
+      "titulo": "Hellsing",
+      "coleccion": null,
+      "piezas": [
+        "hellsing"
+      ]
+    },
+    {
+      "vtxId": "VTX-0261",
+      "titulo": "Highschool of the Dead",
+      "coleccion": null,
+      "piezas": [
+        "highschool-of-the-dead"
+      ]
+    },
+    {
+      "vtxId": "VTX-0263",
+      "titulo": "Hunter X Hunter",
+      "coleccion": null,
+      "piezas": [
+        "hunter-x-hunter"
+      ]
+    },
+    {
+      "vtxId": "VTX-0264",
+      "titulo": "Inuyasha",
+      "coleccion": null,
+      "piezas": [
+        "inuyasha"
+      ]
+    },
+    {
+      "vtxId": "VTX-0265",
+      "titulo": "Jojo's Bizarre Adventure",
+      "coleccion": null,
+      "piezas": [
+        "jojo-s-bizarre-adventure"
       ]
     },
     {

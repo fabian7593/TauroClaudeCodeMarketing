@@ -1,0 +1,41 @@
+{
+  "slug": "dota-sangre-de-dragon",
+  "tipo": "imagen",
+  "titulo": "DOTA: Sangre de Dragón",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0241"
+  },
+  "vtxIds": [
+    "VTX-0241"
+  ],
+  "creada": "2026-09-18",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/dota-sangre-de-dragon/images/01-dota.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0241"
+    },
+    {
+      "archivo": "POST/social/series/dota-sangre-de-dragon/images/02-sinopsis-dota-sangre-de-dragon.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dota-sangre-de-dragon"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/dota-sangre-de-dragon/images/02-sinopsis-dota-sangre-de-dragon.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/dota-sangre-de-dragon/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
