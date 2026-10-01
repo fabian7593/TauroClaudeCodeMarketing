@@ -1,0 +1,41 @@
+{
+  "slug": "nobody-knows",
+  "tipo": "imagen",
+  "titulo": "Nobody Knows",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0185"
+  },
+  "vtxIds": [
+    "VTX-0185"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/nobody-knows/images/01-nobody-knows.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0185"
+    },
+    {
+      "archivo": "POST/social/series/nobody-knows/images/02-sinopsis-nobody-knows.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/nobody-knows"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/nobody-knows/images/02-sinopsis-nobody-knows.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/nobody-knows/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

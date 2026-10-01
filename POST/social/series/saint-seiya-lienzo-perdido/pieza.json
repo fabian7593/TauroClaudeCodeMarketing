@@ -1,0 +1,41 @@
+{
+  "slug": "saint-seiya-lienzo-perdido",
+  "tipo": "imagen",
+  "titulo": "Los Guerreros del Zodiaco: El Lienzo Perdido",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0277"
+  },
+  "vtxIds": [
+    "VTX-0277"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/saint-seiya-lienzo-perdido/images/01-saint-seiya-lienzo-perdido.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0277"
+    },
+    {
+      "archivo": "POST/social/series/saint-seiya-lienzo-perdido/images/02-sinopsis-saint-seiya-lienzo-perdido.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/saint-seiya-lienzo-perdido"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/saint-seiya-lienzo-perdido/images/02-sinopsis-saint-seiya-lienzo-perdido.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/saint-seiya-lienzo-perdido/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

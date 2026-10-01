@@ -1,0 +1,41 @@
+{
+  "slug": "mr-pickles",
+  "tipo": "imagen",
+  "titulo": "Mr. Pickles",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0325"
+  },
+  "vtxIds": [
+    "VTX-0325"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/mr-pickles/images/01-mr-pickles.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0325"
+    },
+    {
+      "archivo": "POST/social/series/mr-pickles/images/02-sinopsis-mr-pickles.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/mr-pickles"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/mr-pickles/images/02-sinopsis-mr-pickles.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/mr-pickles/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "digimon-adventure-tri",
+  "tipo": "carrusel",
+  "titulo": "Digimon Adventure Tri",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Digimon Adventure Tri"
+  },
+  "vtxIds": [
+    "VTX-0235"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/digimon-adventure-tri/images/01-tri-1.png",
+      "tipo": "arte"
+    },
+    {
+      "archivo": "POST/social/peliculas/digimon-adventure-tri/images/02-tri-2.png",
+      "tipo": "arte"
+    },
+    {
+      "archivo": "POST/social/peliculas/digimon-adventure-tri/images/03-tri-3.png",
+      "tipo": "arte"
+    },
+    {
+      "archivo": "POST/social/peliculas/digimon-adventure-tri/images/04-tri-4.png",
+      "tipo": "arte"
+    },
+    {
+      "archivo": "POST/social/peliculas/digimon-adventure-tri/images/05-tri-5.png",
+      "tipo": "arte"
+    },
+    {
+      "archivo": "POST/social/peliculas/digimon-adventure-tri/images/06-tri-6.png",
+      "tipo": "arte"
+    },
+    {
+      "archivo": "POST/social/peliculas/digimon-adventure-tri/images/07-sinopsis-digimon-adventure-tri.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/digimon-adventure-tri"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/digimon-adventure-tri/images/07-sinopsis-digimon-adventure-tri.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/digimon-adventure-tri/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

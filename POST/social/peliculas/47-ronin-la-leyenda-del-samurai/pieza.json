@@ -1,0 +1,41 @@
+{
+  "slug": "47-ronin-la-leyenda-del-samurai",
+  "tipo": "imagen",
+  "titulo": "47 Ronin: La Leyenda del Samurái",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0433"
+  },
+  "vtxIds": [
+    "VTX-0433"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/47-ronin-la-leyenda-del-samurai/images/01-47-ronin.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0433"
+    },
+    {
+      "archivo": "POST/social/peliculas/47-ronin-la-leyenda-del-samurai/images/02-sinopsis-47-ronin-la-leyenda-del-samurai.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/47-ronin-la-leyenda-del-samurai"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/47-ronin-la-leyenda-del-samurai/images/02-sinopsis-47-ronin-la-leyenda-del-samurai.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/47-ronin-la-leyenda-del-samurai/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

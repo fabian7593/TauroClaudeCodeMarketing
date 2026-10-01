@@ -1,0 +1,89 @@
+{
+  "slug": "toy-story",
+  "tipo": "carrusel",
+  "titulo": "Toy Story",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Toy Story"
+  },
+  "vtxIds": [
+    "VTX-1388",
+    "VTX-1389",
+    "VTX-1390",
+    "VTX-1394",
+    "VTX-1393",
+    "VTX-1392",
+    "VTX-1395",
+    "VTX-1391",
+    "VTX-1191"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/01-toystory1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1388"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/02-toystory2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1389"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/03-toystory3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1390"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/04-toystory-buzz.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1394"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/05-toystory-saurus.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1393"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/06-toystory-terror.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1392"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/07-toystory-olvidados.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1395"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/08-toystory4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1391"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/09-toystory5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1191"
+    },
+    {
+      "archivo": "POST/social/peliculas/toy-story/images/10-sinopsis-toy-story.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/toy-story"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/toy-story/images/10-sinopsis-toy-story.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/toy-story/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

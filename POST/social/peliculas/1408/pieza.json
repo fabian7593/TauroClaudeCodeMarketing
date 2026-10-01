@@ -1,0 +1,41 @@
+{
+  "slug": "1408",
+  "tipo": "imagen",
+  "titulo": "1408",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0420"
+  },
+  "vtxIds": [
+    "VTX-0420"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/1408/images/01-1408.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0420"
+    },
+    {
+      "archivo": "POST/social/peliculas/1408/images/02-sinopsis-1408.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/1408"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/1408/images/02-sinopsis-1408.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/1408/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

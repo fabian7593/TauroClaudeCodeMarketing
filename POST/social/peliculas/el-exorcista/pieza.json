@@ -1,0 +1,59 @@
+{
+  "slug": "el-exorcista",
+  "tipo": "carrusel",
+  "titulo": "El Exorcista",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "El Exorcista"
+  },
+  "vtxIds": [
+    "VTX-0880",
+    "VTX-0881",
+    "VTX-0882",
+    "VTX-0539"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-exorcista/images/01-exorcista-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0880"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-exorcista/images/02-exorcista-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0881"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-exorcista/images/03-exorcista-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0882"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-exorcista/images/04-exorcista-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0539"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-exorcista/images/05-sinopsis-el-exorcista.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-exorcista"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-exorcista/images/05-sinopsis-el-exorcista.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-exorcista/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

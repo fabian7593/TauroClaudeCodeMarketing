@@ -1,0 +1,41 @@
+{
+  "slug": "7-prisioneros",
+  "tipo": "imagen",
+  "titulo": "7 Prisioneros",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0438"
+  },
+  "vtxIds": [
+    "VTX-0438"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/7-prisioneros/images/01-7-prisioneros.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0438"
+    },
+    {
+      "archivo": "POST/social/peliculas/7-prisioneros/images/02-sinopsis-7-prisioneros.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/7-prisioneros"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/7-prisioneros/images/02-sinopsis-7-prisioneros.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/7-prisioneros/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

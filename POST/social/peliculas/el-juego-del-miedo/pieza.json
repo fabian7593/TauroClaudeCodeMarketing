@@ -1,0 +1,95 @@
+{
+  "slug": "el-juego-del-miedo",
+  "tipo": "carrusel",
+  "titulo": "El Juego del Miedo",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "El Juego del Miedo"
+  },
+  "vtxIds": [
+    "VTX-0894",
+    "VTX-0895",
+    "VTX-0896",
+    "VTX-0897",
+    "VTX-0898",
+    "VTX-0899",
+    "VTX-0900",
+    "VTX-0996",
+    "VTX-0935",
+    "VTX-0668"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/01-saw-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0894"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/02-saw-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0895"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/03-saw-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0896"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/04-saw-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0897"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/05-saw-5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0898"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/06-saw-6.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0899"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/07-saw-7.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0900"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/08-jigsaw.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0996"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/09-espiral.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0935"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/10-saw-x.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0668"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-juego-del-miedo/images/11-sinopsis-el-juego-del-miedo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-juego-del-miedo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-juego-del-miedo/images/11-sinopsis-el-juego-del-miedo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-juego-del-miedo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "my-hero-academia-vigilantes",
+  "tipo": "imagen",
+  "titulo": "My Hero Academia: Vigilantes",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0283"
+  },
+  "vtxIds": [
+    "VTX-0283"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/my-hero-academia-vigilantes/images/01-my-hero-academia-vigilantes.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0283"
+    },
+    {
+      "archivo": "POST/social/series/my-hero-academia-vigilantes/images/02-sinopsis-my-hero-academia-vigilantes.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/my-hero-academia-vigilantes"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/my-hero-academia-vigilantes/images/02-sinopsis-my-hero-academia-vigilantes.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/my-hero-academia-vigilantes/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

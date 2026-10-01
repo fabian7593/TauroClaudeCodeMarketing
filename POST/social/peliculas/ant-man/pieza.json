@@ -1,0 +1,53 @@
+{
+  "slug": "ant-man",
+  "tipo": "carrusel",
+  "titulo": "Ant-Man",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Ant-Man"
+  },
+  "vtxIds": [
+    "VTX-0780",
+    "VTX-0778",
+    "VTX-0779"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/ant-man/images/01-antman1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0780"
+    },
+    {
+      "archivo": "POST/social/peliculas/ant-man/images/02-antman2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0778"
+    },
+    {
+      "archivo": "POST/social/peliculas/ant-man/images/03-antman3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0779"
+    },
+    {
+      "archivo": "POST/social/peliculas/ant-man/images/04-sinopsis-ant-man.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ant-man"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/ant-man/images/04-sinopsis-ant-man.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/ant-man/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

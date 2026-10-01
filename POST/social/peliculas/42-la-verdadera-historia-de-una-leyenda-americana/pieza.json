@@ -1,0 +1,41 @@
+{
+  "slug": "42-la-verdadera-historia-de-una-leyenda-americana",
+  "tipo": "imagen",
+  "titulo": "42: La Verdadera Historia de una Leyenda Americana",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0432"
+  },
+  "vtxIds": [
+    "VTX-0432"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/42-la-verdadera-historia-de-una-leyenda-americana/images/01-42.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0432"
+    },
+    {
+      "archivo": "POST/social/peliculas/42-la-verdadera-historia-de-una-leyenda-americana/images/02-sinopsis-42-la-verdadera-historia-de-una-leyenda-americana.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/42-la-verdadera-historia-de-una-leyenda-americana"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/42-la-verdadera-historia-de-una-leyenda-americana/images/02-sinopsis-42-la-verdadera-historia-de-una-leyenda-americana.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/42-la-verdadera-historia-de-una-leyenda-americana/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

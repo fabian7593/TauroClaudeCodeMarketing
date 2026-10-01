@@ -1,0 +1,41 @@
+{
+  "slug": "campamento-de-verano",
+  "tipo": "imagen",
+  "titulo": "Campamento de Verano",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0339"
+  },
+  "vtxIds": [
+    "VTX-0339"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/campamento-de-verano/images/01-campamento-de-verano.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0339"
+    },
+    {
+      "archivo": "POST/social/series/campamento-de-verano/images/02-sinopsis-campamento-de-verano.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/campamento-de-verano"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/campamento-de-verano/images/02-sinopsis-campamento-de-verano.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/campamento-de-verano/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

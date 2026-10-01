@@ -1,0 +1,41 @@
+{
+  "slug": "propuesta-laboral",
+  "tipo": "imagen",
+  "titulo": "Propuesta Laboral",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0188"
+  },
+  "vtxIds": [
+    "VTX-0188"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/propuesta-laboral/images/01-propuesta-laboral.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0188"
+    },
+    {
+      "archivo": "POST/social/series/propuesta-laboral/images/02-sinopsis-propuesta-laboral.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/propuesta-laboral"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/propuesta-laboral/images/02-sinopsis-propuesta-laboral.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/propuesta-laboral/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

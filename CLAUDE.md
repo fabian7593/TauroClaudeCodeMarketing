@@ -8,7 +8,7 @@ Bankai+ es el servicio B2C de streaming de VORTEX TV, dirigido a Costa Rica y el
 - Standard: ₡4,500/mes
 - Family: ₡6,000/mes
 - El precio "desde" que se usa en los posts (el más barato, Basic) va en USD con signo $. Standard y Family quedan en colones hasta que se confirme su conversión — no inventar ese tipo de cambio.
-- **La línea de invitación del post (punto 7 de la estructura, abajo) ya NO menciona precio.** Desde 2026-09-16, en vez de "Planes desde $6 al mes" (o cualquier variante de precio) cierra siempre con: "Registrate en nuestra plataforma bankaiplus.com y obten un mes gratis 🤩" — pedido explícito del usuario. Aplica a piezas nuevas de acá en adelante; no se edita retroactivamente lo ya publicado.
+- **El gancho de "gratis" vive en el CTA fijo (punto 3 de la estructura, abajo), no en la línea de invitación.** Historial: primero la invitación (punto 7) mencionaba precio ("Planes desde $6 al mes"); el 2026-09-16 se cambió por un cierre de "mes gratis" ahí mismo; el 2026-09-19 ese cierre se eliminó de la invitación y el gancho de gratis se movió al CTA de arriba, para no repetir la misma oferta dos veces en el mismo post. La invitación (punto 7) ahora es pura descripción de valor, sin frase de cierre fija. Aplica a piezas nuevas y a lo programado que aún no se publicó; no se edita retroactivamente lo ya publicado.
 
 ## Tono de comunicación
 - Español costarricense casual, conjugación "vos"
@@ -17,7 +17,7 @@ Bankai+ es el servicio B2C de streaming de VORTEX TV, dirigido a Costa Rica y el
 
 ## Reglas estrictas (NO NEGOCIABLES)
 1. NUNCA mencionar Netflix, HBO Max, Disney+, Prime Video u otras plataformas de streaming en posts orgánicos de Instagram/Facebook/TikTok/YouTube. (Comparación directa SÍ permitida en flyers, FAQs y WhatsApp — pero no en estos posts).
-2. CTA fijo en todo post: "👉 ¿Querés verla hoy mismo? Escribinos al DM o entrá a bankaiplus.com" (va cerca del principio del post, no al final — ver estructura abajo). No se agrega ningún otro CTA además de este.
+2. CTA fijo en todo post: "👉 ¿Querés verla hoy mismo? Registrate gratis en bankaiplus.com" (va cerca del principio del post, no al final — ver estructura abajo). No se agrega ningún otro CTA además de este. (Cambiado 2026-09-19 — antes decía "Escribinos al DM o entrá a bankaiplus.com"; pedido explícito del usuario para que el CTA sea más simple y directo, con el gancho de "gratis" incluido ahí mismo.)
 3. Nunca prometer dispositivos no soportados. No existe función de "cast"/mirroring desde el celular — la app se instala directo (por APK o Play Store) en cada dispositivo. Dispositivos compatibles hoy: Smart TV/Box con Android TV, Chromecast con Google TV (instalando la app directo en el dispositivo), Amazon Fire TV Stick, celular/tablet Android, pantallas automotrices. NO compatible todavía: Roku, Samsung/LG nativo, iOS (próximamente).
 4. **Nunca escribir en tono de carencia, disculpa o "por ahora" sobre el catálogo.** Nada de "todavía falta una temporada para tenerla completa", "por ahora solo tenés la primera parte", "se puede ir empezando con lo que hay" ni ninguna variante que suene a excusa o a que Bankai+ ofrece algo a medias. (Incidente New Bandits, 2026-09-17 — pedido explícito del usuario.) Bankai+ se para siempre como la mejor plataforma: lo que SÍ está disponible se presenta como un valor completo en sí mismo, nunca como la parte que alcanzó a estar lista. Esto no cambia la regla de no prometer lo que falta en títulos `Incompleto` (ver `crear-texto/SKILL.md`) — simplemente esa ausencia no se menciona ni se pide disculpas por ella; se habla únicamente de lo que hay, en positivo.
 
@@ -61,11 +61,11 @@ Idiomas/banderas ya soportados en la plantilla (`plugin/post-studio/templates/po
 ## Estructura fija de post (Instagram/Facebook)
 1. Título del show/película/saga (primera línea, para saber de qué se habla sin leer todo)
 2. Hook emocional (1-2 líneas que paren el scroll)
-3. CTA fijo: "👉 ¿Querés verla hoy mismo? Escribinos al DM o entrá a bankaiplus.com" (tal cual, sin agregar nada al final)
+3. CTA fijo: "👉 ¿Querés verla hoy mismo? Registrate gratis en bankaiplus.com" (tal cual, sin agregar nada al final)
 4. Info técnica: 🎧 Audios disponibles | 📺 Subtítulos disponibles
 5. Descripción del show (2-3 líneas humanas, cercanas, sin sonar a IA) — informada por los datos reales del catálogo: año/antigüedad, puntaje, clasificación por edad, temporadas
 6. Clasificación por edad en una línea corta y amena: "Apta para toda la familia", "Apta de 7 años en adelante", "Apta para mayores de 13", "Apta para mayores de 18" — nunca advertencias ni sermones
-7. Invitación a sumarse a Bankai+ (por qué vale la pena estar adentro, distinto del CTA de contacto) — cierra siempre con "Registrate en nuestra plataforma bankaiplus.com y obten un mes gratis 🤩" (ver nota en `## Planes` — ya no se menciona precio acá)
+7. Invitación a sumarse a Bankai+ (por qué vale la pena estar adentro, distinto del CTA de contacto) — es descripción de valor pura, sin frase de cierre fija ni mención de precio (el gancho de "gratis" ya está en el CTA del punto 3, no se repite acá — ver nota en `## Planes`)
 8. Pregunta de engagement + "¡Cuéntanos en los comentarios! 👇" — **última línea del post, sin nada después**
 
 **Sin hashtags y sin menciones de Costa Rica en el texto del post** — pedido explícito del usuario 2026-09-12. Antes se cerraba con una línea de hashtags (incluyendo uno de geolocalización tipo `#CostaRica`); de ahora en adelante esa línea **no va**, en ningún post nuevo. La segmentación geográfica sigue existiendo para audiencia/horario de publicación (ver más abajo), pero no se escribe en el caption ni en hashtags.

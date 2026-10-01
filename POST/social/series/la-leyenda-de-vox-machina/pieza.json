@@ -1,0 +1,41 @@
+{
+  "slug": "la-leyenda-de-vox-machina",
+  "tipo": "imagen",
+  "titulo": "La Leyenda de Vox Machina",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0324"
+  },
+  "vtxIds": [
+    "VTX-0324"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/la-leyenda-de-vox-machina/images/01-vox-machina.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0324"
+    },
+    {
+      "archivo": "POST/social/series/la-leyenda-de-vox-machina/images/02-sinopsis-la-leyenda-de-vox-machina.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/la-leyenda-de-vox-machina"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/la-leyenda-de-vox-machina/images/02-sinopsis-la-leyenda-de-vox-machina.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/la-leyenda-de-vox-machina/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

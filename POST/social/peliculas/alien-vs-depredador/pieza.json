@@ -1,0 +1,47 @@
+{
+  "slug": "alien-vs-depredador",
+  "tipo": "carrusel",
+  "titulo": "Alien Vs. Depredador",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Alien Vs. Depredador"
+  },
+  "vtxIds": [
+    "VTX-0763",
+    "VTX-0764"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alien-vs-depredador/images/01-avp-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0763"
+    },
+    {
+      "archivo": "POST/social/peliculas/alien-vs-depredador/images/02-avp-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0764"
+    },
+    {
+      "archivo": "POST/social/peliculas/alien-vs-depredador/images/03-sinopsis-alien-vs-depredador.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alien-vs-depredador"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alien-vs-depredador/images/03-sinopsis-alien-vs-depredador.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alien-vs-depredador/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

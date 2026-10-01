@@ -1,0 +1,54 @@
+{
+  "slug": "blade",
+  "tipo": "carrusel",
+  "titulo": "Blade",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Blade"
+  },
+  "vtxIds": [
+    "VTX-0798",
+    "VTX-0797",
+    "VTX-0799"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/blade/images/01-blade1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0798"
+    },
+    {
+      "archivo": "POST/social/peliculas/blade/images/02-blade2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0797"
+    },
+    {
+      "archivo": "POST/social/peliculas/blade/images/03-blade3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0799"
+    },
+    {
+      "archivo": "POST/social/peliculas/blade/images/04-sinopsis-blade.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/blade"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/blade/images/04-sinopsis-blade.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/blade/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Audio: solo MX en las filas porque Blade II figura en el catálogo sin audio dual; para no prometer de más en la pieza entera."
+}

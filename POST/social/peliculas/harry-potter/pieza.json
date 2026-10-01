@@ -1,0 +1,83 @@
+{
+  "slug": "harry-potter",
+  "tipo": "carrusel",
+  "titulo": "Harry Potter",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Harry Potter"
+  },
+  "vtxIds": [
+    "VTX-0975",
+    "VTX-0973",
+    "VTX-0972",
+    "VTX-0970",
+    "VTX-0974",
+    "VTX-0971",
+    "VTX-0976",
+    "VTX-0977"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/01-hp1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0975"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/02-hp2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0973"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/03-hp3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0972"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/04-hp4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0970"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/05-hp5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0974"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/06-hp6.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0971"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/07-hp7.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0976"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/08-hp8.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0977"
+    },
+    {
+      "archivo": "POST/social/peliculas/harry-potter/images/09-sinopsis-harry-potter.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/harry-potter"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/harry-potter/images/09-sinopsis-harry-potter.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/harry-potter/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

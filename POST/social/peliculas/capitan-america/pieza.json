@@ -1,0 +1,59 @@
+{
+  "slug": "capitan-america",
+  "tipo": "carrusel",
+  "titulo": "Capitán América",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Capitán América"
+  },
+  "vtxIds": [
+    "VTX-0804",
+    "VTX-0802",
+    "VTX-0803",
+    "VTX-0507"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/capitan-america/images/01-capitan-america-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0804"
+    },
+    {
+      "archivo": "POST/social/peliculas/capitan-america/images/02-capitan-america-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0802"
+    },
+    {
+      "archivo": "POST/social/peliculas/capitan-america/images/03-capitan-america-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0803"
+    },
+    {
+      "archivo": "POST/social/peliculas/capitan-america/images/04-capitan-america-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0507"
+    },
+    {
+      "archivo": "POST/social/peliculas/capitan-america/images/05-sinopsis-capitan-america.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/capitan-america"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/capitan-america/images/05-sinopsis-capitan-america.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/capitan-america/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

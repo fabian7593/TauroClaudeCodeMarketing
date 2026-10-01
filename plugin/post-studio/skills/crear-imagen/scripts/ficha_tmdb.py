@@ -58,6 +58,7 @@ IDIOMA_A_CODIGO = {
     "chinese": "CN",
     "cantonese": "CN",
     "turkish": "TR",
+    "french": "FR",
 }
 
 RE_TITLE = re.compile(r"<title>\s*(.*?)\s*</title>", re.S)

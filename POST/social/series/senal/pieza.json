@@ -1,0 +1,41 @@
+{
+  "slug": "senal",
+  "tipo": "imagen",
+  "titulo": "Señal",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0192"
+  },
+  "vtxIds": [
+    "VTX-0192"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/senal/images/01-senal.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0192"
+    },
+    {
+      "archivo": "POST/social/series/senal/images/02-sinopsis-senal.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/senal"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/senal/images/02-sinopsis-senal.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/senal/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "codigo-traje-rojo",
+  "tipo": "imagen",
+  "titulo": "Código: Traje Rojo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0514"
+  },
+  "vtxIds": [
+    "VTX-0514"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/codigo-traje-rojo/images/01-codigo-traje-rojo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0514"
+    },
+    {
+      "archivo": "POST/social/peliculas/codigo-traje-rojo/images/02-sinopsis-codigo-traje-rojo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/codigo-traje-rojo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/codigo-traje-rojo/images/02-sinopsis-codigo-traje-rojo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/codigo-traje-rojo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

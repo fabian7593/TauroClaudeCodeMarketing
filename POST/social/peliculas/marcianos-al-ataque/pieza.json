@@ -1,0 +1,41 @@
+{
+  "slug": "marcianos-al-ataque",
+  "tipo": "imagen",
+  "titulo": "¡Marcianos al Ataque!",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0729"
+  },
+  "vtxIds": [
+    "VTX-0729"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/marcianos-al-ataque/images/01-marcianos-al-ataque.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0729"
+    },
+    {
+      "archivo": "POST/social/peliculas/marcianos-al-ataque/images/02-sinopsis-marcianos-al-ataque.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/marcianos-al-ataque"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/marcianos-al-ataque/images/02-sinopsis-marcianos-al-ataque.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/marcianos-al-ataque/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

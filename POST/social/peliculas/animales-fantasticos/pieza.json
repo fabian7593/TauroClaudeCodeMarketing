@@ -1,0 +1,53 @@
+{
+  "slug": "animales-fantasticos",
+  "tipo": "carrusel",
+  "titulo": "Animales Fantásticos",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Animales Fantásticos"
+  },
+  "vtxIds": [
+    "VTX-0775",
+    "VTX-0773",
+    "VTX-0774"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/animales-fantasticos/images/01-af1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0775"
+    },
+    {
+      "archivo": "POST/social/peliculas/animales-fantasticos/images/02-af2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0773"
+    },
+    {
+      "archivo": "POST/social/peliculas/animales-fantasticos/images/03-af3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0774"
+    },
+    {
+      "archivo": "POST/social/peliculas/animales-fantasticos/images/04-sinopsis-animales-fantasticos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/animales-fantasticos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/animales-fantasticos/images/04-sinopsis-animales-fantasticos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/animales-fantasticos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

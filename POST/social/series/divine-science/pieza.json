@@ -1,0 +1,41 @@
+{
+  "slug": "divine-science",
+  "tipo": "imagen",
+  "titulo": "Divine Science",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1410"
+  },
+  "vtxIds": [
+    "VTX-1410"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/divine-science/images/01-divine-science.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1410"
+    },
+    {
+      "archivo": "POST/social/series/divine-science/images/02-sinopsis-divine-science.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/divine-science"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/divine-science/images/02-sinopsis-divine-science.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/divine-science/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

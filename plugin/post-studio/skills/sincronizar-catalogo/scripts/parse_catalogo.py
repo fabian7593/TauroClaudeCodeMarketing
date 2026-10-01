@@ -231,6 +231,23 @@ def main():
         if aplicados:
             print("overrides aplicados: %d titulos (%s)" % (aplicados, ruta_ov))
 
+        # Títulos que el usuario dio de baja pero que todavía siguen en la hoja
+        # fuente: se sacan del espejo para que no vuelvan en cada sincronización
+        # (y para que no los agarre ningún lote). Al borrar la fila del Excel,
+        # la entrada de acá se puede eliminar.
+        excluidos = overrides.get("excluidos") or {}
+        if isinstance(excluidos, list):
+            excluidos = {vtx: "" for vtx in excluidos}
+        if excluidos:
+            presentes = {t["vtxId"] for t in titulos}
+            for vtx, motivo in excluidos.items():
+                if vtx not in presentes:
+                    avisos.append("excluido: %s ya no está en la hoja fuente — se puede sacar de %s"
+                                  % (vtx, ruta_ov))
+            titulos = [t for t in titulos if t["vtxId"] not in excluidos]
+            print("excluidos por override: %d titulos (%s)"
+                  % (len(presentes & set(excluidos)), ruta_ov))
+
     colecciones = {}
     for t in titulos:
         if t.get("coleccion"):

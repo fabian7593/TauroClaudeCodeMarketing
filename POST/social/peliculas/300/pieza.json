@@ -1,0 +1,47 @@
+{
+  "slug": "300",
+  "tipo": "carrusel",
+  "titulo": "300",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "300"
+  },
+  "vtxIds": [
+    "VTX-0743",
+    "VTX-0744"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/300/images/01-300.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0743"
+    },
+    {
+      "archivo": "POST/social/peliculas/300/images/02-300-imperio.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0744"
+    },
+    {
+      "archivo": "POST/social/peliculas/300/images/03-sinopsis-300.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/300"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/300/images/03-sinopsis-300.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/300/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

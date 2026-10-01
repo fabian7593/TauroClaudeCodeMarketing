@@ -1,0 +1,41 @@
+{
+  "slug": "el-joven-manos-de-tijera",
+  "tipo": "imagen",
+  "titulo": "El Joven Manos de Tijera",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0543"
+  },
+  "vtxIds": [
+    "VTX-0543"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-joven-manos-de-tijera/images/01-el-joven-manos-de-tijera.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0543"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-joven-manos-de-tijera/images/02-sinopsis-el-joven-manos-de-tijera.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-joven-manos-de-tijera"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-joven-manos-de-tijera/images/02-sinopsis-el-joven-manos-de-tijera.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-joven-manos-de-tijera/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

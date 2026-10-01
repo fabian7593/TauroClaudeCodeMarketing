@@ -1,0 +1,42 @@
+{
+  "slug": "karakuri-circus",
+  "tipo": "imagen",
+  "titulo": "Karakuri Circus",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0271"
+  },
+  "vtxIds": [
+    "VTX-0271"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/karakuri-circus/images/01-karakuri-circus.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0271"
+    },
+    {
+      "archivo": "POST/social/series/karakuri-circus/images/02-sinopsis-karakuri-circus.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/karakuri-circus"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/karakuri-circus/images/02-sinopsis-karakuri-circus.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/karakuri-circus/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo no trae 'clasificacion' para este título (TMDB lo marca con calificación '16', no una de las etiquetas estándar TV-MA/TV-14) — se usó 'Apta para mayores de 13' por el nivel de violencia y trama de conspiración/asesinato, sin contenido explícito adicional."
+}

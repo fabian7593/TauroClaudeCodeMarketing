@@ -1,0 +1,41 @@
+{
+  "slug": "batman",
+  "tipo": "imagen",
+  "titulo": "Batman",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0790"
+  },
+  "vtxIds": [
+    "VTX-0790"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/batman/images/01-batman2022.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0790"
+    },
+    {
+      "archivo": "POST/social/peliculas/batman/images/02-sinopsis-batman.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/batman"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/batman/images/02-sinopsis-batman.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/batman/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

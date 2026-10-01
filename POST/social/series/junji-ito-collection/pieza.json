@@ -1,0 +1,41 @@
+{
+  "slug": "junji-ito-collection",
+  "tipo": "imagen",
+  "titulo": "Junji Ito Collection",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0267"
+  },
+  "vtxIds": [
+    "VTX-0267"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/junji-ito-collection/images/01-junji-ito-collection.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0267"
+    },
+    {
+      "archivo": "POST/social/series/junji-ito-collection/images/02-sinopsis-junji-ito-collection.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/junji-ito-collection"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/junji-ito-collection/images/02-sinopsis-junji-ito-collection.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/junji-ito-collection/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

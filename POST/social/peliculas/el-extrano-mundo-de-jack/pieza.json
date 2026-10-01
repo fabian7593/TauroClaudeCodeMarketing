@@ -1,0 +1,41 @@
+{
+  "slug": "el-extrano-mundo-de-jack",
+  "tipo": "imagen",
+  "titulo": "El Extraño Mundo de Jack",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1311"
+  },
+  "vtxIds": [
+    "VTX-1311"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-extrano-mundo-de-jack/images/01-el-extrano-mundo-de-jack.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1311"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-extrano-mundo-de-jack/images/02-sinopsis-el-extrano-mundo-de-jack.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-extrano-mundo-de-jack"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-extrano-mundo-de-jack/images/02-sinopsis-el-extrano-mundo-de-jack.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-extrano-mundo-de-jack/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

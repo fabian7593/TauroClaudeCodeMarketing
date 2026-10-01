@@ -1,0 +1,41 @@
+{
+  "slug": "only-for-love",
+  "tipo": "imagen",
+  "titulo": "Only for Love",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0186"
+  },
+  "vtxIds": [
+    "VTX-0186"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/only-for-love/images/01-only-for-love.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0186"
+    },
+    {
+      "archivo": "POST/social/series/only-for-love/images/02-sinopsis-only-for-love.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/only-for-love"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/only-for-love/images/02-sinopsis-only-for-love.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/only-for-love/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

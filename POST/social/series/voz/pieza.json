@@ -1,0 +1,41 @@
+{
+  "slug": "voz",
+  "tipo": "imagen",
+  "titulo": "Voz",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0201"
+  },
+  "vtxIds": [
+    "VTX-0201"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/voz/images/01-voz.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0201"
+    },
+    {
+      "archivo": "POST/social/series/voz/images/02-sinopsis-voz.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/voz"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/voz/images/02-sinopsis-voz.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/voz/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

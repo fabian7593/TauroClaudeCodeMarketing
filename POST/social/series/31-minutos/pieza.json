@@ -1,0 +1,41 @@
+{
+  "slug": "31-minutos",
+  "tipo": "imagen",
+  "titulo": "31 Minutos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0335"
+  },
+  "vtxIds": [
+    "VTX-0335"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/31-minutos/images/01-31-minutos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0335"
+    },
+    {
+      "archivo": "POST/social/series/31-minutos/images/02-sinopsis-31-minutos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/31-minutos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/31-minutos/images/02-sinopsis-31-minutos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/31-minutos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

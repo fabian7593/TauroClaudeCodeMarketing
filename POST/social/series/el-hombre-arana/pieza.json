@@ -1,0 +1,41 @@
+{
+  "slug": "el-hombre-arana",
+  "tipo": "imagen",
+  "titulo": "El Hombre Araña",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0323"
+  },
+  "vtxIds": [
+    "VTX-0323"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-hombre-arana/images/01-el-hombre-arana.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0323"
+    },
+    {
+      "archivo": "POST/social/series/el-hombre-arana/images/02-sinopsis-el-hombre-arana.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-hombre-arana"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-hombre-arana/images/02-sinopsis-el-hombre-arana.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-hombre-arana/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

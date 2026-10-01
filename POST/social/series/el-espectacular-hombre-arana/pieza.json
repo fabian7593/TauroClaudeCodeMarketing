@@ -1,0 +1,41 @@
+{
+  "slug": "el-espectacular-hombre-arana",
+  "tipo": "imagen",
+  "titulo": "El Espectacular Hombre-Araña",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0322"
+  },
+  "vtxIds": [
+    "VTX-0322"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-espectacular-hombre-arana/images/01-el-espectacular-hombre-arana.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0322"
+    },
+    {
+      "archivo": "POST/social/series/el-espectacular-hombre-arana/images/02-sinopsis-el-espectacular-hombre-arana.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-espectacular-hombre-arana"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-espectacular-hombre-arana/images/02-sinopsis-el-espectacular-hombre-arana.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-espectacular-hombre-arana/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

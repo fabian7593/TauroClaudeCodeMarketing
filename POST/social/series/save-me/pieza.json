@@ -1,0 +1,42 @@
+{
+  "slug": "save-me",
+  "tipo": "imagen",
+  "titulo": "Save Me",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0191"
+  },
+  "vtxIds": [
+    "VTX-0191"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/save-me/images/01-save-me.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0191"
+    },
+    {
+      "archivo": "POST/social/series/save-me/images/02-sinopsis-save-me.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/save-me"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/save-me/images/02-sinopsis-save-me.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/save-me/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El tmdbId original del catalogo (232213) correspondia a una comedia dramatica canadiense sin relacion -- se verifico y corrigio a 72690 (la telenovela coreana de OCN, 2017-2019, 32 episodios) antes de escribir el texto. Corregir tambien en el Excel origen."
+}

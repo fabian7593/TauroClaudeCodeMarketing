@@ -1,0 +1,56 @@
+{
+  "slug": "true-detective",
+  "tipo": "carrusel",
+  "titulo": "True Detective",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "True Detective"
+  },
+  "vtxIds": [
+    "VTX-1490"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/true-detective/images/01-td-s1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1490"
+    },
+    {
+      "archivo": "POST/social/series/true-detective/images/02-td-s2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1490"
+    },
+    {
+      "archivo": "POST/social/series/true-detective/images/03-td-s3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1490"
+    },
+    {
+      "archivo": "POST/social/series/true-detective/images/04-td-s4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1490"
+    },
+    {
+      "archivo": "POST/social/series/true-detective/images/05-sinopsis-true-detective.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/true-detective"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/true-detective/images/05-sinopsis-true-detective.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/true-detective/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

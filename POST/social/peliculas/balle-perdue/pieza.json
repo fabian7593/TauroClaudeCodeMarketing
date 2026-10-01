@@ -1,0 +1,53 @@
+{
+  "slug": "balle-perdue",
+  "tipo": "carrusel",
+  "titulo": "Bala Perdida",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Bala Perdida"
+  },
+  "vtxIds": [
+    "VTX-0788",
+    "VTX-0789",
+    "VTX-1006"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/balle-perdue/images/01-bp1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0788"
+    },
+    {
+      "archivo": "POST/social/peliculas/balle-perdue/images/02-bp2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0789"
+    },
+    {
+      "archivo": "POST/social/peliculas/balle-perdue/images/03-bp3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1006"
+    },
+    {
+      "archivo": "POST/social/peliculas/balle-perdue/images/04-sinopsis-balle-perdue.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/balle-perdue"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/balle-perdue/images/04-sinopsis-balle-perdue.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/balle-perdue/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

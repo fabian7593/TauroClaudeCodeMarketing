@@ -1,0 +1,41 @@
+{
+  "slug": "a-todas-partes",
+  "tipo": "imagen",
+  "titulo": "A Todas Partes",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0449"
+  },
+  "vtxIds": [
+    "VTX-0449"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/a-todas-partes/images/01-a-todas-partes.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0449"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-todas-partes/images/02-sinopsis-a-todas-partes.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/a-todas-partes"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/a-todas-partes/images/02-sinopsis-a-todas-partes.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/a-todas-partes/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

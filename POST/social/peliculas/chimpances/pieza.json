@@ -1,0 +1,41 @@
+{
+  "slug": "chimpances",
+  "tipo": "imagen",
+  "titulo": "Chimpancés",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0381"
+  },
+  "vtxIds": [
+    "VTX-0381"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/chimpances/images/01-chimpances.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0381"
+    },
+    {
+      "archivo": "POST/social/peliculas/chimpances/images/02-sinopsis-chimpances.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/chimpances"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/chimpances/images/02-sinopsis-chimpances.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/chimpances/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "junji-ito-maniac-relatos-japoneses-de-lo-macabro",
+  "tipo": "imagen",
+  "titulo": "Junji Ito Maniac: Relatos Japoneses de lo Macabro",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0268"
+  },
+  "vtxIds": [
+    "VTX-0268"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/junji-ito-maniac-relatos-japoneses-de-lo-macabro/images/01-junji-ito-maniac.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0268"
+    },
+    {
+      "archivo": "POST/social/series/junji-ito-maniac-relatos-japoneses-de-lo-macabro/images/02-sinopsis-junji-ito-maniac-relatos-japoneses-de-lo-macabro.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/junji-ito-maniac-relatos-japoneses-de-lo-macabro"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/junji-ito-maniac-relatos-japoneses-de-lo-macabro/images/02-sinopsis-junji-ito-maniac-relatos-japoneses-de-lo-macabro.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/junji-ito-maniac-relatos-japoneses-de-lo-macabro/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

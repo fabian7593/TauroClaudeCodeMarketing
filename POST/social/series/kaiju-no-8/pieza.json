@@ -1,0 +1,41 @@
+{
+  "slug": "kaiju-no-8",
+  "tipo": "imagen",
+  "titulo": "Kaiju No. 8",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0270"
+  },
+  "vtxIds": [
+    "VTX-0270"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/kaiju-no-8/images/01-kaiju-no-8.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0270"
+    },
+    {
+      "archivo": "POST/social/series/kaiju-no-8/images/02-sinopsis-kaiju-no-8.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/kaiju-no-8"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/kaiju-no-8/images/02-sinopsis-kaiju-no-8.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/kaiju-no-8/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer",
+  "tipo": "imagen",
+  "titulo": "Conversaciones con Asesinos: Las Cintas de Jeffrey Dahmer",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0383"
+  },
+  "vtxIds": [
+    "VTX-0383"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer/images/01-dahmer.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0383"
+    },
+    {
+      "archivo": "POST/social/series/conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer/images/02-sinopsis-conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer/images/02-sinopsis-conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/conversaciones-con-asesinos-las-cintas-de-jeffrey-dahmer/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

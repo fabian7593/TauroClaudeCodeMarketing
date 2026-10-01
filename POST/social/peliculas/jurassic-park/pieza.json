@@ -1,0 +1,77 @@
+{
+  "slug": "jurassic-park",
+  "tipo": "carrusel",
+  "titulo": "Jurassic Park",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Jurassic Park"
+  },
+  "vtxIds": [
+    "VTX-1090",
+    "VTX-0903",
+    "VTX-1091",
+    "VTX-1000",
+    "VTX-1001",
+    "VTX-1002",
+    "VTX-0589"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/01-jp-1993.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1090"
+    },
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/02-jp-1997.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0903"
+    },
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/03-jp-2001.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1091"
+    },
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/04-jp-2015.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1000"
+    },
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/05-jp-2018.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1001"
+    },
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/06-jp-2022.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1002"
+    },
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/07-jp-2025.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0589"
+    },
+    {
+      "archivo": "POST/social/peliculas/jurassic-park/images/08-sinopsis-jurassic-park.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/jurassic-park"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/jurassic-park/images/08-sinopsis-jurassic-park.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/jurassic-park/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "saint-seiya-alma-de-oro",
+  "tipo": "imagen",
+  "titulo": "Los Caballeros del Zodiaco: Alma de Oro",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0275"
+  },
+  "vtxIds": [
+    "VTX-0275"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/saint-seiya-alma-de-oro/images/01-saint-seiya-alma-de-oro.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0275"
+    },
+    {
+      "archivo": "POST/social/series/saint-seiya-alma-de-oro/images/02-sinopsis-saint-seiya-alma-de-oro.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/saint-seiya-alma-de-oro"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/saint-seiya-alma-de-oro/images/02-sinopsis-saint-seiya-alma-de-oro.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/saint-seiya-alma-de-oro/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

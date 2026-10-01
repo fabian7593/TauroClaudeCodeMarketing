@@ -1,0 +1,41 @@
+{
+  "slug": "a-la-mala",
+  "tipo": "imagen",
+  "titulo": "A la Mala",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0445"
+  },
+  "vtxIds": [
+    "VTX-0445"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/a-la-mala/images/01-a-la-mala.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0445"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-la-mala/images/02-sinopsis-a-la-mala.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/a-la-mala"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/a-la-mala/images/02-sinopsis-a-la-mala.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/a-la-mala/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

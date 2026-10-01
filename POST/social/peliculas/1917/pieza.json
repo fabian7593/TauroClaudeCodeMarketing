@@ -1,0 +1,41 @@
+{
+  "slug": "1917",
+  "tipo": "imagen",
+  "titulo": "1917",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0422"
+  },
+  "vtxIds": [
+    "VTX-0422"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/1917/images/01-1917.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0422"
+    },
+    {
+      "archivo": "POST/social/peliculas/1917/images/02-sinopsis-1917.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/1917"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/1917/images/02-sinopsis-1917.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/1917/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

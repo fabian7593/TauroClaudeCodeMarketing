@@ -1,0 +1,101 @@
+{
+  "slug": "naruto",
+  "tipo": "carrusel",
+  "titulo": "Naruto: Las Películas",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Naruto: Las Películas"
+  },
+  "vtxIds": [
+    "VTX-1282",
+    "VTX-1284",
+    "VTX-1283",
+    "VTX-1290",
+    "VTX-1285",
+    "VTX-1286",
+    "VTX-1287",
+    "VTX-1288",
+    "VTX-1289",
+    "VTX-1293",
+    "VTX-1240"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/naruto/images/01-naruto-01.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1282"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/02-naruto-02.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1284"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/03-naruto-03.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1283"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/04-naruto-04.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1290"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/05-naruto-05.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1285"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/06-naruto-06.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1286"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/07-naruto-07.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1287"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/08-naruto-08.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1288"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/09-naruto-09.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1289"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/10-naruto-10.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1293"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/11-naruto-11.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1240"
+    },
+    {
+      "archivo": "POST/social/peliculas/naruto/images/12-sinopsis-naruto.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/naruto"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/naruto/images/12-sinopsis-naruto.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/naruto/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

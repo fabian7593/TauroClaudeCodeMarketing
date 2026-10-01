@@ -1,0 +1,53 @@
+{
+  "slug": "venom",
+  "tipo": "carrusel",
+  "titulo": "Venom",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Venom"
+  },
+  "vtxIds": [
+    "VTX-1210",
+    "VTX-1211",
+    "VTX-0711"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/venom/images/01-venom-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1210"
+    },
+    {
+      "archivo": "POST/social/peliculas/venom/images/02-venom-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1211"
+    },
+    {
+      "archivo": "POST/social/peliculas/venom/images/03-venom-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0711"
+    },
+    {
+      "archivo": "POST/social/peliculas/venom/images/04-sinopsis-venom.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/venom"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/venom/images/04-sinopsis-venom.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/venom/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

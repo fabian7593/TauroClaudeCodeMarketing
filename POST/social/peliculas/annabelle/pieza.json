@@ -1,0 +1,52 @@
+{
+  "slug": "annabelle",
+  "tipo": "carrusel",
+  "titulo": "Annabelle",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Annabelle"
+  },
+  "vtxIds": [
+    "VTX-0776",
+    "VTX-0777"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/annabelle/images/01-annabelle1.png",
+      "tipo": "arte"
+    },
+    {
+      "archivo": "POST/social/peliculas/annabelle/images/02-annabelle2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0776"
+    },
+    {
+      "archivo": "POST/social/peliculas/annabelle/images/03-annabelle3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0777"
+    },
+    {
+      "archivo": "POST/social/peliculas/annabelle/images/04-sinopsis-annabelle.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/annabelle"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/annabelle/images/04-sinopsis-annabelle.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/annabelle/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Annabelle (2014, TMDB 250546, verificado año 2014 e inglés) se agregó a pedido del usuario sin cargarla al catálogo/Excel: por eso su arte no lleva vtxId y vtxIds sigue con la 2 y la 3."
+}

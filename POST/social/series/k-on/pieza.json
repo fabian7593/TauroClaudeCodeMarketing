@@ -1,0 +1,41 @@
+{
+  "slug": "k-on",
+  "tipo": "imagen",
+  "titulo": "K-On!",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0269"
+  },
+  "vtxIds": [
+    "VTX-0269"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/k-on/images/01-k-on.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0269"
+    },
+    {
+      "archivo": "POST/social/series/k-on/images/02-sinopsis-k-on.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/k-on"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/k-on/images/02-sinopsis-k-on.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/k-on/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "yo-sere-tu-flor",
+  "tipo": "imagen",
+  "titulo": "Yo Seré Tu Flor",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0203"
+  },
+  "vtxIds": [
+    "VTX-0203"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/yo-sere-tu-flor/images/01-yo-sere-tu-flor.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0203"
+    },
+    {
+      "archivo": "POST/social/series/yo-sere-tu-flor/images/02-sinopsis-yo-sere-tu-flor.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/yo-sere-tu-flor"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/yo-sere-tu-flor/images/02-sinopsis-yo-sere-tu-flor.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/yo-sere-tu-flor/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "idioma original verificado en TMDB: japones (no coreano) -- pese a estar en la categoria Doramas del catalogo, que agrupa coreano/japones/chino. Filas de audio usan JP, no KR."
+}

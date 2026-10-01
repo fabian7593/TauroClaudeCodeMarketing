@@ -1,0 +1,42 @@
+{
+  "slug": "yonder",
+  "tipo": "imagen",
+  "titulo": "Yonder",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0204"
+  },
+  "vtxIds": [
+    "VTX-0204"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/yonder/images/01-yonder.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0204"
+    },
+    {
+      "archivo": "POST/social/series/yonder/images/02-sinopsis-yonder.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/yonder"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/yonder/images/02-sinopsis-yonder.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/yonder/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "clasificacion de edad no venia en el catalogo (null) -- se determino como equivalente a TV-MA por el content rating '15' visible en TMDB (mismo patron que Senal/Stranger/Voz/Summer Strike, todos TMDB 15 = catalogo TV-MA)."
+}

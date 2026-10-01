@@ -1,0 +1,59 @@
+{
+  "slug": "rec",
+  "tipo": "carrusel",
+  "titulo": "REC",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "REC"
+  },
+  "vtxIds": [
+    "VTX-0736",
+    "VTX-0739",
+    "VTX-0737",
+    "VTX-0738"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/rec/images/01-rec-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0736"
+    },
+    {
+      "archivo": "POST/social/peliculas/rec/images/02-rec-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0739"
+    },
+    {
+      "archivo": "POST/social/peliculas/rec/images/03-rec-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0737"
+    },
+    {
+      "archivo": "POST/social/peliculas/rec/images/04-rec-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0738"
+    },
+    {
+      "archivo": "POST/social/peliculas/rec/images/05-sinopsis-rec.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/rec"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/rec/images/05-sinopsis-rec.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/rec/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "un-heroe-debil",
+  "tipo": "imagen",
+  "titulo": "Un Héroe Débil",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0199"
+  },
+  "vtxIds": [
+    "VTX-0199"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/un-heroe-debil/images/01-un-heroe-debil.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0199"
+    },
+    {
+      "archivo": "POST/social/series/un-heroe-debil/images/02-sinopsis-un-heroe-debil.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/un-heroe-debil"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/un-heroe-debil/images/02-sinopsis-un-heroe-debil.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/un-heroe-debil/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

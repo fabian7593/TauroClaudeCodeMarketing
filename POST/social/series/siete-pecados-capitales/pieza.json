@@ -1,0 +1,41 @@
+{
+  "slug": "siete-pecados-capitales",
+  "tipo": "imagen",
+  "titulo": "Los Siete Pecados Capitales",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0278"
+  },
+  "vtxIds": [
+    "VTX-0278"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/siete-pecados-capitales/images/01-siete-pecados-capitales.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0278"
+    },
+    {
+      "archivo": "POST/social/series/siete-pecados-capitales/images/02-sinopsis-siete-pecados-capitales.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/siete-pecados-capitales"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/siete-pecados-capitales/images/02-sinopsis-siete-pecados-capitales.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/siete-pecados-capitales/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

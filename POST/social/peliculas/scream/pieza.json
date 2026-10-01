@@ -1,0 +1,71 @@
+{
+  "slug": "scream",
+  "tipo": "carrusel",
+  "titulo": "Scream",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Scream"
+  },
+  "vtxIds": [
+    "VTX-1137",
+    "VTX-1133",
+    "VTX-1134",
+    "VTX-1135",
+    "VTX-1136",
+    "VTX-0670"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/scream/images/01-scream-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1137"
+    },
+    {
+      "archivo": "POST/social/peliculas/scream/images/02-scream-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1133"
+    },
+    {
+      "archivo": "POST/social/peliculas/scream/images/03-scream-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1134"
+    },
+    {
+      "archivo": "POST/social/peliculas/scream/images/04-scream-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1135"
+    },
+    {
+      "archivo": "POST/social/peliculas/scream/images/05-scream-6.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1136"
+    },
+    {
+      "archivo": "POST/social/peliculas/scream/images/06-scream-7.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0670"
+    },
+    {
+      "archivo": "POST/social/peliculas/scream/images/07-sinopsis-scream.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/scream"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/scream/images/07-sinopsis-scream.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/scream/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

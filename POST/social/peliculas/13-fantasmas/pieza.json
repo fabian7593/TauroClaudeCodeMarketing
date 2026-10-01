@@ -1,0 +1,41 @@
+{
+  "slug": "13-fantasmas",
+  "tipo": "imagen",
+  "titulo": "13 Fantasmas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0419"
+  },
+  "vtxIds": [
+    "VTX-0419"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/13-fantasmas/images/01-13-fantasmas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0419"
+    },
+    {
+      "archivo": "POST/social/peliculas/13-fantasmas/images/02-sinopsis-13-fantasmas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/13-fantasmas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/13-fantasmas/images/02-sinopsis-13-fantasmas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/13-fantasmas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

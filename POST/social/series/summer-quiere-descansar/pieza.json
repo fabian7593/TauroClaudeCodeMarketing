@@ -1,0 +1,41 @@
+{
+  "slug": "summer-quiere-descansar",
+  "tipo": "imagen",
+  "titulo": "Summer Quiere Descansar",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0196"
+  },
+  "vtxIds": [
+    "VTX-0196"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/summer-quiere-descansar/images/01-summer-quiere-descansar.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0196"
+    },
+    {
+      "archivo": "POST/social/series/summer-quiere-descansar/images/02-sinopsis-summer-quiere-descansar.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/summer-quiere-descansar"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/summer-quiere-descansar/images/02-sinopsis-summer-quiere-descansar.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/summer-quiere-descansar/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

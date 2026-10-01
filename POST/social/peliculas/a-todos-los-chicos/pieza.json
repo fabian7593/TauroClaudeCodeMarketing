@@ -1,0 +1,53 @@
+{
+  "slug": "a-todos-los-chicos",
+  "tipo": "carrusel",
+  "titulo": "A Todos los Chicos",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "A Todos los Chicos"
+  },
+  "vtxIds": [
+    "VTX-0748",
+    "VTX-0750",
+    "VTX-0749"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/a-todos-los-chicos/images/01-a-todos-los-chicos-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0748"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-todos-los-chicos/images/02-a-todos-los-chicos-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0750"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-todos-los-chicos/images/03-a-todos-los-chicos-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0749"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-todos-los-chicos/images/04-sinopsis-a-todos-los-chicos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/a-todos-los-chicos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/a-todos-los-chicos/images/04-sinopsis-a-todos-los-chicos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/a-todos-los-chicos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

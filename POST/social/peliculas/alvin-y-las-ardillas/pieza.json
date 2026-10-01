@@ -1,0 +1,53 @@
+{
+  "slug": "alvin-y-las-ardillas",
+  "tipo": "carrusel",
+  "titulo": "Alvin y las Ardillas",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Alvin y las Ardillas"
+  },
+  "vtxIds": [
+    "VTX-0770",
+    "VTX-0771",
+    "VTX-0772"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alvin-y-las-ardillas/images/01-alvin2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0770"
+    },
+    {
+      "archivo": "POST/social/peliculas/alvin-y-las-ardillas/images/02-alvin3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0771"
+    },
+    {
+      "archivo": "POST/social/peliculas/alvin-y-las-ardillas/images/03-alvin4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0772"
+    },
+    {
+      "archivo": "POST/social/peliculas/alvin-y-las-ardillas/images/04-sinopsis-alvin-y-las-ardillas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alvin-y-las-ardillas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alvin-y-las-ardillas/images/04-sinopsis-alvin-y-las-ardillas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alvin-y-las-ardillas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

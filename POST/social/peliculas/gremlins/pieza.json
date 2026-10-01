@@ -1,0 +1,41 @@
+{
+  "slug": "gremlins",
+  "tipo": "imagen",
+  "titulo": "Gremlins",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0951"
+  },
+  "vtxIds": [
+    "VTX-0951"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/gremlins/images/01-gremlins.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0951"
+    },
+    {
+      "archivo": "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/gremlins"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/gremlins/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

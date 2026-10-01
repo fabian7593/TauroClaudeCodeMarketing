@@ -1,0 +1,41 @@
+{
+  "slug": "pasion-por-la-limpieza",
+  "tipo": "imagen",
+  "titulo": "Pasión por la Limpieza",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0187"
+  },
+  "vtxIds": [
+    "VTX-0187"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/pasion-por-la-limpieza/images/01-pasion-por-la-limpieza.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0187"
+    },
+    {
+      "archivo": "POST/social/series/pasion-por-la-limpieza/images/02-sinopsis-pasion-por-la-limpieza.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/pasion-por-la-limpieza"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/pasion-por-la-limpieza/images/02-sinopsis-pasion-por-la-limpieza.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/pasion-por-la-limpieza/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

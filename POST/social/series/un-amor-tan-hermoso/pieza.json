@@ -1,0 +1,42 @@
+{
+  "slug": "un-amor-tan-hermoso",
+  "tipo": "imagen",
+  "titulo": "Un Amor Tan Hermoso",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0198"
+  },
+  "vtxIds": [
+    "VTX-0198"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/un-amor-tan-hermoso/images/01-un-amor-tan-hermoso.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0198"
+    },
+    {
+      "archivo": "POST/social/series/un-amor-tan-hermoso/images/02-sinopsis-un-amor-tan-hermoso.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/un-amor-tan-hermoso"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/un-amor-tan-hermoso/images/02-sinopsis-un-amor-tan-hermoso.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/un-amor-tan-hermoso/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "clasificacion de edad no venia en el catalogo (null) -- se determino como equivalente a TV-14 por el content rating '12' visible en TMDB (mismo patron que otros titulos del lote con TMDB '12' y catalogo TV-14, ej. Si la Vida Te Da Mandarinas)."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "woo-una-abogada-extraordinaria",
+  "tipo": "imagen",
+  "titulo": "Woo, una Abogada Extraordinaria",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0202"
+  },
+  "vtxIds": [
+    "VTX-0202"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/woo-una-abogada-extraordinaria/images/01-woo-una-abogada-extraordinaria.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0202"
+    },
+    {
+      "archivo": "POST/social/series/woo-una-abogada-extraordinaria/images/02-sinopsis-woo-una-abogada-extraordinaria.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/woo-una-abogada-extraordinaria"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/woo-una-abogada-extraordinaria/images/02-sinopsis-woo-una-abogada-extraordinaria.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/woo-una-abogada-extraordinaria/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

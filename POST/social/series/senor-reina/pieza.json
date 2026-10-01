@@ -1,0 +1,41 @@
+{
+  "slug": "senor-reina",
+  "tipo": "imagen",
+  "titulo": "Señor Reina",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0193"
+  },
+  "vtxIds": [
+    "VTX-0193"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/senor-reina/images/01-senor-reina.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0193"
+    },
+    {
+      "archivo": "POST/social/series/senor-reina/images/02-sinopsis-senor-reina.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/senor-reina"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/senor-reina/images/02-sinopsis-senor-reina.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/senor-reina/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

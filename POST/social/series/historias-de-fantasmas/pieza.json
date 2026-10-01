@@ -1,0 +1,41 @@
+{
+  "slug": "historias-de-fantasmas",
+  "tipo": "imagen",
+  "titulo": "Historias de Fantasmas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0262"
+  },
+  "vtxIds": [
+    "VTX-0262"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/historias-de-fantasmas/images/01-historias-de-fantasmas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0262"
+    },
+    {
+      "archivo": "POST/social/series/historias-de-fantasmas/images/02-sinopsis-historias-de-fantasmas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/historias-de-fantasmas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/historias-de-fantasmas/images/02-sinopsis-historias-de-fantasmas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/historias-de-fantasmas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

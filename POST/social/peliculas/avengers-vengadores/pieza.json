@@ -1,0 +1,59 @@
+{
+  "slug": "avengers-vengadores",
+  "tipo": "carrusel",
+  "titulo": "Avengers (Vengadores)",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Avengers (Vengadores)"
+  },
+  "vtxIds": [
+    "VTX-0785",
+    "VTX-0783",
+    "VTX-1209",
+    "VTX-0784"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/avengers-vengadores/images/01-av1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0785"
+    },
+    {
+      "archivo": "POST/social/peliculas/avengers-vengadores/images/02-av2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0783"
+    },
+    {
+      "archivo": "POST/social/peliculas/avengers-vengadores/images/03-av3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1209"
+    },
+    {
+      "archivo": "POST/social/peliculas/avengers-vengadores/images/04-av4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0784"
+    },
+    {
+      "archivo": "POST/social/peliculas/avengers-vengadores/images/05-sinopsis-avengers-vengadores.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/avengers-vengadores"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/avengers-vengadores/images/05-sinopsis-avengers-vengadores.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/avengers-vengadores/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

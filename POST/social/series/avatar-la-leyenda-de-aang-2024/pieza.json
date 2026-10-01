@@ -1,0 +1,41 @@
+{
+  "slug": "avatar-la-leyenda-de-aang-2024",
+  "tipo": "imagen",
+  "titulo": "Avatar: La Leyenda de Aang (2024)",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1402"
+  },
+  "vtxIds": [
+    "VTX-1402"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/avatar-la-leyenda-de-aang-2024/images/01-avatar-2024.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1402"
+    },
+    {
+      "archivo": "POST/social/series/avatar-la-leyenda-de-aang-2024/images/02-sinopsis-avatar-la-leyenda-de-aang-2024.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/avatar-la-leyenda-de-aang-2024"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/avatar-la-leyenda-de-aang-2024/images/02-sinopsis-avatar-la-leyenda-de-aang-2024.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/avatar-la-leyenda-de-aang-2024/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

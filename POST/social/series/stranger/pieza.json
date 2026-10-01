@@ -1,0 +1,41 @@
+{
+  "slug": "stranger",
+  "tipo": "imagen",
+  "titulo": "Stranger",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0195"
+  },
+  "vtxIds": [
+    "VTX-0195"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/stranger/images/01-stranger.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0195"
+    },
+    {
+      "archivo": "POST/social/series/stranger/images/02-sinopsis-stranger.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/stranger"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/stranger/images/02-sinopsis-stranger.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/stranger/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

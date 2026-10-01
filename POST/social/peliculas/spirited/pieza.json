@@ -1,0 +1,41 @@
+{
+  "slug": "spirited",
+  "tipo": "imagen",
+  "titulo": "Spirited: El Espíritu de las Fiestas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0681"
+  },
+  "vtxIds": [
+    "VTX-0681"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/spirited/images/01-spirited.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0681"
+    },
+    {
+      "archivo": "POST/social/peliculas/spirited/images/02-sinopsis-spirited.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/spirited"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/spirited/images/02-sinopsis-spirited.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/spirited/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "jujutsu-kaisen",
+  "tipo": "imagen",
+  "titulo": "Jujutsu Kaisen",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0266"
+  },
+  "vtxIds": [
+    "VTX-0266"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/jujutsu-kaisen/images/01-jujutsu-kaisen.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0266"
+    },
+    {
+      "archivo": "POST/social/series/jujutsu-kaisen/images/02-sinopsis-jujutsu-kaisen.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/jujutsu-kaisen"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/jujutsu-kaisen/images/02-sinopsis-jujutsu-kaisen.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/jujutsu-kaisen/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

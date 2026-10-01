@@ -1,0 +1,41 @@
+{
+  "slug": "saint-seiya-saga-de-hades",
+  "tipo": "imagen",
+  "titulo": "Los Caballeros del Zodiaco: Saga de Hades",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0276"
+  },
+  "vtxIds": [
+    "VTX-0276"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/saint-seiya-saga-de-hades/images/01-saint-seiya-saga-de-hades.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0276"
+    },
+    {
+      "archivo": "POST/social/series/saint-seiya-saga-de-hades/images/02-sinopsis-saint-seiya-saga-de-hades.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/saint-seiya-saga-de-hades"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/saint-seiya-saga-de-hades/images/02-sinopsis-saint-seiya-saga-de-hades.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/saint-seiya-saga-de-hades/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

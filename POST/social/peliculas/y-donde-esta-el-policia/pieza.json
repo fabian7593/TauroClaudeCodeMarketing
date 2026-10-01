@@ -1,0 +1,53 @@
+{
+  "slug": "y-donde-esta-el-policia",
+  "tipo": "carrusel",
+  "titulo": "¿Y Dónde Está el Policía?",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "¿Y Dónde Está el Policía?"
+  },
+  "vtxIds": [
+    "VTX-0733",
+    "VTX-0734",
+    "VTX-0735"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/y-donde-esta-el-policia/images/01-policia-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0733"
+    },
+    {
+      "archivo": "POST/social/peliculas/y-donde-esta-el-policia/images/02-policia-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0734"
+    },
+    {
+      "archivo": "POST/social/peliculas/y-donde-esta-el-policia/images/03-policia-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0735"
+    },
+    {
+      "archivo": "POST/social/peliculas/y-donde-esta-el-policia/images/04-sinopsis-y-donde-esta-el-policia.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/y-donde-esta-el-policia"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/y-donde-esta-el-policia/images/04-sinopsis-y-donde-esta-el-policia.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/y-donde-esta-el-policia/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

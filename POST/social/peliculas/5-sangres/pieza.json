@@ -1,0 +1,41 @@
+{
+  "slug": "5-sangres",
+  "tipo": "imagen",
+  "titulo": "5 Sangres",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0435"
+  },
+  "vtxIds": [
+    "VTX-0435"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/5-sangres/images/01-5-sangres.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0435"
+    },
+    {
+      "archivo": "POST/social/peliculas/5-sangres/images/02-sinopsis-5-sangres.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/5-sangres"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/5-sangres/images/02-sinopsis-5-sangres.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/5-sangres/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "bichos-una-aventura-en-miniatura",
+  "tipo": "imagen",
+  "titulo": "Bichos: Una Aventura en Miniatura",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1300"
+  },
+  "vtxIds": [
+    "VTX-1300"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/bichos-una-aventura-en-miniatura/images/01-bichos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1300"
+    },
+    {
+      "archivo": "POST/social/peliculas/bichos-una-aventura-en-miniatura/images/02-sinopsis-bichos-una-aventura-en-miniatura.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bichos-una-aventura-en-miniatura"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/bichos-una-aventura-en-miniatura/images/02-sinopsis-bichos-una-aventura-en-miniatura.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/bichos-una-aventura-en-miniatura/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

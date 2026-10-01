@@ -1,0 +1,41 @@
+{
+  "slug": "creciendo-libres",
+  "tipo": "imagen",
+  "titulo": "Creciendo Libres",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0384"
+  },
+  "vtxIds": [
+    "VTX-0384"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/creciendo-libres/images/01-creciendo-libres.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0384"
+    },
+    {
+      "archivo": "POST/social/peliculas/creciendo-libres/images/02-sinopsis-creciendo-libres.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/creciendo-libres"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/creciendo-libres/images/02-sinopsis-creciendo-libres.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/creciendo-libres/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

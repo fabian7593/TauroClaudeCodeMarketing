@@ -1,0 +1,41 @@
+{
+  "slug": "ciudades-perdidas-con-albert-lin",
+  "tipo": "imagen",
+  "titulo": "Ciudades Perdidas con Albert Lin",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0382"
+  },
+  "vtxIds": [
+    "VTX-0382"
+  ],
+  "creada": "2026-09-25",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/ciudades-perdidas-con-albert-lin/images/01-ciudades-perdidas-con-albert-lin.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0382"
+    },
+    {
+      "archivo": "POST/social/series/ciudades-perdidas-con-albert-lin/images/02-sinopsis-ciudades-perdidas-con-albert-lin.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ciudades-perdidas-con-albert-lin"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/ciudades-perdidas-con-albert-lin/images/02-sinopsis-ciudades-perdidas-con-albert-lin.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/ciudades-perdidas-con-albert-lin/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

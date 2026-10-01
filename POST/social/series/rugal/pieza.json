@@ -1,0 +1,41 @@
+{
+  "slug": "rugal",
+  "tipo": "imagen",
+  "titulo": "Rugal",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0190"
+  },
+  "vtxIds": [
+    "VTX-0190"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/rugal/images/01-rugal.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0190"
+    },
+    {
+      "archivo": "POST/social/series/rugal/images/02-sinopsis-rugal.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/rugal"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/rugal/images/02-sinopsis-rugal.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/rugal/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

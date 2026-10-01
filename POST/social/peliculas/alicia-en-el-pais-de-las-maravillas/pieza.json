@@ -1,0 +1,47 @@
+{
+  "slug": "alicia-en-el-pais-de-las-maravillas",
+  "tipo": "carrusel",
+  "titulo": "Alicia en el País de las Maravillas",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Alicia en el País de las Maravillas"
+  },
+  "vtxIds": [
+    "VTX-0762",
+    "VTX-0760"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas/images/01-alicia-2010.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0762"
+    },
+    {
+      "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas/images/02-alicia-espejo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0760"
+    },
+    {
+      "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas/images/03-sinopsis-alicia-en-el-pais-de-las-maravillas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alicia-en-el-pais-de-las-maravillas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas/images/03-sinopsis-alicia-en-el-pais-de-las-maravillas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

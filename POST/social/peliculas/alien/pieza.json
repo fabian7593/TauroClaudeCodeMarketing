@@ -1,0 +1,53 @@
+{
+  "slug": "alien",
+  "tipo": "carrusel",
+  "titulo": "Alien",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Alien"
+  },
+  "vtxIds": [
+    "VTX-0766",
+    "VTX-0768",
+    "VTX-0767"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alien/images/01-alien-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0766"
+    },
+    {
+      "archivo": "POST/social/peliculas/alien/images/02-alien-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0768"
+    },
+    {
+      "archivo": "POST/social/peliculas/alien/images/03-alien-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0767"
+    },
+    {
+      "archivo": "POST/social/peliculas/alien/images/04-sinopsis-alien.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alien"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alien/images/04-sinopsis-alien.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alien/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

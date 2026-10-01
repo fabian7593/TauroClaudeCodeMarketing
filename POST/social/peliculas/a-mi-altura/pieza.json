@@ -1,0 +1,47 @@
+{
+  "slug": "a-mi-altura",
+  "tipo": "carrusel",
+  "titulo": "A Mi Altura",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "A Mi Altura"
+  },
+  "vtxIds": [
+    "VTX-0746",
+    "VTX-0747"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/a-mi-altura/images/01-a-mi-altura.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0746"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-mi-altura/images/02-a-mi-altura-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0747"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-mi-altura/images/03-sinopsis-a-mi-altura.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/a-mi-altura"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/a-mi-altura/images/03-sinopsis-a-mi-altura.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/a-mi-altura/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

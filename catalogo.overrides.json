@@ -8,5 +8,10 @@
       "VTX-1266",
       "VTX-1267"
     ]
+  },
+  "_comment_excluidos": "Títulos dados de baja por el usuario que todavía tienen su fila en el Excel. Se sacan del espejo local (y por lo tanto de cualquier lote). Cuando se borre la fila de la hoja, esta entrada se puede eliminar — el sincronizador avisa cuando eso pasa.",
+  "excluidos": {
+    "VTX-0664": "Retard-O-Tron Video Mixtape Vol. 2 — dado de baja el 2026-09-19; ya salió de catalog-data.js, falta borrar la fila del Excel",
+    "VTX-0745": "50 Sombras Muy Oscuras (Fifty Shades of Black) — dado de baja el 2026-10-01; falta borrar la fila del Excel (hojas Catalogo y Catalogo ordenado) y sacarla de catalog-data.js"
   }
 }

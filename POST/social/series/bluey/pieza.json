@@ -1,0 +1,41 @@
+{
+  "slug": "bluey",
+  "tipo": "imagen",
+  "titulo": "Bluey",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0338"
+  },
+  "vtxIds": [
+    "VTX-0338"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/bluey/images/01-bluey.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0338"
+    },
+    {
+      "archivo": "POST/social/series/bluey/images/02-sinopsis-bluey.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bluey"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/bluey/images/02-sinopsis-bluey.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/bluey/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

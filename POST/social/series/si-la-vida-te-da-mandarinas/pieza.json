@@ -1,0 +1,41 @@
+{
+  "slug": "si-la-vida-te-da-mandarinas",
+  "tipo": "imagen",
+  "titulo": "Si la Vida Te Da Mandarinas...",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0194"
+  },
+  "vtxIds": [
+    "VTX-0194"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/si-la-vida-te-da-mandarinas/images/01-si-la-vida-te-da-mandarinas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0194"
+    },
+    {
+      "archivo": "POST/social/series/si-la-vida-te-da-mandarinas/images/02-sinopsis-si-la-vida-te-da-mandarinas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/si-la-vida-te-da-mandarinas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/si-la-vida-te-da-mandarinas/images/02-sinopsis-si-la-vida-te-da-mandarinas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/si-la-vida-te-da-mandarinas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

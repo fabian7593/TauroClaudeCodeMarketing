@@ -1,0 +1,41 @@
+{
+  "slug": "alicia-en-el-pais-de-las-maravillas-2",
+  "tipo": "imagen",
+  "titulo": "Alicia en el País de las Maravillas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0761"
+  },
+  "vtxIds": [
+    "VTX-0761"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas-2/images/01-alicia-1951.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0761"
+    },
+    {
+      "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas-2/images/02-sinopsis-alicia-en-el-pais-de-las-maravillas-2.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alicia-en-el-pais-de-las-maravillas-2"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas-2/images/02-sinopsis-alicia-en-el-pais-de-las-maravillas-2.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alicia-en-el-pais-de-las-maravillas-2/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

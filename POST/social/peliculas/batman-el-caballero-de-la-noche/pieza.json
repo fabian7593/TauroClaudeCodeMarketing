@@ -1,0 +1,53 @@
+{
+  "slug": "batman-el-caballero-de-la-noche",
+  "tipo": "carrusel",
+  "titulo": "Batman: El Caballero de la Noche",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Batman: El Caballero de la Noche"
+  },
+  "vtxIds": [
+    "VTX-0792",
+    "VTX-0794",
+    "VTX-0795"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/batman-el-caballero-de-la-noche/images/01-bb.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0792"
+    },
+    {
+      "archivo": "POST/social/peliculas/batman-el-caballero-de-la-noche/images/02-tdk.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0794"
+    },
+    {
+      "archivo": "POST/social/peliculas/batman-el-caballero-de-la-noche/images/03-tdkr.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0795"
+    },
+    {
+      "archivo": "POST/social/peliculas/batman-el-caballero-de-la-noche/images/04-sinopsis-batman-el-caballero-de-la-noche.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/batman-el-caballero-de-la-noche"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/batman-el-caballero-de-la-noche/images/04-sinopsis-batman-el-caballero-de-la-noche.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/batman-el-caballero-de-la-noche/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

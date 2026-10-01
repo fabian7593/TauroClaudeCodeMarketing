@@ -1,0 +1,41 @@
+{
+  "slug": "a-dos-metros-de-ti",
+  "tipo": "imagen",
+  "titulo": "A Dos Metros de Ti",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0442"
+  },
+  "vtxIds": [
+    "VTX-0442"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/a-dos-metros-de-ti/images/01-a-dos-metros-de-ti.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0442"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-dos-metros-de-ti/images/02-sinopsis-a-dos-metros-de-ti.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/a-dos-metros-de-ti"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/a-dos-metros-de-ti/images/02-sinopsis-a-dos-metros-de-ti.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/a-dos-metros-de-ti/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "actividad-paranormal",
+  "tipo": "carrusel",
+  "titulo": "Actividad Paranormal",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Actividad Paranormal"
+  },
+  "vtxIds": [
+    "VTX-0753",
+    "VTX-0754",
+    "VTX-0755",
+    "VTX-0756",
+    "VTX-0758",
+    "VTX-0757",
+    "VTX-0759"
+  ],
+  "creada": "2026-09-30",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/01-ap-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0753"
+    },
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/02-ap-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0754"
+    },
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/03-ap-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0755"
+    },
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/04-ap-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0756"
+    },
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/05-ap-marcados.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0758"
+    },
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/06-ap-dimension.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0757"
+    },
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/07-ap-vinculos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0759"
+    },
+    {
+      "archivo": "POST/social/peliculas/actividad-paranormal/images/08-sinopsis-actividad-paranormal.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/actividad-paranormal"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/actividad-paranormal/images/08-sinopsis-actividad-paranormal.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/actividad-paranormal/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

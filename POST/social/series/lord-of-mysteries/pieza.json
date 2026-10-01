@@ -1,0 +1,41 @@
+{
+  "slug": "lord-of-mysteries",
+  "tipo": "imagen",
+  "titulo": "Lord of Mysteries",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0274"
+  },
+  "vtxIds": [
+    "VTX-0274"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/lord-of-mysteries/images/01-lord-of-mysteries.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0274"
+    },
+    {
+      "archivo": "POST/social/series/lord-of-mysteries/images/02-sinopsis-lord-of-mysteries.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/lord-of-mysteries"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/lord-of-mysteries/images/02-sinopsis-lord-of-mysteries.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/lord-of-mysteries/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

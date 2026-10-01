@@ -1,0 +1,41 @@
+{
+  "slug": "my-hero-academia",
+  "tipo": "imagen",
+  "titulo": "My Hero Academia",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0282"
+  },
+  "vtxIds": [
+    "VTX-0282"
+  ],
+  "creada": "2026-09-26",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/my-hero-academia/images/01-my-hero-academia.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0282"
+    },
+    {
+      "archivo": "POST/social/series/my-hero-academia/images/02-sinopsis-my-hero-academia.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/my-hero-academia"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/my-hero-academia/images/02-sinopsis-my-hero-academia.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/my-hero-academia/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
