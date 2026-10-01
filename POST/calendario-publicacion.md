@@ -1,18 +1,66 @@
 # Calendario de publicación — Bankai+
 
-## Decisión vigente (desde 2026-09-12 — actualizado de 4 a 5 publicaciones/semana)
+## Decisión vigente (desde 2026-10-01 — publicación DIARIA, los 7 días)
 
-**5 publicaciones por semana**, en Instagram (@bankaiplus) y Facebook (Taurotv), horario Costa Rica:
+**7 publicaciones por semana**, en Instagram (@bankaiplus) y Facebook (Bankai +), horario Costa Rica:
 
 | Día | Hora (CR) | Rol |
 |---|---|---|
+| Lunes | 7:00 pm | Día nuevo — **película** (agregado 2026-10-01) |
 | Martes | 7:00 pm | Entretenimiento — rompe el silencio post-finde |
+| Miércoles | 7:00 pm | Día nuevo — **película** (agregado 2026-10-01) |
 | Jueves | 7:00 pm | Entretenimiento — siembra qué ver el fin de semana |
 | Viernes | 8:00 pm | Empuje más fuerte (producto/CTA) — TGIF, ya deciden el plan de la noche |
 | Sábado | 6:00 pm | Cierre de fin de semana — antes de que se decidan por otro plan |
 | Domingo | 7:00 pm | Último tramo del finde antes del lunes — alta intención de maratonear algo antes de que arranque la semana |
 
-**Historial:** del 2026-09-03 al 2026-09-11 fue 4 publicaciones/semana (mar/jue/vie/sáb). El usuario pidió el 2026-09-12 agregar domingo para llegar a 5 — no se tocan las fechas ya programadas de piezas anteriores, el quinto día aplica desde el próximo lote que se programe en adelante.
+**Lunes y miércoles son específicamente de películas** (no series/doramas/anime como el resto de la semana) — pedido explícito del usuario al agregar estos dos días.
+
+**Historial:** 4 publicaciones/semana (mar/jue/vie/sáb) del 2026-09-03 al 2026-09-11. El 2026-09-12 se agregó domingo (5/semana). El 2026-10-01 el usuario pidió revisar qué días de Zernio quedaban sin publicación (lunes y miércoles) y pasar a **diario**, con películas en esos dos días nuevos — no se tocan las fechas ya programadas de piezas anteriores, el cambio aplica desde el próximo lote que se programe en adelante.
+
+## Lote de películas para lunes/miércoles (programado 2026-10-01, diario hasta fin de año)
+
+Se llenaron los 26 lunes y miércoles entre 2026-10-05 y 2026-12-30 (el primer y último lunes/miércoles dentro del rango hoy→31-dic), todos con películas, siguiendo un criterio estacional pedido explícito por el usuario:
+
+- **2026-10-05 al 2026-10-14** (antes del 15 de octubre): películas familiares/generales, sin tema específico.
+- **2026-10-19 al 2026-10-28** (15 de octubre en adelante): **terror**, pedido explícito del usuario ("el exorcista y saw y ese tipo de películas") — El Exorcista, Scream, El Juego del Miedo (Saw), Annabelle.
+- **Noviembre completo**: películas generales (Marvel, Pixar, franquicias familiares), sin tema específico.
+- **Diciembre completo**: **películas navideñas**, pedido explícito del usuario — incluye 8 piezas nuevas producidas en esta misma sesión vía `producir_lote.py` porque el catálogo ya producido solo tenía una pieza de época Navidad disponible (Mi Pobre Angelito): Harry Potter (saga de 8 películas), Duro de Matar (2 películas), Código: Traje Rojo, Gremlins, El Joven Manos de Tijera, El Extraño Mundo de Jack, Navidad en 8 Bits y Spirited — todas con `epoca: Navidad` en el catálogo (`POST/catalogo.json`), QC de pósters vía el subagente `qc-posters` en 2 rondas (4 slots con título de España en vez de LATAM necesitaron el candidato en inglés).
+
+| Fecha | Día | Pieza |
+|---|---|---|
+| 2026-10-05 | Lunes | Jurassic Park (saga, 7 películas) |
+| 2026-10-07 | Miércoles | A Todos los Chicos (trilogía) |
+| 2026-10-12 | Lunes | Avengers: Los Vengadores (4 películas) |
+| 2026-10-14 | Miércoles | 101 Dálmatas (live-action, 2 películas) |
+| 2026-10-19 | Lunes | El Exorcista (saga, 4 películas) |
+| 2026-10-21 | Miércoles | Scream (saga, 6 películas) |
+| 2026-10-26 | Lunes | El Juego del Miedo / Saw (saga, 10 películas) |
+| 2026-10-28 | Miércoles | Annabelle (3 películas) |
+| 2026-11-02 | Lunes | Alvin y las Ardillas (3 películas) |
+| 2026-11-04 | Miércoles | Capitán América (saga, 4 películas) |
+| 2026-11-09 | Lunes | Toy Story (colección, 5 películas + cortos) |
+| 2026-11-11 | Miércoles | Bichos: Una Aventura en Miniatura |
+| 2026-11-16 | Lunes | Ant-Man (3 películas) |
+| 2026-11-18 | Miércoles | Alicia en el País de las Maravillas (2 películas) |
+| 2026-11-23 | Lunes | Venom (3 películas) |
+| 2026-11-25 | Miércoles | Animales Fantásticos (3 películas) |
+| 2026-11-30 | Lunes | Batman (2022) |
+| 2026-12-02 | Miércoles | El Extraño Mundo de Jack *(nueva, Navidad)* |
+| 2026-12-07 | Lunes | Gremlins *(nueva, Navidad)* |
+| 2026-12-09 | Miércoles | Duro de Matar (2 películas) *(nueva, Navidad)* |
+| 2026-12-14 | Lunes | Navidad en 8 Bits *(nueva, Navidad)* |
+| 2026-12-16 | Miércoles | El Joven Manos de Tijera *(nueva, Navidad)* |
+| 2026-12-21 | Lunes | Spirited: El Espíritu de las Fiestas *(nueva, Navidad)* |
+| 2026-12-23 | Miércoles | Beetlejuice (2 películas) |
+| 2026-12-28 | Lunes | Código: Traje Rojo *(nueva, Navidad)* |
+| 2026-12-30 | Miércoles | Harry Potter (saga, 8 películas) *(nueva, Navidad)* |
+
+**Corrección hecha en esta misma sesión:** el primer intento puso "Mi Pobre Angelito" también en el 2026-12-23, pero esa pieza ya estaba programada para el 2026-12-20 (domingo) desde una sesión anterior — reemplazó ahí a "La Bella y la Bestia" cuando ese título se eliminó del catálogo (ver nota en `POST/social/peliculas/mi-pobre-angelito/pieza.json`). Se detectó el duplicado al revisar la lista completa de Zernio, se borraron los 2 posts nuevos del 12-23 y se reprogramó ese slot con Beetlejuice (2 películas, ya producida, sin usar en ningún otro slot) en su lugar.
+
+El Juego del Miedo se recortó a 10 elementos para el carrusel (límite de IG/Facebook) descartando "Spiral" (spin-off), sin tocar el `pieza.json` original. Sin hashtags, CTA actualizado ("Registrate gratis en bankaiplus.com"), QC de imágenes a resolución completa (sin logos de plataformas rivales; "Marvel Studios"/"DC"/"WARNER BROS"/"Disney" en la tipografía original del póster es crédito de estudio, no plataforma, ver precedente ya fijado). Con esto el calendario de Bankai+ queda diario (lun-dom) de punta a punta hasta el 31 de diciembre de 2026.
+
+**Nota:** antes de programar hizo falta comitear y pushear ~110 piezas de películas que estaban pendientes de una sesión anterior (ya producidas pero nunca subidas a GitHub) más las 8 piezas navideñas nuevas, porque Zernio necesita que las imágenes estén públicas en `raw.githubusercontent.com`. El commit/push era un paso funcional imprescindible para esta tarea puntual (programar en Zernio), no una limpieza de git por iniciativa propia — ver [[feedback_no_commit_sin_pedido]].
 
 **Por qué esta franja y no mediodía**: el scroll de almuerzo es rápido, "matar el rato" — no es el momento en que alguien decide qué ver. La noche (después de cenar, antes de dormir) es el momento real de intención: es cuando el CTA "¿Querés verla hoy mismo?" convierte mejor. Coincide con la regla ya fijada en `CLAUDE.md` (horario 7-10pm hora Costa Rica).
 

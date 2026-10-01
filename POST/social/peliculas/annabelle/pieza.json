@@ -46,7 +46,16 @@
   "publicado": {
     "hecho": false,
     "fecha": null,
-    "plataformas": []
+    "plataformas": [],
+    "programado": {
+      "fecha": "2026-10-28",
+      "hora": "19:00 CR (mie)",
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
+      "via": "zernio"
+    }
   },
   "nota": "Annabelle (2014, TMDB 250546, verificado año 2014 e inglés) se agregó a pedido del usuario sin cargarla al catálogo/Excel: por eso su arte no lleva vtxId y vtxIds sigue con la 2 y la 3."
 }
