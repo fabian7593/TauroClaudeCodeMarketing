@@ -1,0 +1,47 @@
+{
+  "slug": "buscando-a-nemo",
+  "tipo": "carrusel",
+  "titulo": "Buscando a Nemo",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Buscando a Nemo"
+  },
+  "vtxIds": [
+    "VTX-1304",
+    "VTX-1303"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/buscando-a-nemo/images/01-buscando-a-nemo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1304"
+    },
+    {
+      "archivo": "POST/social/peliculas/buscando-a-nemo/images/02-buscando-a-dory.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1303"
+    },
+    {
+      "archivo": "POST/social/peliculas/buscando-a-nemo/images/03-sinopsis-buscando-a-nemo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/buscando-a-nemo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/buscando-a-nemo/images/03-sinopsis-buscando-a-nemo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/buscando-a-nemo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

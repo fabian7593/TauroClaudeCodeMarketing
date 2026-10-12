@@ -1,0 +1,42 @@
+{
+  "slug": "villanos",
+  "tipo": "imagen",
+  "titulo": "Villanos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0330"
+  },
+  "vtxIds": [
+    "VTX-0330"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/villanos/images/01-villanos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0330"
+    },
+    {
+      "archivo": "POST/social/series/villanos/images/02-sinopsis-villanos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/villanos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/villanos/images/02-sinopsis-villanos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/villanos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "TMDB 138116 marca idioma original español (serie animada mexicana de Alan Ituriel): solo fila MX, aunque el catálogo tenga audioDual=true."
+}

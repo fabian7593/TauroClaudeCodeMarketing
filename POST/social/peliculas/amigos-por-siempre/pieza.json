@@ -1,0 +1,41 @@
+{
+  "slug": "amigos-por-siempre",
+  "tipo": "imagen",
+  "titulo": "Amigos por Siempre",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0470"
+  },
+  "vtxIds": [
+    "VTX-0470"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/amigos-por-siempre/images/01-amigos-por-siempre.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0470"
+    },
+    {
+      "archivo": "POST/social/peliculas/amigos-por-siempre/images/02-sinopsis-amigos-por-siempre.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amigos-por-siempre"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/amigos-por-siempre/images/02-sinopsis-amigos-por-siempre.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/amigos-por-siempre/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

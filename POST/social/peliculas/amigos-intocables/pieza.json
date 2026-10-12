@@ -1,0 +1,41 @@
+{
+  "slug": "amigos-intocables",
+  "tipo": "imagen",
+  "titulo": "Amigos Intocables",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0469"
+  },
+  "vtxIds": [
+    "VTX-0469"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/amigos-intocables/images/01-amigos-intocables.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0469"
+    },
+    {
+      "archivo": "POST/social/peliculas/amigos-intocables/images/02-sinopsis-amigos-intocables.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amigos-intocables"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/amigos-intocables/images/02-sinopsis-amigos-intocables.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/amigos-intocables/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

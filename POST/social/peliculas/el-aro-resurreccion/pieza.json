@@ -1,0 +1,42 @@
+{
+  "slug": "el-aro-resurreccion",
+  "tipo": "imagen",
+  "titulo": "El Aro: Resurrección",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0854"
+  },
+  "vtxIds": [
+    "VTX-0854"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-aro-resurreccion/images/01-el-aro-resurreccion.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0854"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-aro-resurreccion/images/02-sinopsis-el-aro-resurreccion.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-aro-resurreccion"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-aro-resurreccion/images/02-sinopsis-el-aro-resurreccion.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-aro-resurreccion/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "TMDB 767585 es The Perilous Internet Ring (China, 2020, idioma original chino), NO forma parte de la saga El Aro (VTX-0851..0853) aunque comparta el nombre en español. El usuario confirmó (2026-10-06) que va como pieza suelta. El catálogo no trae clasificación; se usa +13, igual que la saga de terror del mismo estilo. Pósters: los dos es-LATAM traen el título mal escrito ('RESURRECIÓN'); arte principal textless y, para la tira, el póster default del catálogo (título en chino) como último recurso."
+}

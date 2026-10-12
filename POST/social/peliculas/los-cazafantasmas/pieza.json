@@ -1,0 +1,66 @@
+{
+  "slug": "los-cazafantasmas",
+  "tipo": "carrusel",
+  "titulo": "Los Cazafantasmas",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Los Cazafantasmas"
+  },
+  "vtxIds": [
+    "VTX-1033",
+    "VTX-1034",
+    "VTX-0806",
+    "VTX-0944",
+    "VTX-1327"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/los-cazafantasmas/images/01-cazafantasmas1984.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1033"
+    },
+    {
+      "archivo": "POST/social/peliculas/los-cazafantasmas/images/02-cazafantasmas1989.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1034"
+    },
+    {
+      "archivo": "POST/social/peliculas/los-cazafantasmas/images/03-cazafantasmas2016.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0806"
+    },
+    {
+      "archivo": "POST/social/peliculas/los-cazafantasmas/images/04-ellegado.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0944"
+    },
+    {
+      "archivo": "POST/social/peliculas/los-cazafantasmas/images/05-apocalipsisfantasma.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1327"
+    },
+    {
+      "archivo": "POST/social/peliculas/los-cazafantasmas/images/06-sinopsis-los-cazafantasmas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/los-cazafantasmas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/los-cazafantasmas/images/06-sinopsis-los-cazafantasmas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/los-cazafantasmas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Carrusel de 5: la colección 'Los Cazafantasmas' del catálogo más el reboot de 2016 (VTX-0806), sumado por override en catalogo.overrides.json a pedido del usuario el 2026-10-05 (antes había salido como pieza suelta). Audio mixto en el catálogo (solo Apocalipsis Fantasma trae audioDual = Sí), así que va solo MX para no prometer inglés en las otras 4. Pósters: 2021 en inglés porque los 3 'es' eran de España ('Más allá'); 2024 en inglés porque el único 'es' LATAM era una promo de 'Exclusivamente en cines / Muy pronto'. Clasificación: la más alta de la saga (PG-13)."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "amenaza-en-lo-profundo",
+  "tipo": "imagen",
+  "titulo": "Amenaza en lo Profundo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0464"
+  },
+  "vtxIds": [
+    "VTX-0464"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/images/01-amenaza-en-lo-profundo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0464"
+    },
+    {
+      "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/images/02-sinopsis-amenaza-en-lo-profundo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amenaza-en-lo-profundo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/images/02-sinopsis-amenaza-en-lo-profundo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

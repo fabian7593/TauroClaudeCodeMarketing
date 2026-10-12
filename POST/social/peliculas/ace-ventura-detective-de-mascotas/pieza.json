@@ -1,0 +1,41 @@
+{
+  "slug": "ace-ventura-detective-de-mascotas",
+  "tipo": "imagen",
+  "titulo": "Ace Ventura: Detective de Mascotas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0454"
+  },
+  "vtxIds": [
+    "VTX-0454"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/images/01-ace-ventura-detective-de-mascotas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0454"
+    },
+    {
+      "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/images/02-sinopsis-ace-ventura-detective-de-mascotas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ace-ventura-detective-de-mascotas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/images/02-sinopsis-ace-ventura-detective-de-mascotas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

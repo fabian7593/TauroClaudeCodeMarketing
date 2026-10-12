@@ -1,0 +1,41 @@
+{
+  "slug": "el-reino-de-los-monos",
+  "tipo": "imagen",
+  "titulo": "El Reino de los Monos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0388"
+  },
+  "vtxIds": [
+    "VTX-0388"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-reino-de-los-monos/images/01-el-reino-de-los-monos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0388"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-reino-de-los-monos/images/02-sinopsis-el-reino-de-los-monos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-reino-de-los-monos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-reino-de-los-monos/images/02-sinopsis-el-reino-de-los-monos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-reino-de-los-monos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

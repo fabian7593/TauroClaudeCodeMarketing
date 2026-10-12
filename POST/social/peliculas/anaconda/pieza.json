@@ -1,0 +1,41 @@
+{
+  "slug": "anaconda",
+  "tipo": "imagen",
+  "titulo": "Anaconda",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0473"
+  },
+  "vtxIds": [
+    "VTX-0473"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/anaconda/images/01-anaconda.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0473"
+    },
+    {
+      "archivo": "POST/social/peliculas/anaconda/images/02-sinopsis-anaconda.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/anaconda"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/anaconda/images/02-sinopsis-anaconda.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/anaconda/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

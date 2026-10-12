@@ -1,0 +1,65 @@
+{
+  "slug": "crepusculo",
+  "tipo": "carrusel",
+  "titulo": "Crepúsculo: La Saga",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Crepúsculo: La Saga"
+  },
+  "vtxIds": [
+    "VTX-0815",
+    "VTX-0819",
+    "VTX-0818",
+    "VTX-0816",
+    "VTX-0817"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/crepusculo/images/01-crepusculo1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0815"
+    },
+    {
+      "archivo": "POST/social/peliculas/crepusculo/images/02-crepusculo2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0819"
+    },
+    {
+      "archivo": "POST/social/peliculas/crepusculo/images/03-crepusculo3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0818"
+    },
+    {
+      "archivo": "POST/social/peliculas/crepusculo/images/04-crepusculo4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0816"
+    },
+    {
+      "archivo": "POST/social/peliculas/crepusculo/images/05-crepusculo5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0817"
+    },
+    {
+      "archivo": "POST/social/peliculas/crepusculo/images/06-sinopsis-crepusculo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/crepusculo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/crepusculo/images/06-sinopsis-crepusculo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/crepusculo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

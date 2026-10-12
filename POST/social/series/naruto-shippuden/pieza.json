@@ -1,0 +1,41 @@
+{
+  "slug": "naruto-shippuden",
+  "tipo": "imagen",
+  "titulo": "Naruto Shippuden",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0285"
+  },
+  "vtxIds": [
+    "VTX-0285"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/naruto-shippuden/images/01-naruto-shippuden.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0285"
+    },
+    {
+      "archivo": "POST/social/series/naruto-shippuden/images/02-sinopsis-naruto-shippuden.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/naruto-shippuden"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/naruto-shippuden/images/02-sinopsis-naruto-shippuden.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/naruto-shippuden/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

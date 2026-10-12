@@ -1,0 +1,42 @@
+{
+  "slug": "apocalypto",
+  "tipo": "imagen",
+  "titulo": "Apocalypto",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0480"
+  },
+  "vtxIds": [
+    "VTX-0480"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/apocalypto/images/01-apocalypto.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0480"
+    },
+    {
+      "archivo": "POST/social/peliculas/apocalypto/images/02-sinopsis-apocalypto.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/apocalypto"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/apocalypto/images/02-sinopsis-apocalypto.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/apocalypto/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "TMDB 1579 marca idioma original inglés y el catálogo trae audioDual=No: solo fila MX. La película está hablada en maya yucateco, pero no hay pista original declarada en el catálogo ni bandera para ese idioma; no se menciona el idioma en el texto. Pósters: arte = es1 (mismo póster que es0 a 2000x3000); tira = xx0 (misma composición en sepia, sin texto) porque el único arte distinto (es3) es una composición no oficial de baja calidad."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "ad-astra-hacia-las-estrellas",
+  "tipo": "imagen",
+  "titulo": "Ad Astra: Hacia las Estrellas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0455"
+  },
+  "vtxIds": [
+    "VTX-0455"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/images/01-ad-astra-hacia-las-estrellas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0455"
+    },
+    {
+      "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/images/02-sinopsis-ad-astra-hacia-las-estrellas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ad-astra-hacia-las-estrellas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/images/02-sinopsis-ad-astra-hacia-las-estrellas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

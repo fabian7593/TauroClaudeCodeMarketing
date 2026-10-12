@@ -1,0 +1,41 @@
+{
+  "slug": "criaturas-gigantes",
+  "tipo": "imagen",
+  "titulo": "Criaturas Gigantes",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0385"
+  },
+  "vtxIds": [
+    "VTX-0385"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/criaturas-gigantes/images/01-criaturas-gigantes.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0385"
+    },
+    {
+      "archivo": "POST/social/series/criaturas-gigantes/images/02-sinopsis-criaturas-gigantes.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/criaturas-gigantes"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/criaturas-gigantes/images/02-sinopsis-criaturas-gigantes.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/criaturas-gigantes/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "astro-boy",
+  "tipo": "imagen",
+  "titulo": "Astro Boy",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0490"
+  },
+  "vtxIds": [
+    "VTX-0490"
+  ],
+  "creada": "2026-10-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/astro-boy/images/01-astro-boy.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0490"
+    },
+    {
+      "archivo": "POST/social/peliculas/astro-boy/images/02-sinopsis-astro-boy.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/astro-boy"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/astro-boy/images/02-sinopsis-astro-boy.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/astro-boy/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

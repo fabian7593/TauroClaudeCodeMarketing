@@ -1,0 +1,41 @@
+{
+  "slug": "overlord",
+  "tipo": "imagen",
+  "titulo": "Overlord",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0290"
+  },
+  "vtxIds": [
+    "VTX-0290"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/overlord/images/01-overlord.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0290"
+    },
+    {
+      "archivo": "POST/social/series/overlord/images/02-sinopsis-overlord.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/overlord"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/overlord/images/02-sinopsis-overlord.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/overlord/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

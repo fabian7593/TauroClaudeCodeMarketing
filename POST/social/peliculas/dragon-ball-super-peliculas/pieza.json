@@ -1,0 +1,60 @@
+{
+  "slug": "dragon-ball-super-peliculas",
+  "tipo": "carrusel",
+  "titulo": "Dragon Ball: Las Películas de la Nueva Era",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Dragon Ball: Las Películas de la Nueva Era"
+  },
+  "vtxIds": [
+    "VTX-1252",
+    "VTX-1257",
+    "VTX-1242",
+    "VTX-1243"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/01-la-batalla-de-los-dioses.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1252"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/02-la-resurreccion-de-freezer.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1257"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/03-dragon-ball-super-broly.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1242"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/04-dragon-ball-super-super-hero.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1243"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/05-sinopsis-dragon-ball-super-peliculas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-super-peliculas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/05-sinopsis-dragon-ball-super-peliculas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+}

@@ -7,8 +7,17 @@
       "VTX-1265",
       "VTX-1266",
       "VTX-1267"
+    ],
+    "Los Cazafantasmas": [
+      "VTX-0806"
+    ],
+    "Especiales de Dragon Ball Z": [
+      "VTX-1251",
+      "VTX-1258"
     ]
   },
+  "_comment_especiales_dbz": "VTX-1251 (Bardock) y VTX-1258 (La historia de Trunks) son especiales de TV sin colección en el Excel ni en TMDB. El usuario pidió (2026-10-06) publicarlos juntos en un carrusel propio, separado de los 4 carruseles de películas de Dragon Ball.",
+  "_comment_cazafantasmas": "VTX-0806 es el reboot de 2016: el Excel no le pone colección y TMDB tampoco lo mete en la colección Ghostbusters, pero el usuario pidió (2026-10-05) publicarlo en el mismo carrusel que las otras 4 para no tener dos piezas de Cazafantasmas en el feed.",
   "_comment_excluidos": "Títulos dados de baja por el usuario que todavía tienen su fila en el Excel. Se sacan del espejo local (y por lo tanto de cualquier lote). Cuando se borre la fila de la hoja, esta entrada se puede eliminar — el sincronizador avisa cuando eso pasa.",
   "excluidos": {
     "VTX-0664": "Retard-O-Tron Video Mixtape Vol. 2 — dado de baja el 2026-09-19; ya salió de catalog-data.js, falta borrar la fila del Excel",

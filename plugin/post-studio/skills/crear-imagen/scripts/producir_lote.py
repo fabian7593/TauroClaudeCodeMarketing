@@ -84,6 +84,8 @@ ROW_LABELS = {
     "CN": "Audio Chino",
     "TR": "Audio Turco",
     "FR": "Audio Francés",
+    "RU": "Audio Ruso",
+    "EU": "Audio Euskera",
     "ES": "Subtítulo Español",
 }
 
@@ -101,6 +103,8 @@ IDIOMA_CAPTION = {
     "CN": ("y", "chino"),
     "TR": ("y", "turco"),
     "FR": ("y", "francés"),
+    "RU": ("y", "ruso"),
+    "EU": ("y", "euskera"),
 }
 
 FORMATOS = {

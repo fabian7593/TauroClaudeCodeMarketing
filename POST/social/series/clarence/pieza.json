@@ -1,0 +1,41 @@
+{
+  "slug": "clarence",
+  "tipo": "imagen",
+  "titulo": "Clarence",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0341"
+  },
+  "vtxIds": [
+    "VTX-0341"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/clarence/images/01-clarence.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0341"
+    },
+    {
+      "archivo": "POST/social/series/clarence/images/02-sinopsis-clarence.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/clarence"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/clarence/images/02-sinopsis-clarence.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/clarence/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

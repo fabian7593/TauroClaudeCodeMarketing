@@ -1,0 +1,41 @@
+{
+  "slug": "asi-en-la-tierra-como-en-el-infierno",
+  "tipo": "imagen",
+  "titulo": "Así en la Tierra Como en el Infierno",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0488"
+  },
+  "vtxIds": [
+    "VTX-0488"
+  ],
+  "creada": "2026-10-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/images/01-asi-en-la-tierra-como-en-el-infierno.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0488"
+    },
+    {
+      "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/images/02-sinopsis-asi-en-la-tierra-como-en-el-infierno.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/asi-en-la-tierra-como-en-el-infierno"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/images/02-sinopsis-asi-en-la-tierra-como-en-el-infierno.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

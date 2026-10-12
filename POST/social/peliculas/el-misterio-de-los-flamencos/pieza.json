@@ -1,0 +1,41 @@
+{
+  "slug": "el-misterio-de-los-flamencos",
+  "tipo": "imagen",
+  "titulo": "El Misterio de los Flamencos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0387"
+  },
+  "vtxIds": [
+    "VTX-0387"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/images/01-el-misterio-de-los-flamencos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0387"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/images/02-sinopsis-el-misterio-de-los-flamencos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-misterio-de-los-flamencos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/images/02-sinopsis-el-misterio-de-los-flamencos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

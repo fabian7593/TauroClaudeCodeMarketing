@@ -1,8 +1,8 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
-  "generado": "2026-10-01",
-  "totalPiezas": 376,
-  "titulosConContenido": 513,
+  "generado": "2026-10-12",
+  "totalPiezas": 469,
+  "titulosConContenido": 668,
   "titulosEnCatalogo": 1430,
   "problemas": [],
   "piezas": [
@@ -1055,6 +1055,46 @@
       "nota": null
     },
     {
+      "slug": "a-traves-de-mi-ventana",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "A Través de Mi Ventana",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0450"
+      },
+      "vtxIds": [
+        "VTX-0450"
+      ],
+      "carpeta": "POST/social/peliculas/a-traves-de-mi-ventana",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/images/01-a-traves-de-mi-ventana.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0450"
+        },
+        {
+          "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/images/02-sinopsis-a-traves-de-mi-ventana.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/images/02-sinopsis-a-traves-de-mi-ventana.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
+      "nota": null
+    },
+    {
       "slug": "abracadabra",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -1098,6 +1138,86 @@
         "plataformas": []
       },
       "creada": "2026-09-30",
+      "nota": null
+    },
+    {
+      "slug": "ace-ventura-detective-de-mascotas",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Ace Ventura: Detective de Mascotas",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0454"
+      },
+      "vtxIds": [
+        "VTX-0454"
+      ],
+      "carpeta": "POST/social/peliculas/ace-ventura-detective-de-mascotas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/images/01-ace-ventura-detective-de-mascotas.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0454"
+        },
+        {
+          "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/images/02-sinopsis-ace-ventura-detective-de-mascotas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/images/02-sinopsis-ace-ventura-detective-de-mascotas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/ace-ventura-detective-de-mascotas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "ace-ventura-jr-detective-de-mascotas",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Ace Ventura Jr.: Detective de Mascotas",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0453"
+      },
+      "vtxIds": [
+        "VTX-0453"
+      ],
+      "carpeta": "POST/social/peliculas/ace-ventura-jr-detective-de-mascotas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/ace-ventura-jr-detective-de-mascotas/images/01-ace-ventura-jr-detective-de-mascotas.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0453"
+        },
+        {
+          "archivo": "POST/social/peliculas/ace-ventura-jr-detective-de-mascotas/images/02-sinopsis-ace-ventura-jr-detective-de-mascotas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/ace-ventura-jr-detective-de-mascotas/images/02-sinopsis-ace-ventura-jr-detective-de-mascotas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/ace-ventura-jr-detective-de-mascotas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
       "nota": null
     },
     {
@@ -1177,6 +1297,166 @@
       "nota": null
     },
     {
+      "slug": "ad-astra-hacia-las-estrellas",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Ad Astra: Hacia las Estrellas",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0455"
+      },
+      "vtxIds": [
+        "VTX-0455"
+      ],
+      "carpeta": "POST/social/peliculas/ad-astra-hacia-las-estrellas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/images/01-ad-astra-hacia-las-estrellas.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0455"
+        },
+        {
+          "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/images/02-sinopsis-ad-astra-hacia-las-estrellas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/images/02-sinopsis-ad-astra-hacia-las-estrellas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/ad-astra-hacia-las-estrellas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "agencia-secreta-de-control-magico",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Agencia Secreta de Control Mágico",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0457"
+      },
+      "vtxIds": [
+        "VTX-0457"
+      ],
+      "carpeta": "POST/social/peliculas/agencia-secreta-de-control-magico",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/images/01-agencia-secreta-de-control-magico.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0457"
+        },
+        {
+          "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/images/02-sinopsis-agencia-secreta-de-control-magico.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/images/02-sinopsis-agencia-secreta-de-control-magico.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Catálogo trae clasificación NR; TMDB 797394 la marca 'L' (apta para todo público). Se usó 'Apta para toda la familia'. Idioma original ruso según TMDB (Ганзель, Гретель и Агентство Магии): filas MX + RU + ES; la bandera RU se agregó a la plantilla en este lote."
+    },
+    {
+      "slug": "agentes-del-desorden",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Agentes del Desorden",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0458"
+      },
+      "vtxIds": [
+        "VTX-0458"
+      ],
+      "carpeta": "POST/social/peliculas/agentes-del-desorden",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/agentes-del-desorden/images/01-agentes-del-desorden.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0458"
+        },
+        {
+          "archivo": "POST/social/peliculas/agentes-del-desorden/images/02-sinopsis-agentes-del-desorden.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/agentes-del-desorden/images/02-sinopsis-agentes-del-desorden.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/agentes-del-desorden/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "akelarre",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Akelarre",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0459"
+      },
+      "vtxIds": [
+        "VTX-0459"
+      ],
+      "carpeta": "POST/social/peliculas/akelarre",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/akelarre/images/01-akelarre.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0459"
+        },
+        {
+          "archivo": "POST/social/peliculas/akelarre/images/02-sinopsis-akelarre.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/akelarre/images/02-sinopsis-akelarre.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/akelarre/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Catálogo trae clasificación NR; TMDB 655187 registra 15, 16 y 18 según el país. Se usó 'Apta para mayores de 18'. Idioma original euskera según TMDB (Original Language: Basque): filas MX + EU + ES; la bandera EU (ikurriña) se agregó a la plantilla en este lote."
+    },
+    {
       "slug": "akira",
       "categoria": "peliculas",
       "tipo": "imagen",
@@ -1214,6 +1494,46 @@
         "plataformas": []
       },
       "creada": "2026-09-14",
+      "nota": null
+    },
+    {
+      "slug": "aladdin",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Aladdín",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0460"
+      },
+      "vtxIds": [
+        "VTX-0460"
+      ],
+      "carpeta": "POST/social/peliculas/aladdin",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/aladdin/images/01-aladdin.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0460"
+        },
+        {
+          "archivo": "POST/social/peliculas/aladdin/images/02-sinopsis-aladdin.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/aladdin/images/02-sinopsis-aladdin.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/aladdin/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
       "nota": null
     },
     {
@@ -1255,6 +1575,46 @@
       },
       "creada": "2026-09-12",
       "nota": "Catalogo no trae clasificacion de edad -- se uso 'Apta para toda la familia' por ser un documental de naturaleza sin contenido sensible."
+    },
+    {
+      "slug": "alice-2",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Alice",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0461"
+      },
+      "vtxIds": [
+        "VTX-0461"
+      ],
+      "carpeta": "POST/social/peliculas/alice-2",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/alice-2/images/01-alice-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0461"
+        },
+        {
+          "archivo": "POST/social/peliculas/alice-2/images/02-sinopsis-alice-2.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/alice-2/images/02-sinopsis-alice-2.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/alice-2/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
+      "nota": null
     },
     {
       "slug": "alicia-en-el-pais-de-las-maravillas-2",
@@ -1349,6 +1709,46 @@
         }
       },
       "creada": "2026-09-30",
+      "nota": null
+    },
+    {
+      "slug": "alien-romulus",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Alien. Romulus",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0462"
+      },
+      "vtxIds": [
+        "VTX-0462"
+      ],
+      "carpeta": "POST/social/peliculas/alien-romulus",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/alien-romulus/images/01-alien-romulus.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0462"
+        },
+        {
+          "archivo": "POST/social/peliculas/alien-romulus/images/02-sinopsis-alien-romulus.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/alien-romulus/images/02-sinopsis-alien-romulus.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/alien-romulus/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
       "nota": null
     },
     {
@@ -1450,6 +1850,46 @@
       "nota": null
     },
     {
+      "slug": "alive",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Alive",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0463"
+      },
+      "vtxIds": [
+        "VTX-0463"
+      ],
+      "carpeta": "POST/social/peliculas/alive",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/alive/images/01-alive.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0463"
+        },
+        {
+          "archivo": "POST/social/peliculas/alive/images/02-sinopsis-alive.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/alive/images/02-sinopsis-alive.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/alive/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Catálogo no trae clasificación y TMDB 680173 no registra certificación. Por tratar heridas de guerra y sus secuelas se usó 'Apta para mayores de 13'. TMDB tiene un solo póster de esta película (500x750, idioma xx) y ninguna otra imagen: el segundo cuadro de la tira es un recorte del mismo póster, según la regla de mínimo 2 cuadros."
+    },
+    {
       "slug": "alvin-y-las-ardillas",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -1511,6 +1951,366 @@
       "nota": null
     },
     {
+      "slug": "amenaza-en-lo-profundo",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amenaza en lo Profundo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0464"
+      },
+      "vtxIds": [
+        "VTX-0464"
+      ],
+      "carpeta": "POST/social/peliculas/amenaza-en-lo-profundo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/images/01-amenaza-en-lo-profundo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0464"
+        },
+        {
+          "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/images/02-sinopsis-amenaza-en-lo-profundo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/images/02-sinopsis-amenaza-en-lo-profundo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amenaza-en-lo-profundo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "amigos-de-armas",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amigos de Armas",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0466"
+      },
+      "vtxIds": [
+        "VTX-0466"
+      ],
+      "carpeta": "POST/social/peliculas/amigos-de-armas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amigos-de-armas/images/01-amigos-de-armas.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0466"
+        },
+        {
+          "archivo": "POST/social/peliculas/amigos-de-armas/images/02-sinopsis-amigos-de-armas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amigos-de-armas/images/02-sinopsis-amigos-de-armas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amigos-de-armas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "amigos-de-las-vacaciones",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amigos de las Vacaciones",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0467"
+      },
+      "vtxIds": [
+        "VTX-0467"
+      ],
+      "carpeta": "POST/social/peliculas/amigos-de-las-vacaciones",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amigos-de-las-vacaciones/images/01-amigos-de-las-vacaciones.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0467"
+        },
+        {
+          "archivo": "POST/social/peliculas/amigos-de-las-vacaciones/images/02-sinopsis-amigos-de-las-vacaciones.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amigos-de-las-vacaciones/images/02-sinopsis-amigos-de-las-vacaciones.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amigos-de-las-vacaciones/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "amigos-imaginarios",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amigos Imaginarios",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0468"
+      },
+      "vtxIds": [
+        "VTX-0468"
+      ],
+      "carpeta": "POST/social/peliculas/amigos-imaginarios",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amigos-imaginarios/images/01-amigos-imaginarios.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0468"
+        },
+        {
+          "archivo": "POST/social/peliculas/amigos-imaginarios/images/02-sinopsis-amigos-imaginarios.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amigos-imaginarios/images/02-sinopsis-amigos-imaginarios.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amigos-imaginarios/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "amigos-intocables",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amigos Intocables",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0469"
+      },
+      "vtxIds": [
+        "VTX-0469"
+      ],
+      "carpeta": "POST/social/peliculas/amigos-intocables",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amigos-intocables/images/01-amigos-intocables.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0469"
+        },
+        {
+          "archivo": "POST/social/peliculas/amigos-intocables/images/02-sinopsis-amigos-intocables.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amigos-intocables/images/02-sinopsis-amigos-intocables.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amigos-intocables/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "amigos-por-siempre",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amigos por Siempre",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0470"
+      },
+      "vtxIds": [
+        "VTX-0470"
+      ],
+      "carpeta": "POST/social/peliculas/amigos-por-siempre",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amigos-por-siempre/images/01-amigos-por-siempre.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0470"
+        },
+        {
+          "archivo": "POST/social/peliculas/amigos-por-siempre/images/02-sinopsis-amigos-por-siempre.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amigos-por-siempre/images/02-sinopsis-amigos-por-siempre.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amigos-por-siempre/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "amores-materialistas",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amores Materialistas",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0471"
+      },
+      "vtxIds": [
+        "VTX-0471"
+      ],
+      "carpeta": "POST/social/peliculas/amores-materialistas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amores-materialistas/images/01-amores-materialistas.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0471"
+        },
+        {
+          "archivo": "POST/social/peliculas/amores-materialistas/images/02-sinopsis-amores-materialistas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amores-materialistas/images/02-sinopsis-amores-materialistas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amores-materialistas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "amos-del-universo",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Amos del Universo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0472"
+      },
+      "vtxIds": [
+        "VTX-0472"
+      ],
+      "carpeta": "POST/social/peliculas/amos-del-universo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/amos-del-universo/images/01-amos-del-universo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0472"
+        },
+        {
+          "archivo": "POST/social/peliculas/amos-del-universo/images/02-sinopsis-amos-del-universo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/amos-del-universo/images/02-sinopsis-amos-del-universo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/amos-del-universo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "anaconda",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Anaconda",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0473"
+      },
+      "vtxIds": [
+        "VTX-0473"
+      ],
+      "carpeta": "POST/social/peliculas/anaconda",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/anaconda/images/01-anaconda.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0473"
+        },
+        {
+          "archivo": "POST/social/peliculas/anaconda/images/02-sinopsis-anaconda.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/anaconda/images/02-sinopsis-anaconda.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/anaconda/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "animales-fantasticos",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -1569,6 +2369,46 @@
         }
       },
       "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "aniquilacion",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Aniquilación",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0476"
+      },
+      "vtxIds": [
+        "VTX-0476"
+      ],
+      "carpeta": "POST/social/peliculas/aniquilacion",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/aniquilacion/images/01-aniquilacion.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0476"
+        },
+        {
+          "archivo": "POST/social/peliculas/aniquilacion/images/02-sinopsis-aniquilacion.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/aniquilacion/images/02-sinopsis-aniquilacion.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/aniquilacion/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -1692,6 +2532,412 @@
       "nota": null
     },
     {
+      "slug": "anticristo",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Anticristo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0477"
+      },
+      "vtxIds": [
+        "VTX-0477"
+      ],
+      "carpeta": "POST/social/peliculas/anticristo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/anticristo/images/01-anticristo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0477"
+        },
+        {
+          "archivo": "POST/social/peliculas/anticristo/images/02-sinopsis-anticristo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/anticristo/images/02-sinopsis-anticristo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/anticristo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "El catálogo trae clasificación NR; se usa +18 por el contenido explícito de la película (versión sin clasificar en EE. UU., equivalente a NC-17). Pósters: los dos es-LATAM (y el principal en inglés) traen una pareja desnuda en escena sexual, no aptos para IG/FB; se usan dos artes alternativos en inglés sin desnudos."
+    },
+    {
+      "slug": "apocalypto",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Apocalypto",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0480"
+      },
+      "vtxIds": [
+        "VTX-0480"
+      ],
+      "carpeta": "POST/social/peliculas/apocalypto",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/apocalypto/images/01-apocalypto.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0480"
+        },
+        {
+          "archivo": "POST/social/peliculas/apocalypto/images/02-sinopsis-apocalypto.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/apocalypto/images/02-sinopsis-apocalypto.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/apocalypto/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "TMDB 1579 marca idioma original inglés y el catálogo trae audioDual=No: solo fila MX. La película está hablada en maya yucateco, pero no hay pista original declarada en el catálogo ni bandera para ese idioma; no se menciona el idioma en el texto. Pósters: arte = es1 (mismo póster que es0 a 2000x3000); tira = xx0 (misma composición en sepia, sin texto) porque el único arte distinto (es3) es una composición no oficial de baja calidad."
+    },
+    {
+      "slug": "aquaman",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Aquaman",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Aquaman"
+      },
+      "vtxIds": [
+        "VTX-0481",
+        "VTX-1494"
+      ],
+      "carpeta": "POST/social/peliculas/aquaman",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/aquaman/images/01-aquaman.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0481"
+        },
+        {
+          "archivo": "POST/social/peliculas/aquaman/images/02-aquaman-y-el-reino-perdido.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1494"
+        },
+        {
+          "archivo": "POST/social/peliculas/aquaman/images/03-sinopsis-aquaman.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/aquaman/images/03-sinopsis-aquaman.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/aquaman/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": "Carrusel de saga: el Excel no le pone colección a ninguna de las dos (ambas en 'Peliculas'), pero TMDB las agrupa en la colección Aquaman y CLAUDE.md manda publicar las películas de una saga juntas. Audio mixto en el catálogo: Aquaman trae audioDual = Sí y El Reino Perdido audioDual = No; las filas son por pieza, así que va solo MX (mismo criterio que Hannibal y Blade)."
+    },
+    {
+      "slug": "arrastrame-al-infierno",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Arrástrame al Infierno",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0482"
+      },
+      "vtxIds": [
+        "VTX-0482"
+      ],
+      "carpeta": "POST/social/peliculas/arrastrame-al-infierno",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/arrastrame-al-infierno/images/01-arrastrame-al-infierno.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0482"
+        },
+        {
+          "archivo": "POST/social/peliculas/arrastrame-al-infierno/images/02-sinopsis-arrastrame-al-infierno.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/arrastrame-al-infierno/images/02-sinopsis-arrastrame-al-infierno.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/arrastrame-al-infierno/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": null
+    },
+    {
+      "slug": "asalto-en-wall-street",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Asalto en Wall Street",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0484"
+      },
+      "vtxIds": [
+        "VTX-0484"
+      ],
+      "carpeta": "POST/social/peliculas/asalto-en-wall-street",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/asalto-en-wall-street/images/01-asalto-en-wall-street.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0484"
+        },
+        {
+          "archivo": "POST/social/peliculas/asalto-en-wall-street/images/02-sinopsis-asalto-en-wall-street.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/asalto-en-wall-street/images/02-sinopsis-asalto-en-wall-street.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/asalto-en-wall-street/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": null
+    },
+    {
+      "slug": "asesinos-de-elite",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Asesinos de Élite",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0486"
+      },
+      "vtxIds": [
+        "VTX-0486"
+      ],
+      "carpeta": "POST/social/peliculas/asesinos-de-elite",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/asesinos-de-elite/images/01-asesinos-de-elite.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0486"
+        },
+        {
+          "archivo": "POST/social/peliculas/asesinos-de-elite/images/02-sinopsis-asesinos-de-elite.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/asesinos-de-elite/images/02-sinopsis-asesinos-de-elite.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/asesinos-de-elite/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": null
+    },
+    {
+      "slug": "asi-creci",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Así Crecí",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0487"
+      },
+      "vtxIds": [
+        "VTX-0487"
+      ],
+      "carpeta": "POST/social/peliculas/asi-creci",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/asi-creci/images/01-asi-creci.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0487"
+        },
+        {
+          "archivo": "POST/social/peliculas/asi-creci/images/02-sinopsis-asi-creci.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/asi-creci/images/02-sinopsis-asi-creci.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/asi-creci/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": "Producción mexicana (TMDB 820921: 2021, idioma original español) → solo fila MX. Ni el catálogo ni TMDB traen clasificación ni duración: se eligió +18 por drogas y gánsteres en la trama; la meta usa 'Cine mexicano' en lugar de la duración."
+    },
+    {
+      "slug": "asi-en-la-tierra-como-en-el-infierno",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Así en la Tierra Como en el Infierno",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0488"
+      },
+      "vtxIds": [
+        "VTX-0488"
+      ],
+      "carpeta": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/images/01-asi-en-la-tierra-como-en-el-infierno.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0488"
+        },
+        {
+          "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/images/02-sinopsis-asi-en-la-tierra-como-en-el-infierno.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/images/02-sinopsis-asi-en-la-tierra-como-en-el-infierno.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/asi-en-la-tierra-como-en-el-infierno/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": null
+    },
+    {
+      "slug": "assassin-s-creed",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Assassin's Creed",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0489"
+      },
+      "vtxIds": [
+        "VTX-0489"
+      ],
+      "carpeta": "POST/social/peliculas/assassin-s-creed",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/assassin-s-creed/images/01-assassin-s-creed.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0489"
+        },
+        {
+          "archivo": "POST/social/peliculas/assassin-s-creed/images/02-sinopsis-assassin-s-creed.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/assassin-s-creed/images/02-sinopsis-assassin-s-creed.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/assassin-s-creed/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": null
+    },
+    {
+      "slug": "astro-boy",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Astro Boy",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0490"
+      },
+      "vtxIds": [
+        "VTX-0490"
+      ],
+      "carpeta": "POST/social/peliculas/astro-boy",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/astro-boy/images/01-astro-boy.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0490"
+        },
+        {
+          "archivo": "POST/social/peliculas/astro-boy/images/02-sinopsis-astro-boy.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/astro-boy/images/02-sinopsis-astro-boy.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/astro-boy/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": null
+    },
+    {
       "slug": "atlantis",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -1735,6 +2981,46 @@
         "plataformas": []
       },
       "creada": "2026-09-26",
+      "nota": null
+    },
+    {
+      "slug": "atrapame-si-puedes",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Atrápame si Puedes",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0492"
+      },
+      "vtxIds": [
+        "VTX-0492"
+      ],
+      "carpeta": "POST/social/peliculas/atrapame-si-puedes",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/atrapame-si-puedes/images/01-atrapame-si-puedes.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0492"
+        },
+        {
+          "archivo": "POST/social/peliculas/atrapame-si-puedes/images/02-sinopsis-atrapame-si-puedes.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/atrapame-si-puedes/images/02-sinopsis-atrapame-si-puedes.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/atrapame-si-puedes/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
       "nota": null
     },
     {
@@ -1895,6 +3181,46 @@
       },
       "creada": "2026-10-01",
       "nota": null
+    },
+    {
+      "slug": "aves-de-presa",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Aves de Presa y la Fantabulosa Emancipación de una Harley Quinn",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0494"
+      },
+      "vtxIds": [
+        "VTX-0494"
+      ],
+      "carpeta": "POST/social/peliculas/aves-de-presa",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/aves-de-presa/images/01-aves-de-presa.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0494"
+        },
+        {
+          "archivo": "POST/social/peliculas/aves-de-presa/images/02-sinopsis-aves-de-presa.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/aves-de-presa/images/02-sinopsis-aves-de-presa.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/aves-de-presa/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-12",
+      "nota": "Slug acortado a aves-de-presa: con el slug completo del catálogo la ruta de la ficha llegaba a 260 caracteres y Windows no la podía escribir. Pósters: los dos es dicen la redacción de España (sin \"una\"), arte = en0; tira = xx0 (mismo arte sin título, no hay composición distinta válida)."
     },
     {
       "slug": "bad-boys",
@@ -2258,7 +3584,16 @@
       "publicado": {
         "hecho": false,
         "fecha": null,
-        "plataformas": []
+        "plataformas": [],
+        "programado": {
+          "fecha": "2026-12-23",
+          "hora": "19:00 CR (mie)",
+          "plataformas": [
+            "instagram",
+            "facebook"
+          ],
+          "via": "zernio"
+        }
       },
       "creada": "2026-09-25",
       "nota": null
@@ -2457,6 +3792,132 @@
       "nota": null
     },
     {
+      "slug": "bolt-un-perro-fuera-de-serie",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Bolt: Un Perro Fuera de Serie",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-1302"
+      },
+      "vtxIds": [
+        "VTX-1302"
+      ],
+      "carpeta": "POST/social/peliculas/bolt-un-perro-fuera-de-serie",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/images/01-bolt.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1302"
+        },
+        {
+          "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/images/02-sinopsis-bolt-un-perro-fuera-de-serie.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/images/02-sinopsis-bolt-un-perro-fuera-de-serie.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "bumblebee",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Bumblebee",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0801"
+      },
+      "vtxIds": [
+        "VTX-0801"
+      ],
+      "carpeta": "POST/social/peliculas/bumblebee",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/bumblebee/images/01-bumblebee.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0801"
+        },
+        {
+          "archivo": "POST/social/peliculas/bumblebee/images/02-sinopsis-bumblebee.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/bumblebee/images/02-sinopsis-bumblebee.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/bumblebee/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Bumblebee no tiene colección en el catálogo aunque es de la franquicia Transformers. El usuario confirmó el 2026-10-05 producirla sola; el carrusel de Transformers va en su propia pieza."
+    },
+    {
+      "slug": "buscando-a-nemo",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Buscando a Nemo",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Buscando a Nemo"
+      },
+      "vtxIds": [
+        "VTX-1304",
+        "VTX-1303"
+      ],
+      "carpeta": "POST/social/peliculas/buscando-a-nemo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/buscando-a-nemo/images/01-buscando-a-nemo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1304"
+        },
+        {
+          "archivo": "POST/social/peliculas/buscando-a-nemo/images/02-buscando-a-dory.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1303"
+        },
+        {
+          "archivo": "POST/social/peliculas/buscando-a-nemo/images/03-sinopsis-buscando-a-nemo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/buscando-a-nemo/images/03-sinopsis-buscando-a-nemo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/buscando-a-nemo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "capitan-america",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -2524,6 +3985,144 @@
       "nota": null
     },
     {
+      "slug": "capitana-marvel",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Capitana Marvel",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Capitana Marvel"
+      },
+      "vtxIds": [
+        "VTX-0805",
+        "VTX-1184"
+      ],
+      "carpeta": "POST/social/peliculas/capitana-marvel",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/capitana-marvel/images/01-capitana-marvel.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0805"
+        },
+        {
+          "archivo": "POST/social/peliculas/capitana-marvel/images/02-the-marvels.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1184"
+        },
+        {
+          "archivo": "POST/social/peliculas/capitana-marvel/images/03-sinopsis-capitana-marvel.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/capitana-marvel/images/03-sinopsis-capitana-marvel.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/capitana-marvel/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "The Marvels no tiene póster en español LATAM válido en TMDB (los 'es' eran de España o promos de estreno en cines): va en inglés."
+    },
+    {
+      "slug": "cars",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Cars",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Cars"
+      },
+      "vtxIds": [
+        "VTX-1305",
+        "VTX-1306",
+        "VTX-1307"
+      ],
+      "carpeta": "POST/social/peliculas/cars",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/cars/images/01-cars.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1305"
+        },
+        {
+          "archivo": "POST/social/peliculas/cars/images/02-cars-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1306"
+        },
+        {
+          "archivo": "POST/social/peliculas/cars/images/03-cars-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1307"
+        },
+        {
+          "archivo": "POST/social/peliculas/cars/images/04-sinopsis-cars.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/cars/images/04-sinopsis-cars.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/cars/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": null
+    },
+    {
+      "slug": "charlie-y-la-fabrica-de-chocolate",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Charlie y la Fábrica de Chocolate",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0807"
+      },
+      "vtxIds": [
+        "VTX-0807"
+      ],
+      "carpeta": "POST/social/peliculas/charlie-y-la-fabrica-de-chocolate",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/charlie-y-la-fabrica-de-chocolate/images/01-charlie.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0807"
+        },
+        {
+          "archivo": "POST/social/peliculas/charlie-y-la-fabrica-de-chocolate/images/02-sinopsis-charlie-y-la-fabrica-de-chocolate.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/charlie-y-la-fabrica-de-chocolate/images/02-sinopsis-charlie-y-la-fabrica-de-chocolate.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/charlie-y-la-fabrica-de-chocolate/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Sin colección en el catálogo. Willy Wonka (1971) y Wonka (2023) están en la categoría Peliculas y son otras versiones, no secuelas: no se agrupan."
+    },
+    {
       "slug": "chimpances",
       "categoria": "peliculas",
       "tipo": "imagen",
@@ -2562,6 +4161,126 @@
       },
       "creada": "2026-09-25",
       "nota": null
+    },
+    {
+      "slug": "cincuenta-sombras-de-grey",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Cincuenta Sombras de Grey",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0808"
+      },
+      "vtxIds": [
+        "VTX-0808"
+      ],
+      "carpeta": "POST/social/peliculas/cincuenta-sombras-de-grey",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/cincuenta-sombras-de-grey/images/01-cincuenta-sombras.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0808"
+        },
+        {
+          "archivo": "POST/social/peliculas/cincuenta-sombras-de-grey/images/02-sinopsis-cincuenta-sombras-de-grey.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/cincuenta-sombras-de-grey/images/02-sinopsis-cincuenta-sombras-de-grey.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/cincuenta-sombras-de-grey/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "cloverfield-monstruo",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Cloverfield: Monstruo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0809"
+      },
+      "vtxIds": [
+        "VTX-0809"
+      ],
+      "carpeta": "POST/social/peliculas/cloverfield-monstruo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/cloverfield-monstruo/images/01-cloverfield.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0809"
+        },
+        {
+          "archivo": "POST/social/peliculas/cloverfield-monstruo/images/02-sinopsis-cloverfield-monstruo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/cloverfield-monstruo/images/02-sinopsis-cloverfield-monstruo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/cloverfield-monstruo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Sin colección en el catálogo. El usuario confirmó el 2026-10-05 producirla sola, igual que Avenida Cloverfield 10 (ya producida sola el 2026-10-01). Todos los pósters oficiales comparten el arte de la estatua decapitada; el segundo cuadro de la tira es la versión en inglés del mismo arte (el único textless distinto parecía hecho por fans). Dos candidatos 'es' decían 'Monstruoso' (España) y se descartaron."
+    },
+    {
+      "slug": "coco",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Coco",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-1308"
+      },
+      "vtxIds": [
+        "VTX-1308"
+      ],
+      "carpeta": "POST/social/peliculas/coco",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/coco/images/01-coco.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1308"
+        },
+        {
+          "archivo": "POST/social/peliculas/coco/images/02-sinopsis-coco.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/coco/images/02-sinopsis-coco.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/coco/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "Pósters: es2 rechazado (fecha de estreno de España); arte = es1 (LATAM neutro, 2000x3000); tira = en0 en vez de es0 porque es0 dice 'SÓLO EN CINES'."
     },
     {
       "slug": "codigo-traje-rojo",
@@ -2613,6 +4332,92 @@
       "nota": null
     },
     {
+      "slug": "copycat-el-imitador",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Copycat: El Imitador",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0810"
+      },
+      "vtxIds": [
+        "VTX-0810"
+      ],
+      "carpeta": "POST/social/peliculas/copycat-el-imitador",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/copycat-el-imitador/images/01-copycat.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0810"
+        },
+        {
+          "archivo": "POST/social/peliculas/copycat-el-imitador/images/02-sinopsis-copycat-el-imitador.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/copycat-el-imitador/images/02-sinopsis-copycat-el-imitador.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/copycat-el-imitador/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "audioDual = No → solo fila MX. Los pósters de TMDB son todos la misma ilustración; el segundo cuadro de la tira es el recorte abierto en inglés del mismo arte (regla de mínimo 2 cuadros). Los dos candidatos 'es' restantes eran de España ('Copia mortal', Warner Española)."
+    },
+    {
+      "slug": "crank",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Crank",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Crank"
+      },
+      "vtxIds": [
+        "VTX-0812",
+        "VTX-0811"
+      ],
+      "carpeta": "POST/social/peliculas/crank",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/crank/images/01-crank1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0812"
+        },
+        {
+          "archivo": "POST/social/peliculas/crank/images/02-crank2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0811"
+        },
+        {
+          "archivo": "POST/social/peliculas/crank/images/03-sinopsis-crank.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/crank/images/03-sinopsis-crank.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/crank/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "creciendo-libres",
       "categoria": "peliculas",
       "tipo": "imagen",
@@ -2650,6 +4455,284 @@
         "plataformas": []
       },
       "creada": "2026-09-26",
+      "nota": null
+    },
+    {
+      "slug": "creed",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Creed",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Creed"
+      },
+      "vtxIds": [
+        "VTX-0814",
+        "VTX-0813"
+      ],
+      "carpeta": "POST/social/peliculas/creed",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/creed/images/01-creed1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0814"
+        },
+        {
+          "archivo": "POST/social/peliculas/creed/images/02-creed2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0813"
+        },
+        {
+          "archivo": "POST/social/peliculas/creed/images/03-sinopsis-creed.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/creed/images/03-sinopsis-creed.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/creed/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Las 6 de Rocky son la colección 'Rocky' del catálogo y van en su propia pieza."
+    },
+    {
+      "slug": "crepusculo",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Crepúsculo: La Saga",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Crepúsculo: La Saga"
+      },
+      "vtxIds": [
+        "VTX-0815",
+        "VTX-0819",
+        "VTX-0818",
+        "VTX-0816",
+        "VTX-0817"
+      ],
+      "carpeta": "POST/social/peliculas/crepusculo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/crepusculo/images/01-crepusculo1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0815"
+        },
+        {
+          "archivo": "POST/social/peliculas/crepusculo/images/02-crepusculo2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0819"
+        },
+        {
+          "archivo": "POST/social/peliculas/crepusculo/images/03-crepusculo3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0818"
+        },
+        {
+          "archivo": "POST/social/peliculas/crepusculo/images/04-crepusculo4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0816"
+        },
+        {
+          "archivo": "POST/social/peliculas/crepusculo/images/05-crepusculo5.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0817"
+        },
+        {
+          "archivo": "POST/social/peliculas/crepusculo/images/06-sinopsis-crepusculo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/crepusculo/images/06-sinopsis-crepusculo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/crepusculo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "demon-slayer-kimetsu-no-yaiba-2",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Demon Slayer: Castillo Infinito",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-1241"
+      },
+      "vtxIds": [
+        "VTX-1241"
+      ],
+      "carpeta": "POST/social/peliculas/demon-slayer-kimetsu-no-yaiba-2",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/demon-slayer-kimetsu-no-yaiba-2/images/01-demon-slayer-castillo-infinito.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1241"
+        },
+        {
+          "archivo": "POST/social/peliculas/demon-slayer-kimetsu-no-yaiba-2/images/02-sinopsis-demon-slayer-kimetsu-no-yaiba-2.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/demon-slayer-kimetsu-no-yaiba-2/images/02-sinopsis-demon-slayer-kimetsu-no-yaiba-2.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/demon-slayer-kimetsu-no-yaiba-2/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "depredador",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Depredador",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Depredador"
+      },
+      "vtxIds": [
+        "VTX-0821",
+        "VTX-0822",
+        "VTX-0824",
+        "VTX-0866",
+        "VTX-0823"
+      ],
+      "carpeta": "POST/social/peliculas/depredador",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/depredador/images/01-depredador.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0821"
+        },
+        {
+          "archivo": "POST/social/peliculas/depredador/images/02-depredador-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0822"
+        },
+        {
+          "archivo": "POST/social/peliculas/depredador/images/03-depredadores.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0824"
+        },
+        {
+          "archivo": "POST/social/peliculas/depredador/images/04-el-depredador.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0866"
+        },
+        {
+          "archivo": "POST/social/peliculas/depredador/images/05-depredador-la-presa.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0823"
+        },
+        {
+          "archivo": "POST/social/peliculas/depredador/images/06-sinopsis-depredador.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/depredador/images/06-sinopsis-depredador.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/depredador/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "destino-final",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Destino Final",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Destino Final"
+      },
+      "vtxIds": [
+        "VTX-0825",
+        "VTX-0826",
+        "VTX-0827",
+        "VTX-0828",
+        "VTX-0829"
+      ],
+      "carpeta": "POST/social/peliculas/destino-final",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/destino-final/images/01-destino-final-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0825"
+        },
+        {
+          "archivo": "POST/social/peliculas/destino-final/images/02-destino-final-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0826"
+        },
+        {
+          "archivo": "POST/social/peliculas/destino-final/images/03-destino-final-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0827"
+        },
+        {
+          "archivo": "POST/social/peliculas/destino-final/images/04-destino-final-4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0828"
+        },
+        {
+          "archivo": "POST/social/peliculas/destino-final/images/05-destino-final-5.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0829"
+        },
+        {
+          "archivo": "POST/social/peliculas/destino-final/images/06-sinopsis-destino-final.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/destino-final/images/06-sinopsis-destino-final.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/destino-final/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -2712,6 +4795,498 @@
       "nota": null
     },
     {
+      "slug": "divergente",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Divergente",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Divergente"
+      },
+      "vtxIds": [
+        "VTX-0831",
+        "VTX-0832",
+        "VTX-0833"
+      ],
+      "carpeta": "POST/social/peliculas/divergente",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/divergente/images/01-divergente-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0831"
+        },
+        {
+          "archivo": "POST/social/peliculas/divergente/images/02-divergente-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0832"
+        },
+        {
+          "archivo": "POST/social/peliculas/divergente/images/03-divergente-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0833"
+        },
+        {
+          "archivo": "POST/social/peliculas/divergente/images/04-sinopsis-divergente.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/divergente/images/04-sinopsis-divergente.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/divergente/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "doctor-strange",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Doctor Strange",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Doctor Strange"
+      },
+      "vtxIds": [
+        "VTX-0835",
+        "VTX-0834"
+      ],
+      "carpeta": "POST/social/peliculas/doctor-strange",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/doctor-strange/images/01-strange-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0835"
+        },
+        {
+          "archivo": "POST/social/peliculas/doctor-strange/images/02-strange-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0834"
+        },
+        {
+          "archivo": "POST/social/peliculas/doctor-strange/images/03-sinopsis-doctor-strange.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/doctor-strange/images/03-sinopsis-doctor-strange.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/doctor-strange/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "tercerAudio = Portuguese en el catálogo, pero es doblaje extra: el original es inglés (TMDB) → filas MX + US + ES."
+    },
+    {
+      "slug": "doom",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Doom",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Doom"
+      },
+      "vtxIds": [
+        "VTX-0837",
+        "VTX-0836"
+      ],
+      "carpeta": "POST/social/peliculas/doom",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/doom/images/01-doom-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0837"
+        },
+        {
+          "archivo": "POST/social/peliculas/doom/images/02-doom-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0836"
+        },
+        {
+          "archivo": "POST/social/peliculas/doom/images/03-sinopsis-doom.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/doom/images/03-sinopsis-doom.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/doom/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "dragon-ball-super-peliculas",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Dragon Ball: Las Películas de la Nueva Era",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Dragon Ball: Las Películas de la Nueva Era"
+      },
+      "vtxIds": [
+        "VTX-1252",
+        "VTX-1257",
+        "VTX-1242",
+        "VTX-1243"
+      ],
+      "carpeta": "POST/social/peliculas/dragon-ball-super-peliculas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/01-la-batalla-de-los-dioses.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1252"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/02-la-resurreccion-de-freezer.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1257"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/03-dragon-ball-super-broly.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1242"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/04-dragon-ball-super-super-hero.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1243"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/05-sinopsis-dragon-ball-super-peliculas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/images/05-sinopsis-dragon-ball-super-peliculas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/dragon-ball-super-peliculas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+    },
+    {
+      "slug": "dragon-ball-z-especiales",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Especiales de Dragon Ball Z",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Especiales de Dragon Ball Z"
+      },
+      "vtxIds": [
+        "VTX-1251",
+        "VTX-1258"
+      ],
+      "carpeta": "POST/social/peliculas/dragon-ball-z-especiales",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/01-bardock.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1251"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/02-trunks.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1258"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/03-sinopsis-dragon-ball-z-especiales.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/03-sinopsis-dragon-ball-z-especiales.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/dragon-ball-z-especiales/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "Carrusel propio para los dos especiales de TV de DBZ (Bardock y La historia de Trunks), que no tienen colección en el Excel ni en TMDB. Agrupados a pedido del usuario el 2026-10-06; override en catalogo.overrides.json ('Especiales de Dragon Ball Z'). Póster de Trunks: textless (TMDB xx). El único es-LATAM exacto trae el título en una franja abajo que quedaba detrás de las filas de audio y el logo; los en también tienen el título abajo."
+    },
+    {
+      "slug": "dragon-ball-z-peliculas-2",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Dragon Ball Z: Las Películas de 1993 a 1995",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Dragon Ball Z: Las Películas de 1993 a 1995"
+      },
+      "vtxIds": [
+        "VTX-1248",
+        "VTX-1255",
+        "VTX-1249",
+        "VTX-1246",
+        "VTX-1254",
+        "VTX-1245"
+      ],
+      "carpeta": "POST/social/peliculas/dragon-ball-z-peliculas-2",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/01-el-poder-invencible.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1248"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/02-la-galaxia-corre-peligro.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1255"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/03-el-regreso-del-guerrero-legendario.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1249"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/04-el-combate-final.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1246"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/05-la-fusion-de-goku-y-vegeta.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1254"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/06-el-ataque-del-dragon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1245"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/07-sinopsis-dragon-ball-z-peliculas-2.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/07-sinopsis-dragon-ball-z-peliculas-2.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+    },
+    {
+      "slug": "dragon-ball-z-peliculas",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Dragon Ball Z: Las Películas de 1989 a 1992",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Dragon Ball Z: Las Películas de 1989 a 1992"
+      },
+      "vtxIds": [
+        "VTX-1244",
+        "VTX-1247",
+        "VTX-1253",
+        "VTX-1250",
+        "VTX-1259",
+        "VTX-1256"
+      ],
+      "carpeta": "POST/social/peliculas/dragon-ball-z-peliculas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/01-devuelvanme-a-mi-gohan.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1244"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/02-el-hombre-mas-fuerte.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1247"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/03-la-batalla-mas-grande.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1253"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/04-goku-es-un-super-saiyajin.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1250"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/05-los-rivales-mas-poderosos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1259"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/06-la-pelea-de-los-tres-saiyajin.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1256"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/07-sinopsis-dragon-ball-z-peliculas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/07-sinopsis-dragon-ball-z-peliculas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+    },
+    {
+      "slug": "dragon-ball",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Dragon Ball: Las Películas Clásicas",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Dragon Ball: Las Películas Clásicas"
+      },
+      "vtxIds": [
+        "VTX-1261",
+        "VTX-1262",
+        "VTX-1263",
+        "VTX-1260"
+      ],
+      "carpeta": "POST/social/peliculas/dragon-ball",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/dragon-ball/images/01-la-leyenda-de-shen-long.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1261"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball/images/02-la-princesa-durmiente.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1262"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball/images/03-una-aventura-mistica.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1263"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball/images/04-el-camino-hacia-el-poder.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1260"
+        },
+        {
+          "archivo": "POST/social/peliculas/dragon-ball/images/05-sinopsis-dragon-ball.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/dragon-ball/images/05-sinopsis-dragon-ball.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/dragon-ball/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+    },
+    {
+      "slug": "duna",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Duna",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Duna"
+      },
+      "vtxIds": [
+        "VTX-0843",
+        "VTX-0844"
+      ],
+      "carpeta": "POST/social/peliculas/duna",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/duna/images/01-duna-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0843"
+        },
+        {
+          "archivo": "POST/social/peliculas/duna/images/02-duna-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0844"
+        },
+        {
+          "archivo": "POST/social/peliculas/duna/images/03-sinopsis-duna.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/duna/images/03-sinopsis-duna.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/duna/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "duro-de-matar",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -2764,6 +5339,230 @@
         }
       },
       "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "ed-wood",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Ed Wood",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0850"
+      },
+      "vtxIds": [
+        "VTX-0850"
+      ],
+      "carpeta": "POST/social/peliculas/ed-wood",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/ed-wood/images/01-ed-wood.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0850"
+        },
+        {
+          "archivo": "POST/social/peliculas/ed-wood/images/02-sinopsis-ed-wood.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/ed-wood/images/02-sinopsis-ed-wood.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/ed-wood/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "En el catálogo está en 'Peliculas Colecciones' pero sin colección asignada: va como pieza individual."
+    },
+    {
+      "slug": "el-aro-resurreccion",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "El Aro: Resurrección",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0854"
+      },
+      "vtxIds": [
+        "VTX-0854"
+      ],
+      "carpeta": "POST/social/peliculas/el-aro-resurreccion",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-aro-resurreccion/images/01-el-aro-resurreccion.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0854"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-aro-resurreccion/images/02-sinopsis-el-aro-resurreccion.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-aro-resurreccion/images/02-sinopsis-el-aro-resurreccion.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-aro-resurreccion/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "TMDB 767585 es The Perilous Internet Ring (China, 2020, idioma original chino), NO forma parte de la saga El Aro (VTX-0851..0853) aunque comparta el nombre en español. El usuario confirmó (2026-10-06) que va como pieza suelta. El catálogo no trae clasificación; se usa +13, igual que la saga de terror del mismo estilo. Pósters: los dos es-LATAM traen el título mal escrito ('RESURRECIÓN'); arte principal textless y, para la tira, el póster default del catálogo (título en chino) como último recurso."
+    },
+    {
+      "slug": "el-aro",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "El Aro",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "El Aro"
+      },
+      "vtxIds": [
+        "VTX-0851",
+        "VTX-0852",
+        "VTX-0853"
+      ],
+      "carpeta": "POST/social/peliculas/el-aro",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-aro/images/01-el-aro-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0851"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-aro/images/02-el-aro-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0852"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-aro/images/03-el-aro-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0853"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-aro/images/04-sinopsis-el-aro.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-aro/images/04-sinopsis-el-aro.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-aro/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Reemplaza a 'depredador' en este lote: otra sesión en paralelo (lote mezclado) ya estaba produciendo esa colección."
+    },
+    {
+      "slug": "el-cadaver-de-la-novia",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "El Cadáver de la Novia",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0855"
+      },
+      "vtxIds": [
+        "VTX-0855"
+      ],
+      "carpeta": "POST/social/peliculas/el-cadaver-de-la-novia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-cadaver-de-la-novia/images/01-el-cadaver-de-la-novia.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0855"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-cadaver-de-la-novia/images/02-sinopsis-el-cadaver-de-la-novia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-cadaver-de-la-novia/images/02-sinopsis-el-cadaver-de-la-novia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-cadaver-de-la-novia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "Categoría 'Peliculas Colecciones' sin colección en el Excel ni saga en TMDB: va como pieza suelta, igual que otras del mismo caso ya publicadas (ej. ¡Marcianos al Ataque!). Pósters: los 4 es de TMDB son de España ('La Novia Cadáver'); arte = en1 (2000x3000, título arriba), tira = en0."
+    },
+    {
+      "slug": "el-diario-de-greg",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "El Diario de Greg",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "El Diario de Greg"
+      },
+      "vtxIds": [
+        "VTX-0874",
+        "VTX-0875",
+        "VTX-0830"
+      ],
+      "carpeta": "POST/social/peliculas/el-diario-de-greg",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-diario-de-greg/images/01-greg-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0874"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-diario-de-greg/images/02-greg-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0875"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-diario-de-greg/images/03-greg-4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0830"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-diario-de-greg/images/04-sinopsis-el-diario-de-greg.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-diario-de-greg/images/04-sinopsis-el-diario-de-greg.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-diario-de-greg/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -2880,6 +5679,46 @@
         }
       },
       "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "el-fantasma-de-la-montana",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "El Fantasma de la Montaña",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0386"
+      },
+      "vtxIds": [
+        "VTX-0386"
+      ],
+      "carpeta": "POST/social/peliculas/el-fantasma-de-la-montana",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/images/01-el-fantasma-de-la-montana.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0386"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/images/02-sinopsis-el-fantasma-de-la-montana.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/images/02-sinopsis-el-fantasma-de-la-montana.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -3035,6 +5874,86 @@
       "nota": null
     },
     {
+      "slug": "el-misterio-de-los-flamencos",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "El Misterio de los Flamencos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0387"
+      },
+      "vtxIds": [
+        "VTX-0387"
+      ],
+      "carpeta": "POST/social/peliculas/el-misterio-de-los-flamencos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/images/01-el-misterio-de-los-flamencos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0387"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/images/02-sinopsis-el-misterio-de-los-flamencos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/images/02-sinopsis-el-misterio-de-los-flamencos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-misterio-de-los-flamencos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": null
+    },
+    {
+      "slug": "el-reino-de-los-monos",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "El Reino de los Monos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0388"
+      },
+      "vtxIds": [
+        "VTX-0388"
+      ],
+      "carpeta": "POST/social/peliculas/el-reino-de-los-monos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/el-reino-de-los-monos/images/01-el-reino-de-los-monos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0388"
+        },
+        {
+          "archivo": "POST/social/peliculas/el-reino-de-los-monos/images/02-sinopsis-el-reino-de-los-monos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/el-reino-de-los-monos/images/02-sinopsis-el-reino-de-los-monos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/el-reino-de-los-monos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": null
+    },
+    {
       "slug": "el-resplandor",
       "categoria": "peliculas",
       "tipo": "imagen",
@@ -3128,6 +6047,58 @@
       },
       "creada": "2026-09-26",
       "nota": null
+    },
+    {
+      "slug": "escupire-sobre-tu-tumba",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Dulce Venganza",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Dulce Venganza"
+      },
+      "vtxIds": [
+        "VTX-0840",
+        "VTX-0841",
+        "VTX-0842"
+      ],
+      "carpeta": "POST/social/peliculas/escupire-sobre-tu-tumba",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/01-dulce-venganza-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0840"
+        },
+        {
+          "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/02-dulce-venganza-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0841"
+        },
+        {
+          "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/03-dulce-venganza-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0842"
+        },
+        {
+          "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/04-sinopsis-escupire-sobre-tu-tumba.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/04-sinopsis-escupire-sobre-tu-tumba.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "La colección del catálogo se llama 'Escupiré sobre Tu Tumba' (slug), pero las películas están en el catálogo con su título LATAM 'Dulce Venganza'; el post usa ese nombre."
     },
     {
       "slug": "evangelion-peliculas",
@@ -3228,6 +6199,70 @@
       "nota": null
     },
     {
+      "slug": "ghost-in-the-shell-arise",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Ghost in the Shell Ascenso",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Ghost in the Shell Ascenso"
+      },
+      "vtxIds": [
+        "VTX-1268",
+        "VTX-1270",
+        "VTX-1271",
+        "VTX-1272",
+        "VTX-1269"
+      ],
+      "carpeta": "POST/social/peliculas/ghost-in-the-shell-arise",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/01-gits-borde-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1268"
+        },
+        {
+          "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/02-gits-borde-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1270"
+        },
+        {
+          "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/03-gits-borde-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1271"
+        },
+        {
+          "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/04-gits-borde-4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1272"
+        },
+        {
+          "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/05-gits-la-pelicula.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1269"
+        },
+        {
+          "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/06-sinopsis-ghost-in-the-shell-arise.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/06-sinopsis-ghost-in-the-shell-arise.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "Títulos del arte según tituloEs del catálogo ('Ascenso'), con la puntuación unificada. Pósters de Borde 3 (b3-en0), Borde 4 (b4-en0) y La Película (pelicula-en0) recortados a 4:5 por encima de su propio título 'ARISE / ghost in the shell / border:N': ese título caía justo en la franja del título del arte y quedaban encimados (los alternativos de TMDB tienen el mismo problema o son de fans). Bordes 1 y 2 van completos: su título queda arriba del nuestro sin pisarse. La tira lleva los 4 Bordes (máximo 4 cuadros); La Película va como 5º arte. La Película no trae clasificación en el catálogo; se usa +18 como el resto de la colección (R)."
+    },
+    {
       "slug": "gremlins",
       "categoria": "peliculas",
       "tipo": "imagen",
@@ -3275,6 +6310,58 @@
       },
       "creada": "2026-10-01",
       "nota": null
+    },
+    {
+      "slug": "hannibal-lecter-la-antologia",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Hannibal Lecter: la antología",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Hannibal Lecter: la antología"
+      },
+      "vtxIds": [
+        "VTX-0920",
+        "VTX-0967",
+        "VTX-0839"
+      ],
+      "carpeta": "POST/social/peliculas/hannibal-lecter-la-antologia",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/01-hannibal-1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0920"
+        },
+        {
+          "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/02-hannibal-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0967"
+        },
+        {
+          "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/03-hannibal-3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0839"
+        },
+        {
+          "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/04-sinopsis-hannibal-lecter-la-antologia.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/04-sinopsis-hannibal-lecter-la-antologia.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Audio mixto en el catálogo: El Silencio de los Inocentes trae audioDual = No y Hannibal / Dragón Rojo audioDual = Sí. Las filas son por pieza, así que va solo MX para no prometer audio en inglés en la primera."
     },
     {
       "slug": "harry-potter",
@@ -3365,6 +6452,70 @@
         }
       },
       "creada": "2026-10-01",
+      "nota": null
+    },
+    {
+      "slug": "jason-bourne",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Bourne: La Saga",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Bourne: La Saga"
+      },
+      "vtxIds": [
+        "VTX-0987",
+        "VTX-1028",
+        "VTX-0800",
+        "VTX-0901",
+        "VTX-0994"
+      ],
+      "carpeta": "POST/social/peliculas/jason-bourne",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/jason-bourne/images/01-bourne1.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0987"
+        },
+        {
+          "archivo": "POST/social/peliculas/jason-bourne/images/02-bourne2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1028"
+        },
+        {
+          "archivo": "POST/social/peliculas/jason-bourne/images/03-bourne3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0800"
+        },
+        {
+          "archivo": "POST/social/peliculas/jason-bourne/images/04-bourne4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0901"
+        },
+        {
+          "archivo": "POST/social/peliculas/jason-bourne/images/05-bourne5.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0994"
+        },
+        {
+          "archivo": "POST/social/peliculas/jason-bourne/images/06-sinopsis-jason-bourne.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/jason-bourne/images/06-sinopsis-jason-bourne.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/jason-bourne/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -3526,6 +6677,70 @@
       "nota": "La serie The Purge (VTX-0137) va aparte, en su propia pieza: las series no se agrupan con las peliculas. Todavia no se produjo."
     },
     {
+      "slug": "los-cazafantasmas",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Los Cazafantasmas",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Los Cazafantasmas"
+      },
+      "vtxIds": [
+        "VTX-1033",
+        "VTX-1034",
+        "VTX-0806",
+        "VTX-0944",
+        "VTX-1327"
+      ],
+      "carpeta": "POST/social/peliculas/los-cazafantasmas",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/los-cazafantasmas/images/01-cazafantasmas1984.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1033"
+        },
+        {
+          "archivo": "POST/social/peliculas/los-cazafantasmas/images/02-cazafantasmas1989.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1034"
+        },
+        {
+          "archivo": "POST/social/peliculas/los-cazafantasmas/images/03-cazafantasmas2016.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0806"
+        },
+        {
+          "archivo": "POST/social/peliculas/los-cazafantasmas/images/04-ellegado.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0944"
+        },
+        {
+          "archivo": "POST/social/peliculas/los-cazafantasmas/images/05-apocalipsisfantasma.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1327"
+        },
+        {
+          "archivo": "POST/social/peliculas/los-cazafantasmas/images/06-sinopsis-los-cazafantasmas.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/los-cazafantasmas/images/06-sinopsis-los-cazafantasmas.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/los-cazafantasmas/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "Carrusel de 5: la colección 'Los Cazafantasmas' del catálogo más el reboot de 2016 (VTX-0806), sumado por override en catalogo.overrides.json a pedido del usuario el 2026-10-05 (antes había salido como pieza suelta). Audio mixto en el catálogo (solo Apocalipsis Fantasma trae audioDual = Sí), así que va solo MX para no prometer inglés en las otras 4. Pósters: 2021 en inglés porque los 3 'es' eran de España ('Más allá'); 2024 en inglés porque el único 'es' LATAM era una promo de 'Exclusivamente en cines / Muy pronto'. Clasificación: la más alta de la saga (PG-13)."
+    },
+    {
       "slug": "marcianos-al-ataque",
       "categoria": "peliculas",
       "tipo": "imagen",
@@ -3632,8 +6847,8 @@
         "fecha": null,
         "plataformas": [],
         "programado": {
-          "fecha": "2026-12-23",
-          "hora": "19:00 CR (mie)",
+          "fecha": "2026-12-20",
+          "hora": "19:00 CR (dom)",
           "plataformas": [
             "instagram",
             "facebook"
@@ -4170,6 +7385,52 @@
         "plataformas": []
       },
       "creada": "2026-09-26",
+      "nota": null
+    },
+    {
+      "slug": "robert-langdon",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Robert Langdon",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Robert Langdon"
+      },
+      "vtxIds": [
+        "VTX-0533",
+        "VTX-0474"
+      ],
+      "carpeta": "POST/social/peliculas/robert-langdon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/robert-langdon/images/01-codigo-da-vinci.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0533"
+        },
+        {
+          "archivo": "POST/social/peliculas/robert-langdon/images/02-angeles-y-demonios.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0474"
+        },
+        {
+          "archivo": "POST/social/peliculas/robert-langdon/images/03-sinopsis-robert-langdon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/robert-langdon/images/03-sinopsis-robert-langdon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/robert-langdon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -6924,6 +10185,46 @@
       "nota": null
     },
     {
+      "slug": "cars-aventuras-en-el-camino",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Cars: Aventuras en el Camino",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0340"
+      },
+      "vtxIds": [
+        "VTX-0340"
+      ],
+      "carpeta": "POST/social/series/cars-aventuras-en-el-camino",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/cars-aventuras-en-el-camino/images/01-cars-aventuras-en-el-camino.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0340"
+        },
+        {
+          "archivo": "POST/social/series/cars-aventuras-en-el-camino/images/02-sinopsis-cars-aventuras-en-el-camino.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/cars-aventuras-en-el-camino/images/02-sinopsis-cars-aventuras-en-el-camino.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/cars-aventuras-en-el-camino/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "castlevania",
       "categoria": "series",
       "tipo": "imagen",
@@ -7179,6 +10480,46 @@
         "plataformas": []
       },
       "creada": "2026-09-25",
+      "nota": null
+    },
+    {
+      "slug": "clarence",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Clarence",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0341"
+      },
+      "vtxIds": [
+        "VTX-0341"
+      ],
+      "carpeta": "POST/social/series/clarence",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/clarence/images/01-clarence.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0341"
+        },
+        {
+          "archivo": "POST/social/series/clarence/images/02-sinopsis-clarence.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/clarence/images/02-sinopsis-clarence.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/clarence/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -7486,6 +10827,86 @@
         "plataformas": []
       },
       "creada": "2026-09-26",
+      "nota": null
+    },
+    {
+      "slug": "coraje-el-perro-cobarde",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Coraje, el Perro Cobarde",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0342"
+      },
+      "vtxIds": [
+        "VTX-0342"
+      ],
+      "carpeta": "POST/social/series/coraje-el-perro-cobarde",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/coraje-el-perro-cobarde/images/01-coraje-el-perro-cobarde.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0342"
+        },
+        {
+          "archivo": "POST/social/series/coraje-el-perro-cobarde/images/02-sinopsis-coraje-el-perro-cobarde.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/coraje-el-perro-cobarde/images/02-sinopsis-coraje-el-perro-cobarde.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/coraje-el-perro-cobarde/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "Arte principal con el póster en inglés (2000x3000): el único es-LATAM de TMDB mide 640x853 y a 1080x1350 quedaba muy blando; ese va como segundo cuadro de la tira, donde se ve chico."
+    },
+    {
+      "slug": "criaturas-gigantes",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Criaturas Gigantes",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0385"
+      },
+      "vtxIds": [
+        "VTX-0385"
+      ],
+      "carpeta": "POST/social/series/criaturas-gigantes",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/criaturas-gigantes/images/01-criaturas-gigantes.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0385"
+        },
+        {
+          "archivo": "POST/social/series/criaturas-gigantes/images/02-sinopsis-criaturas-gigantes.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/criaturas-gigantes/images/02-sinopsis-criaturas-gigantes.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/criaturas-gigantes/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -9029,6 +12450,46 @@
       "nota": null
     },
     {
+      "slug": "el-increible-mundo-de-gumball",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "El Increíble Mundo de Gumball",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0344"
+      },
+      "vtxIds": [
+        "VTX-0344"
+      ],
+      "carpeta": "POST/social/series/el-increible-mundo-de-gumball",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/el-increible-mundo-de-gumball/images/01-el-increible-mundo-de-gumball.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0344"
+        },
+        {
+          "archivo": "POST/social/series/el-increible-mundo-de-gumball/images/02-sinopsis-el-increible-mundo-de-gumball.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/el-increible-mundo-de-gumball/images/02-sinopsis-el-increible-mundo-de-gumball.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/el-increible-mundo-de-gumball/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "TMDB 37606 marca idioma original inglés y el catálogo trae audioDual=No: solo fila MX. Pósters: es1 es de España ('El Asombroso Mundo Gumball'); arte = es2 (LATAM, 2000x3000), tira = es0 (LATAM, 500x750, se ve chico)."
+    },
+    {
       "slug": "el-joven-sheldon",
       "categoria": "series",
       "tipo": "imagen",
@@ -9783,6 +13244,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "escandalosos",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Escandalosos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0345"
+      },
+      "vtxIds": [
+        "VTX-0345"
+      ],
+      "carpeta": "POST/social/series/escandalosos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/escandalosos/images/01-escandalosos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0345"
+        },
+        {
+          "archivo": "POST/social/series/escandalosos/images/02-sinopsis-escandalosos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/escandalosos/images/02-sinopsis-escandalosos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/escandalosos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "Pósters: es0 y es1 son de España ('Somos Osos'); arte = es2 (LATAM); tira = en1 (único arte distinto, baja resolución pero va chico en la tira)."
     },
     {
       "slug": "escuadron-suicida-isekai",
@@ -13717,6 +17218,86 @@
       "nota": null
     },
     {
+      "slug": "naruto-2",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Naruto",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0284"
+      },
+      "vtxIds": [
+        "VTX-0284"
+      ],
+      "carpeta": "POST/social/series/naruto-2",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/naruto-2/images/01-naruto.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0284"
+        },
+        {
+          "archivo": "POST/social/series/naruto-2/images/02-sinopsis-naruto-2.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/naruto-2/images/02-sinopsis-naruto-2.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/naruto-2/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "naruto-shippuden",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Naruto Shippuden",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0285"
+      },
+      "vtxIds": [
+        "VTX-0285"
+      ],
+      "carpeta": "POST/social/series/naruto-shippuden",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/naruto-shippuden/images/01-naruto-shippuden.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0285"
+        },
+        {
+          "archivo": "POST/social/series/naruto-shippuden/images/02-sinopsis-naruto-shippuden.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/naruto-shippuden/images/02-sinopsis-naruto-shippuden.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/naruto-shippuden/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "negocio-letal",
       "categoria": "series",
       "tipo": "imagen",
@@ -13795,6 +17376,46 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "ninja-kamui",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Ninja Kamui",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0287"
+      },
+      "vtxIds": [
+        "VTX-0287"
+      ],
+      "carpeta": "POST/social/series/ninja-kamui",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/ninja-kamui/images/01-ninja-kamui.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0287"
+        },
+        {
+          "archivo": "POST/social/series/ninja-kamui/images/02-sinopsis-ninja-kamui.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/ninja-kamui/images/02-sinopsis-ninja-kamui.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/ninja-kamui/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": "TMDB 202284 marca idioma original inglés (serie estrenada en inglés en Toonami): filas MX/US/ES aunque el catálogo la tenga como anime (esAnime=true)."
     },
     {
       "slug": "no-soy-un-robot",
@@ -13935,6 +17556,46 @@
       "nota": null
     },
     {
+      "slug": "oddtaxi",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Oddtaxi",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0288"
+      },
+      "vtxIds": [
+        "VTX-0288"
+      ],
+      "carpeta": "POST/social/series/oddtaxi",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/oddtaxi/images/01-oddtaxi.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0288"
+        },
+        {
+          "archivo": "POST/social/series/oddtaxi/images/02-sinopsis-oddtaxi.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/oddtaxi/images/02-sinopsis-oddtaxi.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/oddtaxi/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "ojo-de-halcon",
       "categoria": "series",
       "tipo": "imagen",
@@ -14064,6 +17725,46 @@
       "nota": null
     },
     {
+      "slug": "one-punch-man",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "One Punch Man",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0289"
+      },
+      "vtxIds": [
+        "VTX-0289"
+      ],
+      "carpeta": "POST/social/series/one-punch-man",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/one-punch-man/images/01-one-punch-man.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0289"
+        },
+        {
+          "archivo": "POST/social/series/one-punch-man/images/02-sinopsis-one-punch-man.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/one-punch-man/images/02-sinopsis-one-punch-man.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/one-punch-man/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": null
+    },
+    {
       "slug": "only-for-love",
       "categoria": "series",
       "tipo": "imagen",
@@ -14184,6 +17885,46 @@
       "nota": null
     },
     {
+      "slug": "overlord",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Overlord",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0290"
+      },
+      "vtxIds": [
+        "VTX-0290"
+      ],
+      "carpeta": "POST/social/series/overlord",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/overlord/images/01-overlord.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0290"
+        },
+        {
+          "archivo": "POST/social/series/overlord/images/02-sinopsis-overlord.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/overlord/images/02-sinopsis-overlord.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/overlord/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": null
+    },
+    {
       "slug": "ozark",
       "categoria": "series",
       "tipo": "imagen",
@@ -14282,6 +18023,46 @@
       "nota": null
     },
     {
+      "slug": "panteon",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Panteón",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0326"
+      },
+      "vtxIds": [
+        "VTX-0326"
+      ],
+      "carpeta": "POST/social/series/panteon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/panteon/images/01-panteon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0326"
+        },
+        {
+          "archivo": "POST/social/series/panteon/images/02-sinopsis-panteon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/panteon/images/02-sinopsis-panteon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/panteon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "pasion-por-la-limpieza",
       "categoria": "series",
       "tipo": "imagen",
@@ -14369,6 +18150,126 @@
       },
       "creada": "2026-09-02",
       "nota": null
+    },
+    {
+      "slug": "pequena-diabla",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Pequeña Diabla",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0327"
+      },
+      "vtxIds": [
+        "VTX-0327"
+      ],
+      "carpeta": "POST/social/series/pequena-diabla",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/pequena-diabla/images/01-pequena-diabla.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0327"
+        },
+        {
+          "archivo": "POST/social/series/pequena-diabla/images/02-sinopsis-pequena-diabla.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/pequena-diabla/images/02-sinopsis-pequena-diabla.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/pequena-diabla/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
+      "slug": "pluto",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Pluto",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0291"
+      },
+      "vtxIds": [
+        "VTX-0291"
+      ],
+      "carpeta": "POST/social/series/pluto",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/pluto/images/01-pluto.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0291"
+        },
+        {
+          "archivo": "POST/social/series/pluto/images/02-sinopsis-pluto.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/pluto/images/02-sinopsis-pluto.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/pluto/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "Pósters: los dos es de TMDB traen 'UNA SERIE DE NETFLIX' y el en1 'A NETFLIX SERIES' (rechazados); arte = en0 (solo logo PLUTO), tira = en2."
+    },
+    {
+      "slug": "pokemon",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Pokémon",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0292"
+      },
+      "vtxIds": [
+        "VTX-0292"
+      ],
+      "carpeta": "POST/social/series/pokemon",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/pokemon/images/01-pokemon.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0292"
+        },
+        {
+          "archivo": "POST/social/series/pokemon/images/02-sinopsis-pokemon.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/pokemon/images/02-sinopsis-pokemon.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/pokemon/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "El catálogo trae episodios=52 (no corresponde a 25 temporadas); el meta y los textos usan solo la cantidad de temporadas. Pósters: arte = en0, que es la misma imagen y el mismo logo POKÉMON que el único es (700x1037), a 1280px; tira = en1."
     },
     {
       "slug": "por-que-matan-las-mujeres",
@@ -15029,6 +18930,46 @@
       "nota": "El tmdbId original del catalogo (232213) correspondia a una comedia dramatica canadiense sin relacion -- se verifico y corrigio a 72690 (la telenovela coreana de OCN, 2017-2019, 32 episodios) antes de escribir el texto. Corregir tambien en el Excel origen."
     },
     {
+      "slug": "scavengers-reign",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Scavengers Reign",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-1436"
+      },
+      "vtxIds": [
+        "VTX-1436"
+      ],
+      "carpeta": "POST/social/series/scavengers-reign",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/scavengers-reign/images/01-scavengers-reign.png",
+          "tipo": "arte",
+          "vtxId": "VTX-1436"
+        },
+        {
+          "archivo": "POST/social/series/scavengers-reign/images/02-sinopsis-scavengers-reign.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/scavengers-reign/images/02-sinopsis-scavengers-reign.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/scavengers-reign/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "TMDB 204154 marca idioma original inglés y el catálogo trae audioDual=No: solo fila MX. En TMDB es-MX figura como 'Planeta de Recolectores', pero el catálogo usa 'Scavengers Reign': pósters en inglés."
+    },
+    {
       "slug": "senal",
       "categoria": "series",
       "tipo": "imagen",
@@ -15226,6 +19167,46 @@
         "plataformas": []
       },
       "creada": "2026-09-03",
+      "nota": null
+    },
+    {
+      "slug": "spawn",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Spawn",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0328"
+      },
+      "vtxIds": [
+        "VTX-0328"
+      ],
+      "carpeta": "POST/social/series/spawn",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/spawn/images/01-spawn.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0328"
+        },
+        {
+          "archivo": "POST/social/series/spawn/images/02-sinopsis-spawn.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/spawn/images/02-sinopsis-spawn.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/spawn/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
       "nota": null
     },
     {
@@ -16396,6 +20377,46 @@
       "nota": null
     },
     {
+      "slug": "tu-amigo-y-vecino-spider-man",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Tu Amigo y Vecino Spider-Man",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0329"
+      },
+      "vtxIds": [
+        "VTX-0329"
+      ],
+      "carpeta": "POST/social/series/tu-amigo-y-vecino-spider-man",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/images/01-tu-amigo-y-vecino-spider-man.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0329"
+        },
+        {
+          "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/images/02-sinopsis-tu-amigo-y-vecino-spider-man.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/images/02-sinopsis-tu-amigo-y-vecino-spider-man.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-05",
+      "nota": null
+    },
+    {
       "slug": "twisted-metal",
       "categoria": "series",
       "tipo": "imagen",
@@ -16636,6 +20657,46 @@
       "nota": null
     },
     {
+      "slug": "villanos",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Villanos",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0330"
+      },
+      "vtxIds": [
+        "VTX-0330"
+      ],
+      "carpeta": "POST/social/series/villanos",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/villanos/images/01-villanos.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0330"
+        },
+        {
+          "archivo": "POST/social/series/villanos/images/02-sinopsis-villanos.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/villanos/images/02-sinopsis-villanos.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/villanos/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
+      "nota": "TMDB 138116 marca idioma original español (serie animada mexicana de Alan Ituriel): solo fila MX, aunque el catálogo tenga audioDual=true."
+    },
+    {
       "slug": "vis-a-vis",
       "categoria": "series",
       "tipo": "imagen",
@@ -16753,6 +20814,46 @@
         "plataformas": []
       },
       "creada": "2026-09-05",
+      "nota": null
+    },
+    {
+      "slug": "wondla",
+      "categoria": "series",
+      "tipo": "imagen",
+      "titulo": "Wondla",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0331"
+      },
+      "vtxIds": [
+        "VTX-0331"
+      ],
+      "carpeta": "POST/social/series/wondla",
+      "imagenes": [
+        {
+          "archivo": "POST/social/series/wondla/images/01-wondla.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0331"
+        },
+        {
+          "archivo": "POST/social/series/wondla/images/02-sinopsis-wondla.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/series/wondla/images/02-sinopsis-wondla.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/series/wondla/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-06",
       "nota": null
     },
     {
@@ -19134,11 +23235,75 @@
       ]
     },
     {
+      "vtxId": "VTX-0284",
+      "titulo": "Naruto",
+      "coleccion": "Naruto",
+      "piezas": [
+        "naruto-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-0285",
+      "titulo": "Naruto Shippuden",
+      "coleccion": "Naruto",
+      "piezas": [
+        "naruto-shippuden"
+      ]
+    },
+    {
       "vtxId": "VTX-0286",
       "titulo": "Neon Genesis Evangelion",
       "coleccion": "Evangelion",
       "piezas": [
         "evangelion"
+      ]
+    },
+    {
+      "vtxId": "VTX-0287",
+      "titulo": "Ninja Kamui",
+      "coleccion": null,
+      "piezas": [
+        "ninja-kamui"
+      ]
+    },
+    {
+      "vtxId": "VTX-0288",
+      "titulo": "Oddtaxi",
+      "coleccion": null,
+      "piezas": [
+        "oddtaxi"
+      ]
+    },
+    {
+      "vtxId": "VTX-0289",
+      "titulo": "One Punch Man",
+      "coleccion": null,
+      "piezas": [
+        "one-punch-man"
+      ]
+    },
+    {
+      "vtxId": "VTX-0290",
+      "titulo": "Overlord",
+      "coleccion": null,
+      "piezas": [
+        "overlord"
+      ]
+    },
+    {
+      "vtxId": "VTX-0291",
+      "titulo": "Pluto",
+      "coleccion": null,
+      "piezas": [
+        "pluto"
+      ]
+    },
+    {
+      "vtxId": "VTX-0292",
+      "titulo": "Pokémon",
+      "coleccion": null,
+      "piezas": [
+        "pokemon"
       ]
     },
     {
@@ -19198,6 +23363,54 @@
       ]
     },
     {
+      "vtxId": "VTX-0326",
+      "titulo": "Panteón",
+      "coleccion": null,
+      "piezas": [
+        "panteon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0327",
+      "titulo": "Pequeña Diabla",
+      "coleccion": null,
+      "piezas": [
+        "pequena-diabla"
+      ]
+    },
+    {
+      "vtxId": "VTX-0328",
+      "titulo": "Spawn",
+      "coleccion": null,
+      "piezas": [
+        "spawn"
+      ]
+    },
+    {
+      "vtxId": "VTX-0329",
+      "titulo": "Tu Amigo y Vecino Spider-Man",
+      "coleccion": "Spiderman",
+      "piezas": [
+        "tu-amigo-y-vecino-spider-man"
+      ]
+    },
+    {
+      "vtxId": "VTX-0330",
+      "titulo": "Villanos",
+      "coleccion": null,
+      "piezas": [
+        "villanos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0331",
+      "titulo": "Wondla",
+      "coleccion": null,
+      "piezas": [
+        "wondla"
+      ]
+    },
+    {
       "vtxId": "VTX-0332",
       "titulo": "¡¡¡Alvinnn!!! y las Ardillas",
       "coleccion": null,
@@ -19243,6 +23456,46 @@
       "coleccion": null,
       "piezas": [
         "campamento-de-verano"
+      ]
+    },
+    {
+      "vtxId": "VTX-0340",
+      "titulo": "Cars: Aventuras en el Camino",
+      "coleccion": null,
+      "piezas": [
+        "cars-aventuras-en-el-camino"
+      ]
+    },
+    {
+      "vtxId": "VTX-0341",
+      "titulo": "Clarence",
+      "coleccion": null,
+      "piezas": [
+        "clarence"
+      ]
+    },
+    {
+      "vtxId": "VTX-0342",
+      "titulo": "Coraje, el Perro Cobarde",
+      "coleccion": null,
+      "piezas": [
+        "coraje-el-perro-cobarde"
+      ]
+    },
+    {
+      "vtxId": "VTX-0344",
+      "titulo": "El Increíble Mundo de Gumball",
+      "coleccion": null,
+      "piezas": [
+        "el-increible-mundo-de-gumball"
+      ]
+    },
+    {
+      "vtxId": "VTX-0345",
+      "titulo": "Escandalosos",
+      "coleccion": null,
+      "piezas": [
+        "escandalosos"
       ]
     },
     {
@@ -19299,6 +23552,38 @@
       "coleccion": null,
       "piezas": [
         "creciendo-libres"
+      ]
+    },
+    {
+      "vtxId": "VTX-0385",
+      "titulo": "Criaturas Gigantes",
+      "coleccion": null,
+      "piezas": [
+        "criaturas-gigantes"
+      ]
+    },
+    {
+      "vtxId": "VTX-0386",
+      "titulo": "El Fantasma de la Montaña",
+      "coleccion": null,
+      "piezas": [
+        "el-fantasma-de-la-montana"
+      ]
+    },
+    {
+      "vtxId": "VTX-0387",
+      "titulo": "El Misterio de los Flamencos",
+      "coleccion": null,
+      "piezas": [
+        "el-misterio-de-los-flamencos"
+      ]
+    },
+    {
+      "vtxId": "VTX-0388",
+      "titulo": "El Reino de los Monos",
+      "coleccion": null,
+      "piezas": [
+        "el-reino-de-los-monos"
       ]
     },
     {
@@ -19494,11 +23779,283 @@
       ]
     },
     {
+      "vtxId": "VTX-0450",
+      "titulo": "A Través de Mi Ventana",
+      "coleccion": null,
+      "piezas": [
+        "a-traves-de-mi-ventana"
+      ]
+    },
+    {
+      "vtxId": "VTX-0453",
+      "titulo": "Ace Ventura Jr.: Detective de Mascotas",
+      "coleccion": null,
+      "piezas": [
+        "ace-ventura-jr-detective-de-mascotas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0454",
+      "titulo": "Ace Ventura: Detective de Mascotas",
+      "coleccion": null,
+      "piezas": [
+        "ace-ventura-detective-de-mascotas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0455",
+      "titulo": "Ad Astra: Hacia las Estrellas",
+      "coleccion": null,
+      "piezas": [
+        "ad-astra-hacia-las-estrellas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0457",
+      "titulo": "Agencia Secreta de Control Mágico",
+      "coleccion": null,
+      "piezas": [
+        "agencia-secreta-de-control-magico"
+      ]
+    },
+    {
+      "vtxId": "VTX-0458",
+      "titulo": "Agentes del Desorden",
+      "coleccion": null,
+      "piezas": [
+        "agentes-del-desorden"
+      ]
+    },
+    {
+      "vtxId": "VTX-0459",
+      "titulo": "Akelarre",
+      "coleccion": null,
+      "piezas": [
+        "akelarre"
+      ]
+    },
+    {
+      "vtxId": "VTX-0460",
+      "titulo": "Aladdín",
+      "coleccion": null,
+      "piezas": [
+        "aladdin"
+      ]
+    },
+    {
+      "vtxId": "VTX-0461",
+      "titulo": "Alice",
+      "coleccion": null,
+      "piezas": [
+        "alice-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-0462",
+      "titulo": "Alien. Romulus",
+      "coleccion": null,
+      "piezas": [
+        "alien-romulus"
+      ]
+    },
+    {
+      "vtxId": "VTX-0463",
+      "titulo": "Alive",
+      "coleccion": null,
+      "piezas": [
+        "alive"
+      ]
+    },
+    {
+      "vtxId": "VTX-0464",
+      "titulo": "Amenaza en lo Profundo",
+      "coleccion": null,
+      "piezas": [
+        "amenaza-en-lo-profundo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0466",
+      "titulo": "Amigos de Armas",
+      "coleccion": null,
+      "piezas": [
+        "amigos-de-armas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0467",
+      "titulo": "Amigos de las Vacaciones",
+      "coleccion": null,
+      "piezas": [
+        "amigos-de-las-vacaciones"
+      ]
+    },
+    {
+      "vtxId": "VTX-0468",
+      "titulo": "Amigos Imaginarios",
+      "coleccion": null,
+      "piezas": [
+        "amigos-imaginarios"
+      ]
+    },
+    {
+      "vtxId": "VTX-0469",
+      "titulo": "Amigos Intocables",
+      "coleccion": null,
+      "piezas": [
+        "amigos-intocables"
+      ]
+    },
+    {
+      "vtxId": "VTX-0470",
+      "titulo": "Amigos por Siempre",
+      "coleccion": null,
+      "piezas": [
+        "amigos-por-siempre"
+      ]
+    },
+    {
+      "vtxId": "VTX-0471",
+      "titulo": "Amores Materialistas",
+      "coleccion": null,
+      "piezas": [
+        "amores-materialistas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0472",
+      "titulo": "Amos del Universo",
+      "coleccion": null,
+      "piezas": [
+        "amos-del-universo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0473",
+      "titulo": "Anaconda",
+      "coleccion": null,
+      "piezas": [
+        "anaconda"
+      ]
+    },
+    {
+      "vtxId": "VTX-0474",
+      "titulo": "Ángeles y Demonios",
+      "coleccion": "Robert Langdon",
+      "piezas": [
+        "robert-langdon"
+      ]
+    },
+    {
+      "vtxId": "VTX-0476",
+      "titulo": "Aniquilación",
+      "coleccion": null,
+      "piezas": [
+        "aniquilacion"
+      ]
+    },
+    {
+      "vtxId": "VTX-0477",
+      "titulo": "Anticristo",
+      "coleccion": null,
+      "piezas": [
+        "anticristo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0480",
+      "titulo": "Apocalypto",
+      "coleccion": null,
+      "piezas": [
+        "apocalypto"
+      ]
+    },
+    {
+      "vtxId": "VTX-0481",
+      "titulo": "Aquaman",
+      "coleccion": null,
+      "piezas": [
+        "aquaman"
+      ]
+    },
+    {
+      "vtxId": "VTX-0482",
+      "titulo": "Arrástrame al Infierno",
+      "coleccion": null,
+      "piezas": [
+        "arrastrame-al-infierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-0484",
+      "titulo": "Asalto en Wall Street",
+      "coleccion": null,
+      "piezas": [
+        "asalto-en-wall-street"
+      ]
+    },
+    {
+      "vtxId": "VTX-0486",
+      "titulo": "Asesinos de Élite",
+      "coleccion": null,
+      "piezas": [
+        "asesinos-de-elite"
+      ]
+    },
+    {
+      "vtxId": "VTX-0487",
+      "titulo": "Así Crecí",
+      "coleccion": null,
+      "piezas": [
+        "asi-creci"
+      ]
+    },
+    {
+      "vtxId": "VTX-0488",
+      "titulo": "Así en la Tierra Como en el Infierno",
+      "coleccion": null,
+      "piezas": [
+        "asi-en-la-tierra-como-en-el-infierno"
+      ]
+    },
+    {
+      "vtxId": "VTX-0489",
+      "titulo": "Assassin's Creed",
+      "coleccion": null,
+      "piezas": [
+        "assassin-s-creed"
+      ]
+    },
+    {
+      "vtxId": "VTX-0490",
+      "titulo": "Astro Boy",
+      "coleccion": null,
+      "piezas": [
+        "astro-boy"
+      ]
+    },
+    {
+      "vtxId": "VTX-0492",
+      "titulo": "Atrápame si Puedes",
+      "coleccion": null,
+      "piezas": [
+        "atrapame-si-puedes"
+      ]
+    },
+    {
       "vtxId": "VTX-0493",
       "titulo": "Avatar: Fuego y Ceniza",
       "coleccion": "Avatar",
       "piezas": [
         "avatar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0494",
+      "titulo": "Aves de Presa y la Fantabulosa Emancipación de una Harley Quinn",
+      "coleccion": null,
+      "piezas": [
+        "aves-de-presa"
       ]
     },
     {
@@ -19547,6 +24104,14 @@
       "coleccion": null,
       "piezas": [
         "codigo-traje-rojo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0533",
+      "titulo": "El Código Da Vinci",
+      "coleccion": "Robert Langdon",
+      "piezas": [
+        "robert-langdon"
       ]
     },
     {
@@ -20190,6 +24755,22 @@
       ]
     },
     {
+      "vtxId": "VTX-0800",
+      "titulo": "Bourne: El Ultimátum",
+      "coleccion": "Jason Bourne",
+      "piezas": [
+        "jason-bourne"
+      ]
+    },
+    {
+      "vtxId": "VTX-0801",
+      "titulo": "Bumblebee",
+      "coleccion": null,
+      "piezas": [
+        "bumblebee"
+      ]
+    },
+    {
       "vtxId": "VTX-0802",
       "titulo": "Capitán América y el Soldado del Invierno",
       "coleccion": "Capitán América",
@@ -20214,11 +24795,315 @@
       ]
     },
     {
+      "vtxId": "VTX-0805",
+      "titulo": "Capitana Marvel",
+      "coleccion": "Capitana Marvel",
+      "piezas": [
+        "capitana-marvel"
+      ]
+    },
+    {
+      "vtxId": "VTX-0806",
+      "titulo": "Cazafantasmas",
+      "coleccion": "Los Cazafantasmas",
+      "piezas": [
+        "los-cazafantasmas"
+      ]
+    },
+    {
+      "vtxId": "VTX-0807",
+      "titulo": "Charlie y la Fábrica de Chocolate",
+      "coleccion": null,
+      "piezas": [
+        "charlie-y-la-fabrica-de-chocolate"
+      ]
+    },
+    {
+      "vtxId": "VTX-0808",
+      "titulo": "Cincuenta Sombras de Grey",
+      "coleccion": null,
+      "piezas": [
+        "cincuenta-sombras-de-grey"
+      ]
+    },
+    {
+      "vtxId": "VTX-0809",
+      "titulo": "Cloverfield: Monstruo",
+      "coleccion": null,
+      "piezas": [
+        "cloverfield-monstruo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0810",
+      "titulo": "Copycat: El Imitador",
+      "coleccion": null,
+      "piezas": [
+        "copycat-el-imitador"
+      ]
+    },
+    {
+      "vtxId": "VTX-0811",
+      "titulo": "Crank 2: Alto Voltaje",
+      "coleccion": "Crank",
+      "piezas": [
+        "crank"
+      ]
+    },
+    {
+      "vtxId": "VTX-0812",
+      "titulo": "Crank: Veneno en la Sangre",
+      "coleccion": "Crank",
+      "piezas": [
+        "crank"
+      ]
+    },
+    {
+      "vtxId": "VTX-0813",
+      "titulo": "Creed 2: Defendiendo el Legado",
+      "coleccion": "Creed",
+      "piezas": [
+        "creed"
+      ]
+    },
+    {
+      "vtxId": "VTX-0814",
+      "titulo": "Creed. Corazón de Campeón",
+      "coleccion": "Creed",
+      "piezas": [
+        "creed"
+      ]
+    },
+    {
+      "vtxId": "VTX-0815",
+      "titulo": "Crepúsculo",
+      "coleccion": "Crepúsculo",
+      "piezas": [
+        "crepusculo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0816",
+      "titulo": "Crepúsculo:  Amanecer - Parte 1",
+      "coleccion": "Crepúsculo",
+      "piezas": [
+        "crepusculo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0817",
+      "titulo": "Crepúsculo:  Amanecer - Parte 2",
+      "coleccion": "Crepúsculo",
+      "piezas": [
+        "crepusculo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0818",
+      "titulo": "Crepúsculo: Eclipse",
+      "coleccion": "Crepúsculo",
+      "piezas": [
+        "crepusculo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0819",
+      "titulo": "Crepúsculo: Luna Nueva",
+      "coleccion": "Crepúsculo",
+      "piezas": [
+        "crepusculo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0821",
+      "titulo": "Depredador",
+      "coleccion": "Depredador",
+      "piezas": [
+        "depredador"
+      ]
+    },
+    {
+      "vtxId": "VTX-0822",
+      "titulo": "Depredador 2",
+      "coleccion": "Depredador",
+      "piezas": [
+        "depredador"
+      ]
+    },
+    {
+      "vtxId": "VTX-0823",
+      "titulo": "Depredador: La Presa",
+      "coleccion": "Depredador",
+      "piezas": [
+        "depredador"
+      ]
+    },
+    {
+      "vtxId": "VTX-0824",
+      "titulo": "Depredadores",
+      "coleccion": "Depredador",
+      "piezas": [
+        "depredador"
+      ]
+    },
+    {
+      "vtxId": "VTX-0825",
+      "titulo": "Destino Final",
+      "coleccion": "Destino Final",
+      "piezas": [
+        "destino-final"
+      ]
+    },
+    {
+      "vtxId": "VTX-0826",
+      "titulo": "Destino Final 2",
+      "coleccion": "Destino Final",
+      "piezas": [
+        "destino-final"
+      ]
+    },
+    {
+      "vtxId": "VTX-0827",
+      "titulo": "Destino Final 3",
+      "coleccion": "Destino Final",
+      "piezas": [
+        "destino-final"
+      ]
+    },
+    {
+      "vtxId": "VTX-0828",
+      "titulo": "Destino Final 4",
+      "coleccion": "Destino Final",
+      "piezas": [
+        "destino-final"
+      ]
+    },
+    {
+      "vtxId": "VTX-0829",
+      "titulo": "Destino Final 5",
+      "coleccion": "Destino Final",
+      "piezas": [
+        "destino-final"
+      ]
+    },
+    {
+      "vtxId": "VTX-0830",
+      "titulo": "Diario de Greg: Un Viaje de Locos",
+      "coleccion": "El Diario de Greg",
+      "piezas": [
+        "el-diario-de-greg"
+      ]
+    },
+    {
+      "vtxId": "VTX-0831",
+      "titulo": "Divergente",
+      "coleccion": "Divergente",
+      "piezas": [
+        "divergente"
+      ]
+    },
+    {
+      "vtxId": "VTX-0832",
+      "titulo": "Divergente la Serie Insurgente",
+      "coleccion": "Divergente",
+      "piezas": [
+        "divergente"
+      ]
+    },
+    {
+      "vtxId": "VTX-0833",
+      "titulo": "Divergente la Serie: Leal",
+      "coleccion": "Divergente",
+      "piezas": [
+        "divergente"
+      ]
+    },
+    {
+      "vtxId": "VTX-0834",
+      "titulo": "Doctor Strange en el Multiverso de la Locura",
+      "coleccion": "Doctor Strange",
+      "piezas": [
+        "doctor-strange"
+      ]
+    },
+    {
+      "vtxId": "VTX-0835",
+      "titulo": "Doctor Strange: Hechicero Supremo",
+      "coleccion": "Doctor Strange",
+      "piezas": [
+        "doctor-strange"
+      ]
+    },
+    {
+      "vtxId": "VTX-0836",
+      "titulo": "Doom: Aniquilación",
+      "coleccion": "Doom",
+      "piezas": [
+        "doom"
+      ]
+    },
+    {
+      "vtxId": "VTX-0837",
+      "titulo": "Doom: La Puerta del Infierno",
+      "coleccion": "Doom",
+      "piezas": [
+        "doom"
+      ]
+    },
+    {
       "vtxId": "VTX-0838",
       "titulo": "Dos Policías Rebeldes",
       "coleccion": "Bad Boys",
       "piezas": [
         "bad-boys"
+      ]
+    },
+    {
+      "vtxId": "VTX-0839",
+      "titulo": "Dragón Rojo",
+      "coleccion": "Hannibal Lecter - la Antología",
+      "piezas": [
+        "hannibal-lecter-la-antologia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0840",
+      "titulo": "Dulce Venganza",
+      "coleccion": "Escupiré sobre Tu Tumba",
+      "piezas": [
+        "escupire-sobre-tu-tumba"
+      ]
+    },
+    {
+      "vtxId": "VTX-0841",
+      "titulo": "Dulce Venganza 2",
+      "coleccion": "Escupiré sobre Tu Tumba",
+      "piezas": [
+        "escupire-sobre-tu-tumba"
+      ]
+    },
+    {
+      "vtxId": "VTX-0842",
+      "titulo": "Dulce Venganza 3: La Venganza Es Mía",
+      "coleccion": "Escupiré sobre Tu Tumba",
+      "piezas": [
+        "escupire-sobre-tu-tumba"
+      ]
+    },
+    {
+      "vtxId": "VTX-0843",
+      "titulo": "Duna",
+      "coleccion": "Duna",
+      "piezas": [
+        "duna"
+      ]
+    },
+    {
+      "vtxId": "VTX-0844",
+      "titulo": "Duna: Parte Dos",
+      "coleccion": "Duna",
+      "piezas": [
+        "duna"
       ]
     },
     {
@@ -20235,6 +25120,78 @@
       "coleccion": "Duro de Matar",
       "piezas": [
         "duro-de-matar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0850",
+      "titulo": "Ed Wood",
+      "coleccion": null,
+      "piezas": [
+        "ed-wood"
+      ]
+    },
+    {
+      "vtxId": "VTX-0851",
+      "titulo": "El Aro",
+      "coleccion": "El Aro",
+      "piezas": [
+        "el-aro"
+      ]
+    },
+    {
+      "vtxId": "VTX-0852",
+      "titulo": "El Aro 2",
+      "coleccion": "El Aro",
+      "piezas": [
+        "el-aro"
+      ]
+    },
+    {
+      "vtxId": "VTX-0853",
+      "titulo": "El Aro 3",
+      "coleccion": "El Aro",
+      "piezas": [
+        "el-aro"
+      ]
+    },
+    {
+      "vtxId": "VTX-0854",
+      "titulo": "El Aro: Resurrección",
+      "coleccion": null,
+      "piezas": [
+        "el-aro-resurreccion"
+      ]
+    },
+    {
+      "vtxId": "VTX-0855",
+      "titulo": "El Cadáver de la Novia",
+      "coleccion": null,
+      "piezas": [
+        "el-cadaver-de-la-novia"
+      ]
+    },
+    {
+      "vtxId": "VTX-0866",
+      "titulo": "El Depredador",
+      "coleccion": "Depredador",
+      "piezas": [
+        "depredador"
+      ]
+    },
+    {
+      "vtxId": "VTX-0874",
+      "titulo": "El Diario de un Chico en Apuros",
+      "coleccion": "El Diario de Greg",
+      "piezas": [
+        "el-diario-de-greg"
+      ]
+    },
+    {
+      "vtxId": "VTX-0875",
+      "titulo": "El Diario de un Chico en Apuros 3: Días de Perros",
+      "coleccion": "El Diario de Greg",
+      "piezas": [
+        "el-diario-de-greg"
       ]
     },
     {
@@ -20318,11 +25275,27 @@
       ]
     },
     {
+      "vtxId": "VTX-0901",
+      "titulo": "El Legado Bourne",
+      "coleccion": "Jason Bourne",
+      "piezas": [
+        "jason-bourne"
+      ]
+    },
+    {
       "vtxId": "VTX-0903",
       "titulo": "El Mundo Perdido: Jurassic Park",
       "coleccion": "Jurassic Park",
       "piezas": [
         "jurassic-park"
+      ]
+    },
+    {
+      "vtxId": "VTX-0920",
+      "titulo": "El Silencio de los Inocentes",
+      "coleccion": "Hannibal Lecter - la Antología",
+      "piezas": [
+        "hannibal-lecter-la-antologia"
       ]
     },
     {
@@ -20342,11 +25315,27 @@
       ]
     },
     {
+      "vtxId": "VTX-0944",
+      "titulo": "Ghostbusters: El Legado",
+      "coleccion": "Los Cazafantasmas",
+      "piezas": [
+        "los-cazafantasmas"
+      ]
+    },
+    {
       "vtxId": "VTX-0951",
       "titulo": "Gremlins",
       "coleccion": "Gremlins",
       "piezas": [
         "gremlins"
+      ]
+    },
+    {
+      "vtxId": "VTX-0967",
+      "titulo": "Hannibal",
+      "coleccion": "Hannibal Lecter - la Antología",
+      "piezas": [
+        "hannibal-lecter-la-antologia"
       ]
     },
     {
@@ -20414,6 +25403,22 @@
       ]
     },
     {
+      "vtxId": "VTX-0987",
+      "titulo": "Identidad Desconocida",
+      "coleccion": "Jason Bourne",
+      "piezas": [
+        "jason-bourne"
+      ]
+    },
+    {
+      "vtxId": "VTX-0994",
+      "titulo": "Jason Bourne",
+      "coleccion": "Jason Bourne",
+      "piezas": [
+        "jason-bourne"
+      ]
+    },
+    {
       "vtxId": "VTX-0996",
       "titulo": "Jigsaw: El Juego Continúa",
       "coleccion": "El Juego del Miedo",
@@ -20475,6 +25480,30 @@
       "coleccion": "La Purga",
       "piezas": [
         "la-purga"
+      ]
+    },
+    {
+      "vtxId": "VTX-1028",
+      "titulo": "La Supremacía Bourne",
+      "coleccion": "Jason Bourne",
+      "piezas": [
+        "jason-bourne"
+      ]
+    },
+    {
+      "vtxId": "VTX-1033",
+      "titulo": "Los Cazafantasmas",
+      "coleccion": "Los Cazafantasmas",
+      "piezas": [
+        "los-cazafantasmas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1034",
+      "titulo": "Los Cazafantasmas 2",
+      "coleccion": "Los Cazafantasmas",
+      "piezas": [
+        "los-cazafantasmas"
       ]
     },
     {
@@ -20654,6 +25683,14 @@
       ]
     },
     {
+      "vtxId": "VTX-1184",
+      "titulo": "The Marvels",
+      "coleccion": "Capitana Marvel",
+      "piezas": [
+        "capitana-marvel"
+      ]
+    },
+    {
       "vtxId": "VTX-1191",
       "titulo": "Toy Story 5",
       "coleccion": "Toy Story",
@@ -20758,6 +25795,190 @@
       ]
     },
     {
+      "vtxId": "VTX-1241",
+      "titulo": "Demon Slayer: Kimetsu No Yaiba Castillo Infinito",
+      "coleccion": "Demon Slayer: Kimetsu no Yaiba",
+      "piezas": [
+        "demon-slayer-kimetsu-no-yaiba-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-1242",
+      "titulo": "Dragon Ball Super: Broly",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-super-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1243",
+      "titulo": "Dragon Ball Super: Super Hero",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-super-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1244",
+      "titulo": "Dragon Ball Z: ¡Devuélvanme a Mi Gohan!",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1245",
+      "titulo": "Dragon Ball Z: El Ataque del Dragón",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-1246",
+      "titulo": "Dragon Ball Z: El Combate Final",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-1247",
+      "titulo": "Dragon Ball Z: El Hombre más Fuerte de Este Mundo",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1248",
+      "titulo": "Dragon Ball Z: El Poder Invencible",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-1249",
+      "titulo": "Dragon Ball Z: El Regreso del Guerrero Legendario",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-1250",
+      "titulo": "Dragon Ball Z: Goku Es un Super Saiyajin",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1251",
+      "titulo": "Dragon Ball Z: La Batalla de Freezer contra el Padre de Goku",
+      "coleccion": null,
+      "piezas": [
+        "dragon-ball-z-especiales"
+      ]
+    },
+    {
+      "vtxId": "VTX-1252",
+      "titulo": "Dragon Ball Z: La Batalla de los Dioses",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-super-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1253",
+      "titulo": "Dragon Ball Z: La Batalla más Grande de Este Mundo Está por Comenzar",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1254",
+      "titulo": "Dragon Ball Z: La Fusión de Goku y Vegeta",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-1255",
+      "titulo": "Dragon Ball Z: La Galaxia Corre Peligro",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas-2"
+      ]
+    },
+    {
+      "vtxId": "VTX-1256",
+      "titulo": "Dragon Ball Z: La Pelea de los Tres Saiyajin",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1257",
+      "titulo": "Dragon Ball Z: La Resurrección de Freezer",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-super-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1258",
+      "titulo": "Dragon Ball Z: Los Dos Guerreros del Futuro Gohan y Trunks",
+      "coleccion": null,
+      "piezas": [
+        "dragon-ball-z-especiales"
+      ]
+    },
+    {
+      "vtxId": "VTX-1259",
+      "titulo": "Dragon Ball Z: Los Rivales más Poderosos",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball-z-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1260",
+      "titulo": "Dragon Ball: El Camino hacia el Poder",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball"
+      ]
+    },
+    {
+      "vtxId": "VTX-1261",
+      "titulo": "Dragon Ball: La Leyenda de Shen Long",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball"
+      ]
+    },
+    {
+      "vtxId": "VTX-1262",
+      "titulo": "Dragon Ball: La Princesa Durmiente del Castillo Embrujado",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball"
+      ]
+    },
+    {
+      "vtxId": "VTX-1263",
+      "titulo": "Dragon Ball: Una Aventura Mística",
+      "coleccion": "Dragon Ball",
+      "piezas": [
+        "dragon-ball"
+      ]
+    },
+    {
       "vtxId": "VTX-1264",
       "titulo": "Evangelion: 1.11 Tú (No) Estás Solo",
       "coleccion": "Evangelion",
@@ -20787,6 +26008,46 @@
       "coleccion": "Evangelion",
       "piezas": [
         "evangelion-peliculas"
+      ]
+    },
+    {
+      "vtxId": "VTX-1268",
+      "titulo": "Ghost in the Shell Ascenso Borde 1 - Dolor Fantasma",
+      "coleccion": "Ghost in the Shell Arise",
+      "piezas": [
+        "ghost-in-the-shell-arise"
+      ]
+    },
+    {
+      "vtxId": "VTX-1269",
+      "titulo": "Ghost in the Shell Ascenso: La Película",
+      "coleccion": "Ghost in the Shell Arise",
+      "piezas": [
+        "ghost-in-the-shell-arise"
+      ]
+    },
+    {
+      "vtxId": "VTX-1270",
+      "titulo": "Ghost in the Shell: Ascenso Borde 2 - Susurro Fantasma",
+      "coleccion": "Ghost in the Shell Arise",
+      "piezas": [
+        "ghost-in-the-shell-arise"
+      ]
+    },
+    {
+      "vtxId": "VTX-1271",
+      "titulo": "Ghost in the Shell: Ascenso Borde 3 - Lágrimas de Consciencia",
+      "coleccion": "Ghost in the Shell Arise",
+      "piezas": [
+        "ghost-in-the-shell-arise"
+      ]
+    },
+    {
+      "vtxId": "VTX-1272",
+      "titulo": "Ghost in the Shell: Ascenso Borde 4 - Consciencia Autónoma",
+      "coleccion": "Ghost in the Shell Arise",
+      "piezas": [
+        "ghost-in-the-shell-arise"
       ]
     },
     {
@@ -20934,6 +26195,62 @@
       ]
     },
     {
+      "vtxId": "VTX-1302",
+      "titulo": "Bolt: Un Perro Fuera de Serie",
+      "coleccion": null,
+      "piezas": [
+        "bolt-un-perro-fuera-de-serie"
+      ]
+    },
+    {
+      "vtxId": "VTX-1303",
+      "titulo": "Buscando a Dory",
+      "coleccion": "Buscando a Nemo",
+      "piezas": [
+        "buscando-a-nemo"
+      ]
+    },
+    {
+      "vtxId": "VTX-1304",
+      "titulo": "Buscando a Nemo",
+      "coleccion": "Buscando a Nemo",
+      "piezas": [
+        "buscando-a-nemo"
+      ]
+    },
+    {
+      "vtxId": "VTX-1305",
+      "titulo": "Cars",
+      "coleccion": "Cars",
+      "piezas": [
+        "cars"
+      ]
+    },
+    {
+      "vtxId": "VTX-1306",
+      "titulo": "Cars 2",
+      "coleccion": "Cars",
+      "piezas": [
+        "cars"
+      ]
+    },
+    {
+      "vtxId": "VTX-1307",
+      "titulo": "Cars 3",
+      "coleccion": "Cars",
+      "piezas": [
+        "cars"
+      ]
+    },
+    {
+      "vtxId": "VTX-1308",
+      "titulo": "Coco",
+      "coleccion": null,
+      "piezas": [
+        "coco"
+      ]
+    },
+    {
       "vtxId": "VTX-1311",
       "titulo": "El Extraño Mundo de Jack",
       "coleccion": null,
@@ -20947,6 +26264,14 @@
       "coleccion": "The Lion King (Reboot)",
       "piezas": [
         "the-lion-king-reboot"
+      ]
+    },
+    {
+      "vtxId": "VTX-1327",
+      "titulo": "Ghostbusters: Apocalipsis Fantasma",
+      "coleccion": "Los Cazafantasmas",
+      "piezas": [
+        "los-cazafantasmas"
       ]
     },
     {
@@ -21054,11 +26379,27 @@
       ]
     },
     {
+      "vtxId": "VTX-1436",
+      "titulo": "Scavengers Reign",
+      "coleccion": null,
+      "piezas": [
+        "scavengers-reign"
+      ]
+    },
+    {
       "vtxId": "VTX-1490",
       "titulo": "True Detective",
       "coleccion": null,
       "piezas": [
         "true-detective"
+      ]
+    },
+    {
+      "vtxId": "VTX-1494",
+      "titulo": "Aquaman y el Reino Perdido",
+      "coleccion": null,
+      "piezas": [
+        "aquaman"
       ]
     }
   ]

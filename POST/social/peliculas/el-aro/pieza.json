@@ -1,0 +1,54 @@
+{
+  "slug": "el-aro",
+  "tipo": "carrusel",
+  "titulo": "El Aro",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "El Aro"
+  },
+  "vtxIds": [
+    "VTX-0851",
+    "VTX-0852",
+    "VTX-0853"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-aro/images/01-el-aro-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0851"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-aro/images/02-el-aro-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0852"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-aro/images/03-el-aro-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0853"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-aro/images/04-sinopsis-el-aro.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-aro"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-aro/images/04-sinopsis-el-aro.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-aro/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Reemplaza a 'depredador' en este lote: otra sesión en paralelo (lote mezclado) ya estaba produciendo esa colección."
+}

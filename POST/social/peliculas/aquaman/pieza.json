@@ -1,0 +1,48 @@
+{
+  "slug": "aquaman",
+  "tipo": "carrusel",
+  "titulo": "Aquaman",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Aquaman"
+  },
+  "vtxIds": [
+    "VTX-0481",
+    "VTX-1494"
+  ],
+  "creada": "2026-10-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/aquaman/images/01-aquaman.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0481"
+    },
+    {
+      "archivo": "POST/social/peliculas/aquaman/images/02-aquaman-y-el-reino-perdido.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1494"
+    },
+    {
+      "archivo": "POST/social/peliculas/aquaman/images/03-sinopsis-aquaman.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/aquaman"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/aquaman/images/03-sinopsis-aquaman.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/aquaman/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Carrusel de saga: el Excel no le pone colección a ninguna de las dos (ambas en 'Peliculas'), pero TMDB las agrupa en la colección Aquaman y CLAUDE.md manda publicar las películas de una saga juntas. Filas MX+US+ES: el catálogo marca a El Reino Perdido (VTX-1494) con audioDual = No, pero el usuario confirmó el 2026-10-12 que Aquaman sí tiene audio en inglés y subtítulos; el dato del Excel para VTX-1494 está mal."
+}

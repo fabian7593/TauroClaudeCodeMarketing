@@ -1,0 +1,60 @@
+{
+  "slug": "dragon-ball",
+  "tipo": "carrusel",
+  "titulo": "Dragon Ball: Las Películas Clásicas",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Dragon Ball: Las Películas Clásicas"
+  },
+  "vtxIds": [
+    "VTX-1261",
+    "VTX-1262",
+    "VTX-1263",
+    "VTX-1260"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/dragon-ball/images/01-la-leyenda-de-shen-long.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1261"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball/images/02-la-princesa-durmiente.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1262"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball/images/03-una-aventura-mistica.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1263"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball/images/04-el-camino-hacia-el-poder.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1260"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball/images/05-sinopsis-dragon-ball.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/dragon-ball/images/05-sinopsis-dragon-ball.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/dragon-ball/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+}

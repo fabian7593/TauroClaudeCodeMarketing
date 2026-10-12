@@ -1,0 +1,42 @@
+{
+  "slug": "cloverfield-monstruo",
+  "tipo": "imagen",
+  "titulo": "Cloverfield: Monstruo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0809"
+  },
+  "vtxIds": [
+    "VTX-0809"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/cloverfield-monstruo/images/01-cloverfield.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0809"
+    },
+    {
+      "archivo": "POST/social/peliculas/cloverfield-monstruo/images/02-sinopsis-cloverfield-monstruo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/cloverfield-monstruo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/cloverfield-monstruo/images/02-sinopsis-cloverfield-monstruo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/cloverfield-monstruo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Sin colección en el catálogo. El usuario confirmó el 2026-10-05 producirla sola, igual que Avenida Cloverfield 10 (ya producida sola el 2026-10-01). Todos los pósters oficiales comparten el arte de la estatua decapitada; el segundo cuadro de la tira es la versión en inglés del mismo arte (el único textless distinto parecía hecho por fans). Dos candidatos 'es' decían 'Monstruoso' (España) y se descartaron."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "pequena-diabla",
+  "tipo": "imagen",
+  "titulo": "Pequeña Diabla",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0327"
+  },
+  "vtxIds": [
+    "VTX-0327"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/pequena-diabla/images/01-pequena-diabla.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0327"
+    },
+    {
+      "archivo": "POST/social/series/pequena-diabla/images/02-sinopsis-pequena-diabla.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/pequena-diabla"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/pequena-diabla/images/02-sinopsis-pequena-diabla.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/pequena-diabla/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

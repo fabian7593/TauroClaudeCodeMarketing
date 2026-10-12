@@ -1,0 +1,42 @@
+{
+  "slug": "el-increible-mundo-de-gumball",
+  "tipo": "imagen",
+  "titulo": "El Increíble Mundo de Gumball",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0344"
+  },
+  "vtxIds": [
+    "VTX-0344"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/el-increible-mundo-de-gumball/images/01-el-increible-mundo-de-gumball.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0344"
+    },
+    {
+      "archivo": "POST/social/series/el-increible-mundo-de-gumball/images/02-sinopsis-el-increible-mundo-de-gumball.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-increible-mundo-de-gumball"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/el-increible-mundo-de-gumball/images/02-sinopsis-el-increible-mundo-de-gumball.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/el-increible-mundo-de-gumball/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "TMDB 37606 marca idioma original inglés y el catálogo trae audioDual=No: solo fila MX. Pósters: es1 es de España ('El Asombroso Mundo Gumball'); arte = es2 (LATAM, 2000x3000), tira = es0 (LATAM, 500x750, se ve chico)."
+}

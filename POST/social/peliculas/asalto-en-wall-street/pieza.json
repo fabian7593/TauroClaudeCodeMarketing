@@ -1,0 +1,41 @@
+{
+  "slug": "asalto-en-wall-street",
+  "tipo": "imagen",
+  "titulo": "Asalto en Wall Street",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0484"
+  },
+  "vtxIds": [
+    "VTX-0484"
+  ],
+  "creada": "2026-10-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/asalto-en-wall-street/images/01-asalto-en-wall-street.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0484"
+    },
+    {
+      "archivo": "POST/social/peliculas/asalto-en-wall-street/images/02-sinopsis-asalto-en-wall-street.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/asalto-en-wall-street"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/asalto-en-wall-street/images/02-sinopsis-asalto-en-wall-street.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/asalto-en-wall-street/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

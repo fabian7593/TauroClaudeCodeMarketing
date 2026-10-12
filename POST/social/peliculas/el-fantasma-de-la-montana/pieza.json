@@ -1,0 +1,41 @@
+{
+  "slug": "el-fantasma-de-la-montana",
+  "tipo": "imagen",
+  "titulo": "El Fantasma de la Montaña",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0386"
+  },
+  "vtxIds": [
+    "VTX-0386"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/images/01-el-fantasma-de-la-montana.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0386"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/images/02-sinopsis-el-fantasma-de-la-montana.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-fantasma-de-la-montana"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/images/02-sinopsis-el-fantasma-de-la-montana.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-fantasma-de-la-montana/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

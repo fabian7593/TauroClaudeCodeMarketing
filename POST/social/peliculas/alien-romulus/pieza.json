@@ -1,0 +1,41 @@
+{
+  "slug": "alien-romulus",
+  "tipo": "imagen",
+  "titulo": "Alien. Romulus",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0462"
+  },
+  "vtxIds": [
+    "VTX-0462"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alien-romulus/images/01-alien-romulus.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0462"
+    },
+    {
+      "archivo": "POST/social/peliculas/alien-romulus/images/02-sinopsis-alien-romulus.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alien-romulus"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alien-romulus/images/02-sinopsis-alien-romulus.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alien-romulus/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

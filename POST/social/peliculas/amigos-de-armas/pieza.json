@@ -1,0 +1,41 @@
+{
+  "slug": "amigos-de-armas",
+  "tipo": "imagen",
+  "titulo": "Amigos de Armas",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0466"
+  },
+  "vtxIds": [
+    "VTX-0466"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/amigos-de-armas/images/01-amigos-de-armas.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0466"
+    },
+    {
+      "archivo": "POST/social/peliculas/amigos-de-armas/images/02-sinopsis-amigos-de-armas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amigos-de-armas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/amigos-de-armas/images/02-sinopsis-amigos-de-armas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/amigos-de-armas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

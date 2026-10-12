@@ -1,0 +1,48 @@
+{
+  "slug": "doctor-strange",
+  "tipo": "carrusel",
+  "titulo": "Doctor Strange",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Doctor Strange"
+  },
+  "vtxIds": [
+    "VTX-0835",
+    "VTX-0834"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/doctor-strange/images/01-strange-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0835"
+    },
+    {
+      "archivo": "POST/social/peliculas/doctor-strange/images/02-strange-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0834"
+    },
+    {
+      "archivo": "POST/social/peliculas/doctor-strange/images/03-sinopsis-doctor-strange.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/doctor-strange"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/doctor-strange/images/03-sinopsis-doctor-strange.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/doctor-strange/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "tercerAudio = Portuguese en el catálogo, pero es doblaje extra: el original es inglés (TMDB) → filas MX + US + ES."
+}

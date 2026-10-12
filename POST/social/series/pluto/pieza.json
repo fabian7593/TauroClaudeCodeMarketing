@@ -1,0 +1,42 @@
+{
+  "slug": "pluto",
+  "tipo": "imagen",
+  "titulo": "Pluto",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0291"
+  },
+  "vtxIds": [
+    "VTX-0291"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/pluto/images/01-pluto.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0291"
+    },
+    {
+      "archivo": "POST/social/series/pluto/images/02-sinopsis-pluto.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/pluto"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/pluto/images/02-sinopsis-pluto.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/pluto/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Pósters: los dos es de TMDB traen 'UNA SERIE DE NETFLIX' y el en1 'A NETFLIX SERIES' (rechazados); arte = en0 (solo logo PLUTO), tira = en2."
+}

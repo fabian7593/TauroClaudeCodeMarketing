@@ -1,0 +1,41 @@
+{
+  "slug": "cars-aventuras-en-el-camino",
+  "tipo": "imagen",
+  "titulo": "Cars: Aventuras en el Camino",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0340"
+  },
+  "vtxIds": [
+    "VTX-0340"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/cars-aventuras-en-el-camino/images/01-cars-aventuras-en-el-camino.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0340"
+    },
+    {
+      "archivo": "POST/social/series/cars-aventuras-en-el-camino/images/02-sinopsis-cars-aventuras-en-el-camino.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/cars-aventuras-en-el-camino"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/cars-aventuras-en-el-camino/images/02-sinopsis-cars-aventuras-en-el-camino.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/cars-aventuras-en-el-camino/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

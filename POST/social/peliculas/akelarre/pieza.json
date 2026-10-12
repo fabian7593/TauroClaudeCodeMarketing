@@ -1,0 +1,42 @@
+{
+  "slug": "akelarre",
+  "tipo": "imagen",
+  "titulo": "Akelarre",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0459"
+  },
+  "vtxIds": [
+    "VTX-0459"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/akelarre/images/01-akelarre.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0459"
+    },
+    {
+      "archivo": "POST/social/peliculas/akelarre/images/02-sinopsis-akelarre.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/akelarre"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/akelarre/images/02-sinopsis-akelarre.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/akelarre/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo trae clasificación NR; TMDB 655187 registra 15, 16 y 18 según el país. Se usó 'Apta para mayores de 18'. Idioma original euskera según TMDB (Original Language: Basque): filas MX + EU + ES; la bandera EU (ikurriña) se agregó a la plantilla en este lote."
+}

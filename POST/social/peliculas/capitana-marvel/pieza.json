@@ -1,0 +1,48 @@
+{
+  "slug": "capitana-marvel",
+  "tipo": "carrusel",
+  "titulo": "Capitana Marvel",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Capitana Marvel"
+  },
+  "vtxIds": [
+    "VTX-0805",
+    "VTX-1184"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/capitana-marvel/images/01-capitana-marvel.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0805"
+    },
+    {
+      "archivo": "POST/social/peliculas/capitana-marvel/images/02-the-marvels.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1184"
+    },
+    {
+      "archivo": "POST/social/peliculas/capitana-marvel/images/03-sinopsis-capitana-marvel.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/capitana-marvel"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/capitana-marvel/images/03-sinopsis-capitana-marvel.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/capitana-marvel/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "The Marvels no tiene póster en español LATAM válido en TMDB (los 'es' eran de España o promos de estreno en cines): va en inglés."
+}

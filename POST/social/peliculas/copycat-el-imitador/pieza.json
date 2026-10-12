@@ -1,0 +1,42 @@
+{
+  "slug": "copycat-el-imitador",
+  "tipo": "imagen",
+  "titulo": "Copycat: El Imitador",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0810"
+  },
+  "vtxIds": [
+    "VTX-0810"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/copycat-el-imitador/images/01-copycat.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0810"
+    },
+    {
+      "archivo": "POST/social/peliculas/copycat-el-imitador/images/02-sinopsis-copycat-el-imitador.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/copycat-el-imitador"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/copycat-el-imitador/images/02-sinopsis-copycat-el-imitador.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/copycat-el-imitador/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "audioDual = No → solo fila MX. Los pósters de TMDB son todos la misma ilustración; el segundo cuadro de la tira es el recorte abierto en inglés del mismo arte (regla de mínimo 2 cuadros). Los dos candidatos 'es' restantes eran de España ('Copia mortal', Warner Española)."
+}

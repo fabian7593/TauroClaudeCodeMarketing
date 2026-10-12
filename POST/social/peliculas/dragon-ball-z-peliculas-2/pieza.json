@@ -1,0 +1,72 @@
+{
+  "slug": "dragon-ball-z-peliculas-2",
+  "tipo": "carrusel",
+  "titulo": "Dragon Ball Z: Las Películas de 1993 a 1995",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Dragon Ball Z: Las Películas de 1993 a 1995"
+  },
+  "vtxIds": [
+    "VTX-1248",
+    "VTX-1255",
+    "VTX-1249",
+    "VTX-1246",
+    "VTX-1254",
+    "VTX-1245"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/01-el-poder-invencible.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1248"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/02-la-galaxia-corre-peligro.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1255"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/03-el-regreso-del-guerrero-legendario.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1249"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/04-el-combate-final.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1246"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/05-la-fusion-de-goku-y-vegeta.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1254"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/06-el-ataque-del-dragon.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1245"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/07-sinopsis-dragon-ball-z-peliculas-2.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-z-peliculas-2"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/images/07-sinopsis-dragon-ball-z-peliculas-2.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/dragon-ball-z-peliculas-2/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+}

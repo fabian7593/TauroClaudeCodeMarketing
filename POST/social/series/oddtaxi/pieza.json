@@ -1,0 +1,41 @@
+{
+  "slug": "oddtaxi",
+  "tipo": "imagen",
+  "titulo": "Oddtaxi",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0288"
+  },
+  "vtxIds": [
+    "VTX-0288"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/oddtaxi/images/01-oddtaxi.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0288"
+    },
+    {
+      "archivo": "POST/social/series/oddtaxi/images/02-sinopsis-oddtaxi.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/oddtaxi"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/oddtaxi/images/02-sinopsis-oddtaxi.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/oddtaxi/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

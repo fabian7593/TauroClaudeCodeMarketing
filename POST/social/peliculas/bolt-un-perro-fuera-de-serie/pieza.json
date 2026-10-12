@@ -1,0 +1,41 @@
+{
+  "slug": "bolt-un-perro-fuera-de-serie",
+  "tipo": "imagen",
+  "titulo": "Bolt: Un Perro Fuera de Serie",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1302"
+  },
+  "vtxIds": [
+    "VTX-1302"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/images/01-bolt.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1302"
+    },
+    {
+      "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/images/02-sinopsis-bolt-un-perro-fuera-de-serie.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bolt-un-perro-fuera-de-serie"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/images/02-sinopsis-bolt-un-perro-fuera-de-serie.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/bolt-un-perro-fuera-de-serie/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

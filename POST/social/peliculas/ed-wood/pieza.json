@@ -1,0 +1,42 @@
+{
+  "slug": "ed-wood",
+  "tipo": "imagen",
+  "titulo": "Ed Wood",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0850"
+  },
+  "vtxIds": [
+    "VTX-0850"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/ed-wood/images/01-ed-wood.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0850"
+    },
+    {
+      "archivo": "POST/social/peliculas/ed-wood/images/02-sinopsis-ed-wood.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ed-wood"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/ed-wood/images/02-sinopsis-ed-wood.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/ed-wood/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "En el catálogo está en 'Peliculas Colecciones' pero sin colección asignada: va como pieza individual."
+}

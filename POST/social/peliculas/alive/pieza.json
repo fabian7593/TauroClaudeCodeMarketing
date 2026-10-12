@@ -1,0 +1,42 @@
+{
+  "slug": "alive",
+  "tipo": "imagen",
+  "titulo": "Alive",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0463"
+  },
+  "vtxIds": [
+    "VTX-0463"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alive/images/01-alive.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0463"
+    },
+    {
+      "archivo": "POST/social/peliculas/alive/images/02-sinopsis-alive.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alive"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alive/images/02-sinopsis-alive.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alive/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo no trae clasificación y TMDB 680173 no registra certificación. Por tratar heridas de guerra y sus secuelas se usó 'Apta para mayores de 13'. TMDB tiene un solo póster de esta película (500x750, idioma xx) y ninguna otra imagen: el segundo cuadro de la tira es un recorte del mismo póster, según la regla de mínimo 2 cuadros."
+}

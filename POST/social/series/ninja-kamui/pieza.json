@@ -1,0 +1,42 @@
+{
+  "slug": "ninja-kamui",
+  "tipo": "imagen",
+  "titulo": "Ninja Kamui",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0287"
+  },
+  "vtxIds": [
+    "VTX-0287"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/ninja-kamui/images/01-ninja-kamui.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0287"
+    },
+    {
+      "archivo": "POST/social/series/ninja-kamui/images/02-sinopsis-ninja-kamui.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ninja-kamui"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/ninja-kamui/images/02-sinopsis-ninja-kamui.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/ninja-kamui/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "TMDB 202284 marca idioma original inglés (serie estrenada en inglés en Toonami): filas MX/US/ES aunque el catálogo la tenga como anime (esAnime=true)."
+}

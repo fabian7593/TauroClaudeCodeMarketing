@@ -1,0 +1,41 @@
+{
+  "slug": "wondla",
+  "tipo": "imagen",
+  "titulo": "Wondla",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0331"
+  },
+  "vtxIds": [
+    "VTX-0331"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/wondla/images/01-wondla.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0331"
+    },
+    {
+      "archivo": "POST/social/series/wondla/images/02-sinopsis-wondla.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/wondla"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/wondla/images/02-sinopsis-wondla.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/wondla/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

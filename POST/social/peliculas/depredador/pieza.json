@@ -1,0 +1,65 @@
+{
+  "slug": "depredador",
+  "tipo": "carrusel",
+  "titulo": "Depredador",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Depredador"
+  },
+  "vtxIds": [
+    "VTX-0821",
+    "VTX-0822",
+    "VTX-0824",
+    "VTX-0866",
+    "VTX-0823"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/depredador/images/01-depredador.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0821"
+    },
+    {
+      "archivo": "POST/social/peliculas/depredador/images/02-depredador-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0822"
+    },
+    {
+      "archivo": "POST/social/peliculas/depredador/images/03-depredadores.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0824"
+    },
+    {
+      "archivo": "POST/social/peliculas/depredador/images/04-el-depredador.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0866"
+    },
+    {
+      "archivo": "POST/social/peliculas/depredador/images/05-depredador-la-presa.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0823"
+    },
+    {
+      "archivo": "POST/social/peliculas/depredador/images/06-sinopsis-depredador.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/depredador"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/depredador/images/06-sinopsis-depredador.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/depredador/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

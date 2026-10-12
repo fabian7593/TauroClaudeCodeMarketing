@@ -1,0 +1,65 @@
+{
+  "slug": "jason-bourne",
+  "tipo": "carrusel",
+  "titulo": "Bourne: La Saga",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Bourne: La Saga"
+  },
+  "vtxIds": [
+    "VTX-0987",
+    "VTX-1028",
+    "VTX-0800",
+    "VTX-0901",
+    "VTX-0994"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/jason-bourne/images/01-bourne1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0987"
+    },
+    {
+      "archivo": "POST/social/peliculas/jason-bourne/images/02-bourne2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1028"
+    },
+    {
+      "archivo": "POST/social/peliculas/jason-bourne/images/03-bourne3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0800"
+    },
+    {
+      "archivo": "POST/social/peliculas/jason-bourne/images/04-bourne4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0901"
+    },
+    {
+      "archivo": "POST/social/peliculas/jason-bourne/images/05-bourne5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0994"
+    },
+    {
+      "archivo": "POST/social/peliculas/jason-bourne/images/06-sinopsis-jason-bourne.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/jason-bourne"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/jason-bourne/images/06-sinopsis-jason-bourne.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/jason-bourne/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

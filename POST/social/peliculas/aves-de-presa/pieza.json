@@ -1,0 +1,42 @@
+{
+  "slug": "aves-de-presa",
+  "tipo": "imagen",
+  "titulo": "Aves de Presa y la Fantabulosa Emancipación de una Harley Quinn",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0494"
+  },
+  "vtxIds": [
+    "VTX-0494"
+  ],
+  "creada": "2026-10-12",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/aves-de-presa/images/01-aves-de-presa.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0494"
+    },
+    {
+      "archivo": "POST/social/peliculas/aves-de-presa/images/02-sinopsis-aves-de-presa.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/aves-de-presa"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/aves-de-presa/images/02-sinopsis-aves-de-presa.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/aves-de-presa/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Slug acortado a aves-de-presa: con el slug completo del catálogo la ruta de la ficha llegaba a 260 caracteres y Windows no la podía escribir. Pósters: los dos es dicen la redacción de España (sin \"una\"), arte = en0; tira = xx0 (mismo arte sin título, no hay composición distinta válida)."
+}

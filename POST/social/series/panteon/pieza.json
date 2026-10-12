@@ -1,0 +1,41 @@
+{
+  "slug": "panteon",
+  "tipo": "imagen",
+  "titulo": "Panteón",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0326"
+  },
+  "vtxIds": [
+    "VTX-0326"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/panteon/images/01-panteon.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0326"
+    },
+    {
+      "archivo": "POST/social/series/panteon/images/02-sinopsis-panteon.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/panteon"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/panteon/images/02-sinopsis-panteon.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/panteon/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

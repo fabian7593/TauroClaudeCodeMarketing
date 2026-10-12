@@ -1,0 +1,66 @@
+{
+  "slug": "ghost-in-the-shell-arise",
+  "tipo": "carrusel",
+  "titulo": "Ghost in the Shell Ascenso",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Ghost in the Shell Ascenso"
+  },
+  "vtxIds": [
+    "VTX-1268",
+    "VTX-1270",
+    "VTX-1271",
+    "VTX-1272",
+    "VTX-1269"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/01-gits-borde-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1268"
+    },
+    {
+      "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/02-gits-borde-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1270"
+    },
+    {
+      "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/03-gits-borde-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1271"
+    },
+    {
+      "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/04-gits-borde-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1272"
+    },
+    {
+      "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/05-gits-la-pelicula.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1269"
+    },
+    {
+      "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/06-sinopsis-ghost-in-the-shell-arise.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/ghost-in-the-shell-arise"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/images/06-sinopsis-ghost-in-the-shell-arise.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/ghost-in-the-shell-arise/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Títulos del arte según tituloEs del catálogo ('Ascenso'), con la puntuación unificada. Pósters de Borde 3 (b3-en0), Borde 4 (b4-en0) y La Película (pelicula-en0) recortados a 4:5 por encima de su propio título 'ARISE / ghost in the shell / border:N': ese título caía justo en la franja del título del arte y quedaban encimados (los alternativos de TMDB tienen el mismo problema o son de fans). Bordes 1 y 2 van completos: su título queda arriba del nuestro sin pisarse. La tira lleva los 4 Bordes (máximo 4 cuadros); La Película va como 5º arte. La Película no trae clasificación en el catálogo; se usa +18 como el resto de la colección (R)."
+}

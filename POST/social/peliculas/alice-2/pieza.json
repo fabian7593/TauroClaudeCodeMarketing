@@ -1,0 +1,41 @@
+{
+  "slug": "alice-2",
+  "tipo": "imagen",
+  "titulo": "Alice",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0461"
+  },
+  "vtxIds": [
+    "VTX-0461"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/alice-2/images/01-alice-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0461"
+    },
+    {
+      "archivo": "POST/social/peliculas/alice-2/images/02-sinopsis-alice-2.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/alice-2"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/alice-2/images/02-sinopsis-alice-2.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/alice-2/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

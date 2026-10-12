@@ -1,0 +1,54 @@
+{
+  "slug": "escupire-sobre-tu-tumba",
+  "tipo": "carrusel",
+  "titulo": "Dulce Venganza",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Dulce Venganza"
+  },
+  "vtxIds": [
+    "VTX-0840",
+    "VTX-0841",
+    "VTX-0842"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/01-dulce-venganza-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0840"
+    },
+    {
+      "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/02-dulce-venganza-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0841"
+    },
+    {
+      "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/03-dulce-venganza-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0842"
+    },
+    {
+      "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/04-sinopsis-escupire-sobre-tu-tumba.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/escupire-sobre-tu-tumba"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/images/04-sinopsis-escupire-sobre-tu-tumba.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/escupire-sobre-tu-tumba/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "La colección del catálogo se llama 'Escupiré sobre Tu Tumba' (slug), pero las películas están en el catálogo con su título LATAM 'Dulce Venganza'; el post usa ese nombre."
+}

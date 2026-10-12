@@ -1,0 +1,48 @@
+{
+  "slug": "creed",
+  "tipo": "carrusel",
+  "titulo": "Creed",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Creed"
+  },
+  "vtxIds": [
+    "VTX-0814",
+    "VTX-0813"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/creed/images/01-creed1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0814"
+    },
+    {
+      "archivo": "POST/social/peliculas/creed/images/02-creed2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0813"
+    },
+    {
+      "archivo": "POST/social/peliculas/creed/images/03-sinopsis-creed.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/creed"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/creed/images/03-sinopsis-creed.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/creed/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Las 6 de Rocky son la colección 'Rocky' del catálogo y van en su propia pieza."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "amos-del-universo",
+  "tipo": "imagen",
+  "titulo": "Amos del Universo",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0472"
+  },
+  "vtxIds": [
+    "VTX-0472"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/amos-del-universo/images/01-amos-del-universo.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0472"
+    },
+    {
+      "archivo": "POST/social/peliculas/amos-del-universo/images/02-sinopsis-amos-del-universo.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amos-del-universo"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/amos-del-universo/images/02-sinopsis-amos-del-universo.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/amos-del-universo/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

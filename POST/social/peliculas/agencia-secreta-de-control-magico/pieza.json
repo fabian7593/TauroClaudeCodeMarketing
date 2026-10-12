@@ -1,0 +1,42 @@
+{
+  "slug": "agencia-secreta-de-control-magico",
+  "tipo": "imagen",
+  "titulo": "Agencia Secreta de Control Mágico",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0457"
+  },
+  "vtxIds": [
+    "VTX-0457"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/images/01-agencia-secreta-de-control-magico.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0457"
+    },
+    {
+      "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/images/02-sinopsis-agencia-secreta-de-control-magico.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/agencia-secreta-de-control-magico"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/images/02-sinopsis-agencia-secreta-de-control-magico.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/agencia-secreta-de-control-magico/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Catálogo trae clasificación NR; TMDB 797394 la marca 'L' (apta para todo público). Se usó 'Apta para toda la familia'. Idioma original ruso según TMDB (Ганзель, Гретель и Агентство Магии): filas MX + RU + ES; la bandera RU se agregó a la plantilla en este lote."
+}

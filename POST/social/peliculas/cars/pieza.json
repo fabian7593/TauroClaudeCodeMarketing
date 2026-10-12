@@ -1,0 +1,53 @@
+{
+  "slug": "cars",
+  "tipo": "carrusel",
+  "titulo": "Cars",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Cars"
+  },
+  "vtxIds": [
+    "VTX-1305",
+    "VTX-1306",
+    "VTX-1307"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/cars/images/01-cars.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1305"
+    },
+    {
+      "archivo": "POST/social/peliculas/cars/images/02-cars-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1306"
+    },
+    {
+      "archivo": "POST/social/peliculas/cars/images/03-cars-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1307"
+    },
+    {
+      "archivo": "POST/social/peliculas/cars/images/04-sinopsis-cars.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/cars"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/cars/images/04-sinopsis-cars.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/cars/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "dragon-ball-z-peliculas",
+  "tipo": "carrusel",
+  "titulo": "Dragon Ball Z: Las Películas de 1989 a 1992",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Dragon Ball Z: Las Películas de 1989 a 1992"
+  },
+  "vtxIds": [
+    "VTX-1244",
+    "VTX-1247",
+    "VTX-1253",
+    "VTX-1250",
+    "VTX-1259",
+    "VTX-1256"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/01-devuelvanme-a-mi-gohan.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1244"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/02-el-hombre-mas-fuerte.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1247"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/03-la-batalla-mas-grande.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1253"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/04-goku-es-un-super-saiyajin.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1250"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/05-los-rivales-mas-poderosos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1259"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/06-la-pelea-de-los-tres-saiyajin.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1256"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/07-sinopsis-dragon-ball-z-peliculas.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-z-peliculas"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/images/07-sinopsis-dragon-ball-z-peliculas.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/dragon-ball-z-peliculas/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "La colección Dragon Ball del catálogo (20 películas) se partió en 4 carruseles por era a pedido del usuario el 2026-10-05: clásicas (4), DBZ 1989-1992 (6), DBZ 1993-1995 (6) y nueva era 2013-2022 (4)."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "tu-amigo-y-vecino-spider-man",
+  "tipo": "imagen",
+  "titulo": "Tu Amigo y Vecino Spider-Man",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0329"
+  },
+  "vtxIds": [
+    "VTX-0329"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/images/01-tu-amigo-y-vecino-spider-man.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0329"
+    },
+    {
+      "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/images/02-sinopsis-tu-amigo-y-vecino-spider-man.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/tu-amigo-y-vecino-spider-man"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/images/02-sinopsis-tu-amigo-y-vecino-spider-man.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/tu-amigo-y-vecino-spider-man/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

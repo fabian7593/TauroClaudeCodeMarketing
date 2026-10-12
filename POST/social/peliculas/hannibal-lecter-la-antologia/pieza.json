@@ -1,0 +1,54 @@
+{
+  "slug": "hannibal-lecter-la-antologia",
+  "tipo": "carrusel",
+  "titulo": "Hannibal Lecter: la antología",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Hannibal Lecter: la antología"
+  },
+  "vtxIds": [
+    "VTX-0920",
+    "VTX-0967",
+    "VTX-0839"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/01-hannibal-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0920"
+    },
+    {
+      "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/02-hannibal-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0967"
+    },
+    {
+      "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/03-hannibal-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0839"
+    },
+    {
+      "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/04-sinopsis-hannibal-lecter-la-antologia.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/hannibal-lecter-la-antologia"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/images/04-sinopsis-hannibal-lecter-la-antologia.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/hannibal-lecter-la-antologia/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Audio mixto en el catálogo: El Silencio de los Inocentes trae audioDual = No y Hannibal / Dragón Rojo audioDual = Sí. Las filas son por pieza, así que va solo MX para no prometer audio en inglés en la primera."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "naruto-2",
+  "tipo": "imagen",
+  "titulo": "Naruto",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0284"
+  },
+  "vtxIds": [
+    "VTX-0284"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/naruto-2/images/01-naruto.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0284"
+    },
+    {
+      "archivo": "POST/social/series/naruto-2/images/02-sinopsis-naruto-2.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/naruto-2"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/naruto-2/images/02-sinopsis-naruto-2.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/naruto-2/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

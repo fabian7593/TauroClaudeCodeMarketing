@@ -1,0 +1,41 @@
+{
+  "slug": "spawn",
+  "tipo": "imagen",
+  "titulo": "Spawn",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0328"
+  },
+  "vtxIds": [
+    "VTX-0328"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/spawn/images/01-spawn.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0328"
+    },
+    {
+      "archivo": "POST/social/series/spawn/images/02-sinopsis-spawn.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/spawn"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/spawn/images/02-sinopsis-spawn.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/spawn/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "pokemon",
+  "tipo": "imagen",
+  "titulo": "Pokémon",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0292"
+  },
+  "vtxIds": [
+    "VTX-0292"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/pokemon/images/01-pokemon.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0292"
+    },
+    {
+      "archivo": "POST/social/series/pokemon/images/02-sinopsis-pokemon.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/pokemon"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/pokemon/images/02-sinopsis-pokemon.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/pokemon/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "El catálogo trae episodios=52 (no corresponde a 25 temporadas); el meta y los textos usan solo la cantidad de temporadas. Pósters: arte = en0, que es la misma imagen y el mismo logo POKÉMON que el único es (700x1037), a 1280px; tira = en1."
+}

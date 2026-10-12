@@ -1,0 +1,42 @@
+{
+  "slug": "scavengers-reign",
+  "tipo": "imagen",
+  "titulo": "Scavengers Reign",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-1436"
+  },
+  "vtxIds": [
+    "VTX-1436"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/scavengers-reign/images/01-scavengers-reign.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1436"
+    },
+    {
+      "archivo": "POST/social/series/scavengers-reign/images/02-sinopsis-scavengers-reign.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/scavengers-reign"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/scavengers-reign/images/02-sinopsis-scavengers-reign.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/scavengers-reign/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "TMDB 204154 marca idioma original inglés y el catálogo trae audioDual=No: solo fila MX. En TMDB es-MX figura como 'Planeta de Recolectores', pero el catálogo usa 'Scavengers Reign': pósters en inglés."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "one-punch-man",
+  "tipo": "imagen",
+  "titulo": "One Punch Man",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0289"
+  },
+  "vtxIds": [
+    "VTX-0289"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/one-punch-man/images/01-one-punch-man.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0289"
+    },
+    {
+      "archivo": "POST/social/series/one-punch-man/images/02-sinopsis-one-punch-man.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/one-punch-man"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/one-punch-man/images/02-sinopsis-one-punch-man.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/one-punch-man/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

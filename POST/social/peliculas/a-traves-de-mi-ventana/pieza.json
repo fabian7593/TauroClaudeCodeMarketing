@@ -1,0 +1,41 @@
+{
+  "slug": "a-traves-de-mi-ventana",
+  "tipo": "imagen",
+  "titulo": "A Través de Mi Ventana",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0450"
+  },
+  "vtxIds": [
+    "VTX-0450"
+  ],
+  "creada": "2026-10-01",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/images/01-a-traves-de-mi-ventana.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0450"
+    },
+    {
+      "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/images/02-sinopsis-a-traves-de-mi-ventana.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/a-traves-de-mi-ventana"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/images/02-sinopsis-a-traves-de-mi-ventana.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/a-traves-de-mi-ventana/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

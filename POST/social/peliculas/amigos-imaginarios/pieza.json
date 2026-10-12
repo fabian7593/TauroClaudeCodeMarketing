@@ -1,0 +1,41 @@
+{
+  "slug": "amigos-imaginarios",
+  "tipo": "imagen",
+  "titulo": "Amigos Imaginarios",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0468"
+  },
+  "vtxIds": [
+    "VTX-0468"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/amigos-imaginarios/images/01-amigos-imaginarios.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0468"
+    },
+    {
+      "archivo": "POST/social/peliculas/amigos-imaginarios/images/02-sinopsis-amigos-imaginarios.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/amigos-imaginarios"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/amigos-imaginarios/images/02-sinopsis-amigos-imaginarios.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/amigos-imaginarios/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

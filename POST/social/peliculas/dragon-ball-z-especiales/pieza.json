@@ -1,0 +1,48 @@
+{
+  "slug": "dragon-ball-z-especiales",
+  "tipo": "carrusel",
+  "titulo": "Especiales de Dragon Ball Z",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Especiales de Dragon Ball Z"
+  },
+  "vtxIds": [
+    "VTX-1251",
+    "VTX-1258"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/01-bardock.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1251"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/02-trunks.png",
+      "tipo": "arte",
+      "vtxId": "VTX-1258"
+    },
+    {
+      "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/03-sinopsis-dragon-ball-z-especiales.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/dragon-ball-z-especiales"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/dragon-ball-z-especiales/images/03-sinopsis-dragon-ball-z-especiales.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/dragon-ball-z-especiales/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Carrusel propio para los dos especiales de TV de DBZ (Bardock y La historia de Trunks), que no tienen colección en el Excel ni en TMDB. Agrupados a pedido del usuario el 2026-10-06; override en catalogo.overrides.json ('Especiales de Dragon Ball Z'). Póster de Trunks: textless (TMDB xx). El único es-LATAM exacto trae el título en una franja abajo que quedaba detrás de las filas de audio y el logo; los en también tienen el título abajo."
+}

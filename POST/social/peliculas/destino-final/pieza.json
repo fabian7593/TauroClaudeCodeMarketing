@@ -1,0 +1,65 @@
+{
+  "slug": "destino-final",
+  "tipo": "carrusel",
+  "titulo": "Destino Final",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Destino Final"
+  },
+  "vtxIds": [
+    "VTX-0825",
+    "VTX-0826",
+    "VTX-0827",
+    "VTX-0828",
+    "VTX-0829"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/destino-final/images/01-destino-final-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0825"
+    },
+    {
+      "archivo": "POST/social/peliculas/destino-final/images/02-destino-final-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0826"
+    },
+    {
+      "archivo": "POST/social/peliculas/destino-final/images/03-destino-final-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0827"
+    },
+    {
+      "archivo": "POST/social/peliculas/destino-final/images/04-destino-final-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0828"
+    },
+    {
+      "archivo": "POST/social/peliculas/destino-final/images/05-destino-final-5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0829"
+    },
+    {
+      "archivo": "POST/social/peliculas/destino-final/images/06-sinopsis-destino-final.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/destino-final"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/destino-final/images/06-sinopsis-destino-final.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/destino-final/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

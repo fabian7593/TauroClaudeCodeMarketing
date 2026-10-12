@@ -1,0 +1,42 @@
+{
+  "slug": "escandalosos",
+  "tipo": "imagen",
+  "titulo": "Escandalosos",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0345"
+  },
+  "vtxIds": [
+    "VTX-0345"
+  ],
+  "creada": "2026-10-06",
+  "imagenes": [
+    {
+      "archivo": "POST/social/series/escandalosos/images/01-escandalosos.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0345"
+    },
+    {
+      "archivo": "POST/social/series/escandalosos/images/02-sinopsis-escandalosos.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/escandalosos"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/series/escandalosos/images/02-sinopsis-escandalosos.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/series/escandalosos/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Pósters: es0 y es1 son de España ('Somos Osos'); arte = es2 (LATAM); tira = en1 (único arte distinto, baja resolución pero va chico en la tira)."
+}

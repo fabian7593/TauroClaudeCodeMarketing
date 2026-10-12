@@ -1,0 +1,53 @@
+{
+  "slug": "el-diario-de-greg",
+  "tipo": "carrusel",
+  "titulo": "El Diario de Greg",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "El Diario de Greg"
+  },
+  "vtxIds": [
+    "VTX-0874",
+    "VTX-0875",
+    "VTX-0830"
+  ],
+  "creada": "2026-10-05",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/el-diario-de-greg/images/01-greg-1.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0874"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-diario-de-greg/images/02-greg-3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0875"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-diario-de-greg/images/03-greg-4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0830"
+    },
+    {
+      "archivo": "POST/social/peliculas/el-diario-de-greg/images/04-sinopsis-el-diario-de-greg.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/el-diario-de-greg"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/el-diario-de-greg/images/04-sinopsis-el-diario-de-greg.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/el-diario-de-greg/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}
