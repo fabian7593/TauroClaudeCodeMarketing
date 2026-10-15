@@ -1,0 +1,41 @@
+{
+  "slug": "boogeyman-tu-miedo-es-real",
+  "tipo": "imagen",
+  "titulo": "Boogeyman: Tu Miedo Es Real",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0504"
+  },
+  "vtxIds": [
+    "VTX-0504"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/images/01-boogeyman-tu-miedo-es-real.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0504"
+    },
+    {
+      "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/images/02-sinopsis-boogeyman-tu-miedo-es-real.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/boogeyman-tu-miedo-es-real"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/images/02-sinopsis-boogeyman-tu-miedo-es-real.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

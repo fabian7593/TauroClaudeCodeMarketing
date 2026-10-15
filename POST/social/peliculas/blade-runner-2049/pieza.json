@@ -1,0 +1,42 @@
+{
+  "slug": "blade-runner-2049",
+  "tipo": "imagen",
+  "titulo": "Blade Runner 2049",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0502"
+  },
+  "vtxIds": [
+    "VTX-0502"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/blade-runner-2049/images/01-blade-runner-2049.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0502"
+    },
+    {
+      "archivo": "POST/social/peliculas/blade-runner-2049/images/02-sinopsis-blade-runner-2049.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/blade-runner-2049"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/blade-runner-2049/images/02-sinopsis-blade-runner-2049.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/blade-runner-2049/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Se eligió el póster en inglés (en0) sobre el es0 porque el título es idéntico en ambos idiomas y el es0 trae impreso 'EN CINES 6 DE OCTUBRE'; en0 es el mismo arte limpio."
+}

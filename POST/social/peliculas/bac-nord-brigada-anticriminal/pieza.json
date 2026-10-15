@@ -1,0 +1,42 @@
+{
+  "slug": "bac-nord-brigada-anticriminal",
+  "tipo": "imagen",
+  "titulo": "BAC Nord: Brigada Anticriminal",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0495"
+  },
+  "vtxIds": [
+    "VTX-0495"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/images/01-bac-nord-brigada-anticriminal.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0495"
+    },
+    {
+      "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/images/02-sinopsis-bac-nord-brigada-anticriminal.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bac-nord-brigada-anticriminal"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/images/02-sinopsis-bac-nord-brigada-anticriminal.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Película francesa (TMDB: idioma original French): filas MX + FR + ES aunque el catálogo no lo marque en tercerAudio. Los pósters en 'es' de TMDB dicen 'Brigada de Investigación Criminal' (no LATAM), se usó el inglés 'The Stronghold'; la tira lleva el mismo arte sin texto (único otro candidato válido; en1 traía la N de Netflix)."
+}

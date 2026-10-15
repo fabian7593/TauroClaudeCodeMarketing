@@ -1,0 +1,48 @@
+{
+  "slug": "cementerio-de-mascotas-reboot",
+  "tipo": "carrusel",
+  "titulo": "Cementerio de Animales",
+  "grupo": {
+    "clase": "coleccion",
+    "valor": "Cementerio de Animales"
+  },
+  "vtxIds": [
+    "VTX-0510",
+    "VTX-0512"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/01-cementerio-de-animales.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0510"
+    },
+    {
+      "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/02-cementerio-de-mascotas-el-origen.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0512"
+    },
+    {
+      "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/03-sinopsis-cementerio-de-mascotas-reboot.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/cementerio-de-mascotas-reboot"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/03-sinopsis-cementerio-de-mascotas-reboot.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Carrusel de la colección 'Cementerio de Mascotas (Reboot)' del Excel: el remake de 2019 y su precuela de 2023. La de 1989 (VTX-0511) el Excel la deja fuera de esta colección a propósito, va como pieza propia. Los pósters 'es' de El Origen dicen 'Cementerio de Animales: El Origen' (no coincide con tituloEs), se usó el inglés."
+}

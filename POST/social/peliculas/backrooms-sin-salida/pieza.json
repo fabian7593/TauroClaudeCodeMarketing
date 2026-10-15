@@ -1,0 +1,41 @@
+{
+  "slug": "backrooms-sin-salida",
+  "tipo": "imagen",
+  "titulo": "Backrooms: Sin Salida",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0496"
+  },
+  "vtxIds": [
+    "VTX-0496"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/backrooms-sin-salida/images/01-backrooms-sin-salida.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0496"
+    },
+    {
+      "archivo": "POST/social/peliculas/backrooms-sin-salida/images/02-sinopsis-backrooms-sin-salida.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/backrooms-sin-salida"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/backrooms-sin-salida/images/02-sinopsis-backrooms-sin-salida.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/backrooms-sin-salida/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

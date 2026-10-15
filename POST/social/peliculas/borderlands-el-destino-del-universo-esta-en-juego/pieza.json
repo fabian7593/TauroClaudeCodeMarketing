@@ -1,0 +1,42 @@
+{
+  "slug": "borderlands-el-destino-del-universo-esta-en-juego",
+  "tipo": "imagen",
+  "titulo": "Borderlands: El Destino del Universo Está en Juego",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0505"
+  },
+  "vtxIds": [
+    "VTX-0505"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/images/01-borderlands-el-destino-del-universo-esta-en-juego.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0505"
+    },
+    {
+      "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/images/02-sinopsis-borderlands-el-destino-del-universo-esta-en-juego.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/borderlands-el-destino-del-universo-esta-en-juego"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/images/02-sinopsis-borderlands-el-destino-del-universo-esta-en-juego.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "En el arte va solo 'Borderlands' (el título completo del catálogo es demasiado largo para la línea del arte); el caption y la ficha usan el título completo."
+}

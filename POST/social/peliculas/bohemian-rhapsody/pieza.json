@@ -1,0 +1,41 @@
+{
+  "slug": "bohemian-rhapsody",
+  "tipo": "imagen",
+  "titulo": "Bohemian Rhapsody",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0503"
+  },
+  "vtxIds": [
+    "VTX-0503"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/bohemian-rhapsody/images/01-bohemian-rhapsody.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0503"
+    },
+    {
+      "archivo": "POST/social/peliculas/bohemian-rhapsody/images/02-sinopsis-bohemian-rhapsody.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/bohemian-rhapsody"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/bohemian-rhapsody/images/02-sinopsis-bohemian-rhapsody.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/bohemian-rhapsody/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  }
+}

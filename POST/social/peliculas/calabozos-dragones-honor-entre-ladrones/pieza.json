@@ -1,0 +1,42 @@
+{
+  "slug": "calabozos-dragones-honor-entre-ladrones",
+  "tipo": "imagen",
+  "titulo": "Calabozos & Dragones: Honor entre Ladrones",
+  "grupo": {
+    "clase": "titulo",
+    "valor": "VTX-0506"
+  },
+  "vtxIds": [
+    "VTX-0506"
+  ],
+  "creada": "2026-10-15",
+  "imagenes": [
+    {
+      "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/images/01-calabozos-dragones-honor-entre-ladrones.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0506"
+    },
+    {
+      "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/images/02-sinopsis-calabozos-dragones-honor-entre-ladrones.png",
+      "tipo": "sinopsis"
+    }
+  ],
+  "posters": {
+    "origen": "tmdb",
+    "carpeta": "POST/assets/posters/calabozos-dragones-honor-entre-ladrones"
+  },
+  "sinopsis": {
+    "creada": true,
+    "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/images/02-sinopsis-calabozos-dragones-honor-entre-ladrones.png"
+  },
+  "texto": {
+    "creado": true,
+    "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/post.txt"
+  },
+  "publicado": {
+    "hecho": false,
+    "fecha": null,
+    "plataformas": []
+  },
+  "nota": "Los pósters en 'es' de TMDB traen el título de España ('Dungeons & Dragons: Honor entre ladrones'), se usaron los de inglés."
+}
