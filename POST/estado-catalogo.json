@@ -4,20 +4,7 @@
   "totalPiezas": 479,
   "titulosConContenido": 683,
   "titulosEnCatalogo": 1430,
-  "problemas": [
-    {
-      "slug": "duro-de-matar",
-      "noDeclarados": [
-        "POST/social/peliculas/duro-de-matar/images/03-sinopsis-duro-de-matar.png"
-      ]
-    },
-    {
-      "slug": "gremlins",
-      "noDeclarados": [
-        "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png"
-      ]
-    }
-  ],
+  "problemas": [],
   "piezas": [
     {
       "slug": "007-operacion-skyfall",

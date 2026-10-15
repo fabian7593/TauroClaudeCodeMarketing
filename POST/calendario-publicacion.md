@@ -47,8 +47,10 @@ Se llenaron los 26 lunes y miércoles entre 2026-10-05 y 2026-12-30 (el primer y
 | 2026-11-25 | Miércoles | Animales Fantásticos (3 películas) |
 | 2026-11-30 | Lunes | Batman (2022) |
 | 2026-12-02 | Miércoles | El Extraño Mundo de Jack *(nueva, Navidad)* |
-| 2026-12-07 | Lunes | Gremlins *(nueva, Navidad)* |
-| 2026-12-09 | Miércoles | Duro de Matar (2 películas) *(nueva, Navidad)* |
+| 2026-12-07 | Lunes | Gremlins (2 películas) *(nueva, Navidad — completada 2026-10-15)* |
+| 2026-12-09 | Miércoles | Duro de Matar (saga, 5 películas) *(nueva, Navidad — completada 2026-10-15)* |
+
+**Completadas el 2026-10-15:** a pedido del usuario, Gremlins pasó de imagen suelta a carrusel con Gremlins 2, y Duro de Matar de las 2 navideñas a la saga de 5 películas. Como Zernio no permite cambiar la media de un post ya programado, se crearon los 4 posts nuevos (IG + FB) en la misma fecha y hora (19:05 CR), se verificó la lista completa de Zernio (cada título exactamente 2 veces) y recién después se borraron los 4 viejos y sus 2 fichas de sinopsis anteriores.
 | 2026-12-14 | Lunes | Navidad en 8 Bits *(nueva, Navidad)* |
 | 2026-12-16 | Miércoles | El Joven Manos de Tijera *(nueva, Navidad)* |
 | 2026-12-21 | Lunes | Spirited: El Espíritu de las Fiestas *(nueva, Navidad)* |
