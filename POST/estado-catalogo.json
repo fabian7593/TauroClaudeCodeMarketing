@@ -1,10 +1,23 @@
 {
   "_comment": "Índice de producción GENERADO — no editar a mano. Se regenera con `estado.py regenerar`, leyendo los pieza.json de cada carpeta de <contentRoot>/social/. La fuente de verdad de cada pieza es su pieza.json; la fuente de verdad del catálogo es catalogo.json.",
-  "generado": "2026-10-12",
-  "totalPiezas": 469,
-  "titulosConContenido": 668,
+  "generado": "2026-10-15",
+  "totalPiezas": 479,
+  "titulosConContenido": 683,
   "titulosEnCatalogo": 1430,
-  "problemas": [],
+  "problemas": [
+    {
+      "slug": "duro-de-matar",
+      "noDeclarados": [
+        "POST/social/peliculas/duro-de-matar/images/03-sinopsis-duro-de-matar.png"
+      ]
+    },
+    {
+      "slug": "gremlins",
+      "noDeclarados": [
+        "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png"
+      ]
+    }
+  ],
   "piezas": [
     {
       "slug": "007-operacion-skyfall",
@@ -2655,7 +2668,7 @@
         "plataformas": []
       },
       "creada": "2026-10-12",
-      "nota": "Carrusel de saga: el Excel no le pone colección a ninguna de las dos (ambas en 'Peliculas'), pero TMDB las agrupa en la colección Aquaman y CLAUDE.md manda publicar las películas de una saga juntas. Audio mixto en el catálogo: Aquaman trae audioDual = Sí y El Reino Perdido audioDual = No; las filas son por pieza, así que va solo MX (mismo criterio que Hannibal y Blade)."
+      "nota": "Carrusel de saga: el Excel no le pone colección a ninguna de las dos (ambas en 'Peliculas'), pero TMDB las agrupa en la colección Aquaman y CLAUDE.md manda publicar las películas de una saga juntas. Filas MX+US+ES: el catálogo marca a El Reino Perdido (VTX-1494) con audioDual = No, pero el usuario confirmó el 2026-10-12 que Aquaman sí tiene audio en inglés y subtítulos; el dato del Excel para VTX-1494 está mal."
     },
     {
       "slug": "arrastrame-al-infierno",
@@ -3223,6 +3236,86 @@
       "nota": "Slug acortado a aves-de-presa: con el slug completo del catálogo la ruta de la ficha llegaba a 260 caracteres y Windows no la podía escribir. Pósters: los dos es dicen la redacción de España (sin \"una\"), arte = en0; tira = xx0 (mismo arte sin título, no hay composición distinta válida)."
     },
     {
+      "slug": "bac-nord-brigada-anticriminal",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "BAC Nord: Brigada Anticriminal",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0495"
+      },
+      "vtxIds": [
+        "VTX-0495"
+      ],
+      "carpeta": "POST/social/peliculas/bac-nord-brigada-anticriminal",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/images/01-bac-nord-brigada-anticriminal.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0495"
+        },
+        {
+          "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/images/02-sinopsis-bac-nord-brigada-anticriminal.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/images/02-sinopsis-bac-nord-brigada-anticriminal.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/bac-nord-brigada-anticriminal/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": "Película francesa (TMDB: idioma original French): filas MX + FR + ES aunque el catálogo no lo marque en tercerAudio. Los pósters en 'es' de TMDB dicen 'Brigada de Investigación Criminal' (no LATAM), se usó el inglés 'The Stronghold'; la tira lleva el mismo arte sin texto (único otro candidato válido; en1 traía la N de Netflix)."
+    },
+    {
+      "slug": "backrooms-sin-salida",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Backrooms: Sin Salida",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0496"
+      },
+      "vtxIds": [
+        "VTX-0496"
+      ],
+      "carpeta": "POST/social/peliculas/backrooms-sin-salida",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/backrooms-sin-salida/images/01-backrooms-sin-salida.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0496"
+        },
+        {
+          "archivo": "POST/social/peliculas/backrooms-sin-salida/images/02-sinopsis-backrooms-sin-salida.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/backrooms-sin-salida/images/02-sinopsis-backrooms-sin-salida.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/backrooms-sin-salida/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": null
+    },
+    {
       "slug": "bad-boys",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -3700,6 +3793,46 @@
       "nota": null
     },
     {
+      "slug": "blade-runner-2049",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Blade Runner 2049",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0502"
+      },
+      "vtxIds": [
+        "VTX-0502"
+      ],
+      "carpeta": "POST/social/peliculas/blade-runner-2049",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/blade-runner-2049/images/01-blade-runner-2049.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0502"
+        },
+        {
+          "archivo": "POST/social/peliculas/blade-runner-2049/images/02-sinopsis-blade-runner-2049.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/blade-runner-2049/images/02-sinopsis-blade-runner-2049.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/blade-runner-2049/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": "Se eligió el póster en inglés (en0) sobre el es0 porque el título es idéntico en ambos idiomas y el es0 trae impreso 'EN CINES 6 DE OCTUBRE'; en0 es el mismo arte limpio."
+    },
+    {
       "slug": "blade",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -3792,6 +3925,46 @@
       "nota": null
     },
     {
+      "slug": "bohemian-rhapsody",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Bohemian Rhapsody",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0503"
+      },
+      "vtxIds": [
+        "VTX-0503"
+      ],
+      "carpeta": "POST/social/peliculas/bohemian-rhapsody",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/bohemian-rhapsody/images/01-bohemian-rhapsody.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0503"
+        },
+        {
+          "archivo": "POST/social/peliculas/bohemian-rhapsody/images/02-sinopsis-bohemian-rhapsody.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/bohemian-rhapsody/images/02-sinopsis-bohemian-rhapsody.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/bohemian-rhapsody/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": null
+    },
+    {
       "slug": "bolt-un-perro-fuera-de-serie",
       "categoria": "peliculas",
       "tipo": "imagen",
@@ -3830,6 +4003,86 @@
       },
       "creada": "2026-10-05",
       "nota": null
+    },
+    {
+      "slug": "boogeyman-tu-miedo-es-real",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Boogeyman: Tu Miedo Es Real",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0504"
+      },
+      "vtxIds": [
+        "VTX-0504"
+      ],
+      "carpeta": "POST/social/peliculas/boogeyman-tu-miedo-es-real",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/images/01-boogeyman-tu-miedo-es-real.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0504"
+        },
+        {
+          "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/images/02-sinopsis-boogeyman-tu-miedo-es-real.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/images/02-sinopsis-boogeyman-tu-miedo-es-real.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/boogeyman-tu-miedo-es-real/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": null
+    },
+    {
+      "slug": "borderlands-el-destino-del-universo-esta-en-juego",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Borderlands: El Destino del Universo Está en Juego",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0505"
+      },
+      "vtxIds": [
+        "VTX-0505"
+      ],
+      "carpeta": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/images/01-borderlands-el-destino-del-universo-esta-en-juego.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0505"
+        },
+        {
+          "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/images/02-sinopsis-borderlands-el-destino-del-universo-esta-en-juego.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/images/02-sinopsis-borderlands-el-destino-del-universo-esta-en-juego.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/borderlands-el-destino-del-universo-esta-en-juego/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": "En el arte va solo 'Borderlands' (el título completo del catálogo es demasiado largo para la línea del arte); el caption y la ficha usan el título completo."
     },
     {
       "slug": "bumblebee",
@@ -3916,6 +4169,46 @@
       },
       "creada": "2026-10-05",
       "nota": null
+    },
+    {
+      "slug": "calabozos-dragones-honor-entre-ladrones",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Calabozos & Dragones: Honor entre Ladrones",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0506"
+      },
+      "vtxIds": [
+        "VTX-0506"
+      ],
+      "carpeta": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/images/01-calabozos-dragones-honor-entre-ladrones.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0506"
+        },
+        {
+          "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/images/02-sinopsis-calabozos-dragones-honor-entre-ladrones.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/images/02-sinopsis-calabozos-dragones-honor-entre-ladrones.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/calabozos-dragones-honor-entre-ladrones/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": "Los pósters en 'es' de TMDB traen el título de España ('Dungeons & Dragons: Honor entre ladrones'), se usaron los de inglés."
     },
     {
       "slug": "capitan-america",
@@ -4031,6 +4324,46 @@
       "nota": "The Marvels no tiene póster en español LATAM válido en TMDB (los 'es' eran de España o promos de estreno en cines): va en inglés."
     },
     {
+      "slug": "caracortada",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Caracortada",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0508"
+      },
+      "vtxIds": [
+        "VTX-0508"
+      ],
+      "carpeta": "POST/social/peliculas/caracortada",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/caracortada/images/01-caracortada.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0508"
+        },
+        {
+          "archivo": "POST/social/peliculas/caracortada/images/02-sinopsis-caracortada.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/caracortada/images/02-sinopsis-caracortada.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/caracortada/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": "Los pósters en 'es' de TMDB usan el título de España ('El precio del poder'), se usaron los de inglés ('Scarface')."
+    },
+    {
       "slug": "cars",
       "categoria": "peliculas",
       "tipo": "carrusel",
@@ -4081,6 +4414,92 @@
       },
       "creada": "2026-10-06",
       "nota": null
+    },
+    {
+      "slug": "cazadores-del-fin-del-mundo",
+      "categoria": "peliculas",
+      "tipo": "imagen",
+      "titulo": "Cazadores del Fin del Mundo",
+      "grupo": {
+        "clase": "titulo",
+        "valor": "VTX-0509"
+      },
+      "vtxIds": [
+        "VTX-0509"
+      ],
+      "carpeta": "POST/social/peliculas/cazadores-del-fin-del-mundo",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/cazadores-del-fin-del-mundo/images/01-cazadores-del-fin-del-mundo.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0509"
+        },
+        {
+          "archivo": "POST/social/peliculas/cazadores-del-fin-del-mundo/images/02-sinopsis-cazadores-del-fin-del-mundo.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/cazadores-del-fin-del-mundo/images/02-sinopsis-cazadores-del-fin-del-mundo.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/cazadores-del-fin-del-mundo/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": null
+    },
+    {
+      "slug": "cementerio-de-mascotas-reboot",
+      "categoria": "peliculas",
+      "tipo": "carrusel",
+      "titulo": "Cementerio de Animales",
+      "grupo": {
+        "clase": "coleccion",
+        "valor": "Cementerio de Animales"
+      },
+      "vtxIds": [
+        "VTX-0510",
+        "VTX-0512"
+      ],
+      "carpeta": "POST/social/peliculas/cementerio-de-mascotas-reboot",
+      "imagenes": [
+        {
+          "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/01-cementerio-de-animales.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0510"
+        },
+        {
+          "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/02-cementerio-de-mascotas-el-origen.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0512"
+        },
+        {
+          "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/03-sinopsis-cementerio-de-mascotas-reboot.png",
+          "tipo": "sinopsis"
+        }
+      ],
+      "sinopsis": {
+        "creada": true,
+        "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/images/03-sinopsis-cementerio-de-mascotas-reboot.png"
+      },
+      "texto": {
+        "creado": true,
+        "archivo": "POST/social/peliculas/cementerio-de-mascotas-reboot/post.txt"
+      },
+      "publicado": {
+        "hecho": false,
+        "fecha": null,
+        "plataformas": []
+      },
+      "creada": "2026-10-15",
+      "nota": "Carrusel de la colección 'Cementerio de Mascotas (Reboot)' del Excel: el remake de 2019 y su precuela de 2023. La de 1989 (VTX-0511) el Excel la deja fuera de esta colección a propósito, va como pieza propia. Los pósters 'es' de El Origen dicen 'Cementerio de Animales: El Origen' (no coincide con tituloEs), se usó el inglés."
     },
     {
       "slug": "charlie-y-la-fabrica-de-chocolate",
@@ -5297,7 +5716,10 @@
       },
       "vtxIds": [
         "VTX-0845",
-        "VTX-0846"
+        "VTX-0846",
+        "VTX-0847",
+        "VTX-0848",
+        "VTX-0849"
       ],
       "carpeta": "POST/social/peliculas/duro-de-matar",
       "imagenes": [
@@ -5312,13 +5734,28 @@
           "vtxId": "VTX-0846"
         },
         {
-          "archivo": "POST/social/peliculas/duro-de-matar/images/03-sinopsis-duro-de-matar.png",
+          "archivo": "POST/social/peliculas/duro-de-matar/images/03-dh3.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0847"
+        },
+        {
+          "archivo": "POST/social/peliculas/duro-de-matar/images/04-dh4.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0848"
+        },
+        {
+          "archivo": "POST/social/peliculas/duro-de-matar/images/05-dh5.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0849"
+        },
+        {
+          "archivo": "POST/social/peliculas/duro-de-matar/images/06-sinopsis-duro-de-matar.png",
           "tipo": "sinopsis"
         }
       ],
       "sinopsis": {
         "creada": true,
-        "archivo": "POST/social/peliculas/duro-de-matar/images/03-sinopsis-duro-de-matar.png"
+        "archivo": "POST/social/peliculas/duro-de-matar/images/06-sinopsis-duro-de-matar.png"
       },
       "texto": {
         "creado": true,
@@ -5338,8 +5775,8 @@
           "via": "zernio"
         }
       },
-      "creada": "2026-10-01",
-      "nota": null
+      "creada": "2026-10-15",
+      "nota": "Completada el 2026-10-15 a pedido del usuario: la pieza del 2026-10-01 tenía solo las 2 navideñas (VTX-0845, VTX-0846). Las artes dh1/dh2 se regeneran con los mismos pósters (01c-en, 02c-en), verificado byte a byte. DH3: sin póster LATAM (los 'es' dicen 'Jungla de Cristal'), va en inglés. DH4: el único LATAM es un escaneo de carátula con logo 'DVD VIDEO', se usó el inglés. DH5: LATAM ('Duro de Matar: Un buen día para morir')."
     },
     {
       "slug": "ed-wood",
@@ -6265,14 +6702,15 @@
     {
       "slug": "gremlins",
       "categoria": "peliculas",
-      "tipo": "imagen",
+      "tipo": "carrusel",
       "titulo": "Gremlins",
       "grupo": {
-        "clase": "titulo",
-        "valor": "VTX-0951"
+        "clase": "coleccion",
+        "valor": "Gremlins"
       },
       "vtxIds": [
-        "VTX-0951"
+        "VTX-0951",
+        "VTX-0952"
       ],
       "carpeta": "POST/social/peliculas/gremlins",
       "imagenes": [
@@ -6282,13 +6720,18 @@
           "vtxId": "VTX-0951"
         },
         {
-          "archivo": "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png",
+          "archivo": "POST/social/peliculas/gremlins/images/02-gremlins-2.png",
+          "tipo": "arte",
+          "vtxId": "VTX-0952"
+        },
+        {
+          "archivo": "POST/social/peliculas/gremlins/images/03-sinopsis-gremlins.png",
           "tipo": "sinopsis"
         }
       ],
       "sinopsis": {
         "creada": true,
-        "archivo": "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png"
+        "archivo": "POST/social/peliculas/gremlins/images/03-sinopsis-gremlins.png"
       },
       "texto": {
         "creado": true,
@@ -6308,8 +6751,8 @@
           "via": "zernio"
         }
       },
-      "creada": "2026-10-01",
-      "nota": null
+      "creada": "2026-10-15",
+      "nota": "Completada el 2026-10-15 a pedido del usuario: la pieza del 2026-10-01 era imagen suelta de VTX-0951; pasa a carrusel con Gremlins 2 (VTX-0952). El arte de la primera se regenera con el mismo póster (01a), verificado byte a byte. Gremlins 2 usa el póster es3 (mismo arte que es0 pero sin la franja de créditos de Warner Española)."
     },
     {
       "slug": "hannibal-lecter-la-antologia",
@@ -24059,6 +24502,22 @@
       ]
     },
     {
+      "vtxId": "VTX-0495",
+      "titulo": "BAC Nord: Brigada Anticriminal",
+      "coleccion": null,
+      "piezas": [
+        "bac-nord-brigada-anticriminal"
+      ]
+    },
+    {
+      "vtxId": "VTX-0496",
+      "titulo": "Backrooms: Sin Salida",
+      "coleccion": null,
+      "piezas": [
+        "backrooms-sin-salida"
+      ]
+    },
+    {
       "vtxId": "VTX-0497",
       "titulo": "Bad Boys para Siempre",
       "coleccion": "Bad Boys",
@@ -24091,11 +24550,83 @@
       ]
     },
     {
+      "vtxId": "VTX-0502",
+      "titulo": "Blade Runner 2049",
+      "coleccion": null,
+      "piezas": [
+        "blade-runner-2049"
+      ]
+    },
+    {
+      "vtxId": "VTX-0503",
+      "titulo": "Bohemian Rhapsody",
+      "coleccion": null,
+      "piezas": [
+        "bohemian-rhapsody"
+      ]
+    },
+    {
+      "vtxId": "VTX-0504",
+      "titulo": "Boogeyman: Tu Miedo Es Real",
+      "coleccion": null,
+      "piezas": [
+        "boogeyman-tu-miedo-es-real"
+      ]
+    },
+    {
+      "vtxId": "VTX-0505",
+      "titulo": "Borderlands: El Destino del Universo Está en Juego",
+      "coleccion": null,
+      "piezas": [
+        "borderlands-el-destino-del-universo-esta-en-juego"
+      ]
+    },
+    {
+      "vtxId": "VTX-0506",
+      "titulo": "Calabozos & Dragones: Honor entre Ladrones",
+      "coleccion": null,
+      "piezas": [
+        "calabozos-dragones-honor-entre-ladrones"
+      ]
+    },
+    {
       "vtxId": "VTX-0507",
       "titulo": "Capitán América: Un Nuevo Mundo",
       "coleccion": "Capitán América",
       "piezas": [
         "capitan-america"
+      ]
+    },
+    {
+      "vtxId": "VTX-0508",
+      "titulo": "Caracortada",
+      "coleccion": null,
+      "piezas": [
+        "caracortada"
+      ]
+    },
+    {
+      "vtxId": "VTX-0509",
+      "titulo": "Cazadores del Fin del Mundo",
+      "coleccion": null,
+      "piezas": [
+        "cazadores-del-fin-del-mundo"
+      ]
+    },
+    {
+      "vtxId": "VTX-0510",
+      "titulo": "Cementerio de Animales",
+      "coleccion": "Cementerio de Mascotas (Reboot)",
+      "piezas": [
+        "cementerio-de-mascotas-reboot"
+      ]
+    },
+    {
+      "vtxId": "VTX-0512",
+      "titulo": "Cementerio de Mascotas: El Origen",
+      "coleccion": "Cementerio de Mascotas (Reboot)",
+      "piezas": [
+        "cementerio-de-mascotas-reboot"
       ]
     },
     {
@@ -25123,6 +25654,30 @@
       ]
     },
     {
+      "vtxId": "VTX-0847",
+      "titulo": "Duro de Matar 3: La Venganza",
+      "coleccion": "Duro de Matar",
+      "piezas": [
+        "duro-de-matar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0848",
+      "titulo": "Duro de Matar 4.0",
+      "coleccion": "Duro de Matar",
+      "piezas": [
+        "duro-de-matar"
+      ]
+    },
+    {
+      "vtxId": "VTX-0849",
+      "titulo": "Duro de Matar: Un Buen Día para Morir",
+      "coleccion": "Duro de Matar",
+      "piezas": [
+        "duro-de-matar"
+      ]
+    },
+    {
       "vtxId": "VTX-0850",
       "titulo": "Ed Wood",
       "coleccion": null,
@@ -25325,6 +25880,14 @@
     {
       "vtxId": "VTX-0951",
       "titulo": "Gremlins",
+      "coleccion": "Gremlins",
+      "piezas": [
+        "gremlins"
+      ]
+    },
+    {
+      "vtxId": "VTX-0952",
+      "titulo": "Gremlins 2: La Nueva Generación",
       "coleccion": "Gremlins",
       "piezas": [
         "gremlins"

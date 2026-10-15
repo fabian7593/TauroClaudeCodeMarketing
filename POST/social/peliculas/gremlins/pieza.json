@@ -1,15 +1,16 @@
 {
   "slug": "gremlins",
-  "tipo": "imagen",
+  "tipo": "carrusel",
   "titulo": "Gremlins",
   "grupo": {
-    "clase": "titulo",
-    "valor": "VTX-0951"
+    "clase": "coleccion",
+    "valor": "Gremlins"
   },
   "vtxIds": [
-    "VTX-0951"
+    "VTX-0951",
+    "VTX-0952"
   ],
-  "creada": "2026-10-01",
+  "creada": "2026-10-15",
   "imagenes": [
     {
       "archivo": "POST/social/peliculas/gremlins/images/01-gremlins.png",
@@ -17,7 +18,12 @@
       "vtxId": "VTX-0951"
     },
     {
-      "archivo": "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png",
+      "archivo": "POST/social/peliculas/gremlins/images/02-gremlins-2.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0952"
+    },
+    {
+      "archivo": "POST/social/peliculas/gremlins/images/03-sinopsis-gremlins.png",
       "tipo": "sinopsis"
     }
   ],
@@ -27,7 +33,7 @@
   },
   "sinopsis": {
     "creada": true,
-    "archivo": "POST/social/peliculas/gremlins/images/02-sinopsis-gremlins.png"
+    "archivo": "POST/social/peliculas/gremlins/images/03-sinopsis-gremlins.png"
   },
   "texto": {
     "creado": true,
@@ -46,5 +52,6 @@
       ],
       "via": "zernio"
     }
-  }
+  },
+  "nota": "Completada el 2026-10-15 a pedido del usuario: la pieza del 2026-10-01 era imagen suelta de VTX-0951; pasa a carrusel con Gremlins 2 (VTX-0952). El arte de la primera se regenera con el mismo póster (01a), verificado byte a byte. Gremlins 2 usa el póster es3 (mismo arte que es0 pero sin la franja de créditos de Warner Española)."
 }

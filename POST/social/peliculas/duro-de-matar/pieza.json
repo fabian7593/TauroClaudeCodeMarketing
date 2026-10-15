@@ -8,9 +8,12 @@
   },
   "vtxIds": [
     "VTX-0845",
-    "VTX-0846"
+    "VTX-0846",
+    "VTX-0847",
+    "VTX-0848",
+    "VTX-0849"
   ],
-  "creada": "2026-10-01",
+  "creada": "2026-10-15",
   "imagenes": [
     {
       "archivo": "POST/social/peliculas/duro-de-matar/images/01-dh1.png",
@@ -23,7 +26,22 @@
       "vtxId": "VTX-0846"
     },
     {
-      "archivo": "POST/social/peliculas/duro-de-matar/images/03-sinopsis-duro-de-matar.png",
+      "archivo": "POST/social/peliculas/duro-de-matar/images/03-dh3.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0847"
+    },
+    {
+      "archivo": "POST/social/peliculas/duro-de-matar/images/04-dh4.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0848"
+    },
+    {
+      "archivo": "POST/social/peliculas/duro-de-matar/images/05-dh5.png",
+      "tipo": "arte",
+      "vtxId": "VTX-0849"
+    },
+    {
+      "archivo": "POST/social/peliculas/duro-de-matar/images/06-sinopsis-duro-de-matar.png",
       "tipo": "sinopsis"
     }
   ],
@@ -33,7 +51,7 @@
   },
   "sinopsis": {
     "creada": true,
-    "archivo": "POST/social/peliculas/duro-de-matar/images/03-sinopsis-duro-de-matar.png"
+    "archivo": "POST/social/peliculas/duro-de-matar/images/06-sinopsis-duro-de-matar.png"
   },
   "texto": {
     "creado": true,
@@ -52,5 +70,6 @@
       ],
       "via": "zernio"
     }
-  }
+  },
+  "nota": "Completada el 2026-10-15 a pedido del usuario: la pieza del 2026-10-01 tenía solo las 2 navideñas (VTX-0845, VTX-0846). Las artes dh1/dh2 se regeneran con los mismos pósters (01c-en, 02c-en), verificado byte a byte. DH3: sin póster LATAM (los 'es' dicen 'Jungla de Cristal'), va en inglés. DH4: el único LATAM es un escaneo de carátula con logo 'DVD VIDEO', se usó el inglés. DH5: LATAM ('Duro de Matar: Un buen día para morir')."
 }
