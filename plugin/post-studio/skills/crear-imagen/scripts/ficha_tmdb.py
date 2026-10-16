@@ -32,8 +32,10 @@ import sys
 import urllib.error
 import urllib.request
 
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+# No usar un UA de navegador: desde 2026-10-05 Cloudflare le responde 403 ("Just a
+# moment...") a cualquier pedido que dice ser Chrome pero no corre JS. Un UA que se
+# identifica como script pasa directo.
+UA = "post-studio/1.0"
 BASE = "https://www.themoviedb.org"
 
 # La página se pide en inglés a propósito: los nombres de idioma vienen en inglés
